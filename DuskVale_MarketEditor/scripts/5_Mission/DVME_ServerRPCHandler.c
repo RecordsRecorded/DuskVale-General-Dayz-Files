@@ -10,6 +10,7 @@ class DVME_ServerRPCHandler : LB_RPCHandler
 {
 	void DVME_ServerRPCHandler()
 	{
+		Print("[DVME] DuskVale Market Editor v1.1 server scripts loaded");
 		RegisterRPC(DVMERPCs.REQUEST_CATEGORIES, ScriptCaller.Create(HandleRequestCategories));
 		RegisterRPC(DVMERPCs.REQUEST_ITEMS, ScriptCaller.Create(HandleRequestItems));
 		RegisterRPC(DVMERPCs.APPLY_ITEM, ScriptCaller.Create(HandleApplyItem));

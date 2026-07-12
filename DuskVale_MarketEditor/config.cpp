@@ -26,7 +26,7 @@ class CfgMods
 		credits = "DuskVale";
 		author = "DuskVale";
 		authorID = "";
-		version = "1.0";
+		version = "1.1";
 		extra = 0;
 		type = "mod";
 		dependencies[] =
