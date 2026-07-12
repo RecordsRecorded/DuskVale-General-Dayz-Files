@@ -1,0 +1,4 @@
+//<'structures_industrial_power.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Structures\Industrial\Power;
+//PboType=Arma Addon;
+//</properties>

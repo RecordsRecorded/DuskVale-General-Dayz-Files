@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{568B58EF6B19E823}DayZExpansion/Core/GUI/icons/misc/T_Guitar_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 362670850
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Guitar_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

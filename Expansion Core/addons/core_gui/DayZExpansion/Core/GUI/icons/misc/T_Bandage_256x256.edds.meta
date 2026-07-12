@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{FB0AE68995F7538A}DayZExpansion/Core/GUI/icons/misc/T_Bandage_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 1972759298
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Bandage_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

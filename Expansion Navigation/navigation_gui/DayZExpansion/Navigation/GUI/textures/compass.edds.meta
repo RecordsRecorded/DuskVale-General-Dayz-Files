@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{3436B1815E2BCB0A}DayZExpansion/Navigation/GUI/textures/compass.edds"
+ Author "Steve aka Salutesh"
+ ChangeDate 1722100449
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "compass.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

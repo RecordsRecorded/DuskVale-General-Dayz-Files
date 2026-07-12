@@ -1,0 +1,124 @@
+/**
+ * ExpansionLocatorModule.c
+ *
+ * DayZ Expansion Mod
+ * www.dayzexpansion.com
+ * © 2022 DayZ Expansion Mod Team
+ *
+ * This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. 
+ * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
+ *
+*/
+
+/**@class		ExpansionLocatorModule
+ * @brief		This class handle expansion locator system
+ **/
+[CF_RegisterModule(ExpansionLocatorModule)]
+class ExpansionLocatorModule: CF_ModuleGame
+{
+	protected autoptr array<ref ExpansionLocation> m_AreaArray;
+	protected string m_CurrentAreaName;
+	float m_Time;
+	
+	override void OnInit()
+	{
+		super.OnInit();
+
+		EnableMissionLoaded();
+		EnableUpdate();
+	}
+
+	// ------------------------------------------------------------
+	// ExpansionLocatorModule OnMissionLoaded
+	// ------------------------------------------------------------
+	override void OnMissionLoaded(Class sender, CF_EventArgs args)
+	{
+		m_CurrentAreaName = "";
+
+		if ( !m_AreaArray )
+		{
+			m_AreaArray = ExpansionLocation.GetWorldLocations();
+		}
+	}
+	
+	// ------------------------------------------------------------
+	// ExpansionLocatorModule IsServer
+	// ------------------------------------------------------------
+	override bool IsServer()
+	{
+		return false;
+	}
+	
+	// ------------------------------------------------------------
+	// ExpansionLocatorModule OnUpdate
+	// ------------------------------------------------------------
+	override void OnUpdate(Class sender, CF_EventArgs args)
+	{
+		auto update = CF_EventUpdateArgs.Cast(args);
+
+		m_Time += update.DeltaTime;
+
+		if ( m_Time > 5 )
+		{
+			m_Time = 0;
+			
+			if ( !g_Game )
+				return;
+
+			if ( !GetExpansionSettings().GetMap(false).IsLoaded() )
+				return;
+
+			if ( !GetExpansionSettings().GetMap().PlayerLocationNotifier )
+				return;
+
+			CheckPlayer();
+		}
+	}
+	
+	// ------------------------------------------------------------
+	// ExpansionLocatorModule CheckPlayer
+	// ------------------------------------------------------------
+	protected void CheckPlayer()
+	{
+		Mission mission = g_Game.GetMission();
+		if ( !mission )
+			return;
+
+		IngameHud hud = IngameHud.Cast( mission.GetHud() );
+		if ( !hud || !hud.GetExpanisonLocatorUI() )
+			return;
+		
+		ExpansionLocation shortestLocation = null;
+		float shortestDistanceSq = int.MAX;
+		vector myPos = g_Game.GetCurrentCameraPosition();
+		vector myPos2D = Vector( myPos[0], 0, myPos[2] );
+
+		foreach (ExpansionLocation loc: m_AreaArray)
+		{
+			float distanceSq = vector.DistanceSq( myPos2D, loc.Position );
+
+			if ( distanceSq <= shortestDistanceSq )
+			{
+				shortestDistanceSq = distanceSq;
+				shortestLocation = loc;
+			}
+		}
+
+		if ( shortestLocation )
+		{
+			float radius = shortestLocation.Radius;
+			if (shortestDistanceSq <= radius * radius )
+			{
+				if ( m_CurrentAreaName != shortestLocation.Name )
+				{
+					m_CurrentAreaName = shortestLocation.Name;
+					hud.GetExpanisonLocatorUI().OnShowCityClient( m_CurrentAreaName );
+				}
+
+				return;
+			}
+		}
+
+		m_CurrentAreaName = "";
+	}
+}

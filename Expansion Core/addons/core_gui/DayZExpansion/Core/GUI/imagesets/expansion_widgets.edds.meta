@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{D3F379EEE4E42B33}DayZExpansion/Core/GUI/imagesets/expansion_widgets.edds"
+ Author "Steve aka Salutesh"
+ ChangeDate 75361004
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "expansion_widgets.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{5A608B8E5F095FC6}DayZExpansion/Core/GUI/icons/hud/Reputation-Stars.png"
+ Author "monolith"
+ ChangeDate 862252412
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "Reputation-Stars.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

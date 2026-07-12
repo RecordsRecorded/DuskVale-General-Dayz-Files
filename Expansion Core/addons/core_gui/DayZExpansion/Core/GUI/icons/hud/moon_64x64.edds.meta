@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{077A78E12C461220}DayZExpansion/Core/GUI/icons/hud/moon_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 923659010
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "moon_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

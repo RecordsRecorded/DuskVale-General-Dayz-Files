@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{8B2977014EAA5D07}DayZExpansion/Core/GUI/icons/hud/claw_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 1358818050
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "claw_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

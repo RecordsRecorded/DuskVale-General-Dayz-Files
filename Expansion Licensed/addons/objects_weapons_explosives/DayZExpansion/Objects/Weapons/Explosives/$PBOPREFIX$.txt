@@ -1,0 +1,4 @@
+//<'objects_weapons_explosives.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Objects\Weapons\Explosives;
+//PboType=Arma Addon;
+//</properties>

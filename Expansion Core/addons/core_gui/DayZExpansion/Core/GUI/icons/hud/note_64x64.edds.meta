@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{447CB144FEE1872D}DayZExpansion/Core/GUI/icons/hud/note_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 1024322306
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "note_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

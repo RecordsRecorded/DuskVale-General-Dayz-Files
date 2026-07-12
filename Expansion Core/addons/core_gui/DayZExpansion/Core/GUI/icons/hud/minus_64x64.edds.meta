@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{A6E3961A93ADF526}DayZExpansion/Core/GUI/icons/hud/minus_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate -1943884404
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "minus_64x64.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

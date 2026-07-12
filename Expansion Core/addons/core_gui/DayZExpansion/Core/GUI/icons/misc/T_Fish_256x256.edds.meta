@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{7EA5A626AAF3DF9A}DayZExpansion/Core/GUI/icons/misc/T_Fish_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 295561986
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Fish_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

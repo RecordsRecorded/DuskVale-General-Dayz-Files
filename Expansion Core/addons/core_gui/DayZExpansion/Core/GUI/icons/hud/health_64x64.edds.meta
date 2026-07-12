@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{3471A150E0D6B5D0}DayZExpansion/Core/GUI/icons/hud/health_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 1292233474
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "health_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

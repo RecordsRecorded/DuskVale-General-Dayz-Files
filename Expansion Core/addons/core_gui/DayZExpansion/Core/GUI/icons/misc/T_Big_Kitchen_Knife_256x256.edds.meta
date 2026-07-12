@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{5855E8342815980F}DayZExpansion/Core/GUI/icons/misc/T_Big_Kitchen_Knife_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 1972759298
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Big_Kitchen_Knife_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

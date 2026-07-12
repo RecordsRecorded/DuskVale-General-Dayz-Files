@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{D0E77EED879A438F}DayZExpansion/Core/GUI/icons/hud/switch_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 892726018
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "switch_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

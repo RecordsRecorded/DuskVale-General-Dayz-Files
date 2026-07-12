@@ -1,0 +1,6 @@
+//<'objects_gear_gps.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Objects\Gear\Gps;
+Mikero=DePbo.dll.7.92;
+version=22101323;
+//PboType=Arma Addon;
+//</properties>

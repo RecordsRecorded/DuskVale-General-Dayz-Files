@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{0571DC389F5A9623}DayZExpansion/Core/GUI/icons/hud/car_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 1090382594
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "car_64x64.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

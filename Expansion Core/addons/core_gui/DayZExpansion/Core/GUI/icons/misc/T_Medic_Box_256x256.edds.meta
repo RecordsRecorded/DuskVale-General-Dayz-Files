@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{6EF3E2A48F572E68}DayZExpansion/Core/GUI/icons/misc/T_Medic_Box_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 429779714
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Medic_Box_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

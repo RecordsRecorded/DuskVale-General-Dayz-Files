@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{BC3C8F3B17A3D896}DayZExpansion/Core/GUI/icons/misc/T_Pills_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 463334146
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Pills_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

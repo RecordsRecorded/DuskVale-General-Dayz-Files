@@ -1,0 +1,36 @@
+EffectDef {
+ Emitors {
+  EmitorDef cloud {
+   ShapeType Cone
+   ShapeSize 5 1 5
+   ConeAngle 0 0 0
+   MaxNum 1
+   BirthRate 1
+   Offset 0 0 0
+   LocalTransform 0
+   Material "{B8467D7D21CDE461}DayZExpansion/Particles/Materials/World/Expansion_Material_Cloud.emat"
+   ScaleY 1
+   SizeMultiplier 3
+   SizeRND 6
+   RandomRotDir 0
+   RotMultiplier 1
+   StretchMultiplier 1
+   StreakFullUV 0
+   RandomAngle 0
+   Sort 1
+   BillboardingType Full
+   Velocity 0
+   GravityMultiply 0
+   Wind 0
+   AnimOnce 0
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 100000
+   Alpha {
+    0 1 0.25022 1 0.74891 1 1 1
+   }
+   EffectTime 100000
+   Repeat 1
+  }
+ }
+}

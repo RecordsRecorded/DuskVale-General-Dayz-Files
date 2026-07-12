@@ -1,0 +1,4 @@
+//<'sounds_vehicles_ground_tt650.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Sounds\Vehicles\Ground\TT650;
+//PboType=Arma Addon;
+//</properties>

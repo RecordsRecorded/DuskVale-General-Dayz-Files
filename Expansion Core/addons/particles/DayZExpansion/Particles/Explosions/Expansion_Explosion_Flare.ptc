@@ -1,0 +1,118 @@
+EffectDef {
+ Emitors {
+  EmitorDef emitor1 {
+   ConeAngle 360 0 0
+   MaxNum 2
+   BirthRate 500
+   Offset 0 0 0
+   Material "{CB7AF4FD8ACBFDFC}graphics/Particles/materials/glow/glow1.emat"
+   SizeMultiplier 0.5
+   Velocity 3
+   GravityMultiply 1
+   LifeTime 3
+   Color {
+    0 1 0.7468 0 1 1 0.7532 0.5
+   }
+   Alpha {
+    0 1 1 0
+   }
+   EffectTime 1
+   Repeat 0
+  }
+  EmitorDef emitor2 {
+   ConeAngle 360 0 0
+   MaxNum 2
+   BirthRate 500
+   Offset 0 -0.1 0
+   Material "{CB7AF4FD8ACBFDFC}graphics/Particles/materials/glow/glow1.emat"
+   SizeMultiplier 0.5
+   Velocity 3
+   GravityMultiply 1
+   LifeTime 3
+   Color {
+    0 1 0.7468 0 1 1 0.7532 0.5
+   }
+   Alpha {
+    0 1 1 0
+   }
+   EffectTime 1
+   Repeat 0
+  }
+  EmitorDef emitor3 {
+   ConeAngle 360 0 0
+   MaxNum 2
+   BirthRate 500
+   Offset 0 -0.2 0
+   Material "{CB7AF4FD8ACBFDFC}graphics/Particles/materials/glow/glow1.emat"
+   SizeMultiplier 0.5
+   Velocity 3
+   GravityMultiply 1
+   LifeTime 3
+   Color {
+    0 1 0.7468 0 1 1 0.7532 0.5
+   }
+   Alpha {
+    0 1 1 0
+   }
+   EffectTime 1
+   Repeat 0
+  }
+  EmitorDef emitor4 {
+   ConeAngle 360 0 0
+   MaxNum 2
+   BirthRate 500
+   Offset 0 -0.3 0
+   Material "{CB7AF4FD8ACBFDFC}graphics/Particles/materials/glow/glow1.emat"
+   SizeMultiplier 0.5
+   Velocity 3
+   GravityMultiply 1
+   LifeTime 3
+   Color {
+    0 1 0.7468 0 1 1 0.7532 0.5
+   }
+   Alpha {
+    0 1 1 0
+   }
+   EffectTime 1
+   Repeat 0
+  }
+  EmitorDef emitor5 {
+   ConeAngle 360 0 0
+   MaxNum 2
+   BirthRate 500
+   Offset 0 -0.4 0
+   Material "{CB7AF4FD8ACBFDFC}graphics/Particles/materials/glow/glow1.emat"
+   SizeMultiplier 0.5
+   Velocity 3
+   GravityMultiply 1
+   LifeTime 3
+   Color {
+    0 1 0.7468 0 1 1 0.7532 0.5
+   }
+   Alpha {
+    0 1 1 0
+   }
+   EffectTime 1
+   Repeat 0
+  }
+  EmitorDef emitor6 {
+   ConeAngle 360 0 0
+   MaxNum 2
+   BirthRate 500
+   Offset 0 -0.5 0
+   Material "{CB7AF4FD8ACBFDFC}graphics/Particles/materials/glow/glow1.emat"
+   SizeMultiplier 0.5
+   Velocity 3
+   GravityMultiply 1
+   LifeTime 3
+   Color {
+    0 1 0.7468 0 1 1 0.7532 0.5
+   }
+   Alpha {
+    0 1 1 0
+   }
+   EffectTime 1
+   Repeat 0
+  }
+ }
+}

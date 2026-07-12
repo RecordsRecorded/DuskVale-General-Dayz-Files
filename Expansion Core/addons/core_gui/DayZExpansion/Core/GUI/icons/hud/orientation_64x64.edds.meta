@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{72435269FFFBB471}DayZExpansion/Core/GUI/icons/hud/orientation_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate -1022498046
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "orientation_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

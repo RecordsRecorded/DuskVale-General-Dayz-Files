@@ -1,0 +1,4 @@
+//<'objects_basebuilding_gates.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Objects\Basebuilding\Gates;
+//PboType=Arma Addon;
+//</properties>

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{A86A06F14A0DABC8}DayZExpansion/Core/GUI/icons/hud/under-roof.png"
+ Author "monolith"
+ ChangeDate 142421381
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "under-roof.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

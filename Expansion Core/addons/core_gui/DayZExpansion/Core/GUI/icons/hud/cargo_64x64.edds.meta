@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{187546038B5DD1C2}DayZExpansion/Core/GUI/icons/hud/cargo_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 1503391116
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "cargo_64x64.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

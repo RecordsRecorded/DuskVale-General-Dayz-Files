@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{11BEAA208E4CA330}DayZExpansion/Core/GUI/icons/hud/book_2_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 821947138
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "book_2_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{5C48C2BB02F99EAC}DayZExpansion/Core/GUI/icons/hud/water_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate -719983870
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "water_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{DD3872E8BBD50682}DayZExpansion/Core/GUI/icons/hud/skull_2_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 118876930
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "skull_2_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

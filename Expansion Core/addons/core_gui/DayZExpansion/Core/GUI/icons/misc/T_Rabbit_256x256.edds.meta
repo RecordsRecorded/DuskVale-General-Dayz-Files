@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{C7C1EE0A17D59E13}DayZExpansion/Core/GUI/icons/misc/T_Rabbit_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 463334146
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Rabbit_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

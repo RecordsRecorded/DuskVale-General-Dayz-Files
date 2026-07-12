@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{059D7B34FB0EB730}DayZExpansion/Core/GUI/icons/misc/coinstack_64x64.edds"
+ Author "LΛVΛ (liquidrock)"
+ ChangeDate -1636128025
+ Configurations {
+  PAAResourceClass PC {
+   SourceFile "coinstack_64x64.paa"
+  }
+  PAAResourceClass XBOX_ONE : PC {
+  }
+  PAAResourceClass PS4 : PC {
+  }
+  PAAResourceClass LINUX : PC {
+  }
+ }
+}

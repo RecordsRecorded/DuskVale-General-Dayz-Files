@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{7966AC8E752ED62C}DayZExpansion/Core/GUI/icons/hud/knife_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate -1894913278
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "knife_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

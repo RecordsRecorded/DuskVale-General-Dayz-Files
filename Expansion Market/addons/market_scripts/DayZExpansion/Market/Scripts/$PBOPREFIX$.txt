@@ -1,0 +1,4 @@
+//<'market_scripts.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Market\Scripts;
+//PboType=Arma Addon;
+//</properties>

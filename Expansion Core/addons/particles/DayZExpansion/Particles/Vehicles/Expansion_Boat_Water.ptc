@@ -1,0 +1,47 @@
+EffectDef {
+ Emitors {
+  EmitorDef short_smoke {
+   ShapeType Box
+   ShapeSize 0 0 0
+   ConeAngle 360 0 50
+   MaxNum 2000
+   BirthRate 200
+   BirthRateRND 0
+   Angles 0 0 0
+   LocalTransform 0
+   Material "{5CF3412E10F90C5D}DayZExpansion/Particles/Materials/Helicopter/Expansion_Material_Water.emat"
+   SizeMultiplier 1
+   SizeRND 2
+   RandomRotDir 1
+   RotMultiplier 45
+   StretchMultiplier 1
+   VelAngle 0
+   RandomAngle 1
+   Velocity 6
+   VelocityRND 0
+   AirResistance 0
+   AirResistanceRND 0
+   Spring 0
+   Wind 0
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 2
+   LifeTimeRND 1
+   Color {
+    0 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 0 0.12642 0.31013 0.37489 0.13291 1 0
+   }
+   RotationSpeed {
+    0 0 1 1
+   }
+   Size {
+    0 0.53165 0.15257 0.98101 0.27637 0.94304 0.38535 1 0.69224 0.76582 1 0
+   }
+   EffectTime 0
+   Repeat 1
+  }
+ }
+}

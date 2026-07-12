@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{E47EDB5A7ABE48BD}DayZExpansion/Navigation/GUI/textures/legend_compass.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate -323736264
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "legend_compass.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

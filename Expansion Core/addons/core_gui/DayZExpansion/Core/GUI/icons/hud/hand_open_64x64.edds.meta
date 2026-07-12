@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{B87040D3C344F388}DayZExpansion/Core/GUI/icons/hud/hand_open_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate -955913470
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "hand_open_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

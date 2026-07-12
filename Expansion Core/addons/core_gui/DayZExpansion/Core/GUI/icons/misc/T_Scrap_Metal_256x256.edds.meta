@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{21C667622C569283}DayZExpansion/Core/GUI/icons/misc/T_Scrap_Metal_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 530443010
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Scrap_Metal_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,170 @@
+EffectDef {
+ Emitors {
+  EmitorDef flash {
+   ConeAngle 0 0 0
+   MaxNum 1
+   BirthRate 1
+   Material "{9DCBBA306B709ED2}DayZExpansion/Particles/Materials/Explosions/Expansion_Material_Blast.emat"
+   SizeMultiplier 30
+   Velocity 0
+   LifeTime 0.6
+   Color {
+    0 1 0.7532 0.4051 1 0.3481 0 0
+   }
+   Alpha {
+    0 1 0.49116 0.14557 0.79013 0 1 0
+   }
+   Size {
+    0 0 0.11635 0.23418 0.31443 0.4557 0.65464 0.77215 1 1
+   }
+   EffectTime 0.2
+   Repeat 0
+   AlphaMast {
+    0 0.51266 0.08763 0.48734 0.18704 1 1 1
+   }
+  }
+  EmitorDef flash2 {
+   MaxNum 1
+   BirthRate 500
+   Material "{CB7AF4FD8ACBFDFC}graphics/Particles/materials/glow/glow1.emat"
+   SizeMultiplier 30
+   Velocity 0
+   LifeTime 2
+   Color {
+    0 1 0.4557 0.3544 1 1 0.4494 0.3481
+   }
+   Alpha {
+    0 0 0.05817 1 0.12739 0.25316 0.34683 0.02532 0.84168 0 1 0
+   }
+   EffectTime 0.2
+   Repeat 0
+  }
+  EmitorDef sparks {
+   ConeAngle 360 360 0
+   BirthRate 100
+   Material "{041A57CF4926E6BA}DayZExpansion/Particles/Materials/Explosions/Expansion_Material_Spark.emat"
+   SizeMultiplier 1
+   StretchMultiplier 0.85
+   StreakFullUV 0
+   Velocity 40
+   VelocityRND 100
+   VelAffect 1
+   AirResistance 3
+   GravityMultiply 1
+   LifeTime 0.3
+   EffectTime 0.1
+   Repeat 0
+  }
+  EmitorDef flame {
+   ShapeType Point
+   ConeAngle 360 360 0
+   MaxNum 13
+   BirthRate 8000
+   LocalTransform 0
+   Material "{E7FCE08B2608632C}DayZExpansion/Particles/Materials/Explosions/Expansion_Material_Shot.emat"
+   ScaleX 1
+   ScaleY 1
+   SizeMultiplier 6
+   RandomRotDir 0
+   StretchMultiplier 1
+   RandomAngle 1
+   Sort 0
+   Velocity 0
+   VelocityRND 30
+   VelAffect 1
+   AirResistance 3
+   GravityMultiply 1
+   AnimOnce 0
+   LifetimeByAnim 0
+   LifeTime 0.3
+   Color {
+    0 1 1 1 0.5982 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 0 0.0506 1 0.49116 1 0.77246 0.51899 1 0
+   }
+   Size {
+    0 1 0.4814 1 1 0
+   }
+   EffectTime 0.3
+   Repeat 0
+  }
+  EmitorDef smoke {
+   ShapeType Point
+   ShapeSize 6.4 6.4 0
+   ConeAngle 360 360 0
+   MaxNum 16
+   BirthRate 6000
+   LocalTransform 0
+   Material "{F5BA35500745C1B7}DayZExpansion/Particles/Materials/Explosions/Expansion_Material_Smoke.emat"
+   ScaleX 1
+   ScaleY 1
+   SizeMultiplier 10
+   RandomRotDir 1
+   StretchMultiplier 1
+   RandomAngle 0
+   Sort 0
+   Velocity 2
+   VelocityRND 4
+   VelAffect 1
+   AirResistance 0
+   GravityMultiply 0
+   AnimOnce 0
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 2
+   LifeTimeRND 1
+   Color {
+    0 0.5506 0.5506 0.557 1 0.5633 0.5696 0.5506
+   }
+   Alpha {
+    0 0 0.03387 0.36709 0.26562 0.05696 1 0
+   }
+   Size {
+    0 0 0.14881 0.64557 1 1
+   }
+   EffectTime 0.4
+   Repeat 0
+   ColorMast {
+    0 1 1 1 0.0982 0.7278 0.7342 0.7215 0.2522 1 1 1 0.4234 0.6013 0.6013 0.6013 0.4866 0.981 0.981 0.981 0.5506 0.7532 0.7532 0.7532 0.7232 0.9873 0.9873 0.9873 0.9152 0.6076 0.6076 0.6076 1 1 1 1
+   }
+  }
+  EmitorDef metal {
+   ShapeType Point
+   ShapeSize 0 0 0
+   ConeAngle 360 360 0
+   MaxNum 12
+   BirthRate 500
+   LocalTransform 1
+   Material "{138DAF4DF4E8AF2A}DayZExpansion/Particles/Materials/Explosions/Expansion_Material_Metal.emat"
+   ScaleX 1
+   ScaleY 1
+   SizeMultiplier 3
+   RandomRotDir 1
+   StretchMultiplier 1
+   RandomAngle 1
+   Sort 0
+   Velocity 5
+   VelocityRND 35
+   VelAffect 1
+   AirResistance 0
+   GravityMultiply 1
+   Restitution 0.7
+   AnimOnce 0
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 3
+   Color {
+    0 0.2595 0.2595 0.2532 1 0.2595 0.2595 0.2532
+   }
+   Alpha {
+    0 0 0.0506 1 0.25298 0.99367 0.375 0.05696 1 0
+   }
+   Size {
+    0 0.32911 0.25446 0.48734 0.52083 0.6519 1 1
+   }
+   EffectTime 0.5
+   Repeat 0
+  }
+ }
+}

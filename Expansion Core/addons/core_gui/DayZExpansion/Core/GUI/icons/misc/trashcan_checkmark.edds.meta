@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{6BB6176A8A8FF22D}DayZExpansion/Core/GUI/icons/misc/trashcan_checkmark.edds"
+ Author "monolith"
+ ChangeDate -1223938958
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "trashcan_checkmark.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

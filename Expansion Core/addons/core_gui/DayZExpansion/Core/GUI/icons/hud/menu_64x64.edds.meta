@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{EC8EDC01E1CEFBB0}DayZExpansion/Core/GUI/icons/hud/menu_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate -1324487934
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "menu_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{3504FF43FFA8963E}DayZExpansion/Core/GUI/icons/hud/pen_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 1225648898
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "pen_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

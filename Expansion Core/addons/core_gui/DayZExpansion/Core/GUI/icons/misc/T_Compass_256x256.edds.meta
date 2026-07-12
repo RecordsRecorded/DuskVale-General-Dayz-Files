@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{75008B65CB769884}DayZExpansion/Core/GUI/icons/misc/T_Compass_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 60680962
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Compass_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

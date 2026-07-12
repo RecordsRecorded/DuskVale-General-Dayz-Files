@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{D2DA8481550E2FAD}DayZExpansion/Core/GUI/icons/misc/T_Bow_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 2006313730
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Bow_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

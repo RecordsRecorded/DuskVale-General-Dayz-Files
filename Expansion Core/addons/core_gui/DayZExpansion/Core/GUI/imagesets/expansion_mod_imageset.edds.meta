@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{FB43C9E1B3773EF1}DayZExpansion/Core/GUI/imagesets/expansion_mod_imageset.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 1022717077
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "expansion_mod_imageset.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

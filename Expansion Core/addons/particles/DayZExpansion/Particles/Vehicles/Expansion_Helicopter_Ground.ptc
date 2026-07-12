@@ -1,0 +1,42 @@
+EffectDef {
+ Emitors {
+  EmitorDef gravel {
+   ShapeType Box
+   ShapeSize 10 0 10
+   ConeAngle 360 180 120
+   MaxNum 200
+   BirthRate 100
+   BirthRateRND 20
+   Material "{5848BE76B591AB50}DayZExpansion/Particles/Materials/Helicopter/Expansion_Material_Dust.emat"
+   SizeMultiplier 8
+   RandomRotDir 1
+   RotMultiplier 0
+   VelAngle 0
+   RandomAngle 1
+   Sort 0
+   BillboardingType Full
+   Velocity 4
+   VelocityRND 5
+   GravityMultiply 1
+   Wind 1
+   AnimOnce 0
+   AnimFPS 30
+   LifetimeByAnim 0
+   LifeTime 1
+   LifeTimeRND 1
+   Color {
+    0 0.7025 0.6962 0.7025 1 0.6962 0.6962 0.6962
+   }
+   Alpha {
+    0 0.10127 0.12592 0.10127 0.37187 0.10127 1 0
+   }
+   RotationSpeed {
+    0 0 1 1
+   }
+   Size {
+    0 0.55063 1 1
+   }
+   EffectTime 1
+  }
+ }
+}

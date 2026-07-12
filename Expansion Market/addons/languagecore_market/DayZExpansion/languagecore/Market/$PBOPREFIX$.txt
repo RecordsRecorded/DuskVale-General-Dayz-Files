@@ -1,0 +1,4 @@
+//<'languagecore_market.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\languagecore\Market;
+//PboType=Arma Addon;
+//</properties>

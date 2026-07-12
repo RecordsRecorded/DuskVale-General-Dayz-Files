@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{D45EBAFB00509B87}DayZExpansion/Core/GUI/icons/hud/tent_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate -1122637054
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "tent_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

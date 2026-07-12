@@ -1,0 +1,4 @@
+//<'vehicles_air_merlin.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Vehicles\Air\Merlin;
+//PboType=Arma Addon;
+//</properties>

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{F2433CDEB4D94F4E}DayZExpansion/Core/GUI/icons/misc/T_Bandit_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate -1257067211
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Bandit_256x256.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

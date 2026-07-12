@@ -1,0 +1,4 @@
+//<'core_objects_currencies.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Core\Objects\Currencies;
+//PboType=Arma Addon;
+//</properties>

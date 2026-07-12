@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{6C510660279C3173}DayZExpansion/Core/GUI/icons/misc/T_Mushrooms_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 429779714
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Mushrooms_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

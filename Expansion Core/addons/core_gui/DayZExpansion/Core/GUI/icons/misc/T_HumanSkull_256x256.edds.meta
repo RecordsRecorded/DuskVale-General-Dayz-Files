@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{75E7657AE95B0EB6}DayZExpansion/Core/GUI/icons/misc/T_HumanSkull_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 362670850
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_HumanSkull_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,4 @@
+//<'vehicles_air_mh6.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Vehicles\Air\Mh6;
+//PboType=Arma Addon;
+//</properties>

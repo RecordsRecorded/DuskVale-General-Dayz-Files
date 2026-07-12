@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{E5DAE92F4A54D5A9}DayZExpansion/Core/GUI/icons/misc/T_Car_Keys_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 2006313730
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Car_Keys_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

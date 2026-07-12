@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{DDEDAF5A8B34B62D}DayZExpansion/Core/GUI/icons/hud/ellipse_out_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 554035970
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "ellipse_out_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

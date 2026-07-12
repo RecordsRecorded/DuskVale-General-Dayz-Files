@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{90B95C67FA270E33}DayZExpansion/Core/GUI/icons/hud/map_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 319679234
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "map_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

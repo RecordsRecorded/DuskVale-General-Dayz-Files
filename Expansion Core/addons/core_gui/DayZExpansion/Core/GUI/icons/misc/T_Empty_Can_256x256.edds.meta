@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{BD7070ABAC11556A}DayZExpansion/Core/GUI/icons/misc/T_Empty_Can_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 127789826
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Empty_Can_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

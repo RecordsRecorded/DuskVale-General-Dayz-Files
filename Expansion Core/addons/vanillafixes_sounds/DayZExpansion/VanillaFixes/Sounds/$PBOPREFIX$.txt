@@ -1,0 +1,4 @@
+//<'vanillafixes_sounds.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\VanillaFixes\Sounds;
+//PboType=Arma Addon;
+//</properties>

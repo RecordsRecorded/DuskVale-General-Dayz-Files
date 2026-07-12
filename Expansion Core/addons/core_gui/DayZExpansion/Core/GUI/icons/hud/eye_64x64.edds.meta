@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{C5A0666669DF90D2}DayZExpansion/Core/GUI/icons/hud/eye_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 956689154
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "eye_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

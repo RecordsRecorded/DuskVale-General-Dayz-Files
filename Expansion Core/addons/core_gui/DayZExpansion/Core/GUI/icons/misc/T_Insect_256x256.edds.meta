@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{CBA99CD1A09FA48D}DayZExpansion/Core/GUI/icons/misc/T_Insect_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 396225282
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Insect_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

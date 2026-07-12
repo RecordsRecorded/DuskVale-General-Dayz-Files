@@ -1,0 +1,4 @@
+//<'objects_structures_debug.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Objects\Structures\Debug;
+//PboType=Arma Addon;
+//</properties>

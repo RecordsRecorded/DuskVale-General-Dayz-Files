@@ -1,0 +1,4 @@
+//<'vehicles_ground_tractor.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Vehicles\Ground\Tractor;
+//PboType=Arma Addon;
+//</properties>

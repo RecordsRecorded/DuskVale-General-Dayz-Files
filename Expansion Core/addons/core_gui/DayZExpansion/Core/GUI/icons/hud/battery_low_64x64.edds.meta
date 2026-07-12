@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{0E9DB249FDADF2CC}DayZExpansion/Core/GUI/icons/hud/battery_low_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 452848386
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "battery_low_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

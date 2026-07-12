@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{EC53856041985A10}DayZExpansion/Core/GUI/icons/hud/cross_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 84273922
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "cross_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

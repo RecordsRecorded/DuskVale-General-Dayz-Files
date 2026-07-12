@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{9591749105C49332}DayZExpansion/Core/GUI/icons/misc/T_Gas_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 329116418
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Gas_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

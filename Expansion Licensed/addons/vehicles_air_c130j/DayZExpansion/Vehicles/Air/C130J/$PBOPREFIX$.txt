@@ -1,0 +1,4 @@
+//<'vehicles_air_c130j.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Vehicles\Air\C130J;
+//PboType=Arma Addon;
+//</properties>

@@ -1,0 +1,67 @@
+EffectDef {
+ Emitors {
+  EmitorDef drips {
+   ShapeType Box
+   ShapeSize 0 0 0
+   ConeAngle 360 160 180
+   MaxNum 200
+   BirthRate 100
+   Material "{F58A36ED1018DD5F}DayZExpansion/Particles/Materials/Helicopter/Expansion_Material_Drips.emat"
+   SizeMultiplier 0.25
+   RandomRotDir 0
+   RandomAngle 0
+   Velocity 16
+   VelocityRND 8
+   AirResistance 0
+   GravityMultiply 1
+   Wind 1
+   LifeTime 1
+   Size {
+    0 0.27215 1 1
+   }
+   EffectTime 1
+  }
+  EmitorDef gravel {
+   ShapeType Box
+   ConeAngle 360 360 80
+   MaxNum 80
+   BirthRate 20
+   BirthRateRND 20
+   Material "{5CF3412E10F90C5D}DayZExpansion/Particles/Materials/Helicopter/Expansion_Material_Water.emat"
+   SizeMultiplier 2.5
+   RandomRotDir 1
+   RandomAngle 1
+   Velocity 12
+   AirResistance 0
+   GravityMultiply 1
+   LifeTime 1
+   Alpha {
+    0 0 0.12054 0 0.125 0.51899 1 0.5
+   }
+   Size {
+    0 0.3481 1 1
+   }
+   EffectTime 1
+  }
+  EmitorDef splash {
+   ShapeType Box
+   ConeAngle 360 160 120
+   MaxNum 400
+   BirthRate 200
+   Material "{5CF3412E10F90C5D}DayZExpansion/Particles/Materials/Helicopter/Expansion_Material_Water.emat"
+   SizeMultiplier 6
+   RandomAngle 1
+   Velocity 16
+   AirResistance 0
+   GravityMultiply 0.85
+   LifeTime 1
+   LifeTimeRND 0.5
+   Alpha {
+    0 0 0.12054 0 0.12426 0.25316 1 0.23418
+   }
+   Size {
+    0 0.43671 1 1
+   }
+  }
+ }
+}

@@ -1,0 +1,4 @@
+//<'p2pmarket_objects.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\P2PMarket\Objects;
+//PboType=Arma Addon;
+//</properties>

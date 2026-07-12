@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{081A46DC6D8645CD}DayZExpansion/Core/GUI/icons/misc/T_Rat_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 496888578
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Rat_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

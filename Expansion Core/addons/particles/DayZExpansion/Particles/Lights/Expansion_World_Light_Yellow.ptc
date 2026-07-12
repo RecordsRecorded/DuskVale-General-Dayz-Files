@@ -1,0 +1,18 @@
+EffectDef {
+ Emitors {
+  EmitorDef light {
+   MaxNum 1
+   BirthRate 1
+   Material "{CB7AF4FD8ACBFDFC}graphics/Particles/materials/glow/glow1.emat"
+   SizeMultiplier 0.5
+   Velocity 0
+   LifeTime 10
+   Color {
+    0 1 1 0 1 1 1 0
+   }
+   ColorMast {
+    0 1 1 0 1 1 1 0
+   }
+  }
+ }
+}

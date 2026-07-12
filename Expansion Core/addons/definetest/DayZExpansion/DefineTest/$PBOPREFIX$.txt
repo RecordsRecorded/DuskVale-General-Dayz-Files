@@ -1,0 +1,4 @@
+//<'definetest.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\DefineTest;
+//PboType=Arma Addon;
+//</properties>

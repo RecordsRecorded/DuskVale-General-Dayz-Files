@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{BC4B024D9C0F3A9F}DayZExpansion/Core/GUI/icons/hud/refresh_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate -384963838
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "refresh_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

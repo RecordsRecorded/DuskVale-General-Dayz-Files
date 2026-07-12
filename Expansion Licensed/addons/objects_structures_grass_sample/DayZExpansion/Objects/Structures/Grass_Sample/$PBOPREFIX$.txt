@@ -1,0 +1,6 @@
+//<'objects_structures_grass_sample.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Objects\Structures\Grass_Sample;
+Mikero=DePbo.dll.7.92;
+version=22092320;
+//PboType=Arma Addon;
+//</properties>

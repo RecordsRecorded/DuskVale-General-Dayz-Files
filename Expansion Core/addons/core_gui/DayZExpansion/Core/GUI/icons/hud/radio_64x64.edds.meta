@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{F3235A34820AC9C9}DayZExpansion/Core/GUI/icons/hud/radio_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate -552735998
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "radio_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

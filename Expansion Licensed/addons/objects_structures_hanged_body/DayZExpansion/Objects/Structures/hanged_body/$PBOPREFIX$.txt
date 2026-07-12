@@ -1,0 +1,4 @@
+//<'objects_structures_hanged_body.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Objects\Structures\hanged_body;
+//PboType=Arma Addon;
+//</properties>

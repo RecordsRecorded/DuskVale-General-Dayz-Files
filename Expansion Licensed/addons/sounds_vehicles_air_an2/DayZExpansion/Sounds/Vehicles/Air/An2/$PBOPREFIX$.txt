@@ -1,0 +1,6 @@
+//<'sounds_vehicles_air_an2.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Sounds\Vehicles\Air\An2;
+Mikero=DePbo.dll.7.92;
+version=22092320;
+//PboType=Arma Addon;
+//</properties>

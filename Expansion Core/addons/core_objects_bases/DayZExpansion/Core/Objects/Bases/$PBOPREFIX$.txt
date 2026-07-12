@@ -1,0 +1,4 @@
+//<'core_objects_bases.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Core\Objects\Bases;
+//PboType=Arma Addon;
+//</properties>

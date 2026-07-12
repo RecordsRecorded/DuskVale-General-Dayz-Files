@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{2BC6CC987430C5AA}DayZExpansion/Core/GUI/imagesets/expansion_inventory.tga"
+ Author "desktop-e8g26fa"
+ ChangeDate -517263741
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "expansion_inventory.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

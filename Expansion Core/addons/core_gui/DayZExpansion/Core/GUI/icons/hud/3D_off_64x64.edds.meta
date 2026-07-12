@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{D32B7574E35A8737}DayZExpansion/Core/GUI/icons/hud/3D_off_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 159247106
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "3D_off_64x64.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

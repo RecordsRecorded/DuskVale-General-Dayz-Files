@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{C40010DED8D8E535}DayZExpansion/Core/GUI/icons/hud/craft_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 1425926914
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "craft_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

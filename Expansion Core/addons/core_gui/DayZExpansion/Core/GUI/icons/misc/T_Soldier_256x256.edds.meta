@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{3364F58EF7F7FBE3}DayZExpansion/Core/GUI/icons/misc/T_Soldier_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 1270574387
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Soldier_256x256.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

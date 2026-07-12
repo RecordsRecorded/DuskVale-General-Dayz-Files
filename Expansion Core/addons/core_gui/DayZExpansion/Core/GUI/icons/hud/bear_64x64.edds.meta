@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{98CED5F8D0DB1EF3}DayZExpansion/Core/GUI/icons/hud/bear_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 687729410
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "bear_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

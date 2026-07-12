@@ -1,0 +1,6 @@
+//<'core_objects_temporaryownedcontainer.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Core\Objects\TemporaryOwnedContainer;
+Mikero=DePbo.dll.7.92;
+version=22092320;
+//PboType=Arma Addon;
+//</properties>

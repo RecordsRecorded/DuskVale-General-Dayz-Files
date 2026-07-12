@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{0B87C4277EE0CE08}DayZExpansion/Core/GUI/icons/hud/questionmark_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate -653399294
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "questionmark_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

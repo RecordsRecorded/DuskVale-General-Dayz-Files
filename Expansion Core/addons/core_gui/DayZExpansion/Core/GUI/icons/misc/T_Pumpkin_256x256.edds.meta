@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{29E25F1F9FF91D6B}DayZExpansion/Core/GUI/icons/misc/T_Pumpkin_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 463334146
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Pumpkin_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

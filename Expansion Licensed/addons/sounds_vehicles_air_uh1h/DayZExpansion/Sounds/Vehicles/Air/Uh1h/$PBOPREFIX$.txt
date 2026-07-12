@@ -1,0 +1,4 @@
+//<'sounds_vehicles_air_uh1h.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Sounds\Vehicles\Air\Uh1h;
+//PboType=Arma Addon;
+//</properties>

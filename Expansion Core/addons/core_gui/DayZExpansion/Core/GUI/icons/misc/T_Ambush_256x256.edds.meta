@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{44711043367C607B}DayZExpansion/Core/GUI/icons/misc/T_Ambush_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 1332964659
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Ambush_256x256.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

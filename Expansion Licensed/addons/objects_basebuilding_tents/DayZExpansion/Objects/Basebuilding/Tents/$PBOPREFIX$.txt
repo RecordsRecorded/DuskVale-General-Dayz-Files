@@ -1,0 +1,4 @@
+//<'objects_basebuilding_tents.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Objects\Basebuilding\Tents;
+//PboType=Arma Addon;
+//</properties>

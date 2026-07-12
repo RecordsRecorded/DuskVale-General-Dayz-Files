@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{3AC2F4EA9F023686}DayZExpansion/Core/GUI/icons/misc/T_Cooked_Meat_01_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 60680962
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Cooked_Meat_01_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

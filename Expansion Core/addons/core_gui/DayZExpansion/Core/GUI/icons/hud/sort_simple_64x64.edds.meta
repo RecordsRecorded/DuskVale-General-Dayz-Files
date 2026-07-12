@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{27505255AD921029}DayZExpansion/Core/GUI/icons/hud/sort_simple_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate -1419235739
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "sort_simple_64x64.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

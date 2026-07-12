@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{706A9FBB668869E2}DayZExpansion/Core/GUI/icons/hud/snow_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate -1860834558
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "snow_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{76F6D5B6F28D7797}DayZExpansion/Core/GUI/icons/misc/T_Machette_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 396225282
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Machette_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

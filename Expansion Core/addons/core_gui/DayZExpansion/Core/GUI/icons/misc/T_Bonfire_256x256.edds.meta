@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{6332F8D8FB6A5E2F}DayZExpansion/Core/GUI/icons/misc/T_Bonfire_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate -174724350
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Bonfire_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

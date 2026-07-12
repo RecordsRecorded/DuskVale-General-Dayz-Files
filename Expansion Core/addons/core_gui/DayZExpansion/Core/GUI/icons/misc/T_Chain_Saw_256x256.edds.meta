@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{B27B2E119D42D1A3}DayZExpansion/Core/GUI/icons/misc/T_Chain_Saw_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 2006313730
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Chain_Saw_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

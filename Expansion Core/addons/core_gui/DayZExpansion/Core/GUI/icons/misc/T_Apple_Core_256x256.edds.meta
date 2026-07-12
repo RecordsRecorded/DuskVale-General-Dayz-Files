@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{53F704C6DEE6BA88}DayZExpansion/Core/GUI/icons/misc/T_Apple_Core_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 1939204866
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Apple_Core_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

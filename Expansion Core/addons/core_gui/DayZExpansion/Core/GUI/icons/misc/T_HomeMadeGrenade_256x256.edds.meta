@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{AB2A236385C6CF6A}DayZExpansion/Core/GUI/icons/misc/T_HomeMadeGrenade_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 362670850
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_HomeMadeGrenade_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

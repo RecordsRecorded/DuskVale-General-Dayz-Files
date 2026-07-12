@@ -1,0 +1,6 @@
+//<'sounds_vehicles_ground_vodnik.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Sounds\Vehicles\Ground\Vodnik;
+Mikero=DePbo.dll.7.92;
+version=22092320;
+//PboType=Arma Addon;
+//</properties>

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{B0A741F8CA2EA4D5}DayZExpansion/Core/GUI/icons/hud/hook_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 84798210
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "hook_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

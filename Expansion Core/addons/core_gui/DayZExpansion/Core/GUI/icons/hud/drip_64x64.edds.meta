@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{E71ED2A913D78209}DayZExpansion/Core/GUI/icons/hud/drip_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 218491650
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "drip_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

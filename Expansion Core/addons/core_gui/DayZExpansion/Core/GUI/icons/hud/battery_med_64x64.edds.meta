@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{87EF56F7278C57F3}DayZExpansion/Core/GUI/icons/hud/battery_med_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 553511682
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "battery_med_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

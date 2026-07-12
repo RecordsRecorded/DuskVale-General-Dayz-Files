@@ -1,0 +1,4 @@
+//<'0_navigation_preload.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=0_DayZExpansion_Navigation_Preload;
+//PboType=Arma Addon;
+//</properties>

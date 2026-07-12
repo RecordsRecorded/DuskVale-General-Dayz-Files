@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{88CF376ADC31DEDA}DayZExpansion/Navigation/GUI/textures/gps.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate -2096960306
+ Configurations {
+  PNGResourceClass PC {
+   SourceFile "gps.png"
+  }
+  PNGResourceClass XBOX_ONE : PC {
+  }
+  PNGResourceClass PS4 : PC {
+  }
+  PNGResourceClass LINUX : PC {
+  }
+ }
+}

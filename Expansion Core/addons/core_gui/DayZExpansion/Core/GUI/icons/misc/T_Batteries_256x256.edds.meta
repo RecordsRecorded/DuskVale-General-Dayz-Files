@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{2B45B59C1191F7B1}DayZExpansion/Core/GUI/icons/misc/T_Batteries_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 1972759298
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Batteries_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

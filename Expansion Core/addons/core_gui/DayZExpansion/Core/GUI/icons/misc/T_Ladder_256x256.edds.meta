@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{2694EE02A7FDB043}DayZExpansion/Core/GUI/icons/misc/T_Ladder_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 396225282
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Ladder_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

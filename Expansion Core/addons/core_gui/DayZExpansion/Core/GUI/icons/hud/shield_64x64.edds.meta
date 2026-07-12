@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{4FE21B47020414D0}DayZExpansion/Core/GUI/icons/hud/shield_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 1896737538
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "shield_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

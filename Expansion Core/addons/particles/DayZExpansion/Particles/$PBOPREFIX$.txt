@@ -1,0 +1,4 @@
+//<'particles.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Particles;
+//PboType=Arma Addon;
+//</properties>

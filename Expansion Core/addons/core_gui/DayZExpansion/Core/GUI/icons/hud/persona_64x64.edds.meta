@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{287CF3AEB0F2A6E7}DayZExpansion/Core/GUI/icons/hud/persona_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate -854725886
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "persona_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

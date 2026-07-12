@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{84C0081EF57D2409}DayZExpansion/Core/GUI/icons/misc/T_Corn_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 94235394
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Corn_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

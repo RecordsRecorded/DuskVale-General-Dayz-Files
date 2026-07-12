@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{0357D42F0F6B3CEE}DayZExpansion/Core/GUI/icons/misc/T_Shovel_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 530443010
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Shovel_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

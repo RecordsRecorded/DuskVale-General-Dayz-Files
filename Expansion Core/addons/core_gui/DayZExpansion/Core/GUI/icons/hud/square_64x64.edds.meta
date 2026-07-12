@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{F1B32F84AA4AEEBD}DayZExpansion/Core/GUI/icons/hud/square_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate -1760171262
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "square_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

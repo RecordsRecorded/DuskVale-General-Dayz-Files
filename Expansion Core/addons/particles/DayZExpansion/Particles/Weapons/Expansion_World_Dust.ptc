@@ -1,0 +1,60 @@
+EffectDef {
+ Emitors {
+  EmitorDef flash2 {
+   MaxNum 1
+   BirthRate 500
+   Material "{CB7AF4FD8ACBFDFC}graphics/Particles/materials/glow/glow1.emat"
+   SizeMultiplier 3
+   Velocity 0
+   LifeTime 2
+   Color {
+    0 1 1 1 1 1 1 1
+   }
+   Alpha {
+    0 0 0.05817 1 0.12739 0.25316 0.34683 0.02532 0.84168 0 1 0
+   }
+   EffectTime 1
+   Repeat 0
+  }
+  EmitorDef smoke {
+   ShapeType Point
+   ShapeSize 6.4 6.4 0
+   ConeAngle 360 360 0
+   MaxNum 16
+   BirthRate 6000
+   LocalTransform 0
+   Material "{55020E0786F83004}graphics/Particles/materials/smoke/smoke_anim_01.emat"
+   ScaleX 1
+   ScaleY 1
+   SizeMultiplier 5
+   RandomRotDir 1
+   StretchMultiplier 1
+   RandomAngle 0
+   Sort 0
+   Velocity 1
+   VelocityRND 0
+   VelAffect 1
+   AirResistance 0
+   GravityMultiply 0
+   AnimOnce 0
+   LifetimeByAnim 0
+   RandomFrame 1
+   LifeTime 4
+   LifeTimeRND 1
+   Color {
+    0 0 0 0 1 0.5633 0.5696 0.5506
+   }
+   Alpha {
+    0 0.81013 0.24816 0.53165 0.25184 0.20253 0.37261 0.1519 1 0
+   }
+   Size {
+    0 0 0.12592 0.74684 1 1
+   }
+   EffectTime 4
+   Repeat 0
+   ColorMast {
+    0 1 1 1 0.0982 0.7278 0.7342 0.7215 0.2522 1 1 1 0.4234 0.6013 0.6013 0.6013 0.4866 0.981 0.981 0.981 0.5506 0.7532 0.7532 0.7532 0.7232 0.9873 0.9873 0.9873 0.9152 0.6076 0.6076 0.6076 1 1 1 1
+   }
+  }
+ }
+}

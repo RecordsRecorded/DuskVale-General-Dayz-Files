@@ -1,0 +1,4 @@
+//<'dta_core.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Dta\Core;
+//PboType=Arma Addon;
+//</properties>

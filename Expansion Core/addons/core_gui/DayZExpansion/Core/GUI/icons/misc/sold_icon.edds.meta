@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{4A3B668D00794D5F}DayZExpansion/Core/GUI/icons/misc/sold_icon.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate -947065458
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "sold_icon.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

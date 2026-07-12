@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{0A89BEAE6091772B}DayZExpansion/Core/GUI/icons/misc/T_Wakie-Talkie_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 563997442
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Wakie-Talkie_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

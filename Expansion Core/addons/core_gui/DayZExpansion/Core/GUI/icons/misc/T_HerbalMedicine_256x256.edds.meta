@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{B7D985761AA69644}DayZExpansion/Core/GUI/icons/misc/T_HerbalMedicine_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 362670850
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_HerbalMedicine_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

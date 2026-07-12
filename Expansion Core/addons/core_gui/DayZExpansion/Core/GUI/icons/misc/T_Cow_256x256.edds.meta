@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{6F51259E16AB4520}DayZExpansion/Core/GUI/icons/misc/T_Cow_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 94235394
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Cow_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{21050508AD4FF96D}DayZExpansion/Core/GUI/icons/misc/T_Collection_Of_Sticks_03_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 27126530
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Collection_Of_Sticks_03_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

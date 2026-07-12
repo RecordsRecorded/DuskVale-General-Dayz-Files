@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{F21E94676064DA7D}DayZExpansion/Core/GUI/icons/hud/ear_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 386263810
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "ear_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

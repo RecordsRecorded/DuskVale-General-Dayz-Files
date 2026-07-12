@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{AA9900D80BA66007}DayZExpansion/Core/GUI/icons/misc/T_Chicken_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 2006313730
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Chicken_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

@@ -1,0 +1,4 @@
+//<'navigation_gui.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Navigation\GUI;
+//PboType=Arma Addon;
+//</properties>

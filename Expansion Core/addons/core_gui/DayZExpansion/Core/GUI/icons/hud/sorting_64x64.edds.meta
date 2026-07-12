@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{5FCA8EED8BEE731E}DayZExpansion/Core/GUI/icons/hud/sorting_64x64.tga"
+ Author "desktop-e8g26fa"
+ ChangeDate -1906479757
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "sorting_64x64.tga"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

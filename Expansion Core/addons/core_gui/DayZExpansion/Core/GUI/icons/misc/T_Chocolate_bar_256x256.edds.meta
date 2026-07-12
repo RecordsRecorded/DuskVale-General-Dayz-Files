@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{2C9A79E888C7892B}DayZExpansion/Core/GUI/icons/misc/T_Chocolate_bar_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 27126530
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Chocolate_bar_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

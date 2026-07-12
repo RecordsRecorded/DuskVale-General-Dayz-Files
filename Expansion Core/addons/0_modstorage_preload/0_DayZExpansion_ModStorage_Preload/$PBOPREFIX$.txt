@@ -1,0 +1,4 @@
+//<'0_modstorage_preload.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=0_DayZExpansion_ModStorage_Preload;
+//PboType=Arma Addon;
+//</properties>

@@ -1,0 +1,4 @@
+//<'sounds_vehicles_air_gyro.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Sounds\Vehicles\Air\Gyro;
+//PboType=Arma Addon;
+//</properties>

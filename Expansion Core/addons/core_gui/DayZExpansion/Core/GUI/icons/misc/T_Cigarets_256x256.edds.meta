@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{B50A4EA0B113C69E}DayZExpansion/Core/GUI/icons/misc/T_Cigarets_256x256.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 27126530
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "T_Cigarets_256x256.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}

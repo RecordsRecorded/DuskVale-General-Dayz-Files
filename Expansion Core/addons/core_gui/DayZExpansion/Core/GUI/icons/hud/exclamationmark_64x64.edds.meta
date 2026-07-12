@@ -1,0 +1,16 @@
+MetaFileClass {
+ Name "{1595828A6EA76F98}DayZExpansion/Core/GUI/icons/hud/exclamationmark_64x64.edds"
+ Author "desktop-e8g26fa"
+ ChangeDate 654699266
+ Configurations {
+  TGAResourceClass PC {
+   SourceFile "exclamationmark_64x64.TGA"
+  }
+  TGAResourceClass XBOX_ONE : PC {
+  }
+  TGAResourceClass PS4 : PC {
+  }
+  TGAResourceClass LINUX : PC {
+  }
+ }
+}
