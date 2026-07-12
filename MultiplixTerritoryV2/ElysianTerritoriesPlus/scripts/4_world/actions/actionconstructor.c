@@ -12,6 +12,5 @@ modded class ActionConstructor
 		actions.Insert(ActionAcceptMembership);
 		actions.Insert(ActionOpenTerritoryComputerMenu);
         actions.Insert(ActionInsertFloppy);
-        actions.Insert(ActionRefreshTerritoryNails);
     }
 }

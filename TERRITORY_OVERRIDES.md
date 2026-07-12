@@ -1,9 +1,16 @@
-# DuskVale Territory Overrides (Multiplix Territory V2 + LBmaster)
+# DuskVale Territory Overrides (standalone override mod)
 
-Custom territory rules implemented on top of **MultiplixTerritoryV2 (ElysianTerritoriesPlus)** and the
-**MPX-LBmasters-Hook** bridge mod. LBmaster-dependent features live in the bridge
-(`MPX-LBmasters-Hook/.../scripts/4_World/LBmasterBridge/LBGroupsTerritoryIntegration.c`) and are wrapped
-in `#ifdef LBmaster_Groups`, so everything still compiles if LBmaster is removed.
+`DuskVale_TerritoryOverrides/` is a **standalone override mod** that sits on top of
+**MultiplixTerritoryV2 (ElysianTerritoriesPlus)** and **LBmaster Groups**. It uses only
+`modded class` hooks — no files inside the Multiplix or LBmaster mods are edited, so you do
+NOT need to rebuild their PBOs. Both mods are hard requirements (`requiredAddons`).
+
+## Installing
+
+1. Pack the `DuskVale_TerritoryOverrides` folder into `DuskVale_TerritoryOverrides.pbo`
+   (DayZ Tools → Addon Builder, or PBO Manager). The `$PBOPREFIX$.txt` is already set.
+2. Put the PBO in `@DuskVale-Overrides/addons/` (server and client).
+3. Load it in your `-mod=` line **after** `@LBmaster-Groups` and your Multiplix territory mod.
 
 ## Rules
 
@@ -16,15 +23,15 @@ in `#ifdef LBmaster_Groups`, so everything still compiles if LBmaster is removed
    marker** named `My Property` is created at the exact placement position using the LBmaster
    flag icon (`LBmaster_Groups\gui\icons\flag.paa`). Visible to the placer's whole group.
 
-3. **7-day decay** — Territories have a maximum life span of **7 days**
-   (`FloppyLifetimeDays = 7` in `$profile:Multiplix/MultiTerritoriesConfig.json`; config version
-   bumped to `5`, existing configs with `0` are migrated to `7` automatically). The floppydisk
-   integrity display on the computer reflects the remaining time as before.
+3. **7-day decay** — Territories have a maximum life span of **7 days**. The override forces
+   `FloppyLifetimeDays` to `7` in `$profile:Multiplix/MultiTerritoriesConfig.json` whenever it
+   is `0` or missing (existing configs are migrated automatically on server start). The
+   floppydisk integrity display on the computer reflects the remaining time as before.
 
 4. **NailBox refresh** — Holding a vanilla **Box Of Nails (`NailBox`)** while looking at a running
    territory computer offers *"Refresh Territory (Box Of Nails)"*. Using it consumes the box and
-   resets the countdown back to the full 7 days. Only territory members (incl. LB group members
-   via the bridge) can refresh.
+   resets the countdown back to the full 7 days. Only territory members (incl. the owner's LB
+   group when the MPX bridge is active) can refresh.
 
 5. **Decay warning every 2.5 hours** — While the countdown is running, all online members of the
    owner's LBmaster group receive:
@@ -37,14 +44,23 @@ in `#ifdef LBmaster_Groups`, so everything still compiles if LBmaster is removed
    entry in `safezoneMarkers` (the standard LBmaster requirement for player nametags).
 
 7. **Owner-only floppydisk removal** — Only the **territory owner** (or a server admin) can eject
-   the floppydisk, via the world action, the computer menu button, and the server RPC. Unclaimed
-   computers can still have their floppy ejected by anyone.
+   the floppydisk, via the world action, the computer menu's EJECT button, and the server RPC.
+   Unclaimed computers can still have their floppy ejected by anyone.
+
+## Files
+
+| File | Purpose |
+|---|---|
+| `config.cpp` | CfgPatches/CfgMods, requires ElysianTerritoriesPlus + LBmaster_Groups |
+| `scripts/3_Game/DVT_Config.c` | Config additions + 7-day default enforcement |
+| `scripts/4_World/DVT_TerritoryOverrides.c` | All gameplay overrides (gates, marker, decay warning, nails refresh, nametags, eject lock) |
+| `scripts/5_Mission/DVT_MenuOverrides.c` | Hides the menu EJECT button for non-owners |
 
 ## New / changed config fields (`MultiTerritoriesConfig.json`)
 
 | Field | Default | Purpose |
 |---|---|---|
-| `FloppyLifetimeDays` | `7` | Maximum territory life span in days |
+| `FloppyLifetimeDays` | forced to `7` when `0` | Maximum territory life span in days |
 | `DecayWarningIntervalHours` | `2.5` | How often the decay warning is sent |
 | `DecayWarningMessage` | see above | `$GROUP$` and `$HOURS$` placeholders |
 | `TerritoryRefreshedMessage` | ... | `$DAYS$` placeholder, shown after a NailBox refresh |

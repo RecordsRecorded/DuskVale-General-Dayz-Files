@@ -1353,7 +1353,7 @@ class MultiplixTerritoryComputerMenu extends UIScriptedMenu
 		bool canJoin = inviteActive && !isMember;
 		bool canLeave = isMember && !isOwner;
 		bool hasFloppyAttached = targetComputer.FindAttachmentBySlotName("Material_FPole_Flag") != null;
-		bool canEjectFloppy = (canClaim || isOwner || isServerAdmin) && hasFloppyAttached;
+		bool canEjectFloppy = (targetComputer.CanReceiveNewOwner() || targetComputer.CheckPlayerPermission(selfGuid, TerritoryPerm.ADMIN)) && hasFloppyAttached;
 
 		BuildHeaderBlock(targetComputer, selfGuid);
 		BuildOrgTreeText(targetComputer, selfGuid);

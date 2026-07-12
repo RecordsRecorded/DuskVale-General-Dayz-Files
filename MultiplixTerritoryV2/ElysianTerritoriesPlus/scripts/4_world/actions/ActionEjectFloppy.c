@@ -14,20 +14,7 @@ class ActionEjectFloppy : ActionInteractBase
 			return false;
 		}
 
-		// Only the territory owner (or a server admin) can remove the floppydisk.
-		// Unclaimed computers can have their floppy ejected by anyone.
-		string guid = player.GetIdentity().GetId();
-		if (territoryComputer.CanReceiveNewOwner())
-		{
-			return true;
-		}
-
-		if (territoryComputer.IsTerritoryOwner(guid))
-		{
-			return true;
-		}
-
-		return GetMultiTerritoriesConfig().ServerAdmins.Find(guid) != -1;
+		return territoryComputer.CanReceiveNewOwner() || territoryComputer.CheckPlayerPermission(player.GetIdentity().GetId(), TerritoryPerm.ADMIN);
 	}
 
 	override void CreateConditionComponents()

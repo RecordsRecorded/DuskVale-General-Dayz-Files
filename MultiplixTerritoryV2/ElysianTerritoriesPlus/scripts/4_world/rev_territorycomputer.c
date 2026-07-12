@@ -1305,43 +1305,6 @@ void SwitchPowerOn()
         UpdateMainDisplayIntegrityBar();
     }
 
-    // Refresh the territory decay countdown with a vanilla Box Of Nails.
-    // Consumes the box and resets the countdown back to the full configured
-    // lifetime (7 days by default).
-    void RefreshTerritoryWithNails(PlayerBase player, ItemBase nails)
-    {
-        if (!GetGame().IsServer())
-        {
-            return;
-        }
-
-        Territory_Floppydisk floppy = Territory_Floppydisk.Cast(FindAttachmentBySlotName("Material_FPole_Flag"));
-        if (!floppy || !IsTurnedOn() || !IsFloppyLocked())
-        {
-            return;
-        }
-
-        if (nails)
-        {
-            GetGame().ObjectDelete(nails);
-        }
-
-        floppy.SetHealth("", "", 100);
-        m_RefresherTimeRemaining = Math.Round(GetEffectiveRefresherDuration());
-        ForceProtectionRefresh(true);
-        UpdateMainDisplayIntegrityBar();
-
-        if (player)
-        {
-            int days = Math.Round(GetEffectiveRefresherDuration() / 86400);
-            string message = GetMultiTerritoriesConfig().TerritoryRefreshedMessage;
-            message.Replace("$DAYS$", days.ToString());
-            MultiFunctions.SendPlayerMessage(player, message);
-        }
-
-        GetMultiTerritoriesConfig().DiagnosticLog("Territory refreshed with nails. Time remaining: " + m_RefresherTimeRemaining);
-    }
-
     void SynchronizeRefresherTime()
     {
         if (!GetGame().IsServer())

@@ -667,8 +667,7 @@ void SyncTerritoryRateLimited()
 					return;
 				}
 
-				// Only the territory owner (or a server admin) may remove the floppydisk
-				if (!canSetOwner && !isOwner && !isServerAdmin)
+				if (!canSetOwner && !CheckPlayerPermission(guid, TerritoryPerm.ADMIN))
 				{
 					return;
 				}

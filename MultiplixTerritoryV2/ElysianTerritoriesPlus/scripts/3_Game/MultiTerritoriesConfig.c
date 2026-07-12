@@ -3,7 +3,7 @@ class MultiTerritoriesConfig
 	protected static string DirPATH = "$profile:Multiplix";
 	protected static string ConfigPATH = DirPATH + "\\MultiTerritoriesConfig.json";
 
-	string ConfigVersion = "5";
+	string ConfigVersion = "4";
 	ref TStringArray WhiteList = 
 	{ 
 		"Trap",
@@ -36,8 +36,7 @@ class MultiTerritoriesConfig
 	int TerritoryDiagnostics = 0;
 	float ProtectionRadius = 0;
 	float FloppyHealthDrainMultiplier = 1.0;
-	float FloppyLifetimeDays = 7; // Maximum territory life span in days before it decays away
-	float DecayWarningIntervalHours = 2.5; // How often the decay warning is sent to the owning group
+	float FloppyLifetimeDays = 0;
 	int ProtectionRefreshIntervalSeconds = 0;
 	int AllowPublicBuildOutsideTerritoryWarnings = 1;
 	int MaxMembersPerTerritory = 0;
@@ -52,9 +51,6 @@ class MultiTerritoriesConfig
     string DismantleWarningMessage          = "You cannot dismantle structures near an active flag!";
     string LowerFlagWarningMessage          = "You don't have the authorization to lower this territory's flag!";
     string TerritoryRequiredWarningMessage  = "A territory is required before you can start building here!";
-    string GroupRequiredWarningMessage      = "You must be in a group before you can create a territory!";
-    string TerritoryRefreshedMessage        = "Territory refreshed! The decay countdown has been reset to $DAYS$ days.";
-    string DecayWarningMessage              = "$GROUP$ has $HOURS$ hours left before your base decays away, have you found any nails to prevent this?";
 
 	
 	int FlagRefreshFrequency = 432000;
@@ -159,17 +155,9 @@ class MultiTerritoriesConfig
 			if (FileExist(ConfigPATH))
 			{ //If config exist load File
 			    JsonFileLoader<MultiTerritoriesConfig>.JsonLoadFile(ConfigPATH, this);
-				if (ConfigVersion != "5")
+				if (ConfigVersion != "4")
 				{
-					ConfigVersion = "5";
-					if (FloppyLifetimeDays <= 0)
-					{
-						FloppyLifetimeDays = 7;
-					}
-					if (DecayWarningIntervalHours <= 0)
-					{
-						DecayWarningIntervalHours = 2.5;
-					}
+					ConfigVersion = "4";
 					Save();
 				}
 
@@ -271,17 +259,6 @@ class MultiTerritoriesConfig
 		}
 
 		return defaultDuration * FloppyHealthDrainMultiplier;
-	}
-
-	int GetDecayWarningIntervalMs()
-	{
-		float hours = DecayWarningIntervalHours;
-		if (hours <= 0)
-		{
-			hours = 2.5;
-		}
-
-		return hours * 3600 * 1000;
 	}
 
 	bool ShouldWarnOutsideTerritoryBuild()
