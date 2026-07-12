@@ -1,0 +1,250 @@
+FrameWidgetClass rootFrame {
+ size 1 1
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  TextWidgetClass TextHeadCategories {
+   ignorepointer 1
+   position 0 0
+   size 0.24 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Market Categories"
+  }
+  TextListboxWidgetClass list_categories {
+   position 0 22
+   size 0.24 0.88
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+  }
+  ButtonWidgetClass btn_refresh {
+   position 0 0.92
+   size 0.24 24
+   hexactpos 1
+   vexactpos 0
+   hexactsize 0
+   vexactsize 1
+   text "Refresh From Server"
+  }
+  TextWidgetClass TextHeadItems {
+   ignorepointer 1
+   position 0.26 0
+   size 0.40 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Items (name | buy | sell% | stock)"
+  }
+  EditBoxWidgetClass edit_search {
+   position 0.26 22
+   size 0.40 22
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+  }
+  TextListboxWidgetClass list_items {
+   position 0.26 46
+   size 0.40 0.86
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+  }
+  TextWidgetClass TextHeadEditor {
+   ignorepointer 1
+   position 0.68 0
+   size 0.32 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Item Editor"
+  }
+  TextWidgetClass txt_item_name {
+   ignorepointer 1
+   position 0.68 22
+   size 0.32 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "- no item selected -"
+  }
+  TextWidgetClass TextMinPrice {
+   ignorepointer 1
+   position 0.68 50
+   size 0.17 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Min Price (buy)"
+  }
+  EditBoxWidgetClass edit_min_price {
+   position 0.86 50
+   size 0.13 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+  }
+  TextWidgetClass TextMaxPrice {
+   ignorepointer 1
+   position 0.68 74
+   size 0.17 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Max Price (buy)"
+  }
+  EditBoxWidgetClass edit_max_price {
+   position 0.86 74
+   size 0.13 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+  }
+  TextWidgetClass TextSellPercent {
+   ignorepointer 1
+   position 0.68 98
+   size 0.17 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Sell Price % (-1 = default)"
+  }
+  EditBoxWidgetClass edit_sell_percent {
+   position 0.86 98
+   size 0.13 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+  }
+  TextWidgetClass TextMinStock {
+   ignorepointer 1
+   position 0.68 122
+   size 0.17 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Min Stock Threshold"
+  }
+  EditBoxWidgetClass edit_min_stock {
+   position 0.86 122
+   size 0.13 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+  }
+  TextWidgetClass TextMaxStock {
+   ignorepointer 1
+   position 0.68 146
+   size 0.17 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Max Stock Threshold"
+  }
+  EditBoxWidgetClass edit_max_stock {
+   position 0.86 146
+   size 0.13 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+  }
+  TextWidgetClass TextQuantity {
+   ignorepointer 1
+   position 0.68 170
+   size 0.17 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Quantity % (-1 = default)"
+  }
+  EditBoxWidgetClass edit_quantity_percent {
+   position 0.86 170
+   size 0.13 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+  }
+  TextWidgetClass TextStock {
+   ignorepointer 1
+   position 0.68 194
+   size 0.17 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Current Stock (zones)"
+  }
+  EditBoxWidgetClass edit_stock {
+   position 0.86 194
+   size 0.13 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+  }
+  ButtonWidgetClass btn_apply {
+   position 0.68 230
+   size 0.31 26
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Apply + Save + Sync"
+  }
+  ButtonWidgetClass btn_set_stock {
+   position 0.68 260
+   size 0.31 26
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Set Stock Only"
+  }
+  ButtonWidgetClass btn_reload_cat {
+   position 0.68 290
+   size 0.31 26
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Reload Category File From Disk"
+  }
+  TextWidgetClass txt_status {
+   ignorepointer 1
+   position 0.68 0.92
+   size 0.32 40
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 1
+   text ""
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}
