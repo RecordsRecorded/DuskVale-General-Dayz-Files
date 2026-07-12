@@ -1,16 +1,16 @@
 {
     "m_Version": 8,
-    "m_TraderID": 1,
+    "m_TraderID": 2,
     "m_ClassName": "ExpansionP2PTraderNaomi",
     "m_Position": [
-        6005.168945,
-        392.563477,
-        3947.811035
+        546.433105,
+        198.899002,
+        7913.76123
     ],
     "m_Orientation": [
-        -81.000366,
-        0.181265,
-        0.028708
+        -108.0,
+        -0.0,
+        -0.0
     ],
     "m_LoadoutFile": "YellowKingLoadout",
     "m_VehicleSpawnPosition": [
