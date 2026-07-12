@@ -1,0 +1,403 @@
+<inputs>
+
+	<!-- Sensitivity modificators -->
+	<modificator name="aiming">
+		<val name="vert" value="1.0" />
+		<val name="horz" value="1.0" />
+		<val name="rvert" value="1.25" minValue="0.5" maxValue="2.0" function="hybrid" />
+		<val name="rhorz" value="1.25" minValue="0.5" maxValue="2.0" function="hybrid" />
+		<val name="rcurv" value="0.5" minValue="0.1" maxValue="1.0" />
+	</modificator>
+	<modificator name="vehicle">
+		<val name="lhorz" value="1.0" />
+	</modificator>
+	
+	<!-- Control context -->
+	<context name="ironsights">
+		<input name="UALeanLeft" />
+		<input name="UALeanRight" />
+		<input name="UALeanLeftGamepad" />
+		<input name="UALeanRightGamepad" />
+		<input name="UAPersonCamSwitchSide" />
+		<input name="UAHoldBreath" />
+		<input name="UAHoldBreathToggle" />
+		<input name="UAZoomInOptics" />
+		<input name="UAZoomOutOptics" />
+	</context>
+
+	<context name="melee">
+		<input name="UAHeavyMeleeAttack" />
+	</context>
+
+	<context name="gun">
+		<input name="UAZeroingUp" />
+		<input name="UAZeroingDown" />
+		<input name="UAToggleWeapons" />
+	</context>
+
+  <context name="car">
+    <input name="UACarLeft" />
+    <input name="UACarRight" />
+    <input name="UACarForward" />
+    <input name="UACarBack" />
+    <input name="UACarShiftGearUp" />
+    <input name="UACarShiftGearDown" />
+    <input name="UAVehicleTurbo" />
+    <input name="UAVehicleSlow" />
+	<input name="UAToggleHeadlight" />
+	<input name="UAToggleNVG" />
+	<input name="UACarHorn" />
+  </context>
+
+  <context name="ui">
+    <input name="UAUILeft" />
+    <input name="UAUIRight" />
+    <input name="UAUIUp" />
+    <input name="UAUIDown" />
+    <input name="UAUISelect" />
+    <input name="UAUIBack" />
+    <input name="UAUICtrlX" />
+    <input name="UAUICtrlY" />
+    <input name="UAUITabLeft" />
+    <input name="UAUITabRight" />
+    <input name="UAUIRightStickHorizontal" />
+    <input name="UAUIRightStickVertical" />
+    <input name="UAUIRadialMenuPick" />
+    <input name="UAUIGesturesOpen" />
+    <input name="UAUIQuickbarRadialOpen" />
+    <input name="UAUIQuickbarRadialInventoryOpen" />
+    <input name="UAUINextUp" />
+    <input name="UAUINextDown" />
+    <input name="UAUIFastEquipOrSplit" />
+    <input name="UAUIFastTransferItem" />
+    <input name="UAUIFastTransferToVicinity" />
+    <input name="UAUIExpandCollapseContainer" />
+    <input name="UAUISelectItem" />
+    <input name="UAUIPadLeft" />
+    <input name="UAUIPadRight" />
+	<input name="UAUICopyDebugMonitorPos" />
+  </context>
+<!-- EXCLUDES -->
+  <exclude name="gestures">
+    <input name="UAGestureSlot01" />
+    <input name="UAGestureSlot02" />
+    <input name="UAGestureSlot03" />
+    <input name="UAGestureSlot04" />
+    <input name="UAGestureSlot05" />
+    <input name="UAGestureSlot06" />
+    <input name="UAGestureSlot07" />
+    <input name="UAGestureSlot08" />
+    <input name="UAGestureSlot09" />
+    <input name="UAGestureSlot10" />
+    <input name="UAGestureSlot11" />
+    <input name="UAGestureSlot12" />
+	<input name="EmoteGreeting"/>
+	<input name="EmoteSOS"/>
+	<input name="EmoteHeart"/>
+	<input name="EmoteTaunt"/>
+	<input name="EmoteLyingDown"/>
+	<input name="EmoteTauntKiss"/>
+	<input name="EmotePoint"/>
+	<input name="EmoteTauntElbow"/>
+	<input name="EmoteThumb"/>
+	<input name="EmoteThumbDown"/>
+	<input name="EmoteThroat"/>
+	<input name="EmoteDance"/>
+	<input name="EmoteSalute"/>
+	<input name="EmoteTimeout"/>
+	<!--<input name="EmoteDabbing"/>-->
+	<input name="EmoteFacepalm"/>
+	<input name="EmoteClap"/>
+	<input name="EmoteSilent"/>
+	<input name="EmoteWatching"/>
+	<input name="EmoteHold"/>
+	<input name="EmoteListening"/>
+	<input name="EmotePointSelf"/>
+	<input name="EmoteLookAtMe"/>
+	<input name="EmoteTauntThink"/>
+	<input name="EmoteMove"/>
+	<input name="EmoteGetDown"/>
+	<input name="EmoteCome"/>
+	<input name="EmoteSurrender"/>
+	<input name="EmoteCampfireSit"/>
+	<input name="EmoteSitA"/>
+	<input name="EmoteSitB"/>
+	<input name="EmoteRPSRandom"/>
+	<input name="EmoteRPSRock"/>
+	<input name="EmoteRPSPaper"/>
+	<input name="EmoteRPSScisors"/>
+	<input name="EmoteNod"/>
+	<input name="EmoteShake"/>
+	<input name="EmoteShrug"/>
+	<input name="EmoteSuicide"/>
+	<input name="EmoteVomit"/>
+  </exclude>
+
+  <exclude name="hotkey">
+    <input name="UAItem0" />
+    <input name="UAItem1" />
+    <input name="UAItem2" />
+    <input name="UAItem3" />
+    <input name="UAItem4" />
+    <input name="UAItem5" />
+    <input name="UAItem6" />
+    <input name="UAItem7" />
+    <input name="UAItem8" />
+    <input name="UAItem9" />
+  </exclude>
+
+  <exclude name="aiming">
+    <input name="UAAimLeft" />
+    <input name="UAAimRight" />
+    <input name="UAAimUp" />
+    <input name="UAAimDown" />
+  </exclude>
+
+  <exclude name="movement">
+    <input name="UAMoveForward" />
+    <input name="UAMoveBack" />
+    <input name="UAMoveLeft" />
+    <input name="UAMoveRight" />
+    <input name="UAWalkRunTemp" />
+    <!-- "walk" below are only used on consoles now? Remove if not needed -->
+    <input name="UAWalkForward" />
+    <input name="UAWalkBack" />
+    <input name="UAWalkLeft" />
+    <input name="UAWalkRight" />	
+    <input name="UACarLeft" />
+    <input name="UACarRight" />
+    <input name="UACarForward" />
+    <input name="UACarBack" />
+    <input name="UACarShiftGearUp" />
+    <input name="UACarShiftGearDown" />
+    <input name="UAVehicleTurbo" />
+    <input name="UAVehicleSlow" />
+	<input name="UAToggleHeadlight" />
+	<input name="UAToggleNVG" />
+    <input name="UATrackLeft" />
+    <input name="UATrackRight" />
+    <input name="UATrackUp" />
+    <input name="UATrackDown" />
+    <input name="UALeanLeft" />
+    <input name="UALeanRight" />
+	<input name="UALeanLeftGamepad" />
+	<input name="UALeanRightGamepad" />
+	<input name="UAPersonCamSwitchSide" />
+	<input name="UAEvasiveLeft" />
+    <input name="UAEvasiveRight" />
+  </exclude>
+
+  <exclude name="stances">
+    <input name="UAGetOver" />
+    <input name="UAStance" />
+    <input name="UAStand" />
+    <input name="UACrouch" />
+    <input name="UAProne" />
+  </exclude>
+
+  <exclude name="optics">
+    <input name="UAZeroingUp" />
+    <input name="UAZeroingDown" />
+    <input name="UAZoomIn" />
+    <input name="UAZoomInOptics" />
+    <input name="UAZoomOutOptics" />
+    <input name="UAZoomInToggle" />	
+  </exclude>
+
+  <exclude name="actions">
+    <input name="UATurbo" />
+    <input name="UAPersonView" />
+    <input name="UALookAround" />
+    <input name="UAFire" />
+    <input name="UAHeavyMeleeAttack" />
+    <input name="UADefaultAction" />
+    <input name="UAAction" />
+    <input name="UADropitem" />
+    <input name="UAThrowitem" />
+    <input name="UAToggleWeapons" />
+    <input name="UAUIQuickbarToggle" />
+    <input name="UATempRaiseWeapon" />
+    <input name="UATempRaiseWeaponGamepad" />
+    <input name="UAReloadMagazine" />
+	<input name="UAPrevActionCategory" />
+	<input name="UANextActionCategory" />
+	<input name="UACarHorn" />
+  </exclude>
+  
+  <!-- actions that allow for looking around, voice controls, LMB actions and RMB raise for 'cancel' reasons -->
+  <exclude name="actionslite">
+    <input name="UATurbo" />
+    <input name="UAFire" />
+    <input name="UAHeavyMeleeAttack" />
+    <input name="UAAction" />
+    <input name="UADropitem" />
+    <input name="UAThrowitem" />
+    <input name="UAToggleWeapons" />
+    <input name="UAUIQuickbarToggle" />
+    <input name="UAReloadMagazine" />
+	<input name="UAPrevActionCategory" />
+	<input name="UANextActionCategory" />
+  </exclude>
+
+  <!-- Inputs excluded when in inventory -->
+  <exclude name="inventory">
+    <include name="gestures" />  
+    <include name="aiming" />  
+    <include name="stances" />  
+    <include name="optics" />  
+    <include name="actions" />  
+	<input name="UAUIGesturesOpen" />
+  </exclude>
+
+  <!-- Inputs excluded when in main menu -->
+  <exclude name="inspect">
+    <include name="inventory" />
+  </exclude>
+
+  <!-- Inputs excluded when in main menu -->
+  <exclude name="menu">
+    <include name="inventory" />
+    <include name="hotkey" />  
+    <include name="movement" />
+    <input name="UAGear" />
+	<input name="UAVoiceLevel" />
+	<input name="UAVoiceModifierHelper" />
+	<input name="UAVoiceDistanceUp" />
+	<input name="UAVoiceDistanceDown" />
+	<input name="UAVoiceOverNet" />
+	<input name="UAVoiceOverNetToggle" />
+	<input name="UAVoiceOverNetMute" />
+	<!--Buldozer-->
+	<input name="UABuldResetCamera" />
+	<input name="UABuldTurbo" />
+	<input name="UABuldSlow" />
+	<input name="UABuldRunScript" />
+	<input name="UABuldSelectToggle" />
+	<input name="UABuldFreeLook" />
+	<input name="UABuldSelect" />
+	<input name="UABuldSelectAddMod" />
+	<input name="UABuldSelectRemoveMod" />
+	<input name="UABuldModifySelected" />
+	<input name="UABuldCycleMod" />
+	<input name="UABuldRotationXAxisMod" />
+	<input name="UABuldRotationZAxisMod" />
+	<input name="UABuldCoordModCycle" />
+	<input name="UABuldSampleTerrainHeight" />
+	<input name="UABuldSetTerrainHeight" />
+	<input name="UABuldScaleMod" />
+	<input name="UABuldElevateMod" />
+	<input name="UABuldSmoothMod" />
+	<input name="UABuldFlattenMod" />
+	<input name="UABuldBrushRatioUp" />
+	<input name="UABuldBrushRatioDown" />
+	<input name="UABuldBrushOuterUp" />
+	<input name="UABuldBrushOuterDown" />
+	<input name="UABuldBrushStrengthUp" />
+	<input name="UABuldBrushStrengthDown" />
+	<input name="UABuldToggleNearestObjectArrow" />
+	<input name="UABuldCycleBrushMod" />
+	<input name="UABuldSelectionType" />
+	<input name="UABuldCreateLastSelectedObject" />
+	<input name="UABuldDuplicateSelection" />
+	<input name="UABuldDeleteSelection" />
+	<input name="UABuldUndo" />
+	<input name="UABuldRedo" />
+	<input name="UABuldMoveLeft" />
+	<input name="UABuldMoveRight" />
+	<input name="UABuldMoveForward" />
+	<input name="UABuldMoveBack" />
+	<input name="UABuldMoveUp" />
+	<input name="UABuldMoveDown" />
+	<input name="UABuldLeft" />
+	<input name="UABuldRight" />
+	<input name="UABuldForward" />
+	<input name="UABuldBack" />
+	<input name="UABuldLookLeft" />
+	<input name="UABuldLookRight" />
+	<input name="UABuldLookUp" />
+	<input name="UABuldLookDown" />
+	<input name="UABuldZoomIn" />
+	<input name="UABuldZoomOut" />
+	<input name="UABuldTextureInfo" />
+	<input name="UABuldViewerMoveForward" />
+	<input name="UABuldViewerMoveBack" />
+	<input name="UABuldViewerMoveLeft" />
+	<input name="UABuldViewerMoveRight" />
+	<input name="UABuldViewerMoveUp" />
+	<input name="UABuldViewerMoveDown" />
+	<input name="UABuldObjectRotateLeft" />
+	<input name="UABuldObjectRotateRight" />
+	<input name="UABuldObjectRotateForward" />
+	<input name="UABuldObjectRotateBack" />
+	<input name="UABuldPreviousAnimation" />
+	<input name="UABuldNextAnimation" />
+	<input name="UABuldRecedeAnimation" />
+	<input name="UABuldAdvanceAnimation" />
+	<input name="UABuldAlignToTerrain" />
+  </exclude>
+  
+  <!-- Inputs excluded when in map -->
+  <exclude name="map">
+    <include name="menu" />
+  </exclude>
+  
+  <!-- Inputs excluded when in gamepad disconnect warning screen -->
+  <exclude name="gamepaddisconnect">
+    <include name="menu" />
+  </exclude>
+	
+  <!-- Inputs excluded when in radial menu -->
+  <exclude name="radialmenu">
+    <include name="hotkey" />  
+    <include name="gestures" />  
+    <include name="aiming" />  
+    <!-- <include name="movement" /> -->
+    <include name="stances" />  
+    <include name="optics" />  
+    <include name="actions" />  
+    <input name="UAGear" />
+    <input name="UAUIMenu" />
+	<input name="UAUIQuickbarRadialInventoryOpen" />
+  </exclude>
+  
+  <!-- Inputs excluded when in looped action states (map) -->
+  <exclude name="loopedactions">
+    <!-- <include name="inventory" /> -->
+	<include name="hotkey" />
+	<include name="gestures" />
+	<include name="stances" />
+	<!-- <include name="optics" /> -->
+	<include name="actionslite" />
+	<input name="UAUIGesturesOpen" />
+	<input name="UAUIQuickbarRadialOpen" />
+	<input name="UAUIQuickbarRadialInventoryOpen" />
+  </exclude>
+  
+  <!-- Inputs excluded when driving vehidle (any seat) -->
+  <exclude name="vehicledriving">
+	<input name="UATempRaiseWeapon" />
+	<input name="UATempRaiseWeaponGamepad" />
+  </exclude>
+  
+  <!-- Inputs excluded when swimming -->
+  <exclude name="swimming">
+	<input name="UATempRaiseWeapon" />
+	<input name="UATempRaiseWeaponGamepad" />
+  </exclude>
+  
+  <!-- Inputs excluded when climbing ladder -->
+  <exclude name="ladderclimbing">
+	<input name="UATempRaiseWeapon" />
+	<input name="UATempRaiseWeaponGamepad" />
+  </exclude>
+  
+  <!-- Inputs excluded when using the ActionViewOptics -->
+  <exclude name="actonViewOpticExcl">
+	<input name="UAGetOver" />
+  </exclude>
+  
+  <exclude name="sprintExcl">
+	<input name="UALeanLeft" />
+	<input name="UALeanRight" />
+  </exclude>
+</inputs>

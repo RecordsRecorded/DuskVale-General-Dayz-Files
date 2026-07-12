@@ -1,0 +1,139 @@
+FrameWidgetClass rootFrame {
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  ItemPreviewWidgetClass item_preview {
+   ignorepointer 0
+   position 0 20
+   size 0.4 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scriptclass "LBGapHandler"
+   {
+    ScriptParamsClass {
+     gapVertical 40
+    }
+   }
+  }
+  ScrollWidgetClass ScrollWidget0 {
+   ignorepointer 1
+   position 0.4 0
+   size 0.3 1
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scriptclass "LBGapHandler"
+   "Scrollbar V" 1
+   {
+    WrapSpacerWidgetClass parts_list {
+     ignorepointer 1
+     size 1 10
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     "Size To Content V" 1
+    }
+   }
+   {
+    ScriptParamsClass {
+     gapVertical 20
+    }
+   }
+  }
+  ButtonWidgetClass btn_apply {
+   size 100 20
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#apply"
+  }
+  TextWidgetClass TextWidget0 {
+   ignorepointer 1
+   position 0 5
+   size 0.3 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_saved_presets"
+   "text halign" center
+   "text valign" center
+  }
+  ButtonWidgetClass btn_save_preset {
+   position 100 0
+   size 200 20
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_save_preset"
+  }
+  ButtonWidgetClass btn_delete {
+   position 300 0
+   size 200 20
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_delete_preset"
+  }
+  TextListboxWidgetClass list_presets {
+   position 0 30
+   size 0.3 1
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scriptclass "LBGapHandler"
+   font "gui/fonts/Metron28"
+   {
+    ScriptParamsClass {
+     gapVertical 50
+    }
+   }
+  }
+  ButtonWidgetClass btn_fav {
+   position 500 0
+   size 200 20
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_set_favorite"
+  }
+  ButtonWidgetClass btn_select_item {
+   size 0.4 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_select_item"
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

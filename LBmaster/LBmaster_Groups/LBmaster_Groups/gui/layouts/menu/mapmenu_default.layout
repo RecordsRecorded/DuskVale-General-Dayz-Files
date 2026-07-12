@@ -1,0 +1,317 @@
+FrameWidgetClass rootFrame {
+ position 0 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ {
+  PanelWidgetClass MapNotFound {
+   ignorepointer 1
+   color 0.2745 0.2745 0.2745 0.6549
+   position 10 10
+   size 1 1
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scriptclass "LBGapHandler"
+   style rover_sim_colorable
+   {
+    ImageWidgetClass mapNotFoundImage {
+     clipchildren 0
+     ignorepointer 1
+     size 512 512
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     imageTexture "{68950FEC12524FA2}LBmaster_Groups/gui/images/missing.edds"
+     mode additive
+     "src alpha" 1
+     "stretch mode" stretch_w_h
+     {
+      TextWidgetClass mapNotFoundText {
+       ignorepointer 1
+       size 3 60
+       halign center_ref
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_group_map_not_found"
+       "text halign" center
+       "text valign" center
+      }
+     }
+    }
+   }
+   {
+    ScriptParamsClass {
+     gapHorizontal 470
+     gapVertical 60
+    }
+   }
+  }
+  PanelWidgetClass MapParent {
+   ignorepointer 1
+   position 10 10
+   size 1 1
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scriptclass "LBGapHandler"
+   {
+    MapWidgetClass Map {
+     visible 1
+     position 0 0
+     size 1 1
+     halign right_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     priority 5
+     scriptclass ""
+     {
+      PanelWidgetClass iconPane {
+       ignorepointer 1
+       position 0 0
+       size 1 1
+       halign right_ref
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       priority 399
+      }
+      CanvasWidgetClass drawCanvas {
+       ignorepointer 1
+       position 0 0
+       size 1 1
+       halign right_ref
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       priority 398
+      }
+      PanelWidgetClass mapLegendParent {
+       ignorepointer 1
+       position 10 10
+       size 300 600
+       halign right_ref
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       priority 430
+       style LB_Clean_outline
+       {
+        PanelWidgetClass mapLegend {
+         ignorepointer 1
+         color 0.2706 0.2706 0.2706 0.6235
+         size 1 48
+         halign center_ref
+         valign bottom_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         priority 450
+         style rover_sim_colorable
+        }
+       }
+      }
+     }
+    }
+   }
+   {
+    ScriptParamsClass {
+     gapHorizontal 470
+     gapVertical 60
+    }
+   }
+  }
+  PanelWidgetClass leftPanel {
+   clipchildren 0
+   ignorepointer 1
+   color 0.2039 0.2039 0.2039 0.6745
+   position 10 210
+   size 440 0.76
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 0
+   style LB_Clean_outline
+   {
+    ImageWidgetClass logo {
+     ignorepointer 1
+     position 0 -210
+     size 200 200
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     mode blend
+     "src alpha" 1
+     "stretch mode" stretch_w_h
+    }
+    CheckBoxWidgetClass chckbx_dragMarkers {
+     position 0 -40
+     size 1 25
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_drag_markers"
+    }
+    GridSpacerWidgetClass playerPosPanel {
+     ignorepointer 1
+     position 0 -40
+     size 200 30
+     halign right_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     Columns 2
+     Rows 1
+     {
+      TextWidgetClass txt_pos_x {
+       ignorepointer 1
+       position 0.28 141
+       size 0.245 30
+       halign right_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+      }
+      TextWidgetClass txt_pos_y {
+       ignorepointer 1
+       position 0.025 141
+       size 0.245 30
+       halign right_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+      }
+     }
+    }
+    TextWidgetClass txt_streamer_mode {
+     visible 0
+     ignorepointer 1
+     color 1 0 0 1
+     position 0 -30
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Streamer Mode enabled in Settings"
+     font "gui/fonts/sdf_MetronBook72"
+     "text color" 1 0 0 1
+     "outline size" 1
+     "outline color" 0 0 0 1
+     "exact text" 1
+     "exact text size" 18
+     "text halign" center
+    }
+   }
+  }
+  ScrollWidgetClass topPanel {
+   ignorepointer 1
+   color 0.0784 0.0784 0.0784 0.0784
+   position 10 10
+   size 1 50
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scriptclass "LBGapHandler"
+   style blank
+   "no focus" 1
+   "Scrollbar H" 1
+   {
+    PanelWidgetClass PanelWidget01 {
+     ignorepointer 1
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+    }
+    GridSpacerWidgetClass topPanelContent {
+     ignorepointer 1
+     size 50 1
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     Padding 0
+     Margin 0
+     "Size To Content H" 1
+     "Size To Content V" 1
+     Columns 30
+     Rows 1
+    }
+   }
+   {
+    ScriptParamsClass {
+     gapHorizontal 470
+    }
+   }
+  }
+  PanelWidgetClass fullPanel {
+   ignorepointer 1
+   color 0.2039 0.2039 0.2039 0.6745
+   position 0 10
+   size 0.99 1
+   halign center_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scriptclass "LBGapHandler"
+   style LB_Clean_outline
+   {
+    ScriptParamsClass {
+     gapVertical 60
+    }
+   }
+  }
+  PanelWidgetClass ident_mapmenu {
+   visible 0
+   ignorepointer 1
+   position 10 10
+   size 48 48
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+  }
+ }
+}

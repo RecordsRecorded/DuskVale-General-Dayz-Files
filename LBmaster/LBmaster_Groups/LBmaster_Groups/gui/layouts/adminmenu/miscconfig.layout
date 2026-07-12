@@ -1,0 +1,514 @@
+FrameWidgetClass rootFrame {
+ position 0 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  PanelWidgetClass PanelWidget3 {
+   visible 1
+   ignorepointer 1
+   position -255 20
+   size 500 460
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style blank
+   {
+    TextWidgetClass TextWidget3 {
+     ignorepointer 1
+     size 1 40
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Map Legend"
+     "text halign" center
+    }
+    CheckBoxWidgetClass chckbx_enable_legend {
+     position 0 30
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Enable Map Legend"
+    }
+    TextWidgetClass TextWidget2 {
+     ignorepointer 1
+     position 0 50
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Legend Title: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_legend_title {
+     position 0.3 50
+     size 0.7 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextListboxWidgetClass list_legend {
+     position 0 70
+     size 1 200
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     lines 10
+    }
+    ButtonWidgetClass btn_add_legend {
+     position 0 270
+     size 0.4 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Add Legend Item"
+    }
+    ButtonWidgetClass btn_del_legend {
+     position 0 270
+     size 0.4 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Delete Legend Item"
+    }
+    TextWidgetClass TextWidget22 {
+     ignorepointer 1
+     position 0 300
+     size 0.15 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Icon: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_legend_icon {
+     position 0.15 300
+     size 0.75 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    ImageWidgetClass legend_icon {
+     ignorepointer 1
+     position 0 290
+     size 30 30
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     mode blend
+     "src alpha" 1
+     "stretch mode" stretch_w_h
+     {
+      ButtonWidgetClass btn_legend_icon {
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       {
+        PanelWidgetClass PanelWidget29 {
+         ignorepointer 1
+         size 1 1
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 0
+         style LB_Clean_outline
+        }
+       }
+      }
+     }
+    }
+    TextWidgetClass TextWidget23 {
+     ignorepointer 1
+     position 0 340
+     size 0.15 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Text: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_legend_text {
+     position 0.15 340
+     size 0.75 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    ButtonWidgetClass btn_change_color_icon {
+     position 0 320
+     size 200 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Change Color..."
+     {
+      PanelWidgetClass panel_icon_color {
+       ignorepointer 1
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       style LB_Clean_outline
+      }
+     }
+    }
+    ButtonWidgetClass btn_change_color_text {
+     position 0 360
+     size 200 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Change Color..."
+     {
+      PanelWidgetClass panel_text_color {
+       ignorepointer 1
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       style LB_Clean_outline
+      }
+     }
+    }
+    TextWidgetClass TextWidget0 {
+     ignorepointer 1
+     position 0 400
+     size 1 40
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Map Menu"
+     "text halign" center
+    }
+    CheckBoxWidgetClass chckbx_disable_map_menu {
+     position 0 440
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Disable Map Menu (M)"
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget4 {
+   visible 1
+   ignorepointer 1
+   position 255 20
+   size 500 670
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style blank
+   {
+    TextWidgetClass TextWidget4 {
+     ignorepointer 1
+     size 1 40
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Items"
+     "text halign" center
+    }
+    CheckBoxWidgetClass chckbx_compass {
+     position 0 30
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Enable Compass"
+    }
+    CheckBoxWidgetClass chckbx_compass_item {
+     position 0 50
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Compass requires one of the items below"
+    }
+    TextListboxWidgetClass list_compass_items {
+     position 0 70
+     size 0.7 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    ButtonWidgetClass btn_add_compass {
+     position 0 70
+     size 0.3 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Add Item..."
+    }
+    ButtonWidgetClass btn_del_compass {
+     position 0 90
+     size 0.3 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Remove Item"
+    }
+    CheckBoxWidgetClass chckbx_gps {
+     position 0 170
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Enable GPS / Minimap"
+    }
+    CheckBoxWidgetClass chckbx_gps_heading {
+     position 0 190
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Show Heading Angle on GPS"
+    }
+    CheckBoxWidgetClass chckbx_gps_speed {
+     position 0 210
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Show Speed on GPS"
+    }
+    CheckBoxWidgetClass chckbx_gps_coords {
+     position 0 230
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Show Coordinates on GPS"
+    }
+    CheckBoxWidgetClass chckbx_gps_item {
+     position 0 250
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "GPS requires one of the items below"
+    }
+    TextListboxWidgetClass list_gps_items {
+     position 0 270
+     size 0.7 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    ButtonWidgetClass btn_add_gps {
+     position 0 270
+     size 0.3 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Add Item..."
+    }
+    ButtonWidgetClass btn_del_gps {
+     position 0 290
+     size 0.3 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Remove Item"
+    }
+    CheckBoxWidgetClass chckbx_gps_item_veh {
+     position 0 370
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "GPS only available in Vehicles and not outside of vehicles"
+    }
+    TextListboxWidgetClass list_gps_vehicles {
+     position 0 410
+     size 0.7 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    ButtonWidgetClass btn_add_vehicle {
+     position 0 410
+     size 0.3 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Add Item..."
+    }
+    ButtonWidgetClass btn_del_vehicle {
+     position 0 430
+     size 0.3 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Remove Item"
+    }
+    TextWidgetClass TextWidget26 {
+     ignorepointer 1
+     position 0 390
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Vehicles equiped with a GPS and not requiring a special item"
+    }
+    CheckBoxWidgetClass chckbx_map_item {
+     position 0 510
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Viewing the Map requires an item from the list below"
+    }
+    TextListboxWidgetClass list_map_items {
+     position 0 530
+     size 0.7 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    ButtonWidgetClass btn_add_map {
+     position 0 530
+     size 0.3 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Add Item..."
+    }
+    ButtonWidgetClass btn_del_map {
+     position 0 550
+     size 0.3 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Remove Item"
+    }
+    TextWidgetClass TextWidget27 {
+     ignorepointer 1
+     position 0 630
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Map not found text: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_map_not_found_txt {
+     position 0.3 630
+     size 0.7 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget28 {
+     ignorepointer 1
+     position 0 650
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Not found image: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_map_not_found_img {
+     position 0.3 650
+     size 0.6 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    ButtonWidgetClass btn_not_found_browse {
+     position 0 650
+     size 0.1 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "..."
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

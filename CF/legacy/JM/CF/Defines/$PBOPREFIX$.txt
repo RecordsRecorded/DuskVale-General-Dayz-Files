@@ -1,0 +1,8 @@
+//<'legacy.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=JM\CF\Defines;
+Mikero=DePbo.dll.7.95;
+product=dayz ugc;
+version=145;
+PboType=Arma Addon;
+//PboType=Arma Addon;
+//</properties>

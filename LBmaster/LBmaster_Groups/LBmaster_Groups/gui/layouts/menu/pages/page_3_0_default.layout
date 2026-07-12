@@ -1,0 +1,1329 @@
+PanelWidgetClass rootFrame {
+ position 0 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  PanelWidgetClass layoutSettingsPanel {
+   visible 0
+   ignorepointer 1
+   position 0.025 0.025
+   size 0.45 0.45
+   hexactpos 0
+   vexactpos 0
+   hexactsize 0
+   vexactsize 0
+   style LB_Clean_outline
+   {
+    TextWidgetClass TextWidget0 {
+     ignorepointer 1
+     position 0 10
+     size 0.9 50
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_layout_styles"
+     "text halign" center
+     "text valign" center
+    }
+    PanelWidgetClass availableLayoutsPicker {
+     ignorepointer 1
+     size 0.5 0.88
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style LB_Clean_outline
+     {
+      TextWidgetClass TextWidget19 {
+       ignorepointer 1
+       position 0 5
+       size 1 30
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_available"
+       "text halign" center
+       "text valign" center
+      }
+      TextListboxWidgetClass availableLayoutsListStyles {
+       position 0 10
+       size 0.95 0.88
+       halign center_ref
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       lines 20
+      }
+     }
+    }
+    PanelWidgetClass availableLayoutsPicker0 {
+     ignorepointer 1
+     position 0 0
+     size 0.5 0.88
+     halign right_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style LB_Clean_outline
+     {
+      XComboBoxWidgetClass comboBoxStyle {
+       position 0 40
+       size 0.95 30
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+      }
+      TextWidgetClass TextWidget110 {
+       ignorepointer 1
+       position 0 5
+       size 1 30
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_pick_style"
+       "text halign" center
+       "text valign" center
+      }
+      ButtonWidgetClass toDefaultStyle {
+       position 5 10
+       size 0.435 30
+       halign right_ref
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_default"
+      }
+     }
+    }
+   }
+  }
+  PanelWidgetClass colorSettingsPanel {
+   ignorepointer 1
+   position 10 10
+   size 0.5 0.5
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scriptclass "LBGapHandler"
+   style LB_Clean_outline
+   {
+    TextWidgetClass TextWidget1 {
+     ignorepointer 1
+     position 0 10
+     size 0.9 50
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_color_settings"
+     "text halign" center
+     "text valign" center
+    }
+    PanelWidgetClass colorLeft {
+     ignorepointer 1
+     size 0.5 0.88
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style LB_Clean_outline
+     {
+      TextWidgetClass TextWidget2 {
+       ignorepointer 1
+       position 0 5
+       size 1 30
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_available"
+       "text halign" center
+       "text valign" center
+      }
+      TextListboxWidgetClass availableColors {
+       position 0 10
+       size 0.95 0.88
+       halign center_ref
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       lines 20
+      }
+     }
+    }
+    PanelWidgetClass colorRight {
+     ignorepointer 1
+     size 0.5 0.88
+     halign right_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style LB_Clean_outline
+     {
+      TextWidgetClass TextWidget3 {
+       ignorepointer 1
+       position 0 5
+       size 1 30
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_color_picker"
+       "text halign" center
+       "text valign" center
+      }
+      ButtonWidgetClass toDefault {
+       position 5 5
+       size 0.435 30
+       halign right_ref
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_default"
+      }
+      PanelWidgetClass colorPickerAlpha {
+       ignorepointer 1
+       position 0 40
+       size 0.97 0.18
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       style blank
+       {
+        TextWidgetClass TextWidget4 {
+         ignorepointer 1
+         position 0 0
+         size 1 25
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_channel_alpha"
+        }
+        SliderWidgetClass sliderA {
+         position 0 23
+         size 1 25
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         maximum 255
+         current 255
+         "fill in" 1
+        }
+        WrapSpacerWidgetClass WrapSpacerWidget0 {
+         ignorepointer 1
+         size 1 25
+         valign bottom_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         {
+          TextWidgetClass TextWidget5 {
+           ignorepointer 1
+           position 10 10
+           size 0.3 1
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           text "#lb_value_0_255"
+           "size to text h" 1
+           "size to text v" 1
+          }
+          EditBoxWidgetClass editA {
+           size 0.3 0.8
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass colorPickerRed {
+       ignorepointer 1
+       position 0 125
+       size 0.97 0.18
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       {
+        TextWidgetClass TextWidget6 {
+         ignorepointer 1
+         position 0 0
+         size 1 25
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_channel_red"
+        }
+        SliderWidgetClass sliderR {
+         color 1 0 0 1
+         position 0 23
+         size 1 25
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         maximum 255
+         current 255
+         "fill in" 1
+        }
+        WrapSpacerWidgetClass WrapSpacerWidget1 {
+         ignorepointer 1
+         size 1 25
+         valign bottom_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         {
+          TextWidgetClass TextWidget7 {
+           ignorepointer 1
+           position 10 10
+           size 0.3 1
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           text "#lb_value_0_255"
+           "size to text h" 1
+           "size to text v" 1
+          }
+          EditBoxWidgetClass editR {
+           size 0.3 0.8
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass colorPickerGreen {
+       ignorepointer 1
+       position 0 210
+       size 0.97 0.18
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       {
+        TextWidgetClass TextWidget8 {
+         ignorepointer 1
+         position 0 0
+         size 1 25
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_channel_green"
+        }
+        SliderWidgetClass sliderG {
+         color 0 1 0 1
+         position 0 23
+         size 1 25
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         maximum 255
+         current 255
+         "fill in" 1
+        }
+        WrapSpacerWidgetClass WrapSpacerWidget2 {
+         ignorepointer 1
+         size 1 25
+         valign bottom_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         {
+          TextWidgetClass TextWidget9 {
+           ignorepointer 1
+           position 10 10
+           size 0.3 1
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           text "#lb_value_0_255"
+           "size to text h" 1
+           "size to text v" 1
+          }
+          EditBoxWidgetClass editG {
+           size 0.3 0.8
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass colorPickerBlue {
+       ignorepointer 1
+       position 0 295
+       size 0.97 0.18
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       {
+        TextWidgetClass TextWidget10 {
+         ignorepointer 1
+         position 0 0
+         size 1 25
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_channel_blue"
+        }
+        SliderWidgetClass sliderB {
+         color 0 0 1 1
+         position 0 23
+         size 1 25
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         maximum 255
+         current 255
+         "fill in" 1
+        }
+        WrapSpacerWidgetClass WrapSpacerWidget3 {
+         ignorepointer 1
+         position 0 0
+         size 1 25
+         valign bottom_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         {
+          TextWidgetClass TextWidget11 {
+           ignorepointer 1
+           position 10 0
+           size 0.3 1
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           text "#lb_value_0_255"
+           "size to text h" 1
+           "size to text v" 1
+          }
+          EditBoxWidgetClass editB {
+           size 0.3 0.8
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass colorPreview {
+       ignorepointer 1
+       position 5 5
+       size 0.435 25
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       style rover_sim_colorable
+      }
+     }
+    }
+   }
+   {
+    ScriptParamsClass {
+     gapHorizontal 15
+     gapVertical 15
+    }
+   }
+  }
+  PanelWidgetClass layoutPositions {
+   ignorepointer 1
+   position 10 10
+   size 0.5 0.5
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scriptclass "LBGapHandler"
+   style LB_Clean_outline
+   {
+    TextWidgetClass TextWidget14 {
+     ignorepointer 1
+     position 0 10
+     size 0.9 50
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_layout_positions"
+     "text halign" center
+     "text valign" center
+    }
+    PanelWidgetClass availableLayouts {
+     ignorepointer 1
+     size 0.5 0.88
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style LB_Clean_outline
+     {
+      TextWidgetClass TextWidget15 {
+       ignorepointer 1
+       position 0 5
+       size 1 30
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_available"
+       "text halign" center
+       "text valign" center
+      }
+      TextListboxWidgetClass availableLayoutsList {
+       position 0 10
+       size 0.95 0.88
+       halign center_ref
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       lines 20
+      }
+     }
+    }
+    PanelWidgetClass PanelWidget0 {
+     ignorepointer 1
+     size 0.5 0.88
+     halign right_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     style LB_Clean_outline
+     {
+      TextWidgetClass TextWidget16 {
+       ignorepointer 1
+       position 0 5
+       size 1 30
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_preview"
+       "text halign" center
+       "text valign" center
+      }
+      PanelWidgetClass previewPanel {
+       ignorepointer 1
+       position 0.02 40
+       size 0.88 0.48
+       halign right_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       style LB_Clean_outline
+       {
+        PanelWidgetClass previewIcon {
+         ignorepointer 1
+         position 0.05 0.1
+         size 15 15
+         hexactpos 0
+         vexactpos 0
+         hexactsize 1
+         vexactsize 1
+         style rover_sim_colorable
+        }
+       }
+      }
+      PanelWidgetClass PanelWidget1 {
+       ignorepointer 1
+       position 0 5
+       size 1 0.4
+       halign center_ref
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       {
+        SliderWidgetClass sliderX {
+         position 0.02 0
+         size 0.88 30
+         halign right_ref
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         maximum 1
+         step 0.001
+         current 0.5
+         "fill in" 1
+        }
+        ButtonWidgetClass toDefaultPosition {
+         position 5 5
+         size 0.435 30
+         halign right_ref
+         valign bottom_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_default"
+        }
+        CheckBoxWidgetClass checkInvertY {
+         position 10 5
+         size 0.5 20
+         valign bottom_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_invert_y"
+        }
+        CheckBoxWidgetClass checkInvertX {
+         position 10 25
+         size 0.5 20
+         valign bottom_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_invert_x"
+        }
+       }
+      }
+      SliderWidgetClass sliderY {
+       position 10 40
+       size 30 0.48
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 0
+       maximum 1
+       step 0.001
+       current 0.5
+       vertical 1
+       "fill in" 1
+      }
+     }
+    }
+   }
+   {
+    ScriptParamsClass {
+     gapHorizontal 15
+     gapVertical 15
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget2 {
+   ignorepointer 1
+   position 10 10
+   size 0.5 0.5
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scriptclass "LBGapHandler"
+   style LB_Clean_outline
+   {
+    PanelWidgetClass PanelWidget4 {
+     ignorepointer 1
+     size 1 0.88
+     halign center_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style LB_Clean_outline
+    }
+    TextWidgetClass TextWidget111 {
+     ignorepointer 1
+     position 0 10
+     size 0.9 50
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_misc"
+     "text halign" center
+     "text valign" center
+    }
+    PanelWidgetClass PanelWidget3 {
+     ignorepointer 1
+     position 0 60
+     size 0.95 0.66
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     {
+      CheckBoxWidgetClass chckbx_Playerlist {
+       position 0 0
+       size 1 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_enable_playerlist_info"
+       checked 1
+      }
+      CheckBoxWidgetClass chckbx_Compass {
+       position 0 22
+       size 1 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_enable_compass_info"
+       checked 1
+      }
+      TextWidgetClass TextWidget20 {
+       ignorepointer 1
+       position 0 186
+       size 0.25 25
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_ping_marker_icon"
+       "text valign" center
+      }
+      XComboBoxWidgetClass comboboxPingIcon {
+       position 0.25 186
+       size 0.15 25
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+      }
+      ImageWidgetClass imagePingIcon {
+       ignorepointer 1
+       position -0.175 186
+       size 30 25
+       halign center_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       mode blend
+       "src alpha" 1
+       "stretch mode" stretch_w_h
+      }
+      CheckBoxWidgetClass chckbx_ShowChatTag {
+       position 0 66
+       size 1 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_show_chat_tag"
+       checked 1
+      }
+      CheckBoxWidgetClass chckbx_ShowClantextures {
+       position 0 88
+       size 1 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_ag_use_group_custom_textures"
+       checked 1
+      }
+      CheckBoxWidgetClass chckbx_StreamerMode {
+       position 0 110
+       size 1 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_ag_streamer_mode"
+       checked 1
+      }
+      TextWidgetClass txtPingSize {
+       ignorepointer 1
+       position 0 213
+       size 0.25 25
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_ping_icon_size"
+       "text valign" center
+      }
+      XComboBoxWidgetClass comboboxPingSize {
+       position 0.25 213
+       size 0.15 25
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       items "10;12;14;16;18;20;22;24;26;28;30"
+      }
+      CheckBoxWidgetClass chckbx_GPS {
+       position 0 44
+       size 1 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_enable_gps_info"
+       checked 1
+      }
+      CheckBoxWidgetClass chckbx_show_no_build {
+       position 0 132
+       size 1 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_show_no_build_info"
+       checked 1
+      }
+      TextWidgetClass TextWidget29 {
+       ignorepointer 1
+       position 0.41 186
+       size 0.3 25
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_ag_player_marker_icon"
+       "text valign" center
+      }
+      TextWidgetClass txtPlayerSize {
+       ignorepointer 1
+       position 0.41 213
+       size 0.3 25
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "Player Icon Size: "
+       "text valign" center
+      }
+      XComboBoxWidgetClass comboboxPlayerIcon {
+       position 0.71 186
+       size 0.28 25
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+      }
+      ImageWidgetClass imagePlayerIcon {
+       ignorepointer 1
+       position 0.1325 186
+       size 30 25
+       halign right_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       mode blend
+       "src alpha" 1
+       "stretch mode" stretch_w_h
+      }
+      XComboBoxWidgetClass comboboxPlayerSize {
+       position 0.71 213
+       size 0.28 25
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       items "10;12;14;16;18;20;22;24;26;28;30"
+      }
+      CheckBoxWidgetClass chckbx_centerPlayer {
+       position 0 154
+       size 1 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#ag_center_map_on_player"
+       checked 1
+      }
+      PanelWidgetClass panel_chat_settings {
+       visible 1
+       ignorepointer 1
+       position 0 240
+       size 1 55
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       {
+        ButtonWidgetClass btnToggleChatVisibility {
+         position 0.6 0
+         size 0.11 25
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         {
+          PanelWidgetClass chatVisibilityMark {
+           ignorepointer 1
+           position 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           style LB_Clean_outline
+          }
+         }
+        }
+        XComboBoxWidgetClass comboboxChatVisibility {
+         position 0.71 0
+         size 0.28 25
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+        }
+        TextWidgetClass TextWidget211 {
+         ignorepointer 1
+         position 0.41 0
+         size 0.19 25
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_ag_chat_visibility"
+         "text valign" center
+        }
+        SliderWidgetClass sliderBorder {
+         position 0.25 27
+         size 0.3 25
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         current 100
+         "fill in" 1
+        }
+        TextWidgetClass txtChatBorder {
+         ignorepointer 1
+         position 0 27
+         size 0.25 25
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_ag_chat_border_intensity"
+         "text valign" center
+        }
+        TextWidgetClass txtChatSize {
+         ignorepointer 1
+         position 0 0
+         size 0.25 25
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_chat_text_size"
+         "text valign" center
+        }
+        XComboBoxWidgetClass comboboxChatSize {
+         position 0.25 0
+         size 0.15 25
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+        }
+       }
+      }
+     }
+    }
+    PanelWidgetClass resetButtons {
+     ignorepointer 1
+     size 1 0.2
+     halign center_ref
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 0
+     hexactsize 0
+     vexactsize 0
+     scriptclass "LBGapHandler"
+     style blank
+     {
+      ButtonWidgetClass btn_ResetAll {
+       position 0 5
+       size 0.3333 0.3
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       text "#lb_misc_reset_all"
+       {
+        PanelWidgetClass PanelWidget01 {
+         ignorepointer 1
+         color 1 0.1961 0.1961 1
+         position 0 0
+         size 1 1
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 0
+         style LB_Clean_outline
+        }
+       }
+      }
+      ButtonWidgetClass btn_Reload_From_Config {
+       position 0 5
+       size 0.3333 0.3
+       halign center_ref
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       text "#lb_misc_reload_cfg"
+       {
+        PanelWidgetClass PanelWidget02 {
+         ignorepointer 1
+         color 1 0.1961 0.1961 1
+         position 0 0
+         size 1 1
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 0
+         style LB_Clean_outline
+        }
+       }
+      }
+      ButtonWidgetClass btn_Save_Config {
+       position 0 5
+       size 0.3333 0.3
+       halign right_ref
+       valign bottom_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       text "#lb_save"
+      }
+      MultilineTextWidgetClass TextWidget12 {
+       ignorepointer 1
+       color 1 0 0 1
+       position 0 3
+       size 1 0.6
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       text "#lb_misc_warning"
+       "exact text" 0
+       "text halign" center
+       "text valign" center
+       wrap 1
+      }
+     }
+     {
+      ScriptParamsClass {
+       gapHorizontal 10
+      }
+     }
+    }
+   }
+   {
+    ScriptParamsClass {
+     gapHorizontal 15
+     gapVertical 15
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget5 {
+   ignorepointer 1
+   position 10 10
+   size 0.5 0.5
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scriptclass "LBGapHandler"
+   style LB_Clean_outline
+   {
+    TextWidgetClass TextWidget21 {
+     ignorepointer 1
+     position 0 10
+     size 0.9 50
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_layout_styles"
+     "text halign" center
+     "text valign" center
+    }
+    XComboBoxWidgetClass comboPlayerlistStyleTemp {
+     position 0 100
+     size 0.5 30
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget22 {
+     ignorepointer 1
+     position 0 100
+     size 0.5 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_playerlist_style"
+     "text halign" right
+     "text valign" center
+    }
+    TextWidgetClass TextWidget23 {
+     ignorepointer 1
+     position 0 135
+     size 0.5 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_gps_size"
+     "text halign" right
+     "text valign" center
+    }
+    TextWidgetClass TextWidget24 {
+     ignorepointer 1
+     position 0 170
+     size 0.5 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_gps_zoom"
+     "text halign" right
+     "text valign" center
+    }
+    XComboBoxWidgetClass comboboxGPSSize {
+     position 0 135
+     size 0.5 30
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    SliderWidgetClass sliderGPSZoom {
+     position 0 170
+     size 0.5 30
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     minimum 0.1
+     maximum 0.25
+     step 0.001
+     current 0.2
+     "fill in" 1
+     {
+      TextWidgetClass TextWidget25 {
+       ignorepointer 1
+       color 0.4706 0.4706 0.4706 1
+       size 100 25
+       halign right_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "#lb_ag_far"
+       "text color" 0.4706 0.4706 0.4706 1
+       "text halign" right
+       "text valign" center
+      }
+      TextWidgetClass TextWidget26 {
+       ignorepointer 1
+       color 0.4706 0.4706 0.4706 1
+       size 100 25
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "#lb_ag_near"
+       "text color" 0.4667 0.4667 0.4667 1
+       "text valign" center
+      }
+     }
+    }
+    PanelWidgetClass PanelWidget6 {
+     ignorepointer 1
+     position 0 0.876
+     size 1 2
+     halign center_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 0
+     hexactsize 0
+     vexactsize 1
+     style LB_Clean_outline
+    }
+    TextWidgetClass TextWidget27 {
+     ignorepointer 1
+     position 0 205
+     size 0.5 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_playermarker_pos"
+     "text halign" right
+     "text valign" center
+    }
+    XComboBoxWidgetClass comboboxPlayerMarkerPos {
+     position 0 205
+     size 0.5 30
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget28 {
+     ignorepointer 1
+     position 0 240
+     size 0.5 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_player_marker_style"
+     "text halign" right
+     "text valign" center
+    }
+    CheckBoxWidgetClass checkMarkerStyleIcon {
+     position 0.5 240
+     size 0.16 30
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_icon"
+    }
+    CheckBoxWidgetClass checkMarkerStyleName {
+     position 0.665 240
+     size 0.16 30
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_name"
+    }
+    CheckBoxWidgetClass checkMarkerStyleDistance {
+     position 0.83 240
+     size 0.16 30
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_distance"
+    }
+   }
+   {
+    ScriptParamsClass {
+     gapHorizontal 15
+     gapVertical 15
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

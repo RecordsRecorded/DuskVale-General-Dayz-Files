@@ -1,0 +1,281 @@
+FrameWidgetClass rootFrame {
+ clipchildren 0
+ size 500 300
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ draggable 0
+ {
+  PanelWidgetClass outline {
+   ignorepointer 1
+   size 1 1
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   style LB_Clean_outline
+  }
+  PanelWidgetClass background {
+   ignorepointer 0
+   color 0.3922 0.3922 0.3922 0.7843
+   size 1 1
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   style rover_sim_colorable
+  }
+  PanelWidgetClass top {
+   ignorepointer 1
+   color 0.1961 0.1961 0.1961 0.7843
+   position 0 1
+   size 1 20
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scriptclass "LBGapHandler"
+   style rover_sim_colorable
+   {
+    TextWidgetClass header {
+     ignorepointer 0
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     draggable 1
+     text ""
+     "text halign" center
+     "text valign" center
+     {
+      ButtonWidgetClass btn_close {
+       size 20 20
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       {
+        ImageWidgetClass ImageWidget0 {
+         ignorepointer 1
+         size 1 1
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 0
+         image0 "set:dayz_gui image:icon_x"
+         mode additive
+         "src alpha" 1
+         "stretch mode" stretch_w_h
+         {
+          PanelWidgetClass PanelWidget1 {
+           ignorepointer 1
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           style LB_Clean_outline
+          }
+         }
+        }
+       }
+      }
+      ButtonWidgetClass btn_pin {
+       position 21 0
+       size 20 20
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       "no focus" 0
+       switch normal
+       {
+        ImageWidgetClass img_pin {
+         ignorepointer 1
+         position 1 1
+         size 18 18
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         image0 "set:dayz_gui image:icon_pin"
+         mode additive
+         "src alpha" 1
+         "stretch mode" stretch_w_h
+        }
+        PanelWidgetClass PanelWidget0 {
+         ignorepointer 1
+         size 1 1
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 0
+         style LB_Clean_outline
+        }
+       }
+      }
+     }
+    }
+    ImageWidgetClass img_info {
+     ignorepointer 0
+     position 1 1
+     size 18 18
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     imageTexture "{420DD8828994A081}LBmaster_AdminTools/gui/icons/info.paa"
+     mode additive
+     "src alpha" 1
+     "stretch mode" stretch_w_h
+    }
+    ButtonWidgetClass btn_settings {
+     position 21 0
+     size 20 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      ImageWidgetClass img_settings {
+       ignorepointer 1
+       position 1 1
+       size 18 18
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       imageTexture "{AF82D64BBD3D4C45}LBmaster_AdminTools/gui/icons/settings.paa"
+       mode additive
+       "src alpha" 1
+       "stretch mode" stretch_w_h
+      }
+     }
+    }
+   }
+   {
+    ScriptParamsClass {
+     gapHorizontal 2
+    }
+   }
+  }
+  PanelWidgetClass resize_bottom {
+   ignorepointer 1
+   position 0 -7
+   size 1 10
+   halign center_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+  }
+  PanelWidgetClass resize_right {
+   ignorepointer 1
+   position -7 0
+   size 10 1
+   halign right_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 0
+  }
+  PanelWidgetClass resize_left {
+   ignorepointer 1
+   position -7 0
+   size 10 1
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 0
+  }
+  PanelWidgetClass resize_bottom_right {
+   ignorepointer 1
+   position -7 -7
+   size 10 10
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+  }
+  PanelWidgetClass resize_bottom_left {
+   ignorepointer 1
+   position -7 -7
+   size 10 10
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+  }
+  PanelWidgetClass mainContent {
+   clipchildren 0
+   ignorepointer 1
+   position 0 1
+   size 1 1
+   halign center_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scriptclass "LBGapHandler"
+   {
+    ScriptParamsClass {
+     gapHorizontal 2
+     gapVertical 23
+    }
+   }
+  }
+  PanelWidgetClass resize_top_left {
+   ignorepointer 1
+   position -7 -7
+   size 10 10
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+  }
+  PanelWidgetClass resize_top_right {
+   ignorepointer 1
+   position -7 -7
+   size 10 10
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+  }
+  PanelWidgetClass resize_top {
+   ignorepointer 1
+   position 0 -7
+   size 1 7
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+  }
+ }
+}

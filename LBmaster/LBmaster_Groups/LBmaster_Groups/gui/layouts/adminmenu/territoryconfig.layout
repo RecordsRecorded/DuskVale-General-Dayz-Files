@@ -1,0 +1,901 @@
+FrameWidgetClass rootFrame {
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  PanelWidgetClass PanelWidget0 {
+   ignorepointer 1
+   position 5 -50
+   size 0.4 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   {
+    CheckBoxWidgetClass chckbx_enable {
+     position 0 50
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_enable_plotpole_extension"
+    }
+    CheckBoxWidgetClass chckbx_sync_cf {
+     position 0 70
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_sync_cf"
+    }
+    CheckBoxWidgetClass chckbx_reset_lifetime {
+     position 0 90
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_refresh_object_lifetimes_inside_the_plotpole_radius"
+    }
+    TextWidgetClass TextWidget1 {
+     ignorepointer 1
+     position 0 110
+     size 0.6 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_refresh_time"
+    }
+    TextWidgetClass txt_refresh_out {
+     ignorepointer 1
+     position 0 110
+     size 0.2 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    EditBoxWidgetClass edit_refresh_time {
+     position 0.2 110
+     size 0.2 20
+     halign right_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget2 {
+     ignorepointer 1
+     position 0 130
+     size 0.6 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_flag_uptime"
+    }
+    TextWidgetClass txt_uptime_out {
+     ignorepointer 1
+     position 0 130
+     size 0.2 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    EditBoxWidgetClass edit_uptime {
+     position 0.2 130
+     size 0.2 20
+     halign right_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    CheckBoxWidgetClass chckbx_prevent_unauth {
+     position 0 150
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_prevent_unauth_build"
+    }
+    TextWidgetClass TextWidget3 {
+     ignorepointer 1
+     position 0 170
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_prevent_unauth_list"
+    }
+    TextListboxWidgetClass list_unauth_except {
+     position 0 190
+     size 0.5 150
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     lines 8
+    }
+    ButtonWidgetClass btn_add_unauth_except {
+     position 0.3 245
+     size 0.2 20
+     halign right_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_add_item"
+    }
+    ButtonWidgetClass btn_del_unauth_except {
+     position 0.3 265
+     size 0.2 20
+     halign right_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_remove_item"
+    }
+    CheckBoxWidgetClass chckbx_force_in_terr {
+     position 0 340
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_force_in_territory"
+    }
+    TextWidgetClass TextWidget4 {
+     ignorepointer 1
+     position 0 360
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_force_exceptions"
+    }
+    TextListboxWidgetClass list_force_except {
+     position 0 380
+     size 0.5 150
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     lines 8
+    }
+    ButtonWidgetClass btn_add_force_except {
+     position 0.3 435
+     size 0.2 20
+     halign right_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_add_item"
+    }
+    ButtonWidgetClass btn_del_force_except {
+     position 0.3 455
+     size 0.2 20
+     halign right_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_remove_item"
+    }
+    CheckBoxWidgetClass chckbx_prevent_build {
+     position 0 530
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_unauth_prevent_build"
+    }
+    CheckBoxWidgetClass chckbx_prevent_dismantle {
+     position 0 550
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_unauth_prevent_dismantle"
+    }
+    CheckBoxWidgetClass chckbx_prevent_destroy {
+     position 0 570
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_unauth_prevent_destroy"
+    }
+    CheckBoxWidgetClass chckbx_lower_group_del {
+     position 0 590
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_lower_on_group_deleted"
+    }
+    CheckBoxWidgetClass chckbx_instant_destroy {
+     position 0 610
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_instant_destroy"
+    }
+    CheckBoxWidgetClass chckbx_return_flag {
+     position 0 630
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_return_flag_kit"
+    }
+    CheckBoxWidgetClass chckbx_allow_flag_dest {
+     position 0 650
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_allow_enemy_destroy"
+    }
+    CheckBoxWidgetClass chckbx_allow_destroy_with {
+     position 0 670
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_allow_destroy_with_flag"
+    }
+    TextWidgetClass TextWidget5 {
+     ignorepointer 1
+     position 0 690
+     size 0.6 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_max_distance_destroy"
+    }
+    EditBoxWidgetClass edit_max_dismantle {
+     position 0.2 690
+     size 0.2 20
+     halign right_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    CheckBoxWidgetClass chckbx_instant_build {
+     position 0 830
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_instant_build"
+    }
+    CheckBoxWidgetClass chckbx_auto_attach {
+     position 0 850
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_attach_random_flag"
+    }
+    CheckBoxWidgetClass chckbx_auto_raise {
+     position 0 870
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_auto_raise_flag"
+    }
+    CheckBoxWidgetClass chckbx_display_map {
+     position 0 890
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_add_marker"
+    }
+    CheckBoxWidgetClass chckbx_allow_flag_lower {
+     position 0.2 710
+     size 0.2 20
+     halign right_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Lower"
+    }
+    TextWidgetClass TextWidget6 {
+     ignorepointer 1
+     position 0 730
+     size 0.6 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_max_distance_lower"
+    }
+    EditBoxWidgetClass edit_max_lower {
+     position 0.2 730
+     size 0.2 20
+     halign right_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    CheckBoxWidgetClass chckbx_unclaimed_dismantle {
+     position 0 750
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_allow_dismantle_no_owner"
+    }
+    CheckBoxWidgetClass chckbx_unclaimed_destroy {
+     position 0 770
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_allow_destroy_no_owner"
+    }
+    CheckBoxWidgetClass chckbx_teleport_out {
+     position 0 910
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Teleport Players out of Enemy territories on login"
+    }
+    CheckBoxWidgetClass chckbx_unclaimed_build {
+     position 0 810
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Allow Players to Build items not inside a territory or inside a territory with no owner"
+    }
+    CheckBoxWidgetClass chckbx_lowered_unclaimed {
+     position 0 930
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Treat fully lowered Flags as unclaimed flags for build checks"
+    }
+    CheckBoxWidgetClass chckbx_unclaimed_deploy {
+     position 0 790
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Allow Players to Deploy items outside of a territory or in territory with no owner"
+    }
+    CheckBoxWidgetClass chckbx_allow_flag_upper {
+     position 0 710
+     size 0.2 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Upper"
+    }
+    TextWidgetClass TextWidget20 {
+     ignorepointer 1
+     position 0 710
+     size 0.6 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Allow Enemy Plotpole Interaction: "
+     "text halign" right
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget11 {
+   ignorepointer 1
+   position 0.41 0
+   size 0.5 200
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    TextWidgetClass TextWidget7 {
+     ignorepointer 1
+     size 1 40
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_size_settings"
+     "text halign" center
+     "text valign" center
+    }
+    TextWidgetClass TextWidget8 {
+     ignorepointer 1
+     position 0 70
+     size 0.5 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_plotpole_radius"
+     "text halign" right
+    }
+    TextWidgetClass TextWidget9 {
+     ignorepointer 1
+     position 0 90
+     size 0.5 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_plotpole_height_up"
+     "text halign" right
+    }
+    TextWidgetClass TextWidget10 {
+     ignorepointer 1
+     position 0 110
+     size 0.5 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_plotpole_height_down"
+     "text halign" right
+    }
+    PanelWidgetClass panel_pvez {
+     ignorepointer 1
+     position -5 50
+     size 0.5 80
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     {
+      TextWidgetClass TextWidget11 {
+       ignorepointer 1
+       position -5 0
+       size 0.3 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_ag_admin_in_pvp_zone"
+       "text halign" center
+      }
+      TextWidgetClass TextWidget12 {
+       ignorepointer 1
+       position 0.3 0
+       size 0.3 20
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_ag_admin_in_pve_zone"
+       "text halign" center
+      }
+      EditBoxWidgetClass edit_down_pve {
+       position 0.3 60
+       size 0.3 20
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+      }
+      EditBoxWidgetClass edit_up_pve {
+       position 0.3 40
+       size 0.3 20
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+      }
+      EditBoxWidgetClass edit_radius_pve {
+       position 0.3 20
+       size 0.3 20
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+      }
+     }
+    }
+    EditBoxWidgetClass edit_radius_pvp {
+     position 0.5 70
+     size 0.15 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    EditBoxWidgetClass edit_up_pvp {
+     position 0.5 90
+     size 0.15 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    EditBoxWidgetClass edit_down_pvp {
+     position 0.5 110
+     size 0.15 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget13 {
+     ignorepointer 1
+     position 0 130
+     size 0.5 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_min_distance_between_enemy_bases"
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_dist_enemy {
+     position 0.5 130
+     size 0.15 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget14 {
+     ignorepointer 1
+     position 0 150
+     size 0.5 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_min_distance_between_bases_of_the_same_group"
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_dist_friendly {
+     position 0.5 150
+     size 0.15 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget15 {
+     ignorepointer 1
+     position 0 170
+     size 0.7 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_default_plotpole_count"
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_max_count {
+     position 0.7 170
+     size 0.15 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget1 {
+   ignorepointer 1
+   position 0.41 310
+   size 0.5 600
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    TextWidgetClass TextWidget0 {
+     ignorepointer 1
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Random Flag Attached when instant building with Flag attached:"
+    }
+    TextListboxWidgetClass list_flags {
+     position 0 20
+     size 0.5 150
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     lines 8
+    }
+    ButtonWidgetClass btn_add_flag {
+     position 0.3 70
+     size 0.2 20
+     halign right_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_add_item"
+    }
+    ButtonWidgetClass btn_del_flag {
+     position 0.3 90
+     size 0.2 20
+     halign right_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_ag_admin_remove_item"
+    }
+    TextWidgetClass TextWidget16 {
+     ignorepointer 1
+     position 0 200
+     size 200 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Territory Info Title: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_territory_info_title {
+     position 0 200
+     size 1 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     {
+      ScriptParamsClass {
+       gapHorizontal 200
+      }
+     }
+    }
+    CheckBoxWidgetClass chckbx_entered_message_enemy {
+     position 0 220
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Show Entered message for enemy / unclaimed territories"
+    }
+    CheckBoxWidgetClass chckbx_left_message_enemy {
+     position 0 240
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Show Left message for enemy / unclaimed territories"
+    }
+    TextWidgetClass TextWidget17 {
+     ignorepointer 1
+     position 0 260
+     size 200 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Entered enemy: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_territory_entered_enemy {
+     position 0 260
+     size 1 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     {
+      ScriptParamsClass {
+       gapHorizontal 200
+      }
+     }
+    }
+    TextWidgetClass TextWidget18 {
+     ignorepointer 1
+     position 0 280
+     size 200 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Left enemy: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_territory_left_enemy {
+     position 0 280
+     size 1 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     {
+      ScriptParamsClass {
+       gapHorizontal 200
+      }
+     }
+    }
+    TextWidgetClass TextWidget19 {
+     ignorepointer 1
+     position 0 300
+     size 200 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Entered unclaimed: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_territory_entered_unclaimed {
+     position 0 300
+     size 1 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     {
+      ScriptParamsClass {
+       gapHorizontal 200
+      }
+     }
+    }
+    TextWidgetClass TextWidget110 {
+     ignorepointer 1
+     position 0 320
+     size 200 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Left unclaimed: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_territory_left_unclaimed {
+     position 0 320
+     size 1 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     {
+      ScriptParamsClass {
+       gapHorizontal 200
+      }
+     }
+    }
+    CheckBoxWidgetClass chckbx_entered_message_own {
+     position 0 340
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Show Entered message for owned territories"
+    }
+    CheckBoxWidgetClass chckbx_left_message_own {
+     position 0 360
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Show Left message for owned territories"
+    }
+    TextWidgetClass TextWidget111 {
+     ignorepointer 1
+     position 0 380
+     size 200 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Entered owned: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_territory_entered_owned {
+     position 0 380
+     size 1 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     {
+      ScriptParamsClass {
+       gapHorizontal 200
+      }
+     }
+    }
+    TextWidgetClass TextWidget112 {
+     ignorepointer 1
+     position 0 400
+     size 200 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Left owned: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_territory_left_owned {
+     position 0 400
+     size 1 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     {
+      ScriptParamsClass {
+       gapHorizontal 200
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

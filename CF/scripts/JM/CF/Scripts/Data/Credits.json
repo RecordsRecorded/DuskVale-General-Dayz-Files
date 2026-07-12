@@ -1,0 +1,34 @@
+{
+	"Departments": [
+		{
+			"DepartmentName": "Community Framework",
+			"Sections": [
+				{
+					"SectionName": "Developers",
+					"SectionLines": [
+						"Jacob_Mango",
+						"Arkensor",
+						"DaOne",
+						"AWOL",
+						"DirtySanchez",
+						"MarioE",
+						"lava aka liquidrock"
+					]
+				},
+				{
+					"SectionName": "Thank you to",
+					"SectionLines": [
+						"Kegan Hollern",
+						"DannyDog",
+						"Sumrak - Adam Francu",
+						"Epoch Mod Team",
+						"Expansion Mod Team",
+						"GravityWolf",
+						"wrdg",
+						"Steve Aka Salutesh"
+					]
+				}
+			]
+		}
+	]
+}

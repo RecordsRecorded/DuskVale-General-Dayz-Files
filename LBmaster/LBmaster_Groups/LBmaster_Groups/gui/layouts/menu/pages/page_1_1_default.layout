@@ -1,0 +1,276 @@
+PanelWidgetClass Page1_1 {
+ visible 1
+ ignorepointer 1
+ position 0 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  PanelWidgetClass Page1_1Top {
+   ignorepointer 1
+   size 1 370
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    TextWidgetClass txt_groupname {
+     ignorepointer 1
+     position 0 10
+     size 0.95 40
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_groupname"
+     "text halign" center
+    }
+    ButtonWidgetClass buttonInvite_alt {
+     visible 0
+     position 0 60
+     size 0.95 30
+     halign center_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_invite"
+     text_proportion 0.8
+     "disabled text color" 0.4745 0.4745 0.4745 1
+    }
+    PanelWidgetClass panel_list {
+     visible 1
+     ignorepointer 1
+     position 0 80
+     size 0.95 270
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     {
+      TextWidgetClass TextWidget4 {
+       ignorepointer 1
+       size 1 20
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_playerlist"
+       text_proportion 0.8
+       "text valign" center
+      }
+      TextListboxWidgetClass playerlist_online {
+       position 0 25
+       size 1 200
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       lines 7
+       {
+        PanelWidgetClass PanelWidget1 {
+         ignorepointer 1
+         position 0 0
+         size 1 1
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 0
+         style LB_Clean_outline
+        }
+       }
+      }
+      TextWidgetClass TextWidget5 {
+       ignorepointer 1
+       position 0 230
+       size 0.3 20
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_search"
+       text_proportion 0.8
+       "text valign" center
+      }
+      EditBoxWidgetClass searchbox {
+       position 0 230
+       size 0.7 20
+       halign right_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+      }
+      ButtonWidgetClass buttonInvite {
+       position 0 250
+       size 1 20
+       halign center_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_invite"
+       text_proportion 0.8
+       "disabled text color" 0.4745 0.4745 0.4745 1
+      }
+     }
+    }
+   }
+  }
+  PanelWidgetClass Page1_1Bottom {
+   ignorepointer 1
+   position 0 0
+   size 1 400
+   halign center_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    PanelWidgetClass playerlist_members_parent {
+     position 0 120
+     size 0.95 265
+     halign center_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     draggable 0
+     style LB_Clean_outline
+     {
+      PanelWidgetClass PanelWidget01 {
+       ignorepointer 1
+       position 0 0
+       size 1 0.98
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       style blank
+       {
+        PanelWidgetClass playerlist_members {
+         ignorepointer 0
+         size 1 10
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 0
+         style blank
+        }
+       }
+      }
+     }
+    }
+    ButtonWidgetClass btn_kick {
+     position 0.025 10
+     size 0.31 20
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_kick"
+     text_proportion 0.8
+     "disabled text color" 0.4745 0.4745 0.4745 1
+    }
+    ButtonWidgetClass btn_leave {
+     position 0.025 10
+     size 0.31 20
+     halign right_ref
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_leave"
+     text_proportion 0.8
+     "disabled text color" 0.4745 0.4745 0.4745 1
+    }
+    ButtonWidgetClass btn_upgrade {
+     position 0 60
+     size 0.31 20
+     halign center_ref
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_upgrade"
+     text_proportion 0.8
+     "disabled text color" 0.4745 0.4745 0.4745 1
+    }
+    ButtonWidgetClass btn_promote {
+     position 0.025 60
+     size 0.31 20
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_promote"
+     text_proportion 0.8
+     "disabled text color" 0.4745 0.4745 0.4745 1
+    }
+    ButtonWidgetClass btn_demote {
+     position 0.025 35
+     size 0.31 20
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_demote"
+     text_proportion 0.8
+     "disabled text color" 0.4745 0.4745 0.4745 1
+    }
+    ButtonWidgetClass btn_joinSubgroup {
+     position 0.025 60
+     size 0.31 20
+     halign right_ref
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_join_subgroup"
+     text_proportion 0.8
+     "disabled text color" 0.4745 0.4745 0.4745 1
+    }
+    ButtonWidgetClass btn_change_tag {
+     position 0 10
+     size 0.31 20
+     halign center_ref
+     valign bottom_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Change Tag Chat Color"
+     text_proportion 0.8
+     "disabled text color" 0.4745 0.4745 0.4745 1
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

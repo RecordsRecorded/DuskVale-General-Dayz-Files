@@ -1,0 +1,6 @@
+//<'data_characters_gloves.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Data\Characters\Gloves;
+Mikero=DePbo.dll.7.92;
+version=22092320;
+//PboType=Arma Addon;
+//</properties>

@@ -1,0 +1,4 @@
+//<'LBmaster_SleepingBags.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=LBmaster_SleepingBags;
+//PboType=Arma Addon;
+//</properties>

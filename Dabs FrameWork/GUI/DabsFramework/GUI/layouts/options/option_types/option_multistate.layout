@@ -1,0 +1,122 @@
+GridSpacerWidgetClass OptionSelector {
+ ignorepointer 1
+ color 0 0 0 0
+ position 0 0
+ size 1 30
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 1
+ "no focus" 1
+ Padding 0
+ Margin 0
+ "Size To Content H" 1
+ "Size To Content V" 1
+ Rows 1
+ {
+  ButtonWidgetClass PreviousButton {
+   color 1 1 1 0
+   position 0 0
+   size 30 30
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   scriptclass "ViewBinding"
+   {
+    ImageWidgetClass "PreviousButton.Image" {
+     ignorepointer 1
+     size 10 16
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     scriptclass "SymbolHandler"
+     image0 ""
+     mode additive
+     "src alpha" 1
+     {
+      ScriptParamsClass {
+       Symbol_Name "chevron_left"
+       Symbol_Size 2
+      }
+     }
+    }
+   }
+   {
+    ScriptParamsClass {
+     Relay_Command "OnPreviousExecute"
+    }
+   }
+  }
+  FrameWidgetClass TextContainer {
+   clipchildren 0
+   ignorepointer 1
+   position 10 10
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   {
+    TextWidgetClass Text {
+     clipchildren 0
+     ignorepointer 1
+     size 1 0.55
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     scriptclass ""
+     text "Label"
+     font "gui/fonts/sdf_MetronLight24"
+     "exact text" 0
+     "exact text size" 18
+     "text halign" center
+     "text valign" center
+    }
+   }
+  }
+  ButtonWidgetClass NextButton {
+   color 1 1 1 0
+   position 0 0
+   size 30 30
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   scriptclass "ViewBinding"
+   {
+    ImageWidgetClass "NextButton.Image" {
+     ignorepointer 1
+     size 10 16
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     scriptclass "SymbolHandler"
+     image0 ""
+     mode additive
+     "src alpha" 1
+     {
+      ScriptParamsClass {
+       Symbol_Name "chevron_right"
+       Symbol_Size 2
+      }
+     }
+    }
+   }
+   {
+    ScriptParamsClass {
+     Relay_Command "OnNextExecute"
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,4 @@
+//<'gui.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\GUI;
+//PboType=Arma Addon;
+//</properties>

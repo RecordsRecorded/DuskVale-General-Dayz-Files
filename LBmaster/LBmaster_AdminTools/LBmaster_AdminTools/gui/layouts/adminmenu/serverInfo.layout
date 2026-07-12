@@ -1,0 +1,237 @@
+FrameWidgetClass rootFrame {
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  TextWidgetClass TextWidget0 {
+   ignorepointer 1
+   size 200 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_player_count"
+   "text halign" right
+  }
+  TextWidgetClass TextWidget1 {
+   ignorepointer 1
+   position 0 20
+   size 200 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_animal_count"
+   "text halign" right
+  }
+  TextWidgetClass TextWidget2 {
+   ignorepointer 1
+   position 0 40
+   size 200 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_zombie_count"
+   "text halign" right
+  }
+  TextWidgetClass TextWidget3 {
+   ignorepointer 1
+   position 0 60
+   size 200 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_vehicle_count"
+   "text halign" right
+  }
+  TextWidgetClass TextWidget4 {
+   ignorepointer 1
+   position 0 80
+   size 200 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_item_count"
+   "text halign" right
+  }
+  TextWidgetClass TextWidget5 {
+   ignorepointer 1
+   position 0 100
+   size 200 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_server_fps"
+   "text halign" right
+  }
+  TextWidgetClass txt_player_count {
+   ignorepointer 1
+   size 1 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scriptclass "LBGapHandler"
+   {
+    ScriptParamsClass {
+     gapHorizontal 200
+    }
+   }
+  }
+  TextWidgetClass txt_animal_count {
+   ignorepointer 1
+   position 0 20
+   size 1 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scriptclass "LBGapHandler"
+   {
+    ScriptParamsClass {
+     gapHorizontal 200
+    }
+   }
+  }
+  TextWidgetClass txt_zombie_count {
+   ignorepointer 1
+   position 0 40
+   size 1 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scriptclass "LBGapHandler"
+   {
+    ScriptParamsClass {
+     gapHorizontal 200
+    }
+   }
+  }
+  TextWidgetClass txt_vehicle_count {
+   ignorepointer 1
+   position 0 60
+   size 1 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scriptclass "LBGapHandler"
+   {
+    ScriptParamsClass {
+     gapHorizontal 200
+    }
+   }
+  }
+  TextWidgetClass txt_item_count {
+   ignorepointer 1
+   position 0 80
+   size 1 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scriptclass "LBGapHandler"
+   {
+    ScriptParamsClass {
+     gapHorizontal 200
+    }
+   }
+  }
+  TextWidgetClass txt_fps {
+   ignorepointer 1
+   position 0 100
+   size 1 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scriptclass "LBGapHandler"
+   {
+    ScriptParamsClass {
+     gapHorizontal 200
+    }
+   }
+  }
+  CanvasWidgetClass canvas_fps {
+   ignorepointer 1
+   size 1 1
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scriptclass "LBGapHandler"
+   {
+    ScriptParamsClass {
+     gapVertical 160
+    }
+   }
+  }
+  TextWidgetClass TextWidget6 {
+   ignorepointer 1
+   position 0 120
+   size 200 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_uptime"
+   "text halign" right
+  }
+  TextWidgetClass txt_uptime {
+   ignorepointer 1
+   position 0 120
+   size 1 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scriptclass "LBGapHandler"
+   {
+    ScriptParamsClass {
+     gapHorizontal 200
+    }
+   }
+  }
+  ButtonWidgetClass btn_restart {
+   position 0 140
+   size 0.5 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_restart_server"
+  }
+  ButtonWidgetClass btn_lock {
+   position 0 140
+   size 0.5 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_lock_server"
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

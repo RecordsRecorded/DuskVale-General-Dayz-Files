@@ -1,0 +1,82 @@
+FrameWidgetClass rootFrame {
+ size 500 100
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ scriptclass "LBMenuPopulator"
+ {
+  CheckBoxWidgetClass chckbx_enabled {
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_ag_admin_enable_timeouts"
+  }
+  CheckBoxWidgetClass chckbx_leave {
+   position 0 20
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Trigger On Leave instead of join"
+  }
+  TextWidgetClass TextWidget0 {
+   ignorepointer 1
+   position 0 40
+   size 0.6 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_ag_admin_different_group_timeout"
+   "text halign" right
+  }
+  TextWidgetClass TextWidget1 {
+   ignorepointer 1
+   position 0 60
+   size 0.6 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_ag_admin_same_group_timeout"
+   "text halign" right
+  }
+  EditBoxWidgetClass input_different {
+   position 0 40
+   size 0.4 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+  }
+  EditBoxWidgetClass input_same {
+   position 0 60
+   size 0.4 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+  }
+  ButtonWidgetClass btn_reset_all {
+   size 200 20
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_ag_admin_reset_all_timeouts"
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

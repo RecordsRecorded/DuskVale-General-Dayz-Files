@@ -1,0 +1,4 @@
+//<'worlds_enoch_gloom.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Worlds\enoch\Gloom;
+//PboType=Arma Addon;
+//</properties>

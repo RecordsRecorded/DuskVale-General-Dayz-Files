@@ -1,0 +1,171 @@
+FrameWidgetClass rootFrame {
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  PanelWidgetClass panel_mute {
+   clipchildren 0
+   ignorepointer 1
+   size 0.33 560
+   halign center_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    PanelWidgetClass PanelWidget102 {
+     ignorepointer 1
+     position 0 0
+     size 1 560
+     halign center_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     style blank
+    }
+    TextWidgetClass TextWidget18 {
+     ignorepointer 1
+     position 0 0
+     size 1 40
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_group_mute_players"
+     "text halign" center
+    }
+    TextListboxWidgetClass list_muted {
+     position 0 50
+     size 600 200
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     "title visible" 1
+     colums "Name;40;Steamid;40;Duration;20;"
+     lines 10
+    }
+    ButtonWidgetClass btn_unmute_selected {
+     position 0 250
+     size 300 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_group_unmute_selected_player"
+    }
+    TextListboxWidgetClass list_online {
+     position 0 310
+     size 600 200
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     colums "name;50;steamid;50;"
+     lines 10
+    }
+    TextWidgetClass TextWidget19 {
+     ignorepointer 1
+     position 0 270
+     size 500 20
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_group_online_players"
+     "text halign" center
+    }
+    TextWidgetClass TextWidget20 {
+     ignorepointer 1
+     position 0 510
+     size 200 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_group_duration_in_minutes"
+     "text halign" right
+    }
+    EditBoxWidgetClass input_mute_duration {
+     position 200 510
+     size 200 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget21 {
+     ignorepointer 1
+     position 0 530
+     size 200 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_group_steamid"
+     "text halign" right
+    }
+    EditBoxWidgetClass input_mute_steamid {
+     position 200 530
+     size 200 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+    }
+    ButtonWidgetClass btn_mute_steamid {
+     position 400 530
+     size 200 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_group_mute_by_steamid"
+    }
+    ButtonWidgetClass btn_mute_selected {
+     position 400 510
+     size 200 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_group_mute_selected_player"
+    }
+    TextWidgetClass TextWidget22 {
+     ignorepointer 1
+     position 0 290
+     size 200 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_group_search"
+     "text halign" right
+    }
+    EditBoxWidgetClass input_search_online {
+     position 200 290
+     size 400 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

@@ -1,0 +1,179 @@
+FrameWidgetClass rootFrame {
+ ignorepointer 1
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ {
+  ScrollWidgetClass scrollPanel {
+   ignorepointer 1
+   position -9 0
+   size 314 1
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 0
+   "Scrollbar V" 1
+   {
+    WrapSpacerWidgetClass list_main {
+     ignorepointer 1
+     color 0.3922 0.3922 0.3922 0.3922
+     size 304 1
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 0
+     style DayZDefaultPanel
+     "Size To Content V" 1
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget0 {
+   ignorepointer 1
+   color 1 0 0 1
+   size 3 3
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   scaled 0
+   priority 700
+   style rover_sim_colorable
+  }
+  PanelWidgetClass panel_layouts {
+   ignorepointer 1
+   position 330 0
+   size 466 50
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style blank
+  }
+  PanelWidgetClass panel_selection {
+   visible 0
+   clipchildren 0
+   ignorepointer 0
+   color 1 1 1 0.1961
+   size 48 48
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style rover_sim_colorable
+   {
+    PanelWidgetClass PanelWidget2 {
+     ignorepointer 1
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style LB_Clean_outline
+    }
+   }
+  }
+  ButtonWidgetClass btn_collapse {
+   position 305 15
+   size 20 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   {
+    PanelWidgetClass PanelWidget4 {
+     ignorepointer 1
+     color 0.3922 0.3922 0.3922 0.3922
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+    PanelWidgetClass PanelWidget5 {
+     ignorepointer 1
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style LB_Clean_outline
+    }
+    ImageWidgetClass ImageWidget0 {
+     ignorepointer 1
+     size 1 1
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     image0 "set:dayz_gui image:arrow_right"
+     mode blend
+     "src alpha" 1
+     "stretch mode" stretch_w_h
+    }
+   }
+  }
+  ButtonWidgetClass btn_expand {
+   position 60 15
+   size 20 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   {
+    PanelWidgetClass PanelWidget1 {
+     ignorepointer 1
+     color 0.3922 0.3922 0.3922 0.3922
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+    }
+    PanelWidgetClass PanelWidget3 {
+     ignorepointer 1
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style LB_Clean_outline
+    }
+    ImageWidgetClass ImageWidget1 {
+     ignorepointer 1
+     size 1 1
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     image0 "set:dayz_gui image:arrow_left"
+     mode blend
+     "src alpha" 1
+     "stretch mode" stretch_w_h
+    }
+   }
+  }
+ }
+}

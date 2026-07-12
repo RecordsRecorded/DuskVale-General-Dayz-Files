@@ -1,0 +1,213 @@
+PanelWidgetClass rootFrame {
+ ignorepointer 1
+ size 500 120
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ priority 400
+ scriptclass "LBMenuPopulator"
+ style LB_Clean_outline
+ {
+  PanelWidgetClass PanelWidget0 {
+   ignorepointer 1
+   color 0.3843 0.3843 0.3843 0.7608
+   size 1 1
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   style rover_sim_colorable
+   {
+    PanelWidgetClass PanelWidget1 {
+     ignorepointer 1
+     size 0.99 0.98
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     {
+      TextWidgetClass TextWidget0 {
+       ignorepointer 1
+       size 1 30
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "Change your Clan Tag Color"
+       "text halign" center
+      }
+      TextWidgetClass TextWidget1 {
+       ignorepointer 1
+       color 1 0 0 1
+       position 0 30
+       size 0.15 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "Red: "
+       font "gui/fonts/sdf_MetronBook72"
+       "bold text" 1
+       "exact text" 1
+       "exact text size" 15
+       "text halign" right
+       "text valign" center
+      }
+      TextWidgetClass TextWidget2 {
+       ignorepointer 1
+       color 0 1 0 1
+       position 0.3333 30
+       size 0.15 20
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "Green: "
+       font "gui/fonts/sdf_MetronBook72"
+       "bold text" 1
+       "exact text" 1
+       "exact text size" 15
+       "text halign" right
+       "text valign" center
+      }
+      TextWidgetClass TextWidget3 {
+       ignorepointer 1
+       color 0 0 1 1
+       position 0.67 30
+       size 0.15 20
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "Blue: "
+       font "gui/fonts/sdf_MetronBook72"
+       "bold text" 1
+       "exact text" 1
+       "exact text size" 15
+       "text halign" right
+       "text valign" center
+      }
+      SliderWidgetClass slider_r {
+       position 0 50
+       size 0.33 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       maximum 255
+       "fill in" 1
+       "draw marker" 0
+      }
+      SliderWidgetClass slider_g {
+       position 0 50
+       size 0.33 20
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       maximum 255
+       "fill in" 1
+       "draw marker" 0
+      }
+      SliderWidgetClass slider_b {
+       position 0 50
+       size 0.33 20
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       maximum 255
+       "fill in" 1
+       "draw marker" 0
+      }
+      TextWidgetClass txt_preview {
+       ignorepointer 1
+       position 0 75
+       size 200 20
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "[LBM]"
+       font "gui/fonts/sdf_MetronBook72"
+       "exact text" 1
+       "exact text size" 15
+       "text halign" center
+       "text valign" center
+      }
+      EditBoxWidgetClass edit_r {
+       position 0.15 30
+       size 0.18 20
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+      }
+      EditBoxWidgetClass edit_g {
+       position 0.4833 30
+       size 0.18 20
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+      }
+      EditBoxWidgetClass edit_b {
+       position 0.0033 30
+       size 0.18 20
+       halign right_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+      }
+      ButtonWidgetClass btn_save {
+       position 0 0
+       size 150 20
+       halign right_ref
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "#lb_save"
+      }
+      ButtonWidgetClass btn_cancel {
+       position 0 0
+       size 150 20
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "#cancel"
+      }
+      CheckBoxWidgetClass chckbx_use {
+       position 0 75
+       size 200 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Use custom color"
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

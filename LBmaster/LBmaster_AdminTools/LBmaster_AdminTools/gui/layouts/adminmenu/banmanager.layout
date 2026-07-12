@@ -1,0 +1,537 @@
+FrameWidgetClass rootFrame {
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  TextListboxWidgetClass list_bans {
+   position 0 60
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scriptclass "LBGapHandler"
+   "title visible" 1
+   colums "Player;40%;Reason;30%;Time;30%;"
+   font "gui/fonts/Metron22"
+   {
+    ScriptParamsClass {
+     gapVertical 360
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget0 {
+   ignorepointer 1
+   size 1 300
+   halign center_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    TextWidgetClass TextWidget0 {
+     ignorepointer 1
+     size 150 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_steamid"
+     "text halign" right
+    }
+    TextWidgetClass TextWidget2 {
+     ignorepointer 1
+     position 0 20
+     size 150 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_banned_by"
+     "text halign" right
+    }
+    TextWidgetClass txt_admin {
+     ignorepointer 1
+     position 150 20
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     {
+      ScriptParamsClass {
+       gapHorizontal 150
+      }
+     }
+    }
+    TextWidgetClass TextWidget1 {
+     ignorepointer 1
+     position 0 40
+     size 150 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_banned_since"
+     "text halign" right
+    }
+    TextWidgetClass txt_banned_since {
+     ignorepointer 1
+     position 150 40
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     {
+      ScriptParamsClass {
+       gapHorizontal 150
+      }
+     }
+    }
+    TextWidgetClass TextWidget3 {
+     ignorepointer 1
+     position 0 60
+     size 150 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_time_reamining"
+     "text halign" right
+    }
+    TextWidgetClass txt_remain {
+     ignorepointer 1
+     position 150 60
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     {
+      ScriptParamsClass {
+       gapHorizontal 150
+      }
+     }
+    }
+    TextWidgetClass TextWidget4 {
+     ignorepointer 1
+     position 0 80
+     size 150 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_duration"
+     "text halign" right
+    }
+    CheckBoxWidgetClass chckbx_perm {
+     position 150 80
+     size 150 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_permanent"
+    }
+    PanelWidgetClass panel_duration {
+     ignorepointer 1
+     position 0 80
+     size 1 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     {
+      PanelWidgetClass PanelWidget1 {
+       ignorepointer 1
+       position 0 0
+       size 0.2 20
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       {
+        TextWidgetClass TextWidget7 {
+         ignorepointer 1
+         size 80 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "#lb_adm_weeks"
+         "text halign" right
+        }
+        EditBoxWidgetClass edit_weeks {
+         size 1 20
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         scriptclass "LBGapHandler"
+         {
+          ScriptParamsClass {
+           gapHorizontal 80
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass PanelWidget2 {
+       ignorepointer 1
+       position 0.2 0
+       size 0.2 20
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       {
+        TextWidgetClass TextWidget8 {
+         ignorepointer 1
+         position 0 0
+         size 80 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "#lb_adm_days"
+         "text halign" right
+        }
+        EditBoxWidgetClass edit_days {
+         size 1 20
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         scriptclass "LBGapHandler"
+         {
+          ScriptParamsClass {
+           gapHorizontal 80
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass PanelWidget3 {
+       ignorepointer 1
+       position 0.4 0
+       size 0.2 20
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       {
+        TextWidgetClass TextWidget9 {
+         ignorepointer 1
+         size 80 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "#lb_adm_hours"
+         "text halign" right
+        }
+        EditBoxWidgetClass edit_hours {
+         size 1 20
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         scriptclass "LBGapHandler"
+         {
+          ScriptParamsClass {
+           gapHorizontal 80
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass PanelWidget4 {
+       ignorepointer 1
+       position 0.6 0
+       size 0.2 20
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       {
+        TextWidgetClass TextWidget10 {
+         ignorepointer 1
+         size 80 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "#lb_adm_minutes"
+         "text halign" right
+        }
+        EditBoxWidgetClass edit_min {
+         size 1 20
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         scriptclass "LBGapHandler"
+         {
+          ScriptParamsClass {
+           gapHorizontal 80
+          }
+         }
+        }
+       }
+      }
+      PanelWidgetClass PanelWidget5 {
+       ignorepointer 1
+       position 0.8 0
+       size 0.2 20
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       {
+        TextWidgetClass TextWidget11 {
+         ignorepointer 1
+         size 80 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "#lb_adm_seconds"
+         "text halign" right
+        }
+        EditBoxWidgetClass edit_sec {
+         size 1 20
+         halign right_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         scriptclass "LBGapHandler"
+         {
+          ScriptParamsClass {
+           gapHorizontal 80
+          }
+         }
+        }
+       }
+      }
+     }
+     {
+      ScriptParamsClass {
+       gapHorizontal 300
+      }
+     }
+    }
+    TextWidgetClass TextWidget5 {
+     ignorepointer 1
+     position 0 100
+     size 150 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_reason_2"
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_reason {
+     position 0 100
+     size 1 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     {
+      ScriptParamsClass {
+       gapHorizontal 150
+      }
+     }
+    }
+    MultilineEditBoxWidgetClass edit_comment {
+     position 0 140
+     size 1 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     font "gui/fonts/Metron22"
+    }
+    TextWidgetClass TextWidget6 {
+     ignorepointer 1
+     position 0 120
+     size 150 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_comment"
+     "text halign" right
+    }
+    ButtonWidgetClass btn_apply {
+     position 0 240
+     size 0.33 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#apply"
+    }
+    ButtonWidgetClass btn_unban {
+     position 0 240
+     size 0.33 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_adm_unban"
+    }
+    ButtonWidgetClass btn_ban {
+     size 0.33 20
+     halign right_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_adm_new_ban"
+    }
+    TextWidgetClass TextWidget12 {
+     ignorepointer 1
+     position 0.5 0
+     size 150 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_name"
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_steamid {
+     position 150 0
+     size 0.5 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     {
+      ScriptParamsClass {
+       gapHorizontal 150
+      }
+     }
+    }
+    EditBoxWidgetClass edit_name {
+     size 0.5 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     {
+      ScriptParamsClass {
+       gapHorizontal 150
+      }
+     }
+    }
+   }
+  }
+  ImageWidgetClass ImageWidget0 {
+   ignorepointer 1
+   position 0 20
+   size 20 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   image0 "LBmaster_Core/gui/icons/search.paa"
+   mode blend
+   "src alpha" 1
+   "stretch mode" stretch_w_h
+  }
+  EditBoxWidgetClass edit_search {
+   position 0 20
+   size 1 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scriptclass "LBGapHandler"
+   {
+    ScriptParamsClass {
+     gapHorizontal 20
+    }
+   }
+  }
+  CheckBoxWidgetClass chckbx_search_player {
+   position 0 40
+   size 0.25 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_banned_player"
+  }
+  CheckBoxWidgetClass chckbx_search_bannedby {
+   position 0.25 40
+   size 0.25 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_banning_admin"
+  }
+  CheckBoxWidgetClass chckbx_search_reason {
+   position 0.5 40
+   size 0.25 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_reason"
+  }
+  CheckBoxWidgetClass chckbx_search_expired {
+   position 0.75 40
+   size 0.25 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_show_expired"
+  }
+  XComboBoxWidgetClass combo_category {
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

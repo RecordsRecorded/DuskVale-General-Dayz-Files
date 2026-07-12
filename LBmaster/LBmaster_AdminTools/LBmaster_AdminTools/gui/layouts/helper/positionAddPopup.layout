@@ -1,0 +1,124 @@
+PanelWidgetClass rootFrame {
+ ignorepointer 0
+ color 0.3922 0.3922 0.3922 0.9412
+ size 600 120
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ priority 550
+ scriptclass "LBMenuPopulator"
+ style rover_sim_colorable
+ {
+  TextWidgetClass txt_title {
+   ignorepointer 1
+   size 1 40
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_add__edit_position"
+   "text halign" center
+   "text valign" center
+  }
+  TextWidgetClass TextWidget1 {
+   ignorepointer 1
+   position 0 40
+   size 100 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_name"
+   "text halign" right
+  }
+  EditBoxWidgetClass edit_name {
+   position 0 40
+   size 500 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+  }
+  TextWidgetClass TextWidget2 {
+   ignorepointer 1
+   position 0 60
+   size 100 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_position"
+   "text halign" right
+  }
+  EditBoxWidgetClass edit_pos {
+   position 0 60
+   size 500 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+  }
+  ButtonWidgetClass btn_apply {
+   size 100 20
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   scriptclass ""
+   text "#apply"
+  }
+  ButtonWidgetClass btn_cancel {
+   size 100 20
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   scriptclass ""
+   text "#cancel"
+  }
+  ButtonWidgetClass btn_here {
+   size 100 20
+   halign center_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   scriptclass ""
+   text "#lb_adm_here"
+  }
+  TextWidgetClass TextWidget0 {
+   ignorepointer 1
+   position 0 80
+   size 100 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_orientation"
+   "text halign" right
+  }
+  EditBoxWidgetClass edit_orient {
+   position 0 80
+   size 500 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

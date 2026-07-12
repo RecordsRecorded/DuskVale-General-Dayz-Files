@@ -1,0 +1,4 @@
+//<'worlds_chernarusplus_gloom.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Worlds\ChernarusPlus\Gloom;
+//PboType=Arma Addon;
+//</properties>

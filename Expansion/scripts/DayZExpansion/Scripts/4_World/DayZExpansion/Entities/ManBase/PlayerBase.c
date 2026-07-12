@@ -1,0 +1,246 @@
+/**
+ * ExpansionPlayerBase.c
+ *
+ * DayZ Expansion Mod
+ * www.dayzexpansion.com
+ * © 2023 DayZ Expansion Mod Team
+ *
+ * This work is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+ * To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-nd/4.0/.
+ *
+*/
+
+modded class PlayerBase
+{
+	Object m_PlayerHeadingDir;
+
+	private bool m_Expansion_HitInProgress;
+	private bool m_Expansion_HasCalledKillFeed;
+
+	ExpansionKillFeedModule m_KillfeedModule;
+	ItemBase m_Expansion_SuicideItem;
+
+	float m_Expansion_GraveCross_Playtime;
+
+	override void EEDelete(EntityAI parent)
+	{
+		super.EEDelete(parent);
+
+		//! Making sure we remove tha call for CreateGraveCross when ever the player base entity gets deleted
+		if (Expansion_IsGravecrossEnabled())
+		{
+			g_Game.GetCallQueue(CALL_CATEGORY_SYSTEM).Remove(CreateGraveCross);
+		}
+	}
+
+	override void Init()
+	{
+		super.Init();
+
+		CF_Modules<ExpansionKillFeedModule>.Get(m_KillfeedModule);
+	}
+
+	override void SetSuicide(bool state)
+	{
+		super.SetSuicide(state);
+
+		if (state)
+			m_Expansion_SuicideItem = GetItemInHands();
+	}
+
+	bool Expansion_IsGravecrossEnabled()
+	{
+		if (Expansion_IsAI())
+			return GetExpansionSettings().GetGeneral().EnableAIGravecross;
+
+		return GetExpansionSettings().GetGeneral().EnableGravecross;
+	}
+
+	override bool EEOnDamageCalculated(TotalDamageResult damageResult, int damageType, EntityAI source, int component, string dmgZone, string ammo, vector modelPos, float speedCoef)
+	{
+		m_Expansion_HitInProgress = false;  //! Reset before super
+
+		if (!super.EEOnDamageCalculated(damageResult, damageType, source, component, dmgZone, ammo, modelPos, speedCoef))
+			return false;
+
+		m_Expansion_HitInProgress = true;
+
+		return true;
+	}
+
+	override void EEKilled( Object killer )
+	{
+		if (Expansion_IsGravecrossEnabled())
+		{
+			if (!Expansion_IsAI())
+			{
+				float playtime = StatGet(AnalyticsManagerServer.STAT_PLAYTIME);
+				if (playtime > 0)
+					Expansion_SetPlaytimeForGraveCross(playtime);
+			}
+
+			EntityAI handEntity = GetHumanInventory().GetEntityInHands();
+			g_Game.GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(CreateGraveCross, GetExpansionSettings().GetGeneral().GravecrossSpawnTimeDelay * 1000, false, handEntity);
+		}
+
+		super.EEKilled(killer);
+
+		if (!IPADACK() && GetExpansionSettings().GetNotification().EnableKillFeed)
+		{
+			if (!Expansion_IsAI() || GetExpansionSettings().GetNotification().KillFeedAI)
+			{
+				//! Only call killfeed from EEKilled if not a damage hit (else EEHitBy will take care of it)
+				if ( m_KillfeedModule && !m_Expansion_HitInProgress )
+				{
+					if (killer)
+						m_KillfeedModule.OnPlayerKilled( this, killer );
+					else
+						g_Game.GetCallQueue(CALL_CATEGORY_SYSTEM).Call(m_KillfeedModule.OnPlayerKilled, this, null);  //! Call in next frame in case a 3rd party mod overrides damage and uses SetHealth instead of ProcessDirectDamage, then calls EEHitBy manually
+				}
+			}
+		}
+	}
+
+	override void EEHitBy(TotalDamageResult damageResult, int damageType, EntityAI source, int component, string dmgZone, string ammo, vector modelPos, float speedCoef)
+	{
+		super.EEHitBy(damageResult, damageType, source, component, dmgZone, ammo, modelPos, speedCoef);
+
+		if ( GetExpansionSettings().GetNotification().EnableKillFeed )
+		{
+			if (!Expansion_IsAI() || GetExpansionSettings().GetNotification().KillFeedAI)
+			{
+				if ( m_KillfeedModule )
+				{
+					m_KillfeedModule.OnPlayerHitBy( damageType, this, source, ammo );
+				}
+			}
+		}
+
+		m_Expansion_HitInProgress = false;
+	}
+
+	bool IPADACK()
+	{
+		return m_Expansion_HasCalledKillFeed;
+	}
+
+	void UpdateIPADACK(bool state = true)
+	{
+		m_Expansion_HasCalledKillFeed = state;
+	}
+
+	void Expansion_SetPlaytimeForGraveCross(float playtime)
+	{
+		m_Expansion_GraveCross_Playtime = playtime;
+	}
+
+	void CreateGraveCross(EntityAI handEntity)
+	{
+		float lifetimeThreshhold = GetExpansionSettings().GetGeneral().GravecrossTimeThreshold;
+		bool deleteBody = GetExpansionSettings().GetGeneral().GravecrossDeleteBody;
+
+		string graveobject = "Expansion_Gravecross";
+
+		//! Offset of 0.6 is to account for cross anchor point not being at the bottom of the cross,
+		//! if we change cross object and not using ECE_TRACE this needs to be adjusted!
+		float offsetY = 0.6;
+
+	#ifdef DIAG_DEVELOPER
+		EXPrint(ToString() + "::CreateGraveCross playtime " + m_Expansion_GraveCross_Playtime + " threshold " + lifetimeThreshhold);
+	#endif
+
+		if (m_Expansion_GraveCross_Playtime <= lifetimeThreshhold)
+		{
+			graveobject = "Expansion_Gravecross_LowLifetime";
+
+			//! Offset of 1.035 is to account for cross anchor point not being at the bottom of the cross,
+			//! if we change cross object and not using ECE_TRACE this needs to be adjusted!
+			offsetY = 1.035;
+		}
+
+		Expansion_GraveBase grave;
+
+		vector pos = GetPosition();
+		vector ground = Vector(pos[0], g_Game.SurfaceY(pos[0], pos[2]), pos[2]);
+
+		//! The idea here is that the gravecross should spawn on top of the thing the player died on if it's a building or large item,
+		//! and not below sea level if over water
+
+		PhxInteractionLayers layerMask;
+
+		layerMask |= PhxInteractionLayers.BUILDING;
+		layerMask |= PhxInteractionLayers.ROADWAY;
+		layerMask |= PhxInteractionLayers.TERRAIN;
+		layerMask |= PhxInteractionLayers.WATERLAYER;  //! Doesn't seem to work?
+		layerMask |= PhxInteractionLayers.ITEM_LARGE;
+
+		Object hitObject;
+		vector hitPosition;
+		vector hitNormal;
+		float hitFraction;
+
+		if ( DayZPhysics.RayCastBullet( pos, ground, layerMask, this, hitObject, hitPosition, hitNormal, hitFraction ) )
+			ground[1] = hitPosition[1];
+
+		float water_depth = g_Game.GetWaterDepth(ground);
+
+		if ( water_depth > 0 )
+		{
+			//! Add water depth so cross sits above water level (with bottom bit submerged slightly)
+			ground[1] = ground[1] + water_depth - 0.5;
+		}
+
+		ground[1] = ground[1] + offsetY;
+
+		grave = Expansion_GraveBase.Cast(g_Game.CreateObjectEx(graveobject, ground, ECE_CREATEPHYSICS|ECE_UPDATEPATHGRAPH));
+		grave.SetPosition(ground);
+
+		if (handEntity)
+		{
+			EntityAI handEntityRoot = handEntity.GetHierarchyRoot();
+			if (handEntityRoot != this && handEntityRoot != handEntity)  //! Somebody picked it up in the meantime
+				handEntity = NULL;
+		}
+
+		grave.MoveAttachmentsFromEntity(this, handEntity, ground, GetOrientation());
+		grave.SetOrientation(GetOrientation());
+
+		if (GetExpansionSettings().GetLog())
+		{
+			string name = m_KillfeedModule.GetIdentityName(this);
+			if (GetIdentity())
+			{
+				GetExpansionSettings().GetLog().PrintLog(string.Format("[GraveCross] Spawned GraveCross for player %1 (%2) at position %3", name, GetIdentity().GetId(), ground));
+			}
+			else
+			{
+				GetExpansionSettings().GetLog().PrintLog(string.Format("[GraveCross] Spawned GraveCross for %1 at position %2", name, ground));
+			}
+		}
+
+		if (deleteBody)
+		{
+            SetPosition("0 0 0");
+        	g_Game.GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(Delete, 5000, false);
+		}
+	}
+
+	void Debug_PlayerForward()
+	{
+#ifdef EXPANSIONTRACE
+		auto trace = CF_Trace_0(ExpansionTracing.PLAYER, this, "Debug_PlayerForward");
+#endif
+
+		float speed;
+		vector direction;
+		GetInputController().GetMovement( speed, direction );
+
+		ExpansionTransform trans = ExpansionTransform.GetObject( this );
+		direction = direction.Multiply3( trans.GetBasis().data );
+
+		vector pos = GetPosition() + direction;
+
+		m_PlayerHeadingDir.SetPosition( pos );
+		m_PlayerHeadingDir.SetDirection( direction );
+	}
+};

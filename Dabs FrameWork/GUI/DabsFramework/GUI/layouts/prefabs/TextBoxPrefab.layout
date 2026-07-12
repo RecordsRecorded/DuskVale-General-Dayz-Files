@@ -1,0 +1,86 @@
+WrapSpacerWidgetClass EditBoxPrefab {
+ visible 1
+ size 1 24
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 1
+ scriptclass ""
+ style Colorable
+ Padding 0
+ Margin 0
+ content_valign center
+ {
+  FrameWidgetClass CaptionFrame {
+   ignorepointer 1
+   size 0.25 1
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   {
+    TextWidgetClass Caption {
+     clipchildren 0
+     ignorepointer 0
+     position 0 0
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     scaled 1
+     priority 1
+     scriptclass "ViewBinding"
+     style Normal
+     text "Caption"
+     font "gui/fonts/MetronBook16"
+     "text offset" -12 0
+     "size to text h" 0
+     "text halign" right
+     "text valign" center
+     {
+      ScriptParamsClass {
+       Binding_Name "Caption"
+      }
+     }
+    }
+   }
+  }
+  FrameWidgetClass ContentFrame {
+   ignorepointer 1
+   size 0.75 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   {
+    TextWidgetClass ContentText {
+     visible 1
+     size 0.7 1
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     scriptclass "ViewBinding"
+     style Normal
+     font "gui/fonts/etelkatextpro"
+     "exact text" 0
+     "size to text h" 1
+     "size to text v" 0
+     "text valign" center
+     {
+      ScriptParamsClass {
+       Binding_Name "Value"
+      }
+     }
+    }
+   }
+  }
+ }
+}

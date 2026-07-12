@@ -1,0 +1,4 @@
+//<'worlds_chernarusplus_vanillarays.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Worlds\ChernarusPlus\VanillaRays;
+//PboType=Arma Addon;
+//</properties>

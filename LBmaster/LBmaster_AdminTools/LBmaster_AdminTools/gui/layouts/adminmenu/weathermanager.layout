@@ -1,0 +1,1186 @@
+FrameWidgetClass rootFrame {
+ position 0 -1.0395
+ size 1 1
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  TextWidgetClass current_time {
+   ignorepointer 1
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   "text halign" center
+   "text valign" center
+  }
+  TextWidgetClass TextWidget0 {
+   ignorepointer 1
+   position 0 80
+   size 70 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_hour"
+   "text halign" right
+   "text valign" center
+  }
+  TextWidgetClass TextWidget1 {
+   ignorepointer 1
+   position 0 100
+   size 70 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_minute"
+   "text halign" right
+   "text valign" center
+  }
+  TextWidgetClass TextWidget2 {
+   ignorepointer 1
+   position 0 20
+   size 70 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_year"
+   "text halign" right
+   "text valign" center
+  }
+  TextWidgetClass TextWidget3 {
+   ignorepointer 1
+   position 0 40
+   size 70 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_month"
+   "text halign" right
+   "text valign" center
+  }
+  TextWidgetClass TextWidget4 {
+   ignorepointer 1
+   position 0 60
+   size 70 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_day"
+   "text halign" right
+   "text valign" center
+  }
+  ButtonWidgetClass btn_apply {
+   position 0 120
+   size 0.25 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#apply"
+  }
+  ButtonWidgetClass btn_save_preset {
+   position 0.25 120
+   size 0.25 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_save_preset"
+  }
+  ButtonWidgetClass btn_new_preset {
+   position 0.5 120
+   size 0.25 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_new_preset"
+  }
+  ButtonWidgetClass btn_delete_preset {
+   position 0.75 120
+   size 0.25 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_delete_preset"
+  }
+  TextListboxWidgetClass list_presets {
+   position 0 20
+   size 0.35 100
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+  }
+  PanelWidgetClass PanelWidget0 {
+   ignorepointer 1
+   position 70 20
+   size 0.65 100
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scriptclass "LBGapHandler"
+   {
+    EditBoxWidgetClass edit_year {
+     position 0 0
+     size 0.4 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBValidator_Number"
+     {
+      ScriptParamsClass {
+       min -1
+       max 9999
+      }
+     }
+    }
+    EditBoxWidgetClass edit_month {
+     position 0 20
+     size 0.4 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBValidator_Number"
+     {
+      ScriptParamsClass {
+       min -1
+       max 99
+      }
+     }
+    }
+    EditBoxWidgetClass edit_day {
+     position 0 40
+     size 0.4 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBValidator_Number"
+     {
+      ScriptParamsClass {
+       min -1
+       max 99
+      }
+     }
+    }
+    EditBoxWidgetClass edit_hour {
+     position 0 60
+     size 0.4 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBValidator_Number"
+     {
+      ScriptParamsClass {
+       min -1
+       max 99
+      }
+     }
+    }
+    EditBoxWidgetClass edit_minute {
+     position 0 80
+     size 0.4 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBValidator_Number"
+     {
+      ScriptParamsClass {
+       min -1
+       max 99
+      }
+     }
+    }
+    SliderWidgetClass slider_year {
+     size 0.6 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     minimum 1959
+     maximum 2100
+     current 2020
+     "fill in" 1
+    }
+    SliderWidgetClass slider_month {
+     position 0 20
+     size 0.6 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     maximum 12
+     current 5
+     "fill in" 1
+    }
+    SliderWidgetClass slider_day {
+     position 0 40
+     size 0.6 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     maximum 31
+     current 20
+     "fill in" 1
+    }
+    SliderWidgetClass slider_hour {
+     position 0 60
+     size 0.6 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     minimum -1
+     maximum 23
+     current 10
+     "fill in" 1
+    }
+    SliderWidgetClass slider_minute {
+     position 0 80
+     size 0.6 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     minimum -1
+     maximum 59
+     "fill in" 1
+    }
+   }
+   {
+    ScriptParamsClass {
+     gapHorizontal 75
+    }
+   }
+  }
+  CheckBoxWidgetClass chckbx_preview_time {
+   position 0 140
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_live_preview"
+  }
+  TextWidgetClass current_weather {
+   ignorepointer 1
+   position 0 160
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   "text halign" center
+   "text valign" center
+  }
+  TextListboxWidgetClass list_weather_presets {
+   position 0 180
+   size 0.35 220
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   lines 11
+  }
+  TextWidgetClass TextWidget5 {
+   ignorepointer 1
+   position 0 180
+   size 120 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_overcast"
+   "text halign" right
+   "text valign" center
+  }
+  PanelWidgetClass PanelWidget1 {
+   ignorepointer 1
+   position 120 180
+   size 0.65 220
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scriptclass "LBGapHandler"
+   {
+    EditBoxWidgetClass edit_overcast {
+     position 0 0
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBValidator_Float"
+     {
+      ScriptParamsClass {
+       min -1
+       max 9999
+      }
+     }
+    }
+    SliderWidgetClass slider_overcast {
+     clipchildren 1
+     size 0.7 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     minimum -0.1
+     maximum 1
+     step 0.001
+     current 0.5
+     "fill in" 1
+     {
+      PanelWidgetClass PanelWidget3 {
+       clipchildren 0
+       ignorepointer 1
+       position 2 0
+       size 0.909 1
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       scriptclass "LBGapHandler"
+       {
+        PanelWidgetClass current_overcast {
+         ignorepointer 1
+         color 1 0 0 0.3922
+         position 0.5 0
+         size 2 1
+         hexactpos 0
+         vexactpos 1
+         hexactsize 1
+         vexactsize 0
+         scriptclass ""
+         style rover_sim_colorable
+        }
+        PanelWidgetClass forecast_overcast {
+         ignorepointer 1
+         color 0 1 1 0.3922
+         position 0.7 0
+         size 2 1
+         hexactpos 0
+         vexactpos 1
+         hexactsize 1
+         vexactsize 0
+         scriptclass ""
+         style rover_sim_colorable
+        }
+       }
+       {
+        ScriptParamsClass {
+         gapHorizontal 2
+        }
+       }
+      }
+     }
+    }
+    EditBoxWidgetClass edit_rain {
+     position 0 20
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBValidator_Float"
+     {
+      ScriptParamsClass {
+       min -1
+       max 1
+      }
+     }
+    }
+    SliderWidgetClass slider_rain {
+     position 0 20
+     size 0.7 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     minimum -0.1
+     maximum 1
+     step 0.001
+     current 0.5
+     "fill in" 1
+     {
+      PanelWidgetClass PanelWidget10 {
+       clipchildren 0
+       ignorepointer 1
+       position 2 0
+       size 0.909 1
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       scriptclass "LBGapHandler"
+       {
+        PanelWidgetClass current_rain {
+         ignorepointer 1
+         color 1 0 0 0.3922
+         position 0.5 0
+         size 2 1
+         hexactpos 0
+         vexactpos 1
+         hexactsize 1
+         vexactsize 0
+         scriptclass ""
+         style rover_sim_colorable
+        }
+        PanelWidgetClass forecast_rain {
+         ignorepointer 1
+         color 0 1 1 0.3922
+         position 0.7 0
+         size 2 1
+         hexactpos 0
+         vexactpos 1
+         hexactsize 1
+         vexactsize 0
+         scriptclass ""
+         style rover_sim_colorable
+        }
+       }
+       {
+        ScriptParamsClass {
+         gapHorizontal 2
+        }
+       }
+      }
+     }
+    }
+    EditBoxWidgetClass edit_snowfall {
+     position 0 40
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBValidator_Float"
+     {
+      ScriptParamsClass {
+       min -1
+       max 1
+      }
+     }
+    }
+    SliderWidgetClass slider_snowfall {
+     position 0 40
+     size 0.7 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     minimum -0.1
+     maximum 1
+     step 0.001
+     current 0.5
+     "fill in" 1
+     {
+      PanelWidgetClass PanelWidget9 {
+       clipchildren 0
+       ignorepointer 1
+       position 2 0
+       size 0.909 1
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       scriptclass "LBGapHandler"
+       {
+        PanelWidgetClass current_snowfall {
+         ignorepointer 1
+         color 1 0 0 0.3922
+         position 0.5 0
+         size 2 1
+         hexactpos 0
+         vexactpos 1
+         hexactsize 1
+         vexactsize 0
+         scriptclass ""
+         style rover_sim_colorable
+        }
+        PanelWidgetClass forecast_snowfall {
+         ignorepointer 1
+         color 0 1 1 0.3922
+         position 0.7 0
+         size 2 1
+         hexactpos 0
+         vexactpos 1
+         hexactsize 1
+         vexactsize 0
+         scriptclass ""
+         style rover_sim_colorable
+        }
+       }
+       {
+        ScriptParamsClass {
+         gapHorizontal 2
+        }
+       }
+      }
+     }
+    }
+    EditBoxWidgetClass edit_fog {
+     position 0 60
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBValidator_Float"
+     {
+      ScriptParamsClass {
+       min -1
+       max 1
+      }
+     }
+    }
+    SliderWidgetClass slider_fog {
+     position 0 60
+     size 0.7 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     minimum -0.1
+     maximum 1
+     step 0.001
+     current 0.5
+     "fill in" 1
+     {
+      PanelWidgetClass PanelWidget8 {
+       clipchildren 0
+       ignorepointer 1
+       position 2 0
+       size 0.909 1
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       scriptclass "LBGapHandler"
+       {
+        PanelWidgetClass current_fog {
+         ignorepointer 1
+         color 1 0 0 0.3922
+         position 0.5 0
+         size 2 1
+         hexactpos 0
+         vexactpos 1
+         hexactsize 1
+         vexactsize 0
+         scriptclass ""
+         style rover_sim_colorable
+        }
+        PanelWidgetClass forecast_fog {
+         ignorepointer 1
+         color 0 1 1 0.3922
+         position 0.7 0
+         size 2 1
+         hexactpos 0
+         vexactpos 1
+         hexactsize 1
+         vexactsize 0
+         scriptclass ""
+         style rover_sim_colorable
+        }
+       }
+       {
+        ScriptParamsClass {
+         gapHorizontal 2
+        }
+       }
+      }
+     }
+    }
+    EditBoxWidgetClass edit_fog_dens {
+     position 0 80
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBValidator_Float"
+     {
+      ScriptParamsClass {
+       min -1
+       max 1
+      }
+     }
+    }
+    SliderWidgetClass slider_fog_dens {
+     position 0 80
+     size 0.7 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     minimum -0.1
+     maximum 1
+     step 0.001
+     current 0.5
+     "fill in" 1
+     {
+      PanelWidgetClass PanelWidget7 {
+       clipchildren 0
+       ignorepointer 1
+       position 2 0
+       size 0.909 1
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       scriptclass "LBGapHandler"
+       {
+        PanelWidgetClass current_fog_dens {
+         ignorepointer 1
+         color 1 0 0 0.3922
+         position 0.5 0
+         size 2 1
+         hexactpos 0
+         vexactpos 1
+         hexactsize 1
+         vexactsize 0
+         scriptclass ""
+         style rover_sim_colorable
+        }
+       }
+       {
+        ScriptParamsClass {
+         gapHorizontal 2
+        }
+       }
+      }
+     }
+    }
+    EditBoxWidgetClass edit_fog_height {
+     position 0 100
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBValidator_Number"
+     {
+      ScriptParamsClass {
+       min -1
+       max 2000
+      }
+     }
+    }
+    SliderWidgetClass slider_fog_height {
+     position 0 100
+     size 0.7 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     minimum -1
+     maximum 2000
+     current 0
+     "fill in" 1
+     {
+      PanelWidgetClass PanelWidget6 {
+       clipchildren 0
+       ignorepointer 1
+       position 2 0
+       size 1 1
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       scriptclass "LBGapHandler"
+       {
+        PanelWidgetClass current_fog_height {
+         ignorepointer 1
+         color 1 0 0 0.3922
+         position 0.5 0
+         size 2 1
+         hexactpos 0
+         vexactpos 1
+         hexactsize 1
+         vexactsize 0
+         scriptclass ""
+         style rover_sim_colorable
+        }
+       }
+       {
+        ScriptParamsClass {
+         gapHorizontal 2
+        }
+       }
+      }
+     }
+    }
+    EditBoxWidgetClass edit_fog_bias {
+     position 0 120
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBValidator_Number"
+     {
+      ScriptParamsClass {
+       min -1
+       max 1000
+      }
+     }
+    }
+    SliderWidgetClass slider_fog_bias {
+     position 0 120
+     size 0.7 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     minimum -1
+     maximum 1000
+     current 1
+     "fill in" 1
+     {
+      PanelWidgetClass PanelWidget5 {
+       clipchildren 0
+       ignorepointer 1
+       position 2 0
+       size 0.999 1
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       scriptclass "LBGapHandler"
+       {
+        PanelWidgetClass current_fog_bias {
+         ignorepointer 1
+         color 1 0 0 0.3922
+         position 0.5 0
+         size 2 1
+         hexactpos 0
+         vexactpos 1
+         hexactsize 1
+         vexactsize 0
+         scriptclass ""
+         style rover_sim_colorable
+        }
+       }
+       {
+        ScriptParamsClass {
+         gapHorizontal 2
+        }
+       }
+      }
+     }
+    }
+    EditBoxWidgetClass edit_wind {
+     position 0 140
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBValidator_Float"
+     {
+      ScriptParamsClass {
+       min -1
+       max 20
+      }
+     }
+    }
+    SliderWidgetClass slider_wind {
+     position 0 140
+     size 0.7 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     minimum -1
+     maximum 20
+     step 0.1
+     current 0.5
+     "fill in" 1
+     {
+      PanelWidgetClass PanelWidget4 {
+       clipchildren 0
+       ignorepointer 1
+       position 2 0
+       size 0.9523 1
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       scriptclass "LBGapHandler"
+       {
+        PanelWidgetClass current_wind {
+         ignorepointer 1
+         color 1 0 0 0.3922
+         position 0.5 0
+         size 2 1
+         hexactpos 0
+         vexactpos 1
+         hexactsize 1
+         vexactsize 0
+         scriptclass ""
+         style rover_sim_colorable
+        }
+        PanelWidgetClass forecast_wind {
+         ignorepointer 1
+         color 0 1 1 0.3922
+         position 0.7 0
+         size 2 1
+         hexactpos 0
+         vexactpos 1
+         hexactsize 1
+         vexactsize 0
+         scriptclass ""
+         style rover_sim_colorable
+        }
+       }
+       {
+        ScriptParamsClass {
+         gapHorizontal 2
+        }
+       }
+      }
+     }
+    }
+    EditBoxWidgetClass edit_winddir {
+     position 0 160
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBValidator_Number"
+     {
+      ScriptParamsClass {
+       min -1
+       max 360
+      }
+     }
+    }
+    SliderWidgetClass slider_winddir {
+     position 0 160
+     size 0.7 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     minimum -1
+     maximum 360
+     current 0
+     "fill in" 1
+     {
+      PanelWidgetClass PanelWidget2 {
+       clipchildren 0
+       ignorepointer 1
+       position 2 0
+       size 0.997 1
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       scriptclass "LBGapHandler"
+       {
+        PanelWidgetClass current_winddir {
+         ignorepointer 1
+         color 1 0 0 0.3922
+         position 0.5 0
+         size 2 1
+         hexactpos 0
+         vexactpos 1
+         hexactsize 1
+         vexactsize 0
+         scriptclass ""
+         style rover_sim_colorable
+        }
+        PanelWidgetClass forecast_winddir {
+         ignorepointer 1
+         color 0 1 1 0.3922
+         position 0.7 0
+         size 2 1
+         hexactpos 0
+         vexactpos 1
+         hexactsize 1
+         vexactsize 0
+         scriptclass ""
+         style rover_sim_colorable
+        }
+       }
+       {
+        ScriptParamsClass {
+         gapHorizontal 2
+        }
+       }
+      }
+     }
+    }
+    EditBoxWidgetClass edit_duration {
+     position 0 180
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBValidator_Number"
+     {
+      ScriptParamsClass {
+       max 9999
+      }
+     }
+    }
+    SliderWidgetClass slider_duration {
+     position 0 180
+     size 0.7 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     maximum 9999
+     current 20
+     "fill in" 1
+    }
+    EditBoxWidgetClass edit_fade_time {
+     position 0 200
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBValidator_Number"
+     {
+      ScriptParamsClass {
+       max 9999
+      }
+     }
+    }
+    SliderWidgetClass slider_fade_time {
+     position 0 200
+     size 0.7 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     maximum 9999
+     current 10
+     "fill in" 1
+    }
+   }
+   {
+    ScriptParamsClass {
+     gapHorizontal 125
+    }
+   }
+  }
+  TextWidgetClass TextWidget6 {
+   ignorepointer 1
+   position 0 200
+   size 120 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_rain"
+   "text halign" right
+   "text valign" center
+  }
+  TextWidgetClass TextWidget7 {
+   ignorepointer 1
+   position 0 220
+   size 120 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_snowfall"
+   "text halign" right
+   "text valign" center
+  }
+  TextWidgetClass TextWidget8 {
+   ignorepointer 1
+   position 0 240
+   size 120 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_fog"
+   "text halign" right
+   "text valign" center
+  }
+  TextWidgetClass TextWidget9 {
+   ignorepointer 1
+   position 0 260
+   size 120 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_fog_density"
+   "text halign" right
+   "text valign" center
+  }
+  TextWidgetClass TextWidget10 {
+   ignorepointer 1
+   position 0 280
+   size 120 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_fog_height"
+   "text halign" right
+   "text valign" center
+  }
+  TextWidgetClass TextWidget11 {
+   ignorepointer 1
+   position 0 300
+   size 120 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_fog_bias"
+   "text halign" right
+   "text valign" center
+  }
+  TextWidgetClass TextWidget12 {
+   ignorepointer 1
+   position 0 320
+   size 120 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_wind"
+   "text halign" right
+   "text valign" center
+  }
+  TextWidgetClass TextWidget13 {
+   ignorepointer 1
+   position 0 340
+   size 120 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_wind_dir"
+   "text halign" right
+   "text valign" center
+  }
+  TextWidgetClass TextWidget14 {
+   ignorepointer 1
+   position 0 360
+   size 120 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_duration"
+   "text halign" right
+   "text valign" center
+  }
+  TextWidgetClass TextWidget15 {
+   ignorepointer 1
+   position 0 380
+   size 120 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_fade_time"
+   "text halign" right
+   "text valign" center
+  }
+  ButtonWidgetClass btn_apply_weather {
+   position 0 400
+   size 0.25 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#apply"
+  }
+  ButtonWidgetClass btn_save_weather {
+   position 0.25 400
+   size 0.25 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_save_preset"
+  }
+  ButtonWidgetClass btn_new_weather {
+   position 0.5 400
+   size 0.25 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_new_preset"
+  }
+  ButtonWidgetClass btn_delete_weather {
+   position 0.75 400
+   size 0.25 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_delete_preset"
+  }
+  CheckBoxWidgetClass chckbx_preview_weather {
+   position 0 420
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_live_preview"
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

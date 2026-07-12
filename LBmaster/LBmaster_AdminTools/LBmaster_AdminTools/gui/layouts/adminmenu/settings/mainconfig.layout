@@ -1,0 +1,165 @@
+PanelWidgetClass rootFrame {
+ size 400 470
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ scriptclass "LBMenuPopulator"
+ {
+  TextWidgetClass TextWidget0 {
+   ignorepointer 1
+   size 1 30
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Main Config"
+   "text halign" center
+   "text valign" center
+  }
+  TextWidgetClass TextWidget1 {
+   ignorepointer 1
+   position 0 30
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scriptclass "LBGapHandler"
+   text "Status Webhook send interval (s): "
+   "text halign" right
+   {
+    ScriptParamsClass {
+     gapHorizontal 70
+    }
+   }
+  }
+  EditBoxWidgetClass edit_status_interval {
+   position 0 30
+   size 70 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+  }
+  CheckBoxWidgetClass chckbx_possible_watchlist {
+   position 0 50
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Add possible cheaters to watchlist"
+  }
+  CheckBoxWidgetClass chckbx_global_bans {
+   position 0 70
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Contribute to global CF Cloud Banlist"
+  }
+  TextListboxWidgetClass list_detections {
+   position 0 90
+   size 1 200
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   "title visible" 1
+   colums "Detection;70%;Enabled;30%"
+   lines 9
+  }
+  ButtonWidgetClass btn_toggle_detection {
+   position 0 290
+   size 200 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "Toggle"
+  }
+  CheckBoxWidgetClass chckbx_duped_login {
+   position 0 310
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Delete Duped Items on login"
+  }
+  CheckBoxWidgetClass chckbx_duped_restart {
+   position 0 330
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Delete Duped Items on Restart"
+  }
+  CheckBoxWidgetClass chckbx_prevent_teleport_hack {
+   position 0 350
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Prevent Item teleportation Hacks"
+  }
+  CheckBoxWidgetClass chckbx_prevent_loot_walls {
+   position 0 370
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Prevent Loot containers through walls"
+  }
+  CheckBoxWidgetClass chckbx_validate_action_origin {
+   position 0 410
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Validate Action Origin / Item"
+  }
+  CheckBoxWidgetClass chckbx_validate_action_distance {
+   position 0 430
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Validate Action Distance"
+  }
+  CheckBoxWidgetClass chckbx_log_inv_events {
+   position 0 450
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Log all inventory move Events"
+  }
+  CheckBoxWidgetClass chckbx_prevent_invalid_mag {
+   position 0 390
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Prevent Loading invalid magazine into weapon"
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

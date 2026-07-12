@@ -1,0 +1,22 @@
+enum MULTITERRITORYRPCs
+{
+	REQUEST_START = 2122303,
+	REQUEST_DATA,
+	ADD_MEMBER,
+	SEND_DATA,
+	SEND_IDENTITY_NAMES,
+	MENU_TOGGLE_INVITE,
+	MENU_JOIN_OR_LEAVE,
+	MENU_RESET_MEMBERS,
+	MENU_RESET_ADMIN,
+	MENU_CLAIM_ADMIN,
+	MENU_EJECT_FLOPPY,
+	MENU_EDIT_PERMISSION,
+	MENU_KICK_MEMBER,
+	// Server-side vitals push -- client requests, server reads its sender's
+	// GetHealth/GetStatWater/etc (which only work server-side) and responds.
+	MENU_REQUEST_VITALS,
+	MENU_VITALS_RESPONSE
+}
+
+static const int MENU_MULTITERRITORY_COMPUTER = 2122303;

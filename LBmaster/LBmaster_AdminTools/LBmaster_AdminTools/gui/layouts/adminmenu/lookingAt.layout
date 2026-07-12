@@ -1,0 +1,257 @@
+FrameWidgetClass rootFrame {
+ position 0 0
+ size 1 1
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  PanelWidgetClass PanelWidget0 {
+   ignorepointer 1
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    TextWidgetClass txt_item {
+     ignorepointer 1
+     position 5 0
+     size 0.33 1
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+    }
+    TextWidgetClass txt_pos {
+     ignorepointer 1
+     position 5 0
+     size 0.33 1
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+    }
+    TextWidgetClass txt_dir {
+     ignorepointer 1
+     position -5 0
+     size 0.33 1
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget1 {
+   ignorepointer 1
+   position 0 40
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    CheckBoxWidgetClass chckbx_copy_item {
+     position 5 0
+     size 0.33 1
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     text "#lb_copy"
+    }
+    CheckBoxWidgetClass chckbx_copy_pos {
+     position 5 0
+     size 0.33 1
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     text "#lb_copy"
+    }
+    CheckBoxWidgetClass chckbx_copy_dir {
+     position -5 0
+     size 0.33 1
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     text "#lb_copy"
+    }
+   }
+  }
+  TextWidgetClass txt_lifetime {
+   ignorepointer 1
+   position 0.0033 20
+   size 0.9933 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Waiting for info..."
+   "text valign" center
+  }
+  PanelWidgetClass PanelWidget2 {
+   ignorepointer 1
+   position 5 60
+   size 0.33 20
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    XComboBoxWidgetClass combo_pos_format {
+     size 1 1
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     scriptclass "LBGapHandler"
+     items "<x, y, z>;<x y z>;x, y, z;x y z"
+     {
+      ScriptParamsClass {
+       gapHorizontal 100
+      }
+     }
+    }
+    TextWidgetClass TextWidget0 {
+     ignorepointer 1
+     size 100 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Format: "
+     "text halign" right
+     "text valign" center
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget3 {
+   ignorepointer 1
+   position -5 60
+   size 0.33 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    XComboBoxWidgetClass combo_dir_format {
+     size 1 1
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     scriptclass "LBGapHandler"
+     items "<yaw, pitch, roll>; yaw, pitch, roll;yaw pitch roll;yaw;yaw pitch;yaw, pitch;custom"
+     {
+      ScriptParamsClass {
+       gapHorizontal 100
+      }
+     }
+    }
+    TextWidgetClass TextWidget1 {
+     ignorepointer 1
+     size 100 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Format: "
+     "text halign" right
+     "text valign" center
+    }
+   }
+  }
+  PanelWidgetClass panel_dir_format {
+   ignorepointer 1
+   position -5 80
+   size 0.33 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    TextWidgetClass TextWidget2 {
+     ignorepointer 1
+     size 150 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Custom Format: "
+     "text halign" right
+     "text valign" center
+    }
+    EditBoxWidgetClass edit_dir_custom_format {
+     ignorepointer 0
+     size 1 1
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     scriptclass "LBGapHandler"
+     {
+      ScriptParamsClass {
+       gapHorizontal 150
+      }
+     }
+    }
+   }
+  }
+  PanelWidgetClass panel_pos_format {
+   ignorepointer 1
+   position 5 80
+   size 0.33 20
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    TextWidgetClass TextWidget3 {
+     ignorepointer 1
+     size 150 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Custom Format: "
+     "text halign" right
+     "text valign" center
+    }
+    EditBoxWidgetClass edit_pos_custom_format {
+     ignorepointer 0
+     size 1 1
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     scriptclass "LBGapHandler"
+     {
+      ScriptParamsClass {
+       gapHorizontal 150
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

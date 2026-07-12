@@ -1,0 +1,1491 @@
+PanelWidgetClass MenuRoot
+{
+ name "MenuRoot"
+ x 0
+ y 0
+ w 1
+ h 1
+ color 0 0 0 0
+ {
+  PanelWidgetClass MenuPanel
+  {
+   name "MenuPanel"
+   x 0.225
+   y 0.10
+   w 0.55
+   h 0.80
+   text ""
+   color 0 0 0 255
+  }
+  PanelWidgetClass BezelPanel
+  {
+   name "BezelPanel"
+   x 0.225
+   y 0.10
+   w 0.55
+   h 0.04
+   text ""
+   color 0 0 0 255
+  }
+  PanelWidgetClass ScreenBackground
+  {
+   name "ScreenBackground"
+   x 0.225
+   y 0.155
+   w 0.55
+   h 0.555
+   text ""
+   color 0 0 0 255
+  }
+  PanelWidgetClass StatusBarPanel
+  {
+   name "StatusBarPanel"
+   x 0.235
+   y 0.165
+   w 0.53
+   h 0.05
+   text ""
+   color 0 0 0 255
+  }
+  PanelWidgetClass OrgPanel
+  {
+   name "OrgPanel"
+   x 0.235
+   y 0.225
+   w 0.31
+   h 0.45
+   text ""
+   color 0 0 0 255
+  }
+  PanelWidgetClass DetailPanel
+  {
+   name "DetailPanel"
+   x 0.555
+   y 0.225
+   w 0.21
+   h 0.45
+   text ""
+   color 0 0 0 255
+  }
+  PanelWidgetClass CommandPanel
+  {
+   name "CommandPanel"
+   x 0.235
+   y 0.720
+   w 0.53
+   h 0.06
+   text ""
+   color 0 0 0 255
+  }
+  TextWidgetClass TitleText
+  {
+   name "TitleText"
+   x 0.235
+   y 0.108
+   w 0.35
+   h 0.02
+   text "territory://console"
+   textsize 16
+   exacttextsize 1
+   color 175 235 182 255
+  }
+  TextWidgetClass FloppyStatusText
+  {
+   name "FloppyStatusText"
+   x 0.555
+   y 0.108
+   w 0.21
+   h 0.02
+   text "[ ] FLOPPY: --"
+   textsize 13
+   exacttextsize 1
+   color 175 235 182 255
+   "text halign" right
+  }
+  TextWidgetClass StatusText
+  {
+   name "StatusText"
+   x 0.245
+   y 0.170
+   w 0.176
+   h 0.022
+   text "> STATUS: OFFLINE"
+   textsize 13
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  TextWidgetClass OwnerHeaderText
+  {
+   name "OwnerHeaderText"
+   x 0.421
+   y 0.170
+   w 0.176
+   h 0.022
+   text "> OWNER: UNCLAIMED"
+   textsize 13
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  TextWidgetClass InviteText
+  {
+   name "InviteText"
+   x 0.597
+   y 0.170
+   w 0.176
+   h 0.022
+   text "> INVITE: CLOSED"
+   textsize 13
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  TextWidgetClass MemberCountText
+  {
+   name "MemberCountText"
+   x 0.245
+   y 0.193
+   w 0.176
+   h 0.022
+   text "> MEMBERS: 0/8"
+   textsize 13
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  TextWidgetClass FloppyLifeText
+  {
+   name "FloppyLifeText"
+   x 0.421
+   y 0.193
+   w 0.176
+   h 0.022
+   text "> FLOPPY LIFE: --"
+   textsize 13
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  TextWidgetClass LoggedInAsText
+  {
+   name "LoggedInAsText"
+   x 0.597
+   y 0.193
+   w 0.176
+   h 0.022
+   text "> LOGGED IN AS: --"
+   textsize 13
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  MultilineTextWidgetClass HeaderBlockText
+  {
+   name "HeaderBlockText"
+   x 0.180
+   y 0.110
+   w 0.65
+   h 0.055
+   text ""
+   textsize 11
+   exacttextsize 1
+   color 175 235 182 255
+   wrap 0
+   "text halign" left
+   "text valign" top
+  }
+  MultilineTextWidgetClass OrgTreeText
+  {
+   name "OrgTreeText"
+   x 0.190
+   y 0.240
+   w 0.295
+   h 0.265
+   text ""
+   textsize 16
+   exacttextsize 1
+   color 175 235 182 255
+   wrap 0
+   "text halign" left
+   "text valign" top
+  }
+  MultilineTextWidgetClass MemberDetailText
+  {
+   name "MemberDetailText"
+   x 0.510
+   y 0.240
+   w 0.315
+   h 0.110
+   text ""
+   textsize 9
+   exacttextsize 1
+   color 175 235 182 255
+   wrap 0
+   "text halign" left
+   "text valign" top
+  }
+  MultilineTextWidgetClass AccessRightsText
+  {
+   name "AccessRightsText"
+   x 0.510
+   y 0.470
+   w 0.315
+   h 0.115
+   text ""
+   textsize 10
+   exacttextsize 1
+   color 175 235 182 255
+   wrap 0
+   "text halign" left
+   "text valign" top
+  }
+  MultilineTextWidgetClass LogPanelText
+  {
+   name "LogPanelText"
+   x 0.190
+   y 0.665
+   w 0.635
+   h 0.090
+   text ""
+   textsize 10
+   exacttextsize 1
+   color 120 180 120 255
+   wrap 0
+   "text halign" left
+   "text valign" top
+  }
+  TextWidgetClass OrgTitleText
+  {
+   name "OrgTitleText"
+   x 0.245
+   y 0.232
+   w 0.29
+   h 0.022
+   text "===== ORGANIZATION ====="
+   textsize 13
+   exacttextsize 1
+   color 175 235 182 255
+   "text halign" center
+  }
+  PanelWidgetClass OwnerNodeBg
+  {
+   name "OwnerNodeBg"
+   x 0.35
+   y 0.270
+   w 0.10
+   h 0.055
+   text ""
+   color 0 0 0 255
+  }
+  TextWidgetClass OwnerRoleText
+  {
+   name "OwnerRoleText"
+   x 0.35
+   y 0.272
+   w 0.10
+   h 0.016
+   text "* COMMANDER *"
+   textsize 11
+   exacttextsize 1
+   color 255 191 60 255
+   "text halign" center
+  }
+  TextWidgetClass OwnerNameText
+  {
+   name "OwnerNameText"
+   x 0.35
+   y 0.288
+   w 0.10
+   h 0.020
+   text "UNCLAIMED"
+   textsize 13
+   exacttextsize 1
+   color 255 191 60 255
+   "text halign" center
+  }
+  TextWidgetClass OwnerPermsText
+  {
+   name "OwnerPermsText"
+   x 0.35
+   y 0.308
+   w 0.10
+   h 0.016
+   text "[9 PERMS]"
+   textsize 10
+   exacttextsize 1
+   color 200 150 50 255
+   "text halign" center
+  }
+  ButtonWidgetClass OwnerButton
+  {
+   name "OwnerButton"
+   x 0.35
+   y 0.270
+   w 0.10
+   h 0.055
+   text ""
+   color 0 0 0 0
+  }
+  TextWidgetClass OwnerSelector
+  {
+   name "OwnerSelector"
+   x 0.35
+   y 0.328
+   w 0.10
+   h 0.016
+   text "^ SELECTED"
+   textsize 10
+   exacttextsize 1
+   color 175 235 182 255
+   "text halign" center
+  }
+  TextWidgetClass EmptyMembersText
+  {
+   name "EmptyMembersText"
+   x 0.245
+   y 0.380
+   w 0.29
+   h 0.260
+   text "> NO MEMBERS REGISTERED"
+   textsize 12
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" left
+  }
+  PanelWidgetClass Member0_Bg
+  {
+   name "Member0_Bg"
+   x 0.255
+   y 0.380
+   w 0.065
+   h 0.045
+   text ""
+   color 0 0 0 255
+  }
+  TextWidgetClass Member0_Name
+  {
+   name "Member0_Name"
+   x 0.255
+   y 0.383
+   w 0.065
+   h 0.020
+   text ""
+   textsize 11
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  TextWidgetClass Member0_Perms
+  {
+   name "Member0_Perms"
+   x 0.255
+   y 0.404
+   w 0.065
+   h 0.016
+   text ""
+   textsize 9
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  ButtonWidgetClass Member0_Button
+  {
+   name "Member0_Button"
+   x 0.255
+   y 0.380
+   w 0.065
+   h 0.045
+   text ""
+   color 0 0 0 0
+  }
+  TextWidgetClass Member0_Selector
+  {
+   name "Member0_Selector"
+   x 0.255
+   y 0.428
+   w 0.065
+   h 0.014
+   text "^"
+   textsize 10
+   exacttextsize 1
+   color 175 235 182 255
+   "text halign" center
+  }
+  PanelWidgetClass Member1_Bg
+  {
+   name "Member1_Bg"
+   x 0.330
+   y 0.380
+   w 0.065
+   h 0.045
+   text ""
+   color 0 0 0 255
+  }
+  TextWidgetClass Member1_Name
+  {
+   name "Member1_Name"
+   x 0.330
+   y 0.383
+   w 0.065
+   h 0.020
+   text ""
+   textsize 11
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  TextWidgetClass Member1_Perms
+  {
+   name "Member1_Perms"
+   x 0.330
+   y 0.404
+   w 0.065
+   h 0.016
+   text ""
+   textsize 9
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  ButtonWidgetClass Member1_Button
+  {
+   name "Member1_Button"
+   x 0.330
+   y 0.380
+   w 0.065
+   h 0.045
+   text ""
+   color 0 0 0 0
+  }
+  TextWidgetClass Member1_Selector
+  {
+   name "Member1_Selector"
+   x 0.330
+   y 0.428
+   w 0.065
+   h 0.014
+   text "^"
+   textsize 10
+   exacttextsize 1
+   color 175 235 182 255
+   "text halign" center
+  }
+  PanelWidgetClass Member2_Bg
+  {
+   name "Member2_Bg"
+   x 0.405
+   y 0.380
+   w 0.065
+   h 0.045
+   text ""
+   color 0 0 0 255
+  }
+  TextWidgetClass Member2_Name
+  {
+   name "Member2_Name"
+   x 0.405
+   y 0.383
+   w 0.065
+   h 0.020
+   text ""
+   textsize 11
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  TextWidgetClass Member2_Perms
+  {
+   name "Member2_Perms"
+   x 0.405
+   y 0.404
+   w 0.065
+   h 0.016
+   text ""
+   textsize 9
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  ButtonWidgetClass Member2_Button
+  {
+   name "Member2_Button"
+   x 0.405
+   y 0.380
+   w 0.065
+   h 0.045
+   text ""
+   color 0 0 0 0
+  }
+  TextWidgetClass Member2_Selector
+  {
+   name "Member2_Selector"
+   x 0.405
+   y 0.428
+   w 0.065
+   h 0.014
+   text "^"
+   textsize 10
+   exacttextsize 1
+   color 175 235 182 255
+   "text halign" center
+  }
+  PanelWidgetClass Member3_Bg
+  {
+   name "Member3_Bg"
+   x 0.480
+   y 0.380
+   w 0.065
+   h 0.045
+   text ""
+   color 0 0 0 255
+  }
+  TextWidgetClass Member3_Name
+  {
+   name "Member3_Name"
+   x 0.480
+   y 0.383
+   w 0.065
+   h 0.020
+   text ""
+   textsize 11
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  TextWidgetClass Member3_Perms
+  {
+   name "Member3_Perms"
+   x 0.480
+   y 0.404
+   w 0.065
+   h 0.016
+   text ""
+   textsize 9
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  ButtonWidgetClass Member3_Button
+  {
+   name "Member3_Button"
+   x 0.480
+   y 0.380
+   w 0.065
+   h 0.045
+   text ""
+   color 0 0 0 0
+  }
+  TextWidgetClass Member3_Selector
+  {
+   name "Member3_Selector"
+   x 0.480
+   y 0.428
+   w 0.065
+   h 0.014
+   text "^"
+   textsize 10
+   exacttextsize 1
+   color 175 235 182 255
+   "text halign" center
+  }
+  PanelWidgetClass Member4_Bg
+  {
+   name "Member4_Bg"
+   x 0.255
+   y 0.475
+   w 0.065
+   h 0.045
+   text ""
+   color 0 0 0 255
+  }
+  TextWidgetClass Member4_Name
+  {
+   name "Member4_Name"
+   x 0.255
+   y 0.478
+   w 0.065
+   h 0.020
+   text ""
+   textsize 11
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  TextWidgetClass Member4_Perms
+  {
+   name "Member4_Perms"
+   x 0.255
+   y 0.499
+   w 0.065
+   h 0.016
+   text ""
+   textsize 9
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  ButtonWidgetClass Member4_Button
+  {
+   name "Member4_Button"
+   x 0.255
+   y 0.475
+   w 0.065
+   h 0.045
+   text ""
+   color 0 0 0 0
+  }
+  TextWidgetClass Member4_Selector
+  {
+   name "Member4_Selector"
+   x 0.255
+   y 0.523
+   w 0.065
+   h 0.014
+   text "^"
+   textsize 10
+   exacttextsize 1
+   color 175 235 182 255
+   "text halign" center
+  }
+  PanelWidgetClass Member5_Bg
+  {
+   name "Member5_Bg"
+   x 0.330
+   y 0.475
+   w 0.065
+   h 0.045
+   text ""
+   color 0 0 0 255
+  }
+  TextWidgetClass Member5_Name
+  {
+   name "Member5_Name"
+   x 0.330
+   y 0.478
+   w 0.065
+   h 0.020
+   text ""
+   textsize 11
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  TextWidgetClass Member5_Perms
+  {
+   name "Member5_Perms"
+   x 0.330
+   y 0.499
+   w 0.065
+   h 0.016
+   text ""
+   textsize 9
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  ButtonWidgetClass Member5_Button
+  {
+   name "Member5_Button"
+   x 0.330
+   y 0.475
+   w 0.065
+   h 0.045
+   text ""
+   color 0 0 0 0
+  }
+  TextWidgetClass Member5_Selector
+  {
+   name "Member5_Selector"
+   x 0.330
+   y 0.523
+   w 0.065
+   h 0.014
+   text "^"
+   textsize 10
+   exacttextsize 1
+   color 175 235 182 255
+   "text halign" center
+  }
+  PanelWidgetClass Member6_Bg
+  {
+   name "Member6_Bg"
+   x 0.405
+   y 0.475
+   w 0.065
+   h 0.045
+   text ""
+   color 0 0 0 255
+  }
+  TextWidgetClass Member6_Name
+  {
+   name "Member6_Name"
+   x 0.405
+   y 0.478
+   w 0.065
+   h 0.020
+   text ""
+   textsize 11
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  TextWidgetClass Member6_Perms
+  {
+   name "Member6_Perms"
+   x 0.405
+   y 0.499
+   w 0.065
+   h 0.016
+   text ""
+   textsize 9
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  ButtonWidgetClass Member6_Button
+  {
+   name "Member6_Button"
+   x 0.405
+   y 0.475
+   w 0.065
+   h 0.045
+   text ""
+   color 0 0 0 0
+  }
+  TextWidgetClass Member6_Selector
+  {
+   name "Member6_Selector"
+   x 0.405
+   y 0.523
+   w 0.065
+   h 0.014
+   text "^"
+   textsize 10
+   exacttextsize 1
+   color 175 235 182 255
+   "text halign" center
+  }
+  PanelWidgetClass Member7_Bg
+  {
+   name "Member7_Bg"
+   x 0.480
+   y 0.475
+   w 0.065
+   h 0.045
+   text ""
+   color 0 0 0 255
+  }
+  TextWidgetClass Member7_Name
+  {
+   name "Member7_Name"
+   x 0.480
+   y 0.478
+   w 0.065
+   h 0.020
+   text ""
+   textsize 11
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  TextWidgetClass Member7_Perms
+  {
+   name "Member7_Perms"
+   x 0.480
+   y 0.499
+   w 0.065
+   h 0.016
+   text ""
+   textsize 9
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  ButtonWidgetClass Member7_Button
+  {
+   name "Member7_Button"
+   x 0.480
+   y 0.475
+   w 0.065
+   h 0.045
+   text ""
+   color 0 0 0 0
+  }
+  TextWidgetClass Member7_Selector
+  {
+   name "Member7_Selector"
+   x 0.480
+   y 0.523
+   w 0.065
+   h 0.014
+   text "^"
+   textsize 10
+   exacttextsize 1
+   color 175 235 182 255
+   "text halign" center
+  }
+  TextWidgetClass OverflowMembersText
+  {
+   name "OverflowMembersText"
+   x 0.245
+   y 0.575
+   w 0.29
+   h 0.022
+   text ""
+   textsize 11
+   exacttextsize 1
+   color 200 150 50 255
+   "text halign" center
+  }
+  TextWidgetClass DetailTitleText
+  {
+   name "DetailTitleText"
+   x 0.565
+   y 0.232
+   w 0.19
+   h 0.022
+   text "==== MEMBER DETAILS ===="
+   textsize 13
+   exacttextsize 1
+   color 175 235 182 255
+   "text halign" center
+  }
+  TextWidgetClass DetailNameText
+  {
+   name "DetailNameText"
+   x 0.565
+   y 0.265
+   w 0.19
+   h 0.022
+   text "NAME:    --"
+   textsize 12
+   exacttextsize 1
+   color 175 235 182 255
+  }
+  TextWidgetClass DetailRoleText
+  {
+   name "DetailRoleText"
+   x 0.565
+   y 0.290
+   w 0.19
+   h 0.022
+   text "ROLE:    --"
+   textsize 12
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  TextWidgetClass DetailIdText
+  {
+   name "DetailIdText"
+   x 0.565
+   y 0.315
+   w 0.19
+   h 0.022
+   text "ID:      --"
+   textsize 10
+   exacttextsize 1
+   color 90 150 90 255
+  }
+  TextWidgetClass DetailPermsHeader
+  {
+   name "DetailPermsHeader"
+   x 0.565
+   y 0.355
+   w 0.19
+   h 0.022
+   text "----- PERMISSIONS -----"
+   textsize 12
+   exacttextsize 1
+   color 175 235 182 255
+   "text halign" center
+  }
+  PanelWidgetClass Perm0_Bg
+  {
+   name "Perm0_Bg"
+   x 0.565
+   y 0.385
+   w 0.19
+   h 0.024
+   text ""
+   color 0 0 0 255
+  }
+  TextWidgetClass Perm0_Check
+  {
+   name "Perm0_Check"
+   x 0.567
+   y 0.387
+   w 0.025
+   h 0.020
+   text "[ ]"
+   textsize 12
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  TextWidgetClass Perm0_Name
+  {
+   name "Perm0_Name"
+   x 0.595
+   y 0.387
+   w 0.158
+   h 0.020
+   text "ADMIN"
+   textsize 12
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  ButtonWidgetClass Perm0_Button
+  {
+   name "Perm0_Button"
+   x 0.565
+   y 0.385
+   w 0.19
+   h 0.024
+   text ""
+   color 0 0 0 0
+  }
+  PanelWidgetClass Perm1_Bg
+  {
+   name "Perm1_Bg"
+   x 0.565
+   y 0.411
+   w 0.19
+   h 0.024
+   text ""
+   color 0 0 0 255
+  }
+  TextWidgetClass Perm1_Check
+  {
+   name "Perm1_Check"
+   x 0.567
+   y 0.413
+   w 0.025
+   h 0.020
+   text "[ ]"
+   textsize 12
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  TextWidgetClass Perm1_Name
+  {
+   name "Perm1_Name"
+   x 0.595
+   y 0.413
+   w 0.158
+   h 0.020
+   text "DEPLOY"
+   textsize 12
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  ButtonWidgetClass Perm1_Button
+  {
+   name "Perm1_Button"
+   x 0.565
+   y 0.411
+   w 0.19
+   h 0.024
+   text ""
+   color 0 0 0 0
+  }
+  PanelWidgetClass Perm2_Bg
+  {
+   name "Perm2_Bg"
+   x 0.565
+   y 0.437
+   w 0.19
+   h 0.024
+   text ""
+   color 0 0 0 255
+  }
+  TextWidgetClass Perm2_Check
+  {
+   name "Perm2_Check"
+   x 0.567
+   y 0.439
+   w 0.025
+   h 0.020
+   text "[ ]"
+   textsize 12
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  TextWidgetClass Perm2_Name
+  {
+   name "Perm2_Name"
+   x 0.595
+   y 0.439
+   w 0.158
+   h 0.020
+   text "BUILD"
+   textsize 12
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  ButtonWidgetClass Perm2_Button
+  {
+   name "Perm2_Button"
+   x 0.565
+   y 0.437
+   w 0.19
+   h 0.024
+   text ""
+   color 0 0 0 0
+  }
+  PanelWidgetClass Perm3_Bg
+  {
+   name "Perm3_Bg"
+   x 0.565
+   y 0.463
+   w 0.19
+   h 0.024
+   text ""
+   color 0 0 0 255
+  }
+  TextWidgetClass Perm3_Check
+  {
+   name "Perm3_Check"
+   x 0.567
+   y 0.465
+   w 0.025
+   h 0.020
+   text "[ ]"
+   textsize 12
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  TextWidgetClass Perm3_Name
+  {
+   name "Perm3_Name"
+   x 0.595
+   y 0.465
+   w 0.158
+   h 0.020
+   text "DISMANTLE"
+   textsize 12
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  ButtonWidgetClass Perm3_Button
+  {
+   name "Perm3_Button"
+   x 0.565
+   y 0.463
+   w 0.19
+   h 0.024
+   text ""
+   color 0 0 0 0
+  }
+  PanelWidgetClass Perm4_Bg
+  {
+   name "Perm4_Bg"
+   x 0.565
+   y 0.489
+   w 0.19
+   h 0.024
+   text ""
+   color 0 0 0 255
+  }
+  TextWidgetClass Perm4_Check
+  {
+   name "Perm4_Check"
+   x 0.567
+   y 0.491
+   w 0.025
+   h 0.020
+   text "[ ]"
+   textsize 12
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  TextWidgetClass Perm4_Name
+  {
+   name "Perm4_Name"
+   x 0.595
+   y 0.491
+   w 0.158
+   h 0.020
+   text "LOWER FLAG"
+   textsize 12
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  ButtonWidgetClass Perm4_Button
+  {
+   name "Perm4_Button"
+   x 0.565
+   y 0.489
+   w 0.19
+   h 0.024
+   text ""
+   color 0 0 0 0
+  }
+  PanelWidgetClass Perm5_Bg
+  {
+   name "Perm5_Bg"
+   x 0.565
+   y 0.515
+   w 0.19
+   h 0.024
+   text ""
+   color 0 0 0 255
+  }
+  TextWidgetClass Perm5_Check
+  {
+   name "Perm5_Check"
+   x 0.567
+   y 0.517
+   w 0.025
+   h 0.020
+   text "[ ]"
+   textsize 12
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  TextWidgetClass Perm5_Name
+  {
+   name "Perm5_Name"
+   x 0.595
+   y 0.517
+   w 0.158
+   h 0.020
+   text "ADD MEMBER"
+   textsize 12
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  ButtonWidgetClass Perm5_Button
+  {
+   name "Perm5_Button"
+   x 0.565
+   y 0.515
+   w 0.19
+   h 0.024
+   text ""
+   color 0 0 0 0
+  }
+  PanelWidgetClass Perm6_Bg
+  {
+   name "Perm6_Bg"
+   x 0.565
+   y 0.541
+   w 0.19
+   h 0.024
+   text ""
+   color 0 0 0 255
+  }
+  TextWidgetClass Perm6_Check
+  {
+   name "Perm6_Check"
+   x 0.567
+   y 0.543
+   w 0.025
+   h 0.020
+   text "[ ]"
+   textsize 12
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  TextWidgetClass Perm6_Name
+  {
+   name "Perm6_Name"
+   x 0.595
+   y 0.543
+   w 0.158
+   h 0.020
+   text "REMOVE MEMBER"
+   textsize 12
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  ButtonWidgetClass Perm6_Button
+  {
+   name "Perm6_Button"
+   x 0.565
+   y 0.541
+   w 0.19
+   h 0.024
+   text ""
+   color 0 0 0 0
+  }
+  PanelWidgetClass Perm7_Bg
+  {
+   name "Perm7_Bg"
+   x 0.565
+   y 0.567
+   w 0.19
+   h 0.024
+   text ""
+   color 0 0 0 255
+  }
+  TextWidgetClass Perm7_Check
+  {
+   name "Perm7_Check"
+   x 0.567
+   y 0.569
+   w 0.025
+   h 0.020
+   text "[ ]"
+   textsize 12
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  TextWidgetClass Perm7_Name
+  {
+   name "Perm7_Name"
+   x 0.595
+   y 0.569
+   w 0.158
+   h 0.020
+   text "DEPLOY SPECIAL"
+   textsize 12
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  ButtonWidgetClass Perm7_Button
+  {
+   name "Perm7_Button"
+   x 0.565
+   y 0.567
+   w 0.19
+   h 0.024
+   text ""
+   color 0 0 0 0
+  }
+  PanelWidgetClass Perm8_Bg
+  {
+   name "Perm8_Bg"
+   x 0.565
+   y 0.593
+   w 0.19
+   h 0.024
+   text ""
+   color 0 0 0 255
+  }
+  TextWidgetClass Perm8_Check
+  {
+   name "Perm8_Check"
+   x 0.567
+   y 0.595
+   w 0.025
+   h 0.020
+   text "[ ]"
+   textsize 12
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  TextWidgetClass Perm8_Name
+  {
+   name "Perm8_Name"
+   x 0.595
+   y 0.595
+   w 0.158
+   h 0.020
+   text "REMOVE CAR COVER"
+   textsize 12
+   exacttextsize 1
+   color 112 208 120 255
+  }
+  ButtonWidgetClass Perm8_Button
+  {
+   name "Perm8_Button"
+   x 0.565
+   y 0.593
+   w 0.19
+   h 0.024
+   text ""
+   color 0 0 0 0
+  }
+  PanelWidgetClass KickButtonBg
+  {
+   name "KickButtonBg"
+   x 0.575
+   y 0.638
+   w 0.17
+   h 0.025
+   text ""
+   color 0 0 0 255
+  }
+  ButtonWidgetClass KickButton
+  {
+   name "KickButton"
+   x 0.575
+   y 0.638
+   w 0.17
+   h 0.025
+   text "--- KICK MEMBER ---"
+   textsize 12
+   exacttextsize 1
+   color 255 80 80 255
+   "text halign" center
+  }
+  PanelWidgetClass ClaimButtonBg
+  {
+   name "ClaimButtonBg"
+   x 0.245
+   y 0.730
+   w 0.07
+   h 0.04
+   text ""
+   color 0 0 0 255
+  }
+  ButtonWidgetClass ClaimButton
+  {
+   name "ClaimButton"
+   x 0.245
+   y 0.730
+   w 0.07
+   h 0.04
+   text "[F1] CLAIM"
+   textsize 11
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  PanelWidgetClass InviteButtonBg
+  {
+   name "InviteButtonBg"
+   x 0.320
+   y 0.730
+   w 0.07
+   h 0.04
+   text ""
+   color 0 0 0 255
+  }
+  ButtonWidgetClass InviteButton
+  {
+   name "InviteButton"
+   x 0.320
+   y 0.730
+   w 0.07
+   h 0.04
+   text "[F2] INVITE"
+   textsize 11
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  PanelWidgetClass ResetMembersButtonBg
+  {
+   name "ResetMembersButtonBg"
+   x 0.395
+   y 0.730
+   w 0.07
+   h 0.04
+   text ""
+   color 0 0 0 255
+  }
+  ButtonWidgetClass ResetMembersButton
+  {
+   name "ResetMembersButton"
+   x 0.395
+   y 0.730
+   w 0.07
+   h 0.04
+   text "[F3] PURGE"
+   textsize 11
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  PanelWidgetClass JoinLeaveButtonBg
+  {
+   name "JoinLeaveButtonBg"
+   x 0.470
+   y 0.730
+   w 0.07
+   h 0.04
+   text ""
+   color 0 0 0 255
+  }
+  ButtonWidgetClass JoinLeaveButton
+  {
+   name "JoinLeaveButton"
+   x 0.470
+   y 0.730
+   w 0.07
+   h 0.04
+   text "[F4] JOIN"
+   textsize 11
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  PanelWidgetClass EjectFloppyButtonBg
+  {
+   name "EjectFloppyButtonBg"
+   x 0.545
+   y 0.730
+   w 0.07
+   h 0.04
+   text ""
+   color 0 0 0 255
+  }
+  ButtonWidgetClass EjectFloppyButton
+  {
+   name "EjectFloppyButton"
+   x 0.545
+   y 0.730
+   w 0.07
+   h 0.04
+   text "[F5] EJECT"
+   textsize 11
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  PanelWidgetClass ResetAdminButtonBg
+  {
+   name "ResetAdminButtonBg"
+   x 0.620
+   y 0.730
+   w 0.07
+   h 0.04
+   text ""
+   color 0 0 0 255
+  }
+  ButtonWidgetClass ResetAdminButton
+  {
+   name "ResetAdminButton"
+   x 0.620
+   y 0.730
+   w 0.07
+   h 0.04
+   text "[F6] RESET"
+   textsize 11
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  PanelWidgetClass CloseButtonBg
+  {
+   name "CloseButtonBg"
+   x 0.695
+   y 0.730
+   w 0.07
+   h 0.04
+   text ""
+   color 0 0 0 255
+  }
+  ButtonWidgetClass CloseButton
+  {
+   name "CloseButton"
+   x 0.695
+   y 0.730
+   w 0.07
+   h 0.04
+   text "[ESC] EXIT"
+   textsize 11
+   exacttextsize 1
+   color 112 208 120 255
+   "text halign" center
+  }
+  TextWidgetClass HintText
+  {
+   name "HintText"
+   x 0.225
+   y 0.785
+   w 0.55
+   h 0.022
+   text "> CLICK NODE TO INSPECT  |  CLICK PERMISSION TO TOGGLE  |  HOLD CONFIRMS ON DESTRUCTIVE ACTIONS"
+   textsize 10
+   exacttextsize 1
+   color 90 150 90 255
+   "text halign" center
+  }
+ }
+}

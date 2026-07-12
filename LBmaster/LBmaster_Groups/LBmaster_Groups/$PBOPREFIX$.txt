@@ -1,0 +1,5 @@
+//<'LBmaster_Groups.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=LBmaster_Groups;
+Version=5.4.0:stable;
+//PboType=Arma Addon;
+//</properties>

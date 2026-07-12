@@ -1,0 +1,97 @@
+WrapSpacerWidgetClass ExpansionNewsFeed {
+ ignorepointer 1
+ position 0 0
+ size 444 1
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 0
+ priority 4
+ scriptclass "ExpansionNewsFeedController"
+ Padding 0
+ Margin 0
+ "Size To Content H" 1
+ "Size To Content V" 1
+ {
+  ImageWidgetClass news_feed_header {
+   visible 1
+   ignorepointer 1
+   color 0 0 0 0.8627
+   position 0 0
+   size 1 36
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   image0 "set:dayz_gui image:inv_header_1"
+   mode blend
+   "src alpha" 1
+   {
+    TextWidgetClass news_feed_text {
+     visible 1
+     ignorepointer 1
+     position 0 0
+     size 1 26
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     style Normal
+     text "#layout_main_menu_main_news_header"
+     font "gui/fonts/sdf_MetronLight24"
+     "exact text" 0
+     "text halign" center
+     "text valign" center
+    }
+   }
+  }
+  WrapSpacerWidgetClass text_content {
+   ignorepointer 1
+   color 0 0 0 0.549
+   position 0 0
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scriptclass "ViewBinding"
+   style DayZDefaultPanelBottom
+   "no focus" 1
+   Margin 0
+   "Size To Content V" 1
+   {
+    ScriptParamsClass {
+     Binding_Name "TextEntries"
+    }
+   }
+  }
+  PanelWidgetClass spacer {
+   ignorepointer 1
+   position 10 10
+   size 1 6
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+  }
+  WrapSpacerWidgetClass links_content {
+   ignorepointer 1
+   position 10 10
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scriptclass "ViewBinding"
+   Margin 0
+   "Size To Content H" 1
+   "Size To Content V" 1
+   {
+    ScriptParamsClass {
+     Binding_Name "LinkEntries"
+    }
+   }
+  }
+ }
+}

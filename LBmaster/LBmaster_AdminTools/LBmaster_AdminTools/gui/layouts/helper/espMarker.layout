@@ -1,0 +1,85 @@
+GridSpacerWidgetClass rootFrame {
+ size 100 100
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ style Colorable
+ "Size To Content H" 1
+ "Size To Content V" 1
+ Rows 1
+ {
+  PanelWidgetClass PanelWidget0 {
+   ignorepointer 1
+   size 10 15
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   {
+    PanelWidgetClass color {
+     ignorepointer 1
+     size 4 4
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style rover_sim_colorable
+    }
+   }
+  }
+  TextWidgetClass txt {
+   ignorepointer 1
+   position 10 10
+   size 48 15
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_player"
+   font "gui/fonts/sdf_MetronBook72"
+   "outline size" 2
+   "outline color" 0 0 0 1
+   "exact text" 1
+   "exact text size" 14
+   "size to text h" 1
+   "size to text v" 1
+   "text valign" center
+   {
+    PanelWidgetClass highlight {
+     visible 0
+     ignorepointer 1
+     color 1 1 0 0.6902
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style Outline
+    }
+   }
+  }
+  TextWidgetClass distance {
+   ignorepointer 1
+   position 10 10
+   size 48 15
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_player"
+   font "gui/fonts/sdf_MetronBook72"
+   "outline size" 2
+   "outline color" 0 0 0 1
+   "exact text" 1
+   "exact text size" 12
+   "size to text h" 1
+   "size to text v" 1
+   "text valign" center
+  }
+ }
+}

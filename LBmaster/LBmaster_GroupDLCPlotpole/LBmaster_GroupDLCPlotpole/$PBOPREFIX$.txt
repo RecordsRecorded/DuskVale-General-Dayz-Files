@@ -1,0 +1,4 @@
+//<'LBmaster_GroupDLCPlotpole.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=LBmaster_GroupDLCPlotpole;
+//PboType=Arma Addon;
+//</properties>

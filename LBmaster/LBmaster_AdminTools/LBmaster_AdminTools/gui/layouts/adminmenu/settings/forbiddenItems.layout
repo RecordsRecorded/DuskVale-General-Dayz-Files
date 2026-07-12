@@ -1,0 +1,56 @@
+PanelWidgetClass rootFrame {
+ size 400 600
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ scriptclass "LBMenuPopulator"
+ {
+  TextWidgetClass TextWidget0 {
+   ignorepointer 1
+   size 1 30
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Forbidden Items"
+   "text halign" center
+   "text valign" center
+  }
+  TextListboxWidgetClass list_forbidden {
+   position 0 30
+   size 1 550
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   lines 27
+  }
+  ButtonWidgetClass btn_add {
+   size 0.5 20
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Add Item..."
+  }
+  ButtonWidgetClass btn_rem {
+   size 0.5 20
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Remove Item"
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

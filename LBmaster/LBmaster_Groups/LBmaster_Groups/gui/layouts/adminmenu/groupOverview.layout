@@ -1,0 +1,587 @@
+FrameWidgetClass rootFrame {
+ position 0 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  PanelWidgetClass PanelWidget0 {
+   ignorepointer 1
+   position 5 0
+   size 0.2 0.99
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   style LB_Clean_outline
+   {
+    PanelWidgetClass PanelWidget1 {
+     ignorepointer 1
+     position 0 0
+     size 1 1
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style blank
+     {
+      TextWidgetClass TextWidget0 {
+       ignorepointer 1
+       position 0 5
+       size 1 40
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_header_grp_management"
+       "text halign" center
+      }
+      ButtonWidgetClass btnRefresh {
+       position 0 5
+       size 0.5 20
+       halign center_ref
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_refresh"
+      }
+      TextListboxWidgetClass groupsList {
+       position 0 170
+       size 0.98 0.72
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       lines 25
+      }
+      PanelWidgetClass PanelWidget01 {
+       ignorepointer 1
+       position 0 60
+       size 0.98 100
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       style blank
+       {
+        TextWidgetClass TextWidget1 {
+         ignorepointer 1
+         position 0 0
+         size 0.25 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_search"
+        }
+        EditBoxWidgetClass searchInput {
+         position 0 0
+         size 0.74 20
+         halign right_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+        }
+        CheckBoxWidgetClass chckbxShortnames {
+         position 0 20
+         size 1 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_group_search_shortnames"
+         checked 1
+        }
+        CheckBoxWidgetClass chckbxNames {
+         position 0 40
+         size 1 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_group_search_group_names"
+         checked 1
+        }
+        CheckBoxWidgetClass chckbxMemberNames {
+         position 0 60
+         size 1 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_group_search_member_names"
+         checked 1
+        }
+        CheckBoxWidgetClass chckbxSteamids {
+         position 0 80
+         size 1 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_group_search_member_steamids"
+         checked 1
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget2 {
+   ignorepointer 1
+   position 0.21 5
+   size 0.35 0.5
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   style LB_Clean_outline
+   {
+    PanelWidgetClass PanelWidget3 {
+     ignorepointer 1
+     position 0 0
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style blank
+     {
+      TextWidgetClass TextWidget2 {
+       ignorepointer 1
+       position 0 5
+       size 1 40
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_header_group_info"
+       "text halign" center
+      }
+      TextListboxWidgetClass memberList {
+       position 5 60
+       size 0.485 0.87
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       lines 15
+      }
+      PanelWidgetClass PanelWidget02 {
+       ignorepointer 1
+       position 5 60
+       size 0.49 255
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       style blank
+       {
+        TextWidgetClass TextWidget3 {
+         ignorepointer 1
+         position 5 0
+         size 0.45 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_group_shortname"
+        }
+        TextWidgetClass TextWidget4 {
+         ignorepointer 1
+         position 5 20
+         size 0.45 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_marker_name"
+        }
+        TextWidgetClass TextWidget5 {
+         ignorepointer 1
+         position 5 70
+         size 0.45 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_group_level"
+        }
+        TextWidgetClass TextWidget6 {
+         ignorepointer 1
+         position 5 110
+         size 0.45 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_group_created"
+        }
+        TextWidgetClass TextWidget7 {
+         ignorepointer 1
+         position 5 130
+         size 0.45 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_group_last_active"
+        }
+        TextWidgetClass TextWidget8 {
+         ignorepointer 1
+         position 5 150
+         size 0.45 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_group_playercount"
+        }
+        TextWidgetClass TextWidget9 {
+         ignorepointer 1
+         position 5 170
+         size 0.45 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_group_markercount"
+        }
+        EditBoxWidgetClass shortname {
+         ignorepointer 0
+         position 5 0
+         size 0.5 20
+         halign right_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+        }
+        EditBoxWidgetClass name {
+         ignorepointer 0
+         position 5 20
+         size 0.5 20
+         halign right_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+        }
+        TextWidgetClass level {
+         ignorepointer 1
+         position 5 70
+         size 0.5 20
+         halign right_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+        }
+        TextWidgetClass created {
+         ignorepointer 1
+         position 5 110
+         size 0.5 20
+         halign right_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+        }
+        TextWidgetClass lastactive {
+         ignorepointer 1
+         position 5 130
+         size 0.5 20
+         halign right_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+        }
+        TextWidgetClass playercount {
+         ignorepointer 1
+         position 5 150
+         size 0.5 20
+         halign right_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+        }
+        TextWidgetClass markercount {
+         ignorepointer 1
+         position 5 170
+         size 0.5 20
+         halign right_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+        }
+        ButtonWidgetClass btnChangeGroupNames {
+         position 5 40
+         size 0.97 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_group_change_group_names"
+        }
+        ButtonWidgetClass btnLevelUp {
+         position 5 90
+         size 0.45 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_group_level_up"
+        }
+        ButtonWidgetClass btnLevelDown {
+         position 5 90
+         size 0.5 20
+         halign right_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_group_level_down"
+        }
+        ButtonWidgetClass btnJoin {
+         color 0 1 0 1
+         position 5 0
+         size 0.45 20
+         valign bottom_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_join_subgroup"
+         "text color" 0 1 0 1
+        }
+        ButtonWidgetClass btnDelete {
+         color 1 0 0 1
+         position 5 0
+         size 0.5 20
+         halign right_ref
+         valign bottom_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_txt_delete"
+         "text color" 1 0 0 1
+        }
+        CheckBoxWidgetClass chckbx_hasCustomTag {
+         position 5 190
+         size 0.7 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_group_has_custom_chat_tag_color"
+        }
+        ButtonWidgetClass btnApplyColor {
+         position 5 190
+         size 0.25 20
+         halign right_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#apply"
+         {
+          PanelWidgetClass chatColorPreview {
+           ignorepointer 1
+           position 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           style LB_Clean_outline
+          }
+         }
+        }
+        ButtonWidgetClass btn_change_chat_color {
+         position 5 210
+         size 200 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "Change Color..."
+        }
+       }
+      }
+      PanelWidgetClass PanelWidget03 {
+       visible 1
+       ignorepointer 1
+       position 5 350
+       size 0.49 90
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       style blank
+       {
+        TextWidgetClass TextWidget10 {
+         ignorepointer 1
+         position 5 0
+         size 0.3 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_group_steamid"
+        }
+        TextWidgetClass TextWidget11 {
+         ignorepointer 1
+         position 5 20
+         size 0.3 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_group_rank"
+        }
+        ButtonWidgetClass btnDemote {
+         position 0 50
+         size 0.33 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_demote"
+        }
+        ButtonWidgetClass btnPromote {
+         position 0.335 50
+         size 0.33 20
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_promote"
+        }
+        ButtonWidgetClass btnKick {
+         position 0.67 50
+         size 0.33 20
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_kick"
+        }
+        ButtonWidgetClass btnToLeader {
+         position 0 70
+         size 0.33 20
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_group_to_leader"
+        }
+        TextWidgetClass steamid {
+         ignorepointer 1
+         position 5 0
+         size 0.65 20
+         halign right_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+        }
+        TextWidgetClass rank {
+         ignorepointer 1
+         position 5 20
+         size 0.65 20
+         halign right_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+        }
+        ButtonWidgetClass btnCopy {
+         position 0.335 70
+         size 0.33 20
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_group_copy"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+  MapWidgetClass mapWidget {
+   position 0 0
+   size 0.43 0.99
+   halign right_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+  }
+  PanelWidgetClass PanelWidget4 {
+   ignorepointer 1
+   position 0.21 5
+   size 0.35 0.485
+   valign bottom_ref
+   hexactpos 0
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   style LB_Clean_outline
+   {
+    PanelWidgetClass PanelWidget5 {
+     ignorepointer 1
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style blank
+     {
+      CheckBoxWidgetClass chckbx_show_territorry_flags {
+       visible 1
+       size 1 20
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_txt_show_all_teritorry_flags"
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

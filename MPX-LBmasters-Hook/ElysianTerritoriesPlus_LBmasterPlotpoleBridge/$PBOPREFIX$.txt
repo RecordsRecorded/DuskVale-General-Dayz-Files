@@ -1,0 +1,4 @@
+//<'MPX-LBmasters-Hook.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=ElysianTerritoriesPlus_LBmasterPlotpoleBridge;
+//PboType=Arma Addon;
+//</properties>

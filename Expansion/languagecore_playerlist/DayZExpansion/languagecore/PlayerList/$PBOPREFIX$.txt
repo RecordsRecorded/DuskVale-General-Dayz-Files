@@ -1,0 +1,4 @@
+//<'languagecore_playerlist.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\languagecore\PlayerList;
+//PboType=Arma Addon;
+//</properties>

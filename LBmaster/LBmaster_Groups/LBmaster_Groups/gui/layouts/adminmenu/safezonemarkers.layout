@@ -1,0 +1,225 @@
+FrameWidgetClass rootFrame {
+ position 0 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  PanelWidgetClass PanelWidget20 {
+   ignorepointer 1
+   size 510 300
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style blank
+   {
+    PanelWidgetClass PanelWidget0 {
+     ignorepointer 1
+     position 0 0
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     scriptclass "LBGapHandler"
+     style blank
+     {
+      CheckBoxWidgetClass chckbx_enable {
+       size 1 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_ag_admin_enable_safezone_markers"
+      }
+      CheckBoxWidgetClass chckbx_showEverywhere {
+       position 0 20
+       size 1 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_ag_admin_show_markers_everywhere"
+      }
+      CheckBoxWidgetClass chckbx_lineofsight {
+       position 0 40
+       size 1 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_ag_admin_check_line_of_sight"
+      }
+      CheckBoxWidgetClass chckbx_obfuscate {
+       position 0 60
+       size 1 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_ag_admin_obfuscate_playernames"
+      }
+      CheckBoxWidgetClass chckbx_ownTag {
+       position 0 80
+       size 1 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_ag_admin_show_own_player_tag"
+      }
+      TextWidgetClass TextWidget0 {
+       ignorepointer 1
+       position 0 100
+       size 200 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "#lb_ag_admin_max_distance"
+       "text halign" right
+      }
+      EditBoxWidgetClass edit_distance {
+       position 0 100
+       size 300 20
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+      }
+      TextWidgetClass TextWidget1 {
+       ignorepointer 1
+       position 0 150
+       size 200 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "#lb_ag_admin_prefix"
+       "text halign" right
+      }
+      EditBoxWidgetClass edit_player_prefix {
+       position 0 150
+       size 300 20
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+      }
+      TextWidgetClass player_color {
+       ignorepointer 1
+       position 0 210
+       size 200 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "#lb_ag_admin_prefix_color"
+       "text halign" right
+       {
+        PanelWidgetClass player_color_out {
+         ignorepointer 1
+         size 1 1
+         halign center_ref
+         valign bottom_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 0
+         style LB_Clean_outline
+        }
+       }
+      }
+      XComboBoxWidgetClass combo_config {
+       position 0 130
+       size 300 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+      }
+      ButtonWidgetClass btn_add {
+       position 0 130
+       size 100 20
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "New"
+      }
+      ButtonWidgetClass btn_del {
+       position 100 130
+       size 100 20
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Delete"
+      }
+      TextWidgetClass TextWidget6 {
+       ignorepointer 1
+       position 0 170
+       size 200 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "#lb_ag_admin_prefix_perm"
+       "text halign" right
+      }
+      EditBoxWidgetClass edit_player_perm {
+       position 0 170
+       size 300 20
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+      }
+      CheckBoxWidgetClass chckbx_ignore_obf {
+       position 0 190
+       size 1 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       text "#lb_ag_admin_prefix_ignore_obf"
+      }
+      ButtonWidgetClass btn_change_color {
+       position 200 210
+       size 200 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       text "Change Color..."
+      }
+     }
+     {
+      ScriptParamsClass {
+       gapHorizontal 10
+       gapVertical 10
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

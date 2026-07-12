@@ -1,0 +1,69 @@
+FrameWidgetClass rootFrame {
+ ignorepointer 1
+ position 0 0
+ size 1024 1024
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ scaled 0
+ priority 1000
+ {
+  ImageWidgetClass bg {
+   ignorepointer 1
+   size 0.5 0.5
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scaled 0
+   image0 "LBmaster_AdminTools/gui/images/adminClothing.paa"
+   mode blend
+   "src alpha" 1
+   "stretch mode" stretch_w_h
+  }
+  ImageWidgetClass bg0 {
+   ignorepointer 1
+   size 0.5 0.5
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scaled 0
+   image0 "LBmaster_AdminTools/gui/images/adminClothing.paa"
+   mode blend
+   "src alpha" 1
+   "stretch mode" stretch_w_h
+  }
+  ImageWidgetClass bg1 {
+   ignorepointer 1
+   size 0.5 0.5
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scaled 0
+   image0 "LBmaster_AdminTools/gui/images/adminClothing.paa"
+   mode blend
+   "src alpha" 1
+   "stretch mode" stretch_w_h
+  }
+  ImageWidgetClass bg2 {
+   ignorepointer 1
+   size 0.5 0.5
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scaled 0
+   image0 "LBmaster_AdminTools/gui/images/adminClothing.paa"
+   mode blend
+   "src alpha" 1
+   "stretch mode" stretch_w_h
+  }
+ }
+}

@@ -1,0 +1,20 @@
+<inputs>
+
+	<!-- main user preset (initial to create localy) -->
+	<preset name="#STR_USER" file="dayz_preset_User.xml" source1="#STR_UAPRESET_PC_0" main="true"/>
+
+	<!-- universal presets, 1st one is main -->
+	<preset name="#STR_UAPRESET_PC_0" file="preset_X1MouseKey.xml"/>
+
+	<!-- default options -->
+	<options>
+		<item name="IRTracker_HScale" value="2" />
+		<item name="IRTracker_VScale" value="2" />
+		<item name="IRTracker" value="true" />
+		<item name="RazerChroma" value="false" />
+		<item name="InvertYAxis" value="false" />
+        <item name="MouseButtonsSwapped" value="false" />
+        <item name="PS4GuiConfirmationButtonsSwapped" value="false" />
+	</options>
+
+</inputs>

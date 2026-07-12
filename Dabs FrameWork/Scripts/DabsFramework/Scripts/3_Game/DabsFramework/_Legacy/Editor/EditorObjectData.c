@@ -1,0 +1,287 @@
+
+class EditorObjectData: SerializableBase
+{	
+	int GetID()
+	{
+		
+	}
+	
+	//@ Corresponds to the spawnable typename, identical to ITEM_SpawnerObject.name
+	string Type;
+	string DisplayName;
+	vector Position;
+	vector Orientation;
+	float Scale = 1;
+	
+	[NonSerialized()]
+	bool EditorOnly;
+	
+	[NonSerialized()]
+	bool Locked;
+	
+	[NonSerialized()]
+	bool AllowDamage;
+	
+	[NonSerialized()]
+	bool Simulate;
+	
+	// todo: remove this nonserialized so this can save
+	[NonSerialized()]
+	ref array<string> Attachments = {};
+	
+	// Slot Id, Slot Type
+	ref map<int, ref EditorObjectData> AttachmentMap = new map<int, ref EditorObjectData>();
+	
+	string Model;
+	
+	[NonSerialized()]
+	vector BottomCenter;
+
+	EditorObjectFlags Flags;
+	
+	[NonSerialized()]
+	ModStructure Mod;
+	
+	[NonSerialized()]
+	string Icon;
+	
+	[NonSerialized()]
+	Object WorldObject;
+	
+	[NonSerialized()]
+	ref map<string, ref SerializableParam> Parameters = new map<string, ref SerializableParam>();
+		
+	Object CreateObject(int flags = ECE_SETUP | ECE_UPDATEPATHGRAPH | ECE_CREATEPHYSICS | ECE_NOLIFETIME | ECE_DYNAMIC_PERSISTENCY)
+	{
+		if (Type.Contains(".p3d")) {
+			return GetGame().CreateStaticObjectUsingP3D(Type, Position, Orientation, Scale);
+		}
+		
+		Object object = GetGame().CreateObjectEx(Type, Position, flags);
+		object.SetOrientation(Orientation);
+		object.SetScale(Scale);
+		object.Update();
+		return object;
+	}
+	
+	static EditorObjectData Create(Serializer serializer)
+	{
+		EditorObjectData data = new EditorObjectData();
+		data.Read(serializer, 0);
+		return data;
+	}
+	
+	static EditorObjectData Create(string type, vector transform[4], EditorObjectFlags flags = EFE_DEFAULT)
+	{
+		float scale = transform[0].Length();
+		
+		vector transform_copy[4];
+		copyarray(transform_copy, transform);		
+		Math3D.MatrixOrthogonalize4(transform_copy);
+		return Create(type, transform[3], Math3D.MatrixToAngles(transform_copy), scale, flags);
+	}
+	
+	static EditorObjectData Create(string type, vector position, vector orientation, float scale, EditorObjectFlags flags)
+	{				
+		EditorObjectData data = new EditorObjectData();
+		data.Type = type; 
+		data.Model = GetModelName(data.Type);
+		data.Position = position; 
+		data.Orientation = orientation;
+		data.Scale = scale;
+		data.Flags = flags;
+		data.DisplayName = data.Type;				
+		return data;
+	}
+	
+	static EditorObjectData Create(notnull Object target, EditorObjectFlags flags = EFE_DEFAULT)
+	{
+		// We do this because all 'baked' objects are ID'd to 3. cant store a bunch of 3's can we?
+		// todo... actually we might be able to :)
+		if (target.GetID() == 3) { 
+			return null;
+		}
+		
+		EditorObjectData data = new EditorObjectData();
+		data.Type = target.GetType();
+		data.Model = target.GetShapeName();
+		data.WorldObject = target;
+		data.Position = data.WorldObject.GetPosition(); 
+		data.Orientation = data.WorldObject.GetOrientation(); 
+		data.Scale = data.WorldObject.GetScale();
+		data.Flags = flags;
+		data.DisplayName = data.Type;
+		
+		//EditorLog.Debug(string.Format("EditorObjectData::Create ID: %1", data.m_Id));
+		
+		return data;
+	}
+	
+	override void Write(Serializer serializer, int version)
+	{
+		serializer.Write(Type);
+		serializer.Write(DisplayName);
+		serializer.Write(Position);
+		serializer.Write(Orientation);
+		serializer.Write(Scale);
+		serializer.Write(Flags);
+		
+		if (version < 2) {
+			return;
+		}
+		
+		if (version < 8) {
+			serializer.Write(Attachments.Count());
+			for (int i = 0; i < Attachments.Count(); i++) {
+				serializer.Write(Attachments[i]);
+			}
+		}
+		
+		// Serialize parameters
+		serializer.Write(Parameters.Count());
+		for (int j = 0; j < Parameters.Count(); j++) {
+			string key_at_index = Parameters.GetKey(j);
+			serializer.Write(key_at_index);
+			// write the type of the object that will need to be created
+			serializer.Write(Parameters[key_at_index].GetSerializeableType());
+			
+			// write the data of the object
+			Parameters[key_at_index].Write(serializer);
+		}
+		
+		if (version < 3) {
+			return;
+		}
+		
+		serializer.Write(EditorOnly);
+		serializer.Write(Locked);
+		serializer.Write(AllowDamage);
+		serializer.Write(Simulate);
+		
+		if (version < 5) {
+			return;
+		}
+		
+		serializer.Write(Model);
+
+		serializer.Write(AttachmentMap.Count());
+		foreach (int attachment_slot_id, EditorObjectData attachment: AttachmentMap) {
+			serializer.Write(attachment_slot_id);
+			attachment.Write(serializer, version);
+		}
+	}
+	
+	override bool Read(Serializer serializer, int version)
+	{
+		serializer.Read(Type);
+		serializer.Read(DisplayName);
+		serializer.Read(Position);
+		serializer.Read(Orientation);
+		serializer.Read(Scale);
+		serializer.Read(Flags);
+		
+		if (version < 2) {
+			return true;
+		}
+		
+		if (version < 8) {
+			int attachments_count;
+			serializer.Read(attachments_count);
+			for (int i = 0; i < attachments_count; i++) {
+				string attachment;
+				serializer.Read(attachment);
+				Attachments.InsertAt(attachment, i);
+			}
+		}
+		
+		int params_count;
+		serializer.Read(params_count);
+		for (int j = 0; j < params_count; j++) {
+			string param_key;
+			string param_type;
+			serializer.Read(param_key);
+			serializer.Read(param_type);
+			if (!param_type.ToType()) {
+				Error("Invalid Param Type in deserialization, this is corrupt data and will likely cause a crash");
+				return false;
+			}
+			
+			SerializableParam param_value = SerializableParam.Cast(param_type.ToType().Spawn());
+			if (!param_value) {
+				Error("Invalid Param Type in deserialization, this is corrupt data and will likely cause a crash");
+				return false;
+			}
+			
+			param_value.Read(serializer);
+			Parameters[param_key] = param_value;
+		}
+		
+		if (version < 3) {
+			return true;
+		}
+		
+		serializer.Read(EditorOnly);
+		serializer.Read(Locked);
+		serializer.Read(AllowDamage);
+		serializer.Read(Simulate);
+		
+		if (version < 5) {
+			return true;
+		}
+		
+		serializer.Read(Model);
+
+		if (version < 8) {
+			return true;
+		}
+
+		int attachment_map_count;
+		serializer.Read(attachment_map_count);
+		for (int am = 0; am < attachment_map_count; am++) {
+			int slot_id;
+			serializer.Read(slot_id);
+
+			EditorObjectData new_attachment_data = new EditorObjectData();
+			new_attachment_data.Read(serializer, version);
+			AttachmentMap[slot_id] = new_attachment_data;
+		}
+
+		return true;
+	}
+	
+	static string GetModelName(string class_name)
+	{
+		Object object = GetGame().CreateObjectEx(class_name, vector.Zero, ECE_LOCAL | ECE_NONE);
+		if (object) {
+			string name = object.GetShapeName();
+			object.Delete();
+			return name;
+		}
+		
+		if (class_name == string.Empty) {
+			return "UNKNOWN_P3D_FILE";
+		}
+		
+
+		string model_path;
+		if (!GetGame().ConfigGetText("CfgVehicles " + class_name + " model", model_path)) {
+			return "UNKNOWN_P3D_FILE";
+		}
+		
+		int to_substring_end = model_path.Length() - 4; // -4 to leave out the '.p3d' suffix
+		if (to_substring_end < 0) {
+			return "UNKNOWN_P3D_FILE";
+		}
+		
+		int to_substring_start = 0;
+		
+		// Currently we have model path. To get the name out of it we need to parse this string from the end and stop at the first found '\' sign
+		for (int i = to_substring_end; i > 0; i--) {
+			if (model_path[i] == "\\") {
+				to_substring_start = i + 1;
+			}
+		}
+		
+		return model_path.Substring(to_substring_start, to_substring_end - to_substring_start);
+	}
+}

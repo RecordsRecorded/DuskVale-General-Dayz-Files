@@ -1,0 +1,4 @@
+//<'dta_world.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Dta\World;
+//PboType=Arma Addon;
+//</properties>

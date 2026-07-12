@@ -1,0 +1,4 @@
+//<'MultiplixTerritoryV2.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=ElysianTerritoriesPlus;
+//PboType=Arma Addon;
+//</properties>

@@ -1,0 +1,183 @@
+FrameWidgetClass rootFrame {
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  CheckBoxWidgetClass chckbx_enable {
+   size 0.33 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_enable_esp"
+  }
+  SliderWidgetClass slider_distance {
+   position 0 20
+   size 1 20
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scriptclass "LBGapHandler"
+   minimum -1
+   maximum 1500
+   current 200
+   "fill in" 1
+   {
+    TextWidgetClass txt_distance {
+     ignorepointer 1
+     size 200 20
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text ""
+     font "gui/fonts/sdf_MetronBook72"
+     "outline size" 2
+     "outline color" 0 0 0 1
+     "exact text" 1
+     "exact text size" 15
+     "text halign" center
+     "text valign" center
+    }
+   }
+   {
+    ScriptParamsClass {
+     gapHorizontal 20
+    }
+   }
+  }
+  XComboBoxWidgetClass combo_distance_type {
+   position 0 60
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   items "Use Camera Position for Distance;Use Player Position for Distance"
+  }
+  WrapSpacerWidgetClass list_filters {
+   ignorepointer 0
+   position 0 80
+   size 1 1
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   Padding 0
+   Margin 0
+  }
+  CheckBoxWidgetClass chckbx_classnames {
+   size 0.33 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_show_classnames"
+  }
+  CheckBoxWidgetClass chckbx_skeleton {
+   size 0.33 20
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_player_skeleton"
+  }
+  TextWidgetClass TextWidget0 {
+   ignorepointer 1
+   position 0 40
+   size 150 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_min_health"
+   "text halign" right
+   "text valign" center
+  }
+  XComboBoxWidgetClass combo_min_health {
+   position 150 40
+   size 0.5 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scriptclass "LBGapHandler"
+   items "Ruined;Badly Damaged;Damaged;Worn;Pristine"
+   {
+    PanelWidgetClass panel_min_color {
+     ignorepointer 1
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style LB_Clean_outline
+    }
+   }
+   {
+    ScriptParamsClass {
+     gapHorizontal 150
+    }
+   }
+  }
+  TextWidgetClass TextWidget1 {
+   ignorepointer 1
+   position 0.5 40
+   size 150 20
+   hexactpos 0
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_adm_max_health"
+   "text halign" right
+   "text valign" center
+  }
+  XComboBoxWidgetClass combo_max_health {
+   position 0 40
+   size 0.5 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scriptclass "LBGapHandler"
+   items "Ruined;Badly Damaged;Damaged;Worn;Pristine"
+   {
+    PanelWidgetClass panel_max_color {
+     ignorepointer 1
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style LB_Clean_outline
+    }
+   }
+   {
+    ScriptParamsClass {
+     gapHorizontal 150
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

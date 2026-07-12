@@ -1,0 +1,124 @@
+PanelWidgetClass rootFrame {
+ size 1 1
+ halign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass ""
+ {
+  PanelWidgetClass panelBackground {
+   ignorepointer 0
+   position 0 0
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   style blank
+   {
+    EditBoxWidgetClass edit_search {
+     size 1 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     {
+      ScriptParamsClass {
+       gapHorizontal 22
+      }
+     }
+    }
+    ImageWidgetClass ImageWidget0 {
+     ignorepointer 1
+     size 20 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     imageTexture "{F3A6C572AA2AE7E3}LBmaster_Core/gui/icons/search.paa"
+     mode additive
+     "src alpha" 1
+     "stretch mode" stretch_w_h
+    }
+    ScrollWidgetClass list_online {
+     ignorepointer 1
+     position 0 45
+     size 1 1
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     scriptclass "LBGapHandler"
+     "Scrollbar V" 1
+     {
+      WrapSpacerWidgetClass online_content {
+       ignorepointer 0
+       size 1 10
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       Padding 0
+       Margin 0
+       "Size To Content V" 1
+      }
+     }
+     {
+      ScriptParamsClass {
+       gapVertical 70
+      }
+     }
+    }
+    TextWidgetClass txt_info {
+     ignorepointer 1
+     size 1 20
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    CheckBoxWidgetClass chckbx_all {
+     position 0 20
+     size 100 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_all"
+    }
+    XComboBoxWidgetClass combo_sort {
+     position 0 20
+     size 1 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     items "O;v;^"
+     {
+      ScriptParamsClass {
+       gapHorizontal 175
+      }
+     }
+    }
+    TextWidgetClass TextWidget0 {
+     ignorepointer 1
+     position 105 20
+     size 70 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_sort"
+     "text halign" right
+    }
+   }
+  }
+ }
+}

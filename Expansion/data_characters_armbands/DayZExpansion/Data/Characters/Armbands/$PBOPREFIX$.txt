@@ -1,0 +1,6 @@
+//<'data_characters_armbands.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Data\Characters\Armbands;
+Mikero=DePbo.dll.7.92;
+version=22101323;
+//PboType=Arma Addon;
+//</properties>

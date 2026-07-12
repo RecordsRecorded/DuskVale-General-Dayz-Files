@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<modded_inputs>
+    <inputs>
+        <actions>
+            <input name="UALBMADMToggleFreecam" loc="lb_adm_toggle_freecam" />
+            <input name="UALBMADMOpenMenu" loc="lb_adm_open_menu" />
+            <input name="UALBMADMTeleportToCursor" loc="lb_adm_teleport_cursor" />
+            <input name="UALBMADMDeleteCursor" loc="lb_adm_delete_at_cursor" />
+            <input name="UALBMADMDeleteCursorForce" loc="lb_adm_delete_at_cursor_forced" />
+            <input name="UALBMADMDuplicate" loc="lb_adm_duplicate_item" />
+            <input name="UALBMADMItemCopy" loc="lb_adm_copy_item" />
+            <input name="UALBMADMItemPaste" loc="lb_adm_paste_item" />
+            <input name="UALBMADMSpawnerGround" loc="lb_adm_spawn_on_ground" />
+            <input name="UALBMADMSpawnerInventory" loc="lb_adm_spawn_in_inventory" />
+            <input name="UALBMADMSpawnerCursor" loc="lb_adm_spawm_cursor" />
+            <input name="UALBMADMSpawnerTarget" loc="lb_adm_spawn_at_target" />
+            <input name="UALBMADMToggleGodmode" loc="lb_adm_toggle_godmode" />
+            <input name="UALBMADMToggleInvisible" loc="lb_adm_toggle_invisibility" />
+            <input name="UALBMADMToggleESP" loc="lb_adm_toggle_esp" />
+            <input name="UALBMADMOpenConsole" loc="lb_adm_open_command_console" />
+            <input name="UALBMADMSpectatorZoomOut" loc="lb_adm_zoom_out_spectator" />
+            <input name="UALBMADMSpectatorZoomIn" loc="lb_adm_zoom_in_spectator" />
+            <input name="UALBMADMCopyPos" loc="lb_adm_copy_player_pos" />
+            <input name="UALBMADMHealSelf" loc="lb_adm_heal_yourself" />
+            <input name="UALBMADMRepairTarget" loc="lb_adm_repair_target" />
+            <input name="UALBMADMUndo" loc="lb_adm_undo_step" />
+            <input name="UALBMADMRedo" loc="lb_adm_redo_step" />
+            <input name="UALBMADMCopyTarget" loc="lb_adm_copy_looking_at" />
+            <input name="UALBMADMPreset1" loc="lb_adm_enable_preset_1" />
+            <input name="UALBMADMPreset2" loc="lb_adm_enable_preset_2" />
+            <input name="UALBMADMPreset3" loc="lb_adm_enable_preset_3" />
+            <input name="UALBMADMPreset4" loc="lb_adm_enable_preset_4" />
+            <input name="UALBMADMPreset5" loc="lb_adm_enable_preset_5" />
+            <input name="UALBMADMPreset6" loc="lb_adm_enable_preset_6" />
+            <input name="UALBMADMPreset7" loc="lb_adm_enable_preset_7" />
+            <input name="UALBMADMPreset8" loc="lb_adm_enable_preset_8" />
+            <input name="UALBMADMPreset9" loc="lb_adm_enable_preset_9" />
+        </actions>
+		<sorting name="lb_admin_menu" loc="AdminTools">
+            <input name="UALBMADMOpenMenu" />
+            <input name="UALBMADMTeleportToCursor" />
+            <input name="UALBMADMDeleteCursor" />
+            <input name="UALBMADMDeleteCursorForce" />
+            <input name="UALBMADMDuplicate" />
+            <input name="UALBMADMItemCopy" />
+            <input name="UALBMADMItemPaste" />
+            <input name="UALBMADMSpawnerGround" />
+            <input name="UALBMADMSpawnerInventory" />
+            <input name="UALBMADMSpawnerCursor" />
+            <input name="UALBMADMSpawnerTarget" />
+            <input name="UALBMADMToggleFreecam" />
+            <input name="UALBMADMToggleGodmode" />
+            <input name="UALBMADMToggleInvisible" />
+            <input name="UALBMADMToggleESP" />
+            <input name="UALBMADMHealSelf" />
+            <input name="UALBMADMOpenConsole" />
+            <input name="UALBMADMRepairTarget" />
+            <input name="UALBMADMCopyTarget" />
+            <input name="UALBMADMSpectatorZoomOut" />
+            <input name="UALBMADMSpectatorZoomIn" />
+            <input name="UALBMADMUndo" />
+            <input name="UALBMADMRedo" />
+            <input name="UALBMADMCopyPos" />
+            <input name="UALBMADMPreset1" />
+            <input name="UALBMADMPreset2" />
+            <input name="UALBMADMPreset3" />
+            <input name="UALBMADMPreset4" />
+            <input name="UALBMADMPreset5" />
+            <input name="UALBMADMPreset6" />
+            <input name="UALBMADMPreset7" />
+            <input name="UALBMADMPreset8" />
+            <input name="UALBMADMPreset9" />
+		</sorting>
+    </inputs>
+    <preset>
+		<input name="UALBMADMCopyTarget">
+            <btn name="kLControl">
+				<btn name="KC" />
+			</btn>
+        </input>
+		<input name="UALBMADMUndo">
+            <btn name="kLControl">
+				<btn name="KZ" />
+			</btn>
+        </input>
+		<input name="UALBMADMRedo">
+            <btn name="kLControl">
+				<btn name="kY" />
+			</btn>
+        </input>
+		<input name="UALBMADMHealSelf">
+            <btn name="kLControl">
+				<btn name="kH" />
+			</btn>
+        </input>
+		<input name="UALBMADMOpenConsole">
+            <btn name="kRControl">
+				<btn name="kMinus" />
+			</btn>
+        </input>
+		<input name="UALBMADMRepairTarget">
+            <btn name="kLControl">
+				<btn name="kR" />
+			</btn>
+        </input>
+		<input name="UALBMADMPreset1">
+            <btn name="kLControl">
+				<btn name="k1" />
+			</btn>
+        </input>
+		<input name="UALBMADMPreset2">
+            <btn name="kLControl">
+				<btn name="k2" />
+			</btn>
+        </input>
+		<input name="UALBMADMPreset3">
+            <btn name="kLControl">
+				<btn name="k3" />
+			</btn>
+        </input>
+		<input name="UALBMADMPreset4">
+            <btn name="kLControl">
+				<btn name="k4" />
+			</btn>
+        </input>
+		<input name="UALBMADMPreset5">
+            <btn name="kLControl">
+				<btn name="k5" />
+			</btn>
+        </input>
+		<input name="UALBMADMPreset6">
+            <btn name="kLControl">
+				<btn name="k6" />
+			</btn>
+        </input>
+		<input name="UALBMADMPreset7">
+            <btn name="kLControl">
+				<btn name="k7" />
+			</btn>
+        </input>
+		<input name="UALBMADMPreset8">
+            <btn name="kLControl">
+				<btn name="k8" />
+			</btn>
+        </input>
+		<input name="UALBMADMPreset9">
+            <btn name="kLControl">
+				<btn name="k9" />
+			</btn>
+        </input>
+		<input name="UALBMADMOpenMenu">
+            <btn name="kLControl">
+				<btn name="kA" />
+			</btn>
+        </input>
+		<input name="UALBMADMTeleportToCursor">
+			<btn name="kH" />
+        </input>
+		<input name="UALBMADMCopyPos">
+			<btn name="kLControl">
+				<btn name="kP" />
+			</btn>
+			<btn name="kRControl">
+				<btn name="kP" />
+			</btn>
+        </input>
+		<input name="UALBMADMDeleteCursor">
+			<btn name="kLControl">
+				<btn name="kD" />
+			</btn>
+        </input>
+		<input name="UALBMADMDeleteCursorForce">
+			<btn name="kLMenu">
+				<btn name="kD" />
+			</btn>
+        </input>
+		<input name="UALBMADMSpectatorZoomIn">
+			<btn name="mWheelUp" />
+		</input>
+		<input name="UALBMADMSpectatorZoomOut">
+			<btn name="mWheelDown" />
+		</input>
+		<input name="UALBMADMDuplicate">
+            <btn name="kLControl">
+				<btn name="kD" />
+			</btn>
+        </input>
+		<input name="UALBMADMItemCopy">
+            <btn name="kLControl">
+				<btn name="kC" />
+			</btn>
+        </input>
+		<input name="UALBMADMItemPaste">
+            <btn name="kLControl">
+				<btn name="kV" />
+			</btn>
+        </input>
+		<input name="UALBMADMSpawnerGround">
+            <btn name="kLControl">
+				<btn name="kG" />
+			</btn>
+        </input>
+		<input name="UALBMADMSpawnerInventory">
+            <btn name="kLControl">
+				<btn name="kS" />
+			</btn>
+        </input>
+		<input name="UALBMADMSpawnerCursor">
+            <btn name="kLControl">
+				<btn name="kC" />
+			</btn>
+        </input>
+		<input name="UALBMADMSpawnerTarget">
+            <btn name="kLControl">
+				<btn name="kT" />
+			</btn>
+        </input>
+		<input name="UALBMADMToggleFreecam">
+            <btn name="kLControl">
+				<btn name="kF" />
+			</btn>
+        </input>
+		<input name="UALBMADMToggleGodmode">
+            <btn name="kLControl">
+				<btn name="kG" />
+			</btn>
+        </input>
+		<input name="UALBMADMToggleInvisible">
+            <btn name="kRControl">
+				<btn name="kI" />
+			</btn>
+        </input>
+		<input name="UALBMADMToggleESP">
+            <btn name="kLControl">
+				<btn name="kE" />
+			</btn>
+        </input>
+    </preset>
+</modded_inputs>

@@ -1,0 +1,7 @@
+Dependencies: 2
+Files From: versions/14_stable/ (Addons/LBmaster_SleepingBags.*):
+Addons/LBmaster_SleepingBags.pbo
+Addons/LBmaster_SleepingBags.pbo.LBmasterPub_v3.bisign
+Files From: versions/17_stable/ (Addons/LBmaster_Core.*):
+Addons/LBmaster_Core.pbo
+Addons/LBmaster_Core.pbo.LBmasterPub_v3.bisign

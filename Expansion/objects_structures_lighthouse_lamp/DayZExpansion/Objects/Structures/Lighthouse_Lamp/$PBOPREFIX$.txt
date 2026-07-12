@@ -1,0 +1,4 @@
+//<'objects_structures_lighthouse_lamp.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Objects\Structures\Lighthouse_Lamp;
+//PboType=Arma Addon;
+//</properties>

@@ -1,0 +1,130 @@
+GridSpacerWidgetClass Panel {
+ visible 1
+ clipchildren 1
+ ignorepointer 1
+ color 0 0 0 0.9412
+ position 0 0
+ size 0 0
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ scaled 0
+ priority 952
+ style Colorable
+ Margin 7
+ "Size To Content H" 1
+ "Size To Content V" 1
+ content_halign right
+ Columns 1
+ Rows 2
+ {
+  GridSpacerWidgetClass Meta {
+   visible 1
+   clipchildren 1
+   inheritalpha 0
+   ignorepointer 1
+   position 0 0
+   size 1 0
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   style Colorable
+   Padding 0
+   Margin 0
+   "Size To Content H" 1
+   "Size To Content V" 1
+   content_halign right
+   content_valign center
+   Columns 2
+   Rows 1
+   {
+    TextWidgetClass Text {
+     clipchildren 1
+     inheritalpha 0
+     ignorepointer 1
+     position 0 0
+     size 0 16
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     style Normal
+     text "Tooltip"
+     font "gui/fonts/Metron16"
+     "bold text" 1
+     "exact text" 0
+     "exact text size" 16
+     "size to text h" 1
+     "size to text v" 1
+     "text valign" center
+    }
+    FrameWidgetClass ImgFr {
+     visible 0
+     clipchildren 1
+     inheritalpha 0
+     ignorepointer 1
+     position 0 0
+     size 18 18
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     fixaspect inside
+     {
+      ImageWidgetClass Img {
+       visible 1
+       clipchildren 0
+       inheritalpha 0
+       ignorepointer 1
+       position 0 0
+       size 18 18
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       scaled 0
+       fixaspect inside
+       image0 "set:regular image:arrow_down_short_wide"
+       mode blend
+       "src alpha" 1
+       "stretch mode" fit_w
+      }
+     }
+    }
+   }
+  }
+  TextWidgetClass Desc {
+   visible 1
+   clipchildren 1
+   inheritalpha 1
+   ignorepointer 1
+   position 0 0
+   size 1 12
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   style Normal
+   text "This is an item This is an item  This is an item This is an item"
+   font "gui/fonts/Metron12"
+   "italic text" 1
+   "exact text" 0
+   "exact text size" 12
+   "size to text h" 1
+   "size to text v" 1
+   "text valign" center
+  }
+ }
+}

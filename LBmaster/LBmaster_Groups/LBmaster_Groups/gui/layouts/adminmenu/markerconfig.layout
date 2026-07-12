@@ -1,0 +1,466 @@
+FrameWidgetClass rootFrame {
+ position 0 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  TextWidgetClass TextWidget0 {
+   ignorepointer 1
+   size 1 40
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Marker"
+   "text halign" center
+  }
+  PanelWidgetClass PanelWidget1 {
+   ignorepointer 1
+   position 0 30
+   size 500 140
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   {
+    CheckBoxWidgetClass chckbx_own_marker {
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Can see own Player on the Map"
+    }
+    CheckBoxWidgetClass chckbx_own_marker_item {
+     position 0 20
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Require Item to see own Marker"
+    }
+    TextListboxWidgetClass list_own_marker_items {
+     position 0 40
+     size 0.7 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    ButtonWidgetClass btn_add_own_marker {
+     position 0 40
+     size 0.3 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Add Item..."
+    }
+    ButtonWidgetClass btn_del_own_marker {
+     position 0 60
+     size 0.3 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Remove Item"
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget0 {
+   ignorepointer 1
+   position 0 120
+   size 500 690
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style blank
+   {
+    CheckBoxWidgetClass chckbx_add_death {
+     position 0 50
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Add Death Marker"
+    }
+    CheckBoxWidgetClass chckbx_death_private {
+     position 0 70
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Death Marker is a private Marker"
+    }
+    CheckBoxWidgetClass chckbx_death_group {
+     position 0 90
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Death Marker is a group Marker (both enabled will prefer group)"
+    }
+    CheckBoxWidgetClass chckbx_death_delete {
+     position 0 110
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Delete old Death markers when placing the new one"
+    }
+    TextWidgetClass TextWidget7 {
+     ignorepointer 1
+     position 0 130
+     size 0.15 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Icon: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_death_icon {
+     position 0.15 130
+     size 0.75 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    ButtonWidgetClass btn_death_browse {
+     position 0 130
+     size 30 30
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     {
+      ImageWidgetClass img_death_icon {
+       ignorepointer 1
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       mode blend
+       "src alpha" 1
+       "stretch mode" stretch_w_h
+      }
+      PanelWidgetClass PanelWidget7 {
+       ignorepointer 1
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       style LB_Clean_outline
+      }
+     }
+    }
+    TextListboxWidgetClass list_icons {
+     position 0 170
+     size 1 200
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     lines 10
+    }
+    TextWidgetClass TextWidget8 {
+     ignorepointer 1
+     position 0 150
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text " Available Map Icons"
+    }
+    ButtonWidgetClass btn_del_icon {
+     position 0 370
+     size 0.4 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Remove Icon"
+    }
+    ButtonWidgetClass btn_add_icon {
+     position 0 370
+     size 0.4 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Add Icon..."
+    }
+    ImageWidgetClass img_icon_preview {
+     ignorepointer 1
+     position 0 370
+     size 40 40
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     mode blend
+     "src alpha" 1
+     "stretch mode" stretch_w_h
+    }
+    CheckBoxWidgetClass chckbx_marker_place {
+     position 0 410
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Disable Marker Placement for Players"
+    }
+    TextWidgetClass TextWidget9 {
+     ignorepointer 1
+     position 0 450
+     size 0.7 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Marker Limit in Groups (can increase with Level): "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_marker_limit {
+     position 0.7 450
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget10 {
+     ignorepointer 1
+     position 0 470
+     size 0.7 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Tactical Ping Lifetime in seconds: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_ping_lifetime {
+     position 0.7 470
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget11 {
+     ignorepointer 1
+     position 0 490
+     size 0.7 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Max concurrent tactical pings per player: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_ping_limit {
+     position 0.7 490
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget12 {
+     ignorepointer 1
+     position 0 510
+     size 0.7 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Offline Players 3D Marker max Distance: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_offline_distance {
+     position 0.7 510
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget13 {
+     ignorepointer 1
+     position 0 530
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text " Display Settings"
+    }
+    XComboBoxWidgetClass combo_marker_config {
+     position 0 550
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget14 {
+     ignorepointer 1
+     position 0 570
+     size 0.7 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Max Distance in 3D (-1 for infinite): "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_max_distance {
+     position 0.7 570
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    CheckBoxWidgetClass chckbx_display3d {
+     position 0 590
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Display This type in 3D"
+    }
+    CheckBoxWidgetClass chckbx_displaydistance {
+     position 0 610
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Display the distance to the Marker"
+    }
+    CheckBoxWidgetClass chckbx_displaymap {
+     position 0 630
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Display this Marker Type on the Map"
+    }
+    CheckBoxWidgetClass chckbx_displaycompass {
+     position 0 650
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Display this Marker Type on the compass hud"
+    }
+    CheckBoxWidgetClass chckbx_displaygps {
+     position 0 670
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Display this Marker Type on the GPS / Minimap"
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget4 {
+   visible 1
+   ignorepointer 1
+   position 0 810
+   size 500 140
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style blank
+   {
+    CheckBoxWidgetClass chckbx_group_see_item {
+     position 0 0
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Require an item to see group members"
+    }
+    CheckBoxWidgetClass chckbx_group_seen_item {
+     position 0 20
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Require an item to be seen by other group members"
+    }
+    TextListboxWidgetClass list_see_items {
+     position 0 40
+     size 0.7 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    ButtonWidgetClass btn_add_see {
+     position 0 40
+     size 0.3 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Add Item..."
+    }
+    ButtonWidgetClass btn_del_see {
+     position 0 60
+     size 0.3 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Remove Item"
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

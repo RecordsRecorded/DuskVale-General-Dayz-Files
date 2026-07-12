@@ -1,0 +1,369 @@
+FrameWidgetClass rootFrame {
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  PanelWidgetClass PanelWidget0 {
+   ignorepointer 1
+   size 800 1
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 0
+   {
+    XComboBoxWidgetClass combo_pages {
+     position 0 30
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget0 {
+     ignorepointer 1
+     size 1 30
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Custom Pages"
+     "text halign" center
+     "text valign" center
+    }
+    CheckBoxWidgetClass chckbx_enabled {
+     position 0 70
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Enabled"
+    }
+    CheckBoxWidgetClass chckbx_fullsize {
+     position 0.3 70
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Full Size"
+    }
+    TextWidgetClass TextWidget33 {
+     ignorepointer 1
+     position 0.6 70
+     size 0.2 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Priority: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_priority {
+     position 0 70
+     size 0.2 20
+     halign right_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget34 {
+     ignorepointer 1
+     position 0 90
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Map Button Text: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_btn_text {
+     position 0.3 90
+     size 0.7 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     "Use default text" 0
+     "exact text" 0
+    }
+    ButtonWidgetClass btn_preview_full {
+     size 200 20
+     halign right_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Preview Full"
+    }
+    ButtonWidgetClass btn_remove {
+     position 0 50
+     size 0.5 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_remove"
+    }
+    ButtonWidgetClass btn_add {
+     position 0 50
+     size 0.5 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_add"
+    }
+    ScrollWidgetClass scroll_edit_lines {
+     ignorepointer 1
+     position 0 110
+     size 1 1
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     scriptclass "LBGapHandler"
+     "Scrollbar V" 1
+     {
+      MultilineEditBoxWidgetClass edit_lines {
+       size 1 20
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       scriptclass ""
+       text "test"
+       font "gui/fonts/MetronBook22"
+       "italic text" 0
+       "exact text" 0
+       "size to text h" 1
+       "size to text v" 1
+      }
+     }
+     {
+      ScriptParamsClass {
+       gapVertical 130
+      }
+     }
+    }
+   }
+  }
+  PanelWidgetClass preview_small {
+   clipchildren 0
+   ignorepointer 1
+   position 650 0
+   size 440 0.76
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 0
+   {
+    TextWidgetClass TextWidget1 {
+     ignorepointer 1
+     position 0 -30
+     size 440 30
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Live Small Preview"
+     "text halign" center
+     "text valign" center
+    }
+    ScrollWidgetClass scrollPanel_small {
+     visible 1
+     ignorepointer 0
+     size 1 1
+     halign center_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     scriptclass "LBGapHandler"
+     "Scrollbar V" 1
+     {
+      WrapSpacerWidgetClass content_small {
+       ignorepointer 1
+       size 1 48
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       Padding 0
+       Margin 0
+       "Size To Content H" 1
+       "Size To Content V" 1
+      }
+     }
+     {
+      ScriptParamsClass {
+       gapHorizontal 10
+       gapVertical 5
+      }
+     }
+    }
+   }
+  }
+  PanelWidgetClass panel_rules {
+   clipchildren 0
+   ignorepointer 1
+   position -650 0
+   size 440 0.76
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 0
+   {
+    TextWidgetClass TextWidget2 {
+     ignorepointer 1
+     position 0 -30
+     size 440 30
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Formatting Rules"
+     "text halign" center
+     "text valign" center
+    }
+    ScrollWidgetClass scrollPanel_rules {
+     visible 1
+     ignorepointer 0
+     size 1 1
+     halign center_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     scriptclass "LBGapHandler"
+     "Scrollbar V" 1
+     {
+      WrapSpacerWidgetClass content_rules {
+       ignorepointer 1
+       size 1 48
+       halign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 1
+       Padding 0
+       Margin 0
+       "Size To Content H" 1
+       "Size To Content V" 1
+      }
+     }
+     {
+      ScriptParamsClass {
+       gapHorizontal 10
+       gapVertical 5
+      }
+     }
+    }
+   }
+  }
+  PanelWidgetClass panel_background {
+   visible 0
+   ignorepointer 0
+   color 0.5882 0.5882 0.5882 1
+   size 1 1
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   priority 200
+   style rover_sim_colorable
+   {
+    PanelWidgetClass preview_full {
+     ignorepointer 1
+     position 0 10
+     size 0.99 1
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     scriptclass "LBGapHandler"
+     style blank
+     {
+      ScrollWidgetClass scrollPanel_full {
+       visible 1
+       ignorepointer 0
+       size 1 1
+       halign center_ref
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       scriptclass "LBGapHandler"
+       "Scrollbar V" 1
+       {
+        WrapSpacerWidgetClass content_full {
+         ignorepointer 1
+         size 1 48
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         Padding 0
+         Margin 0
+         "Size To Content H" 1
+         "Size To Content V" 1
+        }
+       }
+       {
+        ScriptParamsClass {
+         gapHorizontal 10
+         gapVertical 5
+        }
+       }
+      }
+     }
+     {
+      ScriptParamsClass {
+       gapVertical 60
+      }
+     }
+    }
+    ButtonWidgetClass btn_close_preview {
+     size 200 20
+     halign center_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Close Preview"
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

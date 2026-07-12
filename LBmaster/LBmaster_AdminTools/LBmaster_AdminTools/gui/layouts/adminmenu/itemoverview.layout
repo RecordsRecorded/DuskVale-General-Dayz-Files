@@ -1,0 +1,159 @@
+FrameWidgetClass rootFrame {
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  MapWidgetClass mapWidget {
+   ignorepointer 0
+   size 0.7 1
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+  }
+  TextListboxWidgetClass item_list {
+   position 0 80
+   size 0.3 1
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scriptclass "LBGapHandler"
+   "title visible" 1
+   colums "itemname (ce min/spawned/ce max) lifetime; 100%"
+   lines 40
+   font "gui/fonts/Metron28"
+   {
+    ScriptParamsClass {
+     gapVertical 120
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget0 {
+   ignorepointer 1
+   size 0.3 80
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    ImageWidgetClass ImageWidget0 {
+     ignorepointer 1
+     size 20 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     image0 "LBmaster_Core/gui/icons/search.paa"
+     mode blend
+     "src alpha" 1
+     "stretch mode" stretch_w_h
+    }
+    EditBoxWidgetClass edit_search {
+     ignorepointer 0
+     position 0 0
+     size 1 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     "no focus" 0
+     {
+      ScriptParamsClass {
+       gapHorizontal 22
+      }
+     }
+    }
+    CheckBoxWidgetClass chckbx_include_empty {
+     position 0 20
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_adm_include_items_not_found"
+    }
+    CheckBoxWidgetClass chckbx_show_all {
+     position 0 40
+     size 0.5 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_adm_show_all_items"
+    }
+    CheckBoxWidgetClass chckbx_show_names {
+     position 0 40
+     size 0.5 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_adm_show_itemnames"
+    }
+    CheckBoxWidgetClass chckbx_show_child {
+     position 0 60
+     size 0.5 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_adm_show_child_count"
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget1 {
+   ignorepointer 1
+   size 0.3 40
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    TextWidgetClass txt_info {
+     ignorepointer 1
+     size 1 20
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    ButtonWidgetClass btn_del {
+     size 0.4 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_adm_delete_selected"
+    }
+    ButtonWidgetClass btn_del_all {
+     size 0.6 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_adm_delete_all_items_in_list"
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

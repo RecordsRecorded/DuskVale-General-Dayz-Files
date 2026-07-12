@@ -1,0 +1,266 @@
+FrameWidgetClass rootFrame {
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  PanelWidgetClass PanelWidget11 {
+   ignorepointer 1
+   position 0 0
+   size 400 550
+   halign center_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style blank
+   {
+    TextListboxWidgetClass list_levels {
+     position 0 5
+     size 390 150
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     lines 8
+    }
+    ButtonWidgetClass btn_add {
+     position 5 160
+     size 190 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_ag_admin_add_level"
+    }
+    ButtonWidgetClass btn_remove {
+     position 5 160
+     size 190 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_ag_admin_remove_level"
+    }
+    TextWidgetClass TextWidget0 {
+     ignorepointer 1
+     position 5 200
+     size 260 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_ag_admin_max_total_players"
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_max {
+     position 5 200
+     size 130 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget1 {
+     ignorepointer 1
+     position 5 220
+     size 260 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_ag_admin_upgrade_cost"
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_cost {
+     position 5 220
+     size 130 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget2 {
+     ignorepointer 1
+     position 5 300
+     size 260 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Subgroups:"
+     "text halign" right
+    }
+    TextWidgetClass TextWidget4 {
+     ignorepointer 1
+     position 5 240
+     size 260 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_ag_admin_extra_group_markers"
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_markers {
+     position 5 240
+     size 130 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget5 {
+     ignorepointer 1
+     position 5 260
+     size 260 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_ag_admin_extra_pings_per_player"
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_pings {
+     position 5 260
+     size 130 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget6 {
+     ignorepointer 1
+     position 5 280
+     size 260 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_ag_admin_extra_plotpole_count"
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_plotpole {
+     position 5 280
+     size 130 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget7 {
+     ignorepointer 1
+     position 5 180
+     size 260 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Level Number: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_number {
+     position 5 180
+     size 130 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+    }
+    TextListboxWidgetClass list_subgroups {
+     position 5 320
+     size 390 100
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+    }
+    ButtonWidgetClass btn_add_subgroup {
+     position 5 420
+     size 190 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "New subgroup"
+    }
+    ButtonWidgetClass btn_remove_subgroup {
+     position 5 420
+     size 190 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Delete subgroup"
+    }
+    TextWidgetClass TextWidget3 {
+     ignorepointer 1
+     position 5 440
+     size 260 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Subgroup Size: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_sub_size {
+     position 5 440
+     size 130 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget8 {
+     ignorepointer 1
+     position 5 460
+     size 160 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Name Override: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_sub_name {
+     position 5 460
+     size 230 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+    }
+    CheckBoxWidgetClass chckbx_sub_offline {
+     position 5 480
+     size 390 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Offline Players"
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

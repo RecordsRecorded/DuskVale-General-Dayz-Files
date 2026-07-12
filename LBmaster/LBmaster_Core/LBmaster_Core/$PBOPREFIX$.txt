@@ -1,0 +1,5 @@
+//<'LBmaster_Core.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=LBmaster_Core;
+Version=4.2.2:stable;
+//PboType=Arma Unknown pbo type (no config or mission).;
+//</properties>

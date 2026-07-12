@@ -1,0 +1,137 @@
+FrameWidgetClass rootFrame {
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  TextListboxWidgetClass list_positions {
+   position 0 40
+   size 1 1
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scriptclass "LBGapHandler"
+   lines 30
+   font "gui/fonts/Metron28"
+   {
+    ScriptParamsClass {
+     gapVertical 100
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget0 {
+   ignorepointer 1
+   size 1 60
+   halign center_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    ButtonWidgetClass btn_add {
+     size 0.5 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_add_new"
+    }
+    ButtonWidgetClass btn_delete {
+     size 0.5 20
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_delete"
+    }
+    ButtonWidgetClass btn_edit {
+     position 0 20
+     size 0.5 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_edit"
+    }
+    ButtonWidgetClass btn_teleport {
+     size 0.5 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_adm_teleport_to"
+    }
+    ButtonWidgetClass btn_teleport_other {
+     size 0.5 20
+     halign right_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_adm_teleport_selected_players"
+    }
+    ButtonWidgetClass btn_teleport_input {
+     position 0 20
+     size 0.5 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_adm_teleport_to_coords"
+    }
+   }
+  }
+  XComboBoxWidgetClass combo_list_select {
+   size 1 20
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   items "Personal;Server"
+  }
+  EditBoxWidgetClass edit_search {
+   position 0 20
+   size 1 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scriptclass "LBGapHandler"
+   {
+    ScriptParamsClass {
+     gapHorizontal 20
+    }
+   }
+  }
+  ImageWidgetClass ImageWidget0 {
+   ignorepointer 1
+   position 0 20
+   size 20 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   image0 "LBmaster_Core/gui/icons/search.paa"
+   mode blend
+   "src alpha" 1
+   "stretch mode" stretch_w_h
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

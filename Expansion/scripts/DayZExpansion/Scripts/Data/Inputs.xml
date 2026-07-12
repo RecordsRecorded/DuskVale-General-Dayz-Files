@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<modded_inputs>
+	<inputs>
+		<actions>
+			<input name="UAExpansionEarplugsToggle" loc="STR_EXPANSION_TOGGLE_EARPLUGS" />
+			<input name="UAExpansionAutoRunToggle" loc="STR_EXPANSION_TOGGLE_AUTORUN" />
+		</actions>
+
+		<sorting name="expansion" loc="STR_EXPANSION_LABEL">
+			<input name="UAExpansionEarplugsToggle" />
+			<input name="UAExpansionAutoRunToggle" />
+		</sorting>
+	</inputs>
+
+	<preset>
+		<input name="UAExpansionEarplugsToggle">
+			<btn name="kP" />
+		</input>
+		<input name="UAExpansionAutoRunToggle">
+			<btn name="kZ" />
+		</input>
+	</preset>
+</modded_inputs>

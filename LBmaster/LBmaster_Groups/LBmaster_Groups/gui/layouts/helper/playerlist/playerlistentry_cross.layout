@@ -1,0 +1,64 @@
+WrapSpacerWidgetClass rootFrame {
+ clipchildren 1
+ ignorepointer 1
+ position 10 10
+ size 500 25
+ hexactpos 1
+ vexactpos 1
+ hexactsize 1
+ vexactsize 1
+ Margin 0
+ "Size To Content H" 1
+ "Size To Content V" 1
+ {
+  ImageWidgetClass healthbar {
+   ignorepointer 1
+   size 25 25
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   image0 ""
+   mode additive
+   "src alpha" 1
+   "clamp mode" invalid
+   "stretch mode" stretch_w_h
+   {
+    PanelWidgetClass borderWidget {
+     visible 0
+     ignorepointer 1
+     position 21.2593 23.2593
+     size 48 48
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+    }
+   }
+  }
+  TextWidgetClass playername {
+   ignorepointer 1
+   position 5 0
+   size 0.95 1
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   text "#lb_ag_playername"
+   "text color" 0 0 0 1
+   "size to text h" 1
+   "text valign" center
+  }
+  TextWidgetClass distance {
+   ignorepointer 1
+   size 100 1
+   halign right_ref
+   valign center_ref
+   hexactpos 0
+   vexactpos 1
+   hexactsize 1
+   vexactsize 0
+  }
+ }
+}

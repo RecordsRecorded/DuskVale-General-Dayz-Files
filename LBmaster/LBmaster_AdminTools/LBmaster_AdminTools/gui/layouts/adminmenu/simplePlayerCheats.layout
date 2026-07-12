@@ -1,0 +1,85 @@
+WrapSpacerWidgetClass rootFrame {
+ size 1 1
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  PanelWidgetClass PanelWidget0 {
+   ignorepointer 1
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    TextWidgetClass TextWidget0 {
+     ignorepointer 1
+     size 140 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "Load Settings: "
+     "text halign" right
+    }
+    XComboBoxWidgetClass combo_load_settings {
+     size 1 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     items "Never;Relog;Game Crash;Joined;Admin Mode Enabled"
+     {
+      ScriptParamsClass {
+       gapHorizontal 140
+      }
+     }
+    }
+   }
+  }
+  CheckBoxWidgetClass chckbx_full_bright {
+   position 0 60
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   userID 15
+   text "#lb_adm_full_bright"
+  }
+  CheckBoxWidgetClass chckbx_temp_player {
+   position 0 60
+   size 0.5 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   userID 16
+   text "#lb_adm_temporary_player"
+  }
+  ButtonWidgetClass btn_setup_temp {
+   visible 0
+   position 2928 206
+   size 0.5 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scriptclass "LBGapHandler"
+   text "#lb_adm_change_loadout"
+   {
+    ScriptParamsClass {
+     gapHorizontal 7
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

@@ -1,0 +1,143 @@
+FrameWidgetClass rootFrame {
+ size 1 1
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  TextListboxWidgetClass list_available {
+   position 0 40
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scriptclass "LBGapHandler"
+   font "gui/fonts/Metron22"
+   {
+    ScriptParamsClass {
+     gapVertical 100
+    }
+   }
+  }
+  ButtonWidgetClass btn_delete {
+   position 0 20
+   size 0.5 20
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_delete"
+  }
+  ButtonWidgetClass btn_edit {
+   position 0 40
+   size 0.5 20
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_edit"
+  }
+  ButtonWidgetClass btn_save {
+   visible 0
+   size 100 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   text "#lb_save"
+  }
+  ButtonWidgetClass btn_rename {
+   position 0 20
+   size 0.5 20
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_rename"
+  }
+  ButtonWidgetClass btn_new {
+   position 0 40
+   size 0.5 20
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_new"
+  }
+  CheckBoxWidgetClass chckbx_enabled {
+   size 0.5 20
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_enabled"
+  }
+  TextWidgetClass txt_selected {
+   ignorepointer 1
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scriptclass "LBGapHandler"
+   {
+    ScriptParamsClass {
+     gapHorizontal 100
+    }
+   }
+  }
+  ButtonWidgetClass btn_export {
+   position 0 0
+   size 0.5 20
+   halign right_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Export..."
+  }
+  ImageWidgetClass ImageWidget0 {
+   ignorepointer 1
+   position 0 20
+   size 20 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   imageTexture "{F3A6C572AA2AE7E3}LBmaster_Core/gui/icons/search.paa"
+   mode additive
+   "src alpha" 1
+   "stretch mode" stretch_w_h
+  }
+  EditBoxWidgetClass edit_search {
+   position 0 20
+   size 1 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   scriptclass "LBGapHandler"
+   {
+    ScriptParamsClass {
+     gapHorizontal 22
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

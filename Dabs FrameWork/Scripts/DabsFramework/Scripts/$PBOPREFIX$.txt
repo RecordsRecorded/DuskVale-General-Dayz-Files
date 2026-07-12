@@ -1,0 +1,6 @@
+//<'Scripts.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DabsFramework\Scripts;
+Mikero=DePbo.dll.10.13;
+version=26053016;
+//PboType=Arma Addon;
+//</properties>

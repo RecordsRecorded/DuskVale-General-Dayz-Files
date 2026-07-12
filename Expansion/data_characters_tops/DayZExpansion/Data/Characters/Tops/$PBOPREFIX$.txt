@@ -1,0 +1,4 @@
+//<'data_characters_tops.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Data\Characters\Tops;
+//PboType=Arma Addon;
+//</properties>

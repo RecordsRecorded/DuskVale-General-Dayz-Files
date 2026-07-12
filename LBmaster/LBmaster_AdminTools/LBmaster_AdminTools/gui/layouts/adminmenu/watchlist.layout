@@ -1,0 +1,298 @@
+PanelWidgetClass rootFrame {
+ position 0 0
+ size 1 1
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  TextListboxWidgetClass list_entries {
+   position 0 25
+   size 1 1
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   scriptclass "LBGapHandler"
+   "title visible" 1
+   colums "Player;30%;Added;30%;Reason;30%;Confidence;10%"
+   lines 30
+   font "gui/fonts/Metron28"
+   {
+    ScriptParamsClass {
+     gapVertical 230
+    }
+   }
+  }
+  XComboBoxWidgetClass combo_type {
+   size 1 20
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   items "Personal;Server"
+  }
+  PanelWidgetClass panel_info {
+   ignorepointer 1
+   size 1 200
+   halign center_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    TextWidgetClass TextWidget4 {
+     ignorepointer 1
+     position 0.5 20
+     size 100 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_steamid"
+     "text halign" right
+     "text valign" center
+    }
+    TextWidgetClass txt_added_date {
+     ignorepointer 1
+     position 0 40
+     size 0.5 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     "text valign" center
+    }
+    TextWidgetClass txt_added_by {
+     ignorepointer 1
+     position 0 20
+     size 0.5 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     "text valign" center
+    }
+    TextWidgetClass TextWidget0 {
+     ignorepointer 1
+     position 0.5 60
+     size 100 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_reason_2"
+     "text halign" right
+     "text valign" center
+    }
+    EditBoxWidgetClass edit_reason {
+     position 0 60
+     size 0.5 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     "no focus" 0
+     {
+      ScriptParamsClass {
+       gapHorizontal 100
+      }
+     }
+    }
+    TextWidgetClass TextWidget1 {
+     ignorepointer 1
+     position 0.25 60
+     size 100 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_confidence"
+     "text halign" right
+     "text valign" center
+    }
+    TextWidgetClass TextWidget2 {
+     ignorepointer 1
+     position 0 60
+     size 0.5 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_adm_message"
+     "text valign" center
+     {
+      EditBoxWidgetClass edit_confidence {
+       size 0.5 1
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       scriptclass "LBGapHandler"
+       {
+        ScriptParamsClass {
+         gapHorizontal 100
+        }
+       }
+      }
+     }
+    }
+    MultilineEditBoxWidgetClass edit_message {
+     size 1 120
+     halign center_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     style DayZBold
+     font "gui/fonts/Metron22"
+     "exact text" 0
+     lines 3
+    }
+    TextWidgetClass txt_steamid {
+     position 0 20
+     size 0.5 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     {
+      ImageWidgetClass ImageWidget0 {
+       ignorepointer 1
+       size 20 20
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       image0 "LBmaster_Core/gui/icons/copy.paa"
+       mode blend
+       "src alpha" 1
+       "stretch mode" stretch_w_h
+       {
+        ButtonWidgetClass btn_copy_steamid {
+         position 0 0
+         size 1 1
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 0
+        }
+       }
+      }
+     }
+     {
+      ScriptParamsClass {
+       gapHorizontal 100
+      }
+     }
+    }
+    ButtonWidgetClass btn_add {
+     size 150 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_add_player"
+    }
+    ButtonWidgetClass btn_del {
+     size 150 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_remove_player"
+    }
+    ButtonWidgetClass btn_save {
+     size 150 20
+     halign right_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#apply"
+    }
+    TextWidgetClass TextWidget3 {
+     ignorepointer 1
+     position 0.5 40
+     size 100 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_name"
+     "text halign" right
+     "text valign" center
+    }
+    TextWidgetClass txt_name {
+     ignorepointer 1
+     position 0 40
+     size 0.5 20
+     halign right_ref
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     {
+      ImageWidgetClass ImageWidget1 {
+       ignorepointer 1
+       size 20 20
+       halign right_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       image0 "LBmaster_Core/gui/icons/copy.paa"
+       mode blend
+       "src alpha" 1
+       "stretch mode" stretch_w_h
+       {
+        ButtonWidgetClass btn_copy_name {
+         position 0 0
+         size 1 1
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 0
+        }
+       }
+      }
+     }
+     {
+      ScriptParamsClass {
+       gapHorizontal 100
+      }
+     }
+    }
+    ButtonWidgetClass btn_ban {
+     position 150 0
+     size 150 20
+     halign right_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_ban_player"
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

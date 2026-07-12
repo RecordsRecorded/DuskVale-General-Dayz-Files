@@ -1,0 +1,367 @@
+FrameWidgetClass rootWidget {
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  PanelWidgetClass left {
+   size 0.25 1
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   {
+    PanelWidgetClass PanelWidget0 {
+     ignorepointer 1
+     size 1 1
+     halign center_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style blank
+     {
+      PanelWidgetClass panel_edit {
+       ignorepointer 1
+       position 0 0
+       size 1 0.5
+       valign bottom_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       scriptclass "LBGapHandler"
+       {
+        TextWidgetClass TextWidget11 {
+         ignorepointer 1
+         position 0 310
+         size 1 40
+         halign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_zones_add"
+         "text halign" center
+         "text valign" center
+        }
+        SliderWidgetClass slider_size {
+         position 0.15 380
+         size 0.34 20
+         halign right_ref
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         minimum 10
+         maximum 2000
+         current 300
+         "fill in" 1
+        }
+        EditBoxWidgetClass txt_size {
+         ignorepointer 0
+         position 0 380
+         size 0.145 20
+         halign right_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_group_300m"
+        }
+        TextWidgetClass TextWidget1 {
+         ignorepointer 1
+         position 0 380
+         size 0.49 20
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_zones_desc_radius"
+         "text halign" right
+        }
+        ButtonWidgetClass btn_add {
+         position 0 400
+         size 0.49 20
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_txt_toggle_placing"
+         text_proportion 0.8
+        }
+        CheckBoxWidgetClass chckbx_show_territorry_flags {
+         visible 1
+         position 0 5
+         size 1 20
+         valign bottom_ref
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_txt_show_all_teritorry_flags"
+        }
+        TextWidgetClass TextWidget0 {
+         ignorepointer 1
+         position 0 360
+         size 0.49 20
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_zones_desc_name"
+         "text halign" right
+        }
+        EditBoxWidgetClass txt_name {
+         ignorepointer 0
+         position 0 360
+         size 0.49 20
+         halign right_ref
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+        }
+        CheckBoxWidgetClass chckbx_enable {
+         visible 1
+         position 0 0
+         size 1 20
+         halign center_ref
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_txt_enable_no_build_zones"
+        }
+        CheckBoxWidgetClass chckbx_show {
+         visible 1
+         position 0 20
+         size 1 20
+         halign center_ref
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_group_show_on_map"
+        }
+        TextWidgetClass TextWidget2 {
+         ignorepointer 1
+         position 0 40
+         size 1 20
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_ag_admin_notification_title"
+        }
+        EditBoxWidgetClass edit_notification_title {
+         position 0 60
+         size 1 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+        }
+        TextWidgetClass TextWidget3 {
+         ignorepointer 1
+         position 0 80
+         size 1 20
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_ag_admin_placement_blocked_message"
+        }
+        EditBoxWidgetClass edit_blocked_message {
+         position 0 100
+         size 1 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+        }
+        TextWidgetClass TextWidget4 {
+         ignorepointer 1
+         position 0 120
+         size 1 20
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_ag_admin_map_circle_color"
+         {
+          PanelWidgetClass color_output {
+           ignorepointer 1
+           position 0 0
+           size 1 1
+           halign center_ref
+           valign center_ref
+           hexactpos 1
+           vexactpos 1
+           hexactsize 0
+           vexactsize 0
+           style LB_Clean_outline
+          }
+         }
+        }
+        TextWidgetClass TextWidget5 {
+         ignorepointer 1
+         position 0 160
+         size 0.3 20
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_ag_admin_ignored_items"
+        }
+        TextListboxWidgetClass list_ignored_items {
+         position 0 160
+         size 0.69 150
+         halign right_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         lines 8
+        }
+        ButtonWidgetClass btn_add_item {
+         position 0 180
+         size 0.3 20
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_ag_admin_add_item"
+        }
+        ButtonWidgetClass btn_remove_item {
+         position 0 200
+         size 0.3 20
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "#lb_ag_admin_delete_item"
+        }
+        ButtonWidgetClass btn_change_color_circle {
+         position 0 140
+         size 200 20
+         hexactpos 1
+         vexactpos 1
+         hexactsize 1
+         vexactsize 1
+         text "Change Color..."
+        }
+        CheckBoxWidgetClass chckbx_show_servermarkers {
+         visible 1
+         position 0 25
+         size 1 20
+         valign bottom_ref
+         hexactpos 0
+         vexactpos 1
+         hexactsize 0
+         vexactsize 1
+         text "Show Server Markers"
+        }
+       }
+       {
+        ScriptParamsClass {
+         gapHorizontal 5
+        }
+       }
+      }
+     }
+    }
+    TextWidgetClass TextWidget10 {
+     ignorepointer 1
+     position 0 10
+     size 0.99 40
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "#lb_zones_list"
+     "text halign" center
+     "text valign" center
+    }
+    ScrollWidgetClass ScrollWidget0 {
+     ignorepointer 1
+     position 0 80
+     size 1 0.4
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     scriptclass "LBGapHandler"
+     "Scrollbar V" 1
+     {
+      GridSpacerWidgetClass zones_w {
+       ignorepointer 1
+       size 1 1
+       halign center_ref
+       hexactpos 0
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       "Size To Content V" 1
+       Columns 1
+       Rows 100
+      }
+     }
+     {
+      ScriptParamsClass {
+       gapHorizontal 5
+      }
+     }
+    }
+   }
+  }
+  MapWidgetClass mapWidget {
+   visible 1
+   size 0.75 1
+   halign right_ref
+   valign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   priority 5
+   {
+    PanelWidgetClass iconPane {
+     ignorepointer 1
+     position 0 0
+     size 1 1
+     halign right_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     priority 399
+    }
+    CanvasWidgetClass drawCanvas {
+     ignorepointer 1
+     position 0 0
+     size 1 1
+     halign right_ref
+     valign bottom_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     priority 398
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

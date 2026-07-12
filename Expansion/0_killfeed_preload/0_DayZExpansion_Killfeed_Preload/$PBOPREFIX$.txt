@@ -1,0 +1,4 @@
+//<'0_killfeed_preload.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=0_DayZExpansion_Killfeed_Preload;
+//PboType=Arma Addon;
+//</properties>

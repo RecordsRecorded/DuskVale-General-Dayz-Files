@@ -1,0 +1,4 @@
+//<'objects_gear_gravecross.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Objects\Gear\GraveCross;
+//PboType=Arma Addon;
+//</properties>

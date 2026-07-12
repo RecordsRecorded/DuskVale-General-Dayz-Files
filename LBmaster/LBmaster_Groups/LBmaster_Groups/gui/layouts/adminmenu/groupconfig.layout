@@ -1,0 +1,263 @@
+FrameWidgetClass rootFrame {
+ position 0 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  PanelWidgetClass PanelWidget1 {
+   visible 1
+   ignorepointer 1
+   position 0 20
+   size 500 550
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style blank
+   {
+    TextWidgetClass TextWidget1 {
+     ignorepointer 1
+     position 0 0
+     size 1 40
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Group Settings"
+     "text halign" center
+    }
+    TextWidgetClass TextWidget15 {
+     ignorepointer 1
+     position 0 40
+     size 0.7 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Delete inactive groups after x Days: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_inactive_del {
+     position 0.7 40
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    CheckBoxWidgetClass chckbx_invite_action {
+     position 0 60
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Enable invite action (will disable the list of online players!)"
+    }
+    TextWidgetClass TextWidget16 {
+     ignorepointer 1
+     position 0 100
+     size 0.7 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Invite cooldown (s): "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_invite_cooldown {
+     position 0.7 100
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    CheckBoxWidgetClass chckbx_invite_name {
+     position 0 80
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Display Playername in invite Action text"
+    }
+    CheckBoxWidgetClass chckbx_friendly_fire {
+     position 0 120
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Prevent Friendly Fire"
+    }
+    CheckBoxWidgetClass chckbx_friendly_fire_sub {
+     position 0 140
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Prevent Friendly Fire only when in same subgroup"
+    }
+    CheckBoxWidgetClass chckbx_secondary_group {
+     position 0 160
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Allow players to join a secondary group without leaving their group"
+    }
+    CheckBoxWidgetClass chckbx_rem_temp_restart {
+     position 0 180
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Remove temporary members on server restart"
+    }
+    CheckBoxWidgetClass chckbx_rem_temp_leave {
+     position 0 200
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Remove temporary members when player leaves the server"
+    }
+    CheckBoxWidgetClass chckbx_subgroups {
+     position 0 220
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Enable Subgroups"
+    }
+    CheckBoxWidgetClass chckbx_subgroups_player {
+     position 0 240
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Share all player Markers on the Map in different subgroups"
+    }
+    CheckBoxWidgetClass chckbx_subgroups_ping {
+     position 0 260
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Share all pings on the Map in different subgroups"
+    }
+    TextWidgetClass TextWidget17 {
+     ignorepointer 1
+     position 0 280
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Subgroup Names"
+    }
+    TextListboxWidgetClass list_sub_names {
+     position 0 300
+     size 0.7 150
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     lines 7
+    }
+    ButtonWidgetClass btn_add_subname {
+     position 0 360
+     size 0.3 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Add Name"
+    }
+    ButtonWidgetClass btn_del_subname {
+     position 0 380
+     size 0.3 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Remove Name"
+    }
+    EditBoxWidgetClass edit_sub_name {
+     position 0.7 335
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    CheckBoxWidgetClass chckbx_upgrade_bene {
+     position 0 470
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Show Upgrade benefits before upgrading to the next level"
+    }
+    CheckBoxWidgetClass chckbx_obfuscate_list {
+     position 0 450
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Obfuscate player names to numbers on group invite page"
+    }
+    CheckBoxWidgetClass chckbx_playerlist_enable {
+     position 0 490
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Enable the Player list in the top left"
+    }
+    CheckBoxWidgetClass chckbx_playerlist_distance {
+     position 0 510
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Show the distance to other players on the playerlist"
+    }
+    CheckBoxWidgetClass chckbx_obfuscate {
+     position 0 530
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Obfuscate Playernames when inviting with random numbers"
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

@@ -1,0 +1,4 @@
+//<'worlds_introscenes.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Worlds\IntroScenes;
+//PboType=Arma Addon;
+//</properties>

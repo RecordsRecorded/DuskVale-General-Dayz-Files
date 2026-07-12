@@ -1,0 +1,4 @@
+//<'objects_gear_guitar.pbo' properties via Mikero's dos tools, dll version 10.14>
+prefix=DayZExpansion\Objects\Gear\Guitar;
+//PboType=Arma Addon;
+//</properties>

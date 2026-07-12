@@ -1,0 +1,86 @@
+FrameWidgetClass rootFrame {
+ ignorepointer 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  PanelWidgetClass PanelWidget0 {
+   ignorepointer 0
+   color 0.3922 0.3922 0.3922 0.7843
+   position -100 0.1
+   size 1000 20
+   halign center_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 0
+   hexactsize 1
+   vexactsize 1
+   style rover_sim_colorable
+   {
+    EditBoxWidgetClass edit_input {
+     size 800 1
+     halign right_ref
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 0
+    }
+    TextWidgetClass TextWidget0 {
+     ignorepointer 0
+     size 200 1
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 0
+     text "#lb_adm_admin_command"
+     "text halign" right
+     "text valign" center
+    }
+   }
+  }
+  ScrollWidgetClass scroll_panel {
+   ignorepointer 0
+   size 820 0.1
+   halign center_ref
+   valign bottom_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 0
+   "Scrollbar V" 1
+   {
+    WrapSpacerWidgetClass panel_available {
+     ignorepointer 0
+     color 0.3922 0.3922 0.3922 0.7843
+     size 1 10
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     scriptclass "LBGapHandler"
+     style DayZDefaultPanel
+     Padding 0
+     Margin 0
+     "Size To Content V" 1
+     {
+      ScriptParamsClass {
+       gapHorizontal 10
+      }
+     }
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

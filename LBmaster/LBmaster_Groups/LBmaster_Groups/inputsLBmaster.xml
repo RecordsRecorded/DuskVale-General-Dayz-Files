@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<modded_inputs>
+    <inputs>
+        <actions>
+            <input name="UALBMGroupOpenMap" loc="lb_input_open_map" />
+            <input name="UALBMGroupOpenMapGroup" loc="lb_input_open_map_group" />
+            <input name="UALBMGroupTacticalPing" loc="lb_input_tactical_ping" />
+            <input name="UALBMGroupTacticalPingClear" loc="lb_input_clear_tactical_ping" />
+            <input name="UALBMGroupAcceptInvite" loc="lb_input_accept_invite" />
+            <input name="UALBMGroupDeleteMarker" loc="lb_input_delete_marker" />
+            <input name="UALBMGroupToggleVisibility" loc="lb_input_toggle_visibility" />
+            <input name="UALBMSwitchChatChannel" loc="lb_input_chat_channel" />
+            <input name="UALBMGroupToggleCompass" loc="lb_input_toggle_compass" />
+            <input name="UALBMGroupTogglePlayerList" loc="lb_input_toggle_playerlist" />
+            <input name="UALBMGroupToggleMiniMap" loc="lb_input_toggle_minimap" />
+        </actions>
+		<sorting name="lb_admin" loc="LBmaster">
+            <input name="UALBMGroupOpenMap" />
+            <input name="UALBMGroupOpenMapGroup" />
+            <input name="UALBMGroupTacticalPing" />
+            <input name="UALBMGroupTacticalPingClear" />
+            <input name="UALBMGroupAcceptInvite" />
+            <input name="UALBMGroupDeleteMarker" />
+            <input name="UALBMGroupToggleVisibility" />
+            <input name="UALBMSwitchChatChannel" />
+            <input name="UALBMGroupToggleCompass" />
+            <input name="UALBMGroupTogglePlayerList" />
+            <input name="UALBMGroupToggleMiniMap" />
+		</sorting>
+    </inputs>
+    <preset>
+		<input name="UALBMGroupOpenMap">
+            <btn name="kM" />
+        </input>
+		<input name="UALBMGroupOpenMapGroup">
+            <btn name="kP" />
+        </input>
+		<input name="UALBMGroupTacticalPing">
+            <btn name="kT" />
+        </input>
+		<input name="UALBMGroupTacticalPingClear">
+            <btn name="kC" />
+        </input>
+		<input name="UALBMGroupDeleteMarker">
+            <btn name="kDelete" />
+        </input>
+		<input name="UALBMGroupToggleVisibility">
+            <btn name="kK" />
+        </input>
+		<input name="UALBMSwitchChatChannel">
+            <btn name="kComma" />
+        </input>
+		<input name="UALBMGroupToggleCompass">
+            <btn name="kH" />
+        </input>
+		<input name="UALBMGroupTogglePlayerList">
+            <btn name="kU" />
+        </input>
+		<input name="UALBMGroupToggleMiniMap" value="0.5">
+            <btn name="kB" />
+        </input>
+		<input name="UALBMGroupAcceptInvite">
+            <btn name="kLControl">
+				<btn name="kJ" />
+			</btn>
+            <btn name="kRControl">
+				<btn name="kJ" />
+			</btn>
+        </input>
+    </preset>
+</modded_inputs>

@@ -1,0 +1,552 @@
+FrameWidgetClass rootFrame {
+ position 0 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  CheckBoxWidgetClass chckbx_enabled {
+   size 0.33 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_enabled"
+  }
+  CheckBoxWidgetClass chckbx_freecam_underground {
+   position 0 140
+   size 0.5 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_allow_freecam_underground"
+  }
+  PanelWidgetClass PanelWidget0 {
+   ignorepointer 1
+   position 0 20
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    TextWidgetClass TextWidget8 {
+     ignorepointer 1
+     position 0 0
+     size 300 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_freecam_turbo_shift"
+     "text halign" right
+     "text valign" center
+    }
+    SliderWidgetClass slider_freecam_turbo {
+     position 0 0
+     size 1 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     minimum 1
+     maximum 10
+     step 0.1
+     current 4
+     "fill in" 1
+     {
+      ScriptParamsClass {
+       gapHorizontal 371
+      }
+     }
+    }
+    EditBoxWidgetClass edit_freecam_turbo {
+     ignorepointer 0
+     position 300 0
+     size 50 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text ""
+     "exact text" 1
+    }
+    ImageWidgetClass ImageWidget4 {
+     ignorepointer 1
+     position 350 0
+     size 20 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     image0 "LBmaster_AdminTools/gui/icons/reset.paa"
+     mode blend
+     "src alpha" 1
+     "stretch mode" stretch_w_h
+     {
+      ButtonWidgetClass btn_reset_freecam_turbo {
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+      }
+     }
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget1 {
+   ignorepointer 1
+   position 0 40
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    TextWidgetClass TextWidget0 {
+     ignorepointer 1
+     position 0 0
+     size 300 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_freecam_speed"
+     "text halign" right
+     "text valign" center
+    }
+    SliderWidgetClass slider_freecam_speed {
+     position 0 0
+     size 1 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     minimum 0.01
+     maximum 5
+     step 0.01
+     current 3
+     "fill in" 1
+     {
+      TextWidgetClass txt_speed {
+       ignorepointer 1
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       text ""
+       font "gui/fonts/sdf_MetronBook72"
+       "outline size" 2
+       "outline color" 0 0 0 1
+       "exact text" 1
+       "exact text size" 15
+       "text halign" center
+       "text valign" center
+      }
+     }
+     {
+      ScriptParamsClass {
+       gapHorizontal 371
+      }
+     }
+    }
+    EditBoxWidgetClass edit_freecam_speed {
+     ignorepointer 0
+     position 300 0
+     size 50 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text ""
+     "exact text" 1
+    }
+    ImageWidgetClass ImageWidget5 {
+     ignorepointer 1
+     position 350 0
+     size 20 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     image0 "LBmaster_AdminTools/gui/icons/reset.paa"
+     mode blend
+     "src alpha" 1
+     "stretch mode" stretch_w_h
+     {
+      ButtonWidgetClass btn_reset_freecam_speed {
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+      }
+     }
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget2 {
+   ignorepointer 1
+   position 0 60
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    TextWidgetClass TextWidget9 {
+     ignorepointer 1
+     position 0 0
+     size 300 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_freecam_movement_smoothness"
+     "text halign" right
+     "text valign" center
+    }
+    SliderWidgetClass slider_freecam_move_smooth {
+     position 0 0
+     size 1 20
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     current 4
+     "fill in" 1
+     {
+      ScriptParamsClass {
+       gapHorizontal 371
+      }
+     }
+    }
+    ImageWidgetClass ImageWidget3 {
+     ignorepointer 1
+     position 350 0
+     size 20 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     image0 "LBmaster_AdminTools/gui/icons/reset.paa"
+     mode blend
+     "src alpha" 1
+     "stretch mode" stretch_w_h
+     {
+      ButtonWidgetClass btn_reset_move_smooth {
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+      }
+     }
+    }
+    EditBoxWidgetClass edit_freecam_move_smooth {
+     ignorepointer 0
+     position 300 0
+     size 50 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text ""
+     "exact text" 1
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget3 {
+   ignorepointer 1
+   position 0 80
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    TextWidgetClass TextWidget10 {
+     ignorepointer 1
+     position 0 0
+     size 300 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_freecam_mouse_smoothness"
+     "text halign" right
+     "text valign" center
+    }
+    SliderWidgetClass slider_freecam_mouse_smooth {
+     position 0 0
+     size 1 21
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     current 0
+     "fill in" 1
+     {
+      ScriptParamsClass {
+       gapHorizontal 371
+      }
+     }
+    }
+    ImageWidgetClass ImageWidget2 {
+     ignorepointer 1
+     position 350 0
+     size 20 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     image0 "LBmaster_AdminTools/gui/icons/reset.paa"
+     mode blend
+     "src alpha" 1
+     "stretch mode" stretch_w_h
+     {
+      ButtonWidgetClass btn_reset_mouse_smooth {
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+      }
+     }
+    }
+    EditBoxWidgetClass edit_freecam_mouse_smooth {
+     ignorepointer 0
+     position 300 0
+     size 50 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text ""
+     "exact text" 1
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget4 {
+   ignorepointer 1
+   position 0 100
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    TextWidgetClass TextWidget11 {
+     ignorepointer 1
+     position 0 0
+     size 300 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_freecam_mouse_sensitivity"
+     "text halign" right
+     "text valign" center
+    }
+    SliderWidgetClass slider_freecam_mouse_acc {
+     position 0 0
+     size 1 21
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     minimum 1
+     current 20
+     "fill in" 1
+     {
+      ScriptParamsClass {
+       gapHorizontal 371
+      }
+     }
+    }
+    ImageWidgetClass ImageWidget1 {
+     ignorepointer 1
+     position 350 0
+     size 20 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     image0 "LBmaster_AdminTools/gui/icons/reset.paa"
+     mode blend
+     "src alpha" 1
+     "stretch mode" stretch_w_h
+     {
+      ButtonWidgetClass btn_reset_mouse_acc {
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+      }
+     }
+    }
+    EditBoxWidgetClass edit_freecam_mouse_acc {
+     ignorepointer 0
+     position 300 0
+     size 50 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text ""
+     "exact text" 1
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget5 {
+   ignorepointer 1
+   position 0 120
+   size 1 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   {
+    ImageWidgetClass ImageWidget0 {
+     ignorepointer 1
+     position 350 0
+     size 20 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     image0 "LBmaster_AdminTools/gui/icons/reset.paa"
+     mode blend
+     "src alpha" 1
+     "stretch mode" stretch_w_h
+     {
+      ButtonWidgetClass btn_reset_freecam_fov {
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+      }
+     }
+    }
+    SliderWidgetClass slider_freecam_fov {
+     position 0 0
+     size 1 21
+     halign right_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     scriptclass "LBGapHandler"
+     minimum 1
+     maximum 360
+     step 0.1
+     current 90
+     "fill in" 1
+     {
+      ScriptParamsClass {
+       gapHorizontal 371
+      }
+     }
+    }
+    EditBoxWidgetClass edit_freecam_fov {
+     ignorepointer 0
+     position 300 0
+     size 50 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text ""
+     "exact text" 1
+    }
+    TextWidgetClass TextWidget12 {
+     ignorepointer 1
+     position 0 0
+     size 300 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 1
+     vexactsize 1
+     text "#lb_adm_freecam_fov"
+     "text halign" right
+     "text valign" center
+    }
+   }
+  }
+  CheckBoxWidgetClass chckbx_reset_fov_enter {
+   position 0 160
+   size 0.5 20
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_reset_fov_when_entering_freecam"
+  }
+  CheckBoxWidgetClass chckbx_reset_fov_end {
+   position 0 160
+   size 0.5 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_reset_fov_after_letting_go_zoom_key"
+  }
+  CheckBoxWidgetClass chckbx_freeze {
+   size 0.33 20
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "#lb_adm_freeze"
+  }
+  CheckBoxWidgetClass chckbx_full_map {
+   position 0 0
+   size 0.33 20
+   halign right_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 1
+   text "Full Map"
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}

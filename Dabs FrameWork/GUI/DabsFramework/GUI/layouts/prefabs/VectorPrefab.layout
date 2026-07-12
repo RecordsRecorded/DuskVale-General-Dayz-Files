@@ -1,0 +1,276 @@
+PanelWidgetClass EditorPosElement {
+ clipchildren 0
+ size 1 24
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 1
+ scriptclass ""
+ {
+  WrapSpacerWidgetClass PositionSpacer {
+   clipchildren 1
+   ignorepointer 1
+   size 1 1
+   hexactpos 1
+   vexactpos 1
+   hexactsize 0
+   vexactsize 0
+   Padding 0
+   Margin 0
+   {
+    FrameWidgetClass LabelFrame {
+     ignorepointer 1
+     size 0.25 1
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     {
+      TextWidgetClass EditorPosElementLabel {
+       ignorepointer 1
+       position 0 0
+       size 1 1
+       halign center_ref
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 0
+       vexactsize 0
+       scriptclass "ViewBinding"
+       text "Text Label:"
+       font "gui/fonts/MetronBook16"
+       "text offset" -12 0
+       "exact text" 0
+       "text halign" right
+       "text valign" center
+       {
+        ScriptParamsClass {
+         Binding_Name "Caption"
+        }
+       }
+      }
+     }
+    }
+    PanelWidgetClass frame_x {
+     visible 1
+     clipchildren 1
+     ignorepointer 1
+     color 0.7647 0.1804 0.102 0.2353
+     position 0 0
+     size 0.25 1
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+     {
+      PanelWidgetClass lbl_x0 {
+       ignorepointer 1
+       keepsafezone 0
+       color 0.7647 0.1804 0.102 1
+       position 0 0
+       size 24 24
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style rover_sim_colorable
+       {
+        TextWidgetClass x0 {
+         ignorepointer 1
+         size 1 1
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 0
+         text "X"
+         font "gui/fonts/etelkatextpro"
+         "exact text" 0
+         "exact text size" 45
+         "size to text h" 0
+         "text halign" center
+         "text valign" center
+        }
+       }
+      }
+      EditBoxWidgetClass x_value {
+       visible 1
+       clipchildren 1
+       color 1 1 1 0.9608
+       position 28 0
+       size 256 0.9
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 0
+       scaled 1
+       scriptclass "ViewBinding"
+       style Default
+       text "12345678910!"
+       "limit visible" 0
+       "exact text" 0
+       font "gui/fonts/Metron22"
+       {
+        ScriptParamsClass {
+         Binding_Name "X"
+         Two_Way_Binding 1
+        }
+       }
+      }
+     }
+    }
+    PanelWidgetClass frame_y {
+     ignorepointer 1
+     color 0.5765 0.8157 0.2196 0.2353
+     size 0.25 1
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+     {
+      PanelWidgetClass lbl_y {
+       ignorepointer 1
+       keepsafezone 0
+       color 0.5765 0.8157 0.2196 1
+       position 0 0
+       size 24 24
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style rover_sim_colorable
+       {
+        TextWidgetClass y {
+         ignorepointer 1
+         size 1 1
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 0
+         scriptclass ""
+         text "Y"
+         font "gui/fonts/etelkatextpro"
+         "exact text" 0
+         "exact text size" 45
+         "size to text h" 0
+         "text halign" center
+         "text valign" center
+        }
+       }
+      }
+      EditBoxWidgetClass y_value {
+       visible 1
+       keepsafezone 0
+       color 1 1 1 0.9608
+       position 28 0
+       size 256 0.9
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 0
+       scriptclass "ViewBinding"
+       style Default
+       "no focus" 0
+       text "12345678910!"
+       "limit visible" 0
+       "exact text" 0
+       font "gui/fonts/Metron22"
+       {
+        ScriptParamsClass {
+         Binding_Name "Y"
+         Two_Way_Binding 1
+        }
+       }
+      }
+     }
+    }
+    PanelWidgetClass frame_z {
+     clipchildren 1
+     ignorepointer 1
+     color 0.2588 0.5176 0.9176 0.2353
+     position 0 0
+     size 0.25 1
+     valign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 0
+     style rover_sim_colorable
+     {
+      PanelWidgetClass lbl_z {
+       clipchildren 1
+       ignorepointer 1
+       keepsafezone 0
+       color 0.2588 0.5176 0.9176 1
+       position 0 0
+       size 24 24
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 1
+       style rover_sim_colorable
+       {
+        TextWidgetClass z {
+         ignorepointer 1
+         size 1 1
+         halign center_ref
+         valign center_ref
+         hexactpos 1
+         vexactpos 1
+         hexactsize 0
+         vexactsize 0
+         text "Z"
+         font "gui/fonts/etelkatextpro"
+         "exact text" 0
+         "size to text h" 0
+         "text halign" center
+         "text valign" center
+        }
+       }
+      }
+      EditBoxWidgetClass z_value {
+       visible 1
+       clipchildren 1
+       keepsafezone 0
+       color 1 1 1 0.9608
+       position 28 0
+       size 256 0.9
+       valign center_ref
+       hexactpos 1
+       vexactpos 1
+       hexactsize 1
+       vexactsize 0
+       scriptclass "ViewBinding"
+       style Default
+       text "12345678910!"
+       "limit visible" 0
+       "Use default text" 0
+       "exact text" 0
+       font "gui/fonts/Metron22"
+       {
+        ScriptParamsClass {
+         Binding_Name "Z"
+         Two_Way_Binding 1
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ }
+}

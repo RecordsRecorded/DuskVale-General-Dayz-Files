@@ -1,0 +1,677 @@
+FrameWidgetClass rootFrame {
+ position 0 0
+ size 1 1
+ halign center_ref
+ valign center_ref
+ hexactpos 1
+ vexactpos 1
+ hexactsize 0
+ vexactsize 0
+ scriptclass "LBMenuPopulator"
+ {
+  PanelWidgetClass PanelWidget6 {
+   visible 1
+   ignorepointer 1
+   position 0 20
+   size 600 310
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style blank
+   {
+    TextWidgetClass TextWidget6 {
+     ignorepointer 1
+     position 0 0
+     size 1 30
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Info Page"
+     "text halign" center
+    }
+    CheckBoxWidgetClass chckbx_survivor_count {
+     position 0 70
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Show online player count"
+    }
+    CheckBoxWidgetClass chckbx_cursor_coords {
+     position 0 90
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Show the coordinates of the current cursor position"
+    }
+    CheckBoxWidgetClass chckbx_player_pos {
+     position 0 110
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Show the current player position"
+    }
+    CheckBoxWidgetClass chckbx_ingame_time {
+     position 0 130
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Show the ingame time"
+    }
+    CheckBoxWidgetClass chckbx_real_time {
+     position 0 150
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Show the real time (uses the system time of the server)"
+    }
+    CheckBoxWidgetClass chckbx_creator_mention {
+     position 0 170
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Metion LBmaster as the mod creator"
+    }
+    TextWidgetClass TextWidget29 {
+     ignorepointer 1
+     position 0 190
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text " Info panel buttons (up to 6 buttons)"
+    }
+    XComboBoxWidgetClass combo_info_buttons {
+     position 0 210
+     size 1 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     items "Button1;Button2;Button3;Button4;Button5;Button6"
+    }
+    TextWidgetClass TextWidget30 {
+     ignorepointer 1
+     position 0 230
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Info Button Text: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_button_title {
+     position 0.3 230
+     size 0.7 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget31 {
+     ignorepointer 1
+     position 0 250
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Text below button: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_button_subtext {
+     position 0.3 250
+     size 0.7 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget32 {
+     ignorepointer 1
+     position 0 270
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Opened link on click: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_button_link {
+     position 0.3 270
+     size 0.7 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    CheckBoxWidgetClass chckbx_info_enabled {
+     position 0 30
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Enabled"
+    }
+    TextWidgetClass TextWidget33 {
+     ignorepointer 1
+     position 0.3 30
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Priority: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_info_priority {
+     position 0.6 30
+     size 0.4 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget34 {
+     ignorepointer 1
+     position 0 50
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Map Button Text: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_info_text {
+     position 0.3 50
+     size 0.7 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget315 {
+     ignorepointer 1
+     position 0 290
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Hover Tooltip: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_button_tooltip {
+     position 0.3 290
+     size 0.7 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget0 {
+   visible 1
+   ignorepointer 1
+   position 0 340
+   size 600 70
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style blank
+   {
+    CheckBoxWidgetClass chckbx_group_enabled {
+     position 0 30
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Enabled"
+    }
+    TextWidgetClass TextWidget38 {
+     ignorepointer 1
+     position 0.3 30
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Priority: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_group_priority {
+     position 0.6 30
+     size 0.4 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget39 {
+     ignorepointer 1
+     position 0 50
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Map Button Text: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_group_text {
+     position 0.3 50
+     size 0.7 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget0 {
+     ignorepointer 1
+     position 0 0
+     size 1 30
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Group manage / create Page"
+     "text halign" center
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget1 {
+   visible 1
+   ignorepointer 1
+   position 0 420
+   size 600 70
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style blank
+   {
+    CheckBoxWidgetClass chckbx_markers_enabled {
+     position 0 30
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Enabled"
+    }
+    TextWidgetClass TextWidget35 {
+     ignorepointer 1
+     position 0.3 30
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Priority: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_markers_priority {
+     position 0.6 30
+     size 0.4 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget36 {
+     ignorepointer 1
+     position 0 50
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Map Button Text: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_markers_text {
+     position 0.3 50
+     size 0.7 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget1 {
+     ignorepointer 1
+     position 0 0
+     size 1 30
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Marker List Page"
+     "text halign" center
+    }
+   }
+  }
+  PanelWidgetClass PanelWidget2 {
+   visible 1
+   ignorepointer 1
+   position 0 500
+   size 600 70
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style blank
+   {
+    CheckBoxWidgetClass chckbx_settings_enabled {
+     position 0 30
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Enabled"
+    }
+    TextWidgetClass TextWidget37 {
+     ignorepointer 1
+     position 0.3 30
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Priority: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_settings_priority {
+     position 0.6 30
+     size 0.4 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget310 {
+     ignorepointer 1
+     position 0 50
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Map Button Text: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_settings_text {
+     position 0.3 50
+     size 0.7 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget2 {
+     ignorepointer 1
+     position 0 0
+     size 1 30
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Settings Page"
+     "text halign" center
+    }
+   }
+  }
+  PanelWidgetClass panel_achievement {
+   visible 1
+   ignorepointer 1
+   position 0 580
+   size 600 70
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style blank
+   {
+    CheckBoxWidgetClass chckbx_achiev_enabled {
+     position 0 30
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Enabled"
+    }
+    TextWidgetClass TextWidget311 {
+     ignorepointer 1
+     position 0.3 30
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Priority: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_achiev_priority {
+     position 0.6 30
+     size 0.4 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget312 {
+     ignorepointer 1
+     position 0 50
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Map Button Text: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_achiev_text {
+     position 0.3 50
+     size 0.7 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget3 {
+     ignorepointer 1
+     position 0 0
+     size 1 30
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Achievements Page"
+     "text halign" center
+    }
+   }
+  }
+  PanelWidgetClass panel_item_rest {
+   visible 1
+   ignorepointer 1
+   position 0 660
+   size 600 70
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style blank
+   {
+    CheckBoxWidgetClass chckbx_rest_enabled {
+     position 0 30
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Enabled"
+    }
+    TextWidgetClass TextWidget313 {
+     ignorepointer 1
+     position 0.3 30
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Priority: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_rest_priority {
+     position 0.6 30
+     size 0.4 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget314 {
+     ignorepointer 1
+     position 0 50
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Map Button Text: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_rest_text {
+     position 0.3 50
+     size 0.7 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget4 {
+     ignorepointer 1
+     position 0 0
+     size 1 30
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Item Restrictions Page"
+     "text halign" center
+    }
+   }
+  }
+  PanelWidgetClass panel_leaderboard {
+   visible 1
+   ignorepointer 1
+   position 0 740
+   size 600 70
+   halign center_ref
+   hexactpos 1
+   vexactpos 1
+   hexactsize 1
+   vexactsize 1
+   style blank
+   {
+    CheckBoxWidgetClass chckbx_lead_enabled {
+     position 0 30
+     size 0.3 20
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Enabled"
+    }
+    TextWidgetClass TextWidget316 {
+     ignorepointer 1
+     position 0.3 30
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Priority: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_lead_priority {
+     position 0.6 30
+     size 0.4 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget317 {
+     ignorepointer 1
+     position 0 50
+     size 0.3 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Map Button Text: "
+     "text halign" right
+    }
+    EditBoxWidgetClass edit_lead_text {
+     position 0.3 50
+     size 0.7 20
+     hexactpos 0
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+    }
+    TextWidgetClass TextWidget5 {
+     ignorepointer 1
+     position 0 0
+     size 1 30
+     halign center_ref
+     hexactpos 1
+     vexactpos 1
+     hexactsize 0
+     vexactsize 1
+     text "Leaderboard Page"
+     "text halign" center
+    }
+   }
+  }
+ }
+ {
+  ScriptParamsClass {
+  }
+ }
+}
