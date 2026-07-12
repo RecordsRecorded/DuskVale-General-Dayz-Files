@@ -40,6 +40,36 @@ class DVME_ServerRPCHandler : LB_RPCHandler
 		Send(DVMERPCs.NOTIFY_RESULT);
 	}
 
+	// The live trader zone list inside ExpansionMarketSettings is protected and
+	// the class cannot be modded (its own Load() passes 'this' to JsonFileLoader,
+	// which does not compile against a modded type). So we enumerate the zone
+	// files on disk and resolve each to its live instance by position.
+	protected array<ExpansionMarketTraderZone> GetLiveZones()
+	{
+		array<ExpansionMarketTraderZone> zones = new array<ExpansionMarketTraderZone>;
+		ExpansionMarketSettings market = GetExpansionSettings().GetMarket();
+
+		array<string> files = ExpansionStatic.FindFilesInLocation(EXPANSION_TRADER_ZONES_FOLDER, ".json", true);
+		foreach (string fileName : files)
+		{
+			fileName = fileName.Substring(0, fileName.Length() - 5);
+
+			ExpansionMarketTraderZone fileZone = ExpansionMarketTraderZone.Load(fileName);
+			if (!fileZone)
+			{
+				continue;
+			}
+
+			ExpansionMarketTraderZone liveZone = market.GetTraderZoneByPosition(fileZone.Position);
+			if (liveZone && zones.Find(liveZone) == -1)
+			{
+				zones.Insert(liveZone);
+			}
+		}
+
+		return zones;
+	}
+
 	void HandleRequestCategories()
 	{
 		if (!CheckAccess())
@@ -89,9 +119,9 @@ class DVME_ServerRPCHandler : LB_RPCHandler
 			return;
 		}
 
-		array<ref ExpansionMarketTraderZone> zones = market.DVME_GetTraderZones();
+		array<ExpansionMarketTraderZone> zones = GetLiveZones();
 		ExpansionMarketTraderZone zone;
-		if (zones && zones.Count() > 0)
+		if (zones.Count() > 0)
 		{
 			zone = zones.Get(0);
 		}
@@ -214,9 +244,8 @@ class DVME_ServerRPCHandler : LB_RPCHandler
 
 		className.ToLower();
 
-		ExpansionMarketSettings market = GetExpansionSettings().GetMarket();
-		array<ref ExpansionMarketTraderZone> zones = market.DVME_GetTraderZones();
-		if (!zones || zones.Count() == 0)
+		array<ExpansionMarketTraderZone> zones = GetLiveZones();
+		if (zones.Count() == 0)
 		{
 			NotifyPage("No trader zones loaded.");
 			return;

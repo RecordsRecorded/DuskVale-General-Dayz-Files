@@ -1,42 +1,61 @@
-// DuskVale Territory Overrides - config additions.
+// DuskVale Territory Overrides - own config.
 //
-// Adds the DuskVale message/interval settings to the Multiplix territory
-// config and enforces the 7 day maximum territory life span default.
-modded class MultiTerritoriesConfig
+// NOTE: MultiTerritoriesConfig can NOT be modded (its Load()/Save() pass
+// 'this' to JsonFileLoader, which does not compile against a modded class),
+// so the DuskVale settings live in their own file:
+//   $profile:DuskVale/TerritoryOverrides.json
+// The 7-day FloppyLifetimeDays enforcement is done at mission start (see
+// DVT_MissionServer in 5_Mission) by writing the Multiplix config directly.
+class DVTOverridesConfig
 {
+	protected static string DIR_PATH = "$profile:DuskVale";
+	protected static string CONFIG_PATH = DIR_PATH + "\\TerritoryOverrides.json";
+
+	protected static ref DVTOverridesConfig s_Instance;
+
+	string ConfigVersion = "1";
+	float TerritoryLifetimeDays = 7; // forced into Multiplix FloppyLifetimeDays when that is 0
+	float DecayWarningIntervalHours = 2.5;
 	string GroupRequiredWarningMessage = "You must be in a group before you can create a territory!";
+	string GroupRequiredClaimMessage = "You must be in a group before you can claim a territory!";
 	string TerritoryRefreshedMessage = "Territory refreshed! The decay countdown has been reset to $DAYS$ days.";
 	string DecayWarningMessage = "$GROUP$ has $HOURS$ hours left before your base decays away, have you found any nails to prevent this?";
-	float DecayWarningIntervalHours = 2.5;
+	string OwnerOnlyEjectMessage = "Only the territory owner can remove the floppydisk.";
 
-	override void Load()
+	static DVTOverridesConfig Get()
 	{
-		super.Load();
-
-		if (!GetGame().IsServer())
+		if (!s_Instance)
 		{
-			return;
+			s_Instance = new DVTOverridesConfig;
+			if (GetGame().IsServer())
+			{
+				s_Instance.Load();
+			}
 		}
 
-		bool changed = false;
+		return s_Instance;
+	}
 
-		// 7 day maximum territory life span before decay
-		if (FloppyLifetimeDays <= 0)
+	void Load()
+	{
+		if (FileExist(CONFIG_PATH))
 		{
-			FloppyLifetimeDays = 7;
-			changed = true;
+			JsonFileLoader<DVTOverridesConfig>.JsonLoadFile(CONFIG_PATH, this);
+		}
+		else
+		{
+			if (!FileExist(DIR_PATH))
+			{
+				MakeDirectory(DIR_PATH);
+			}
 		}
 
-		if (DecayWarningIntervalHours <= 0)
-		{
-			DecayWarningIntervalHours = 2.5;
-			changed = true;
-		}
+		Save();
+	}
 
-		if (changed)
-		{
-			Save();
-		}
+	void Save()
+	{
+		JsonFileLoader<DVTOverridesConfig>.JsonSaveFile(CONFIG_PATH, this);
 	}
 
 	int GetDecayWarningIntervalMs()
@@ -48,5 +67,15 @@ modded class MultiTerritoriesConfig
 		}
 
 		return hours * 3600 * 1000;
+	}
+
+	float GetTerritoryLifetimeDays()
+	{
+		if (TerritoryLifetimeDays <= 0)
+		{
+			return 7;
+		}
+
+		return TerritoryLifetimeDays;
 	}
 }

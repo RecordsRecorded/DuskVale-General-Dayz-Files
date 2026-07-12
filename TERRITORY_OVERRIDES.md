@@ -23,9 +23,9 @@ NOT need to rebuild their PBOs. Both mods are hard requirements (`requiredAddons
    marker** named `My Property` is created at the exact placement position using the LBmaster
    flag icon (`LBmaster_Groups\gui\icons\flag.paa`). Visible to the placer's whole group.
 
-3. **7-day decay** — Territories have a maximum life span of **7 days**. The override forces
-   `FloppyLifetimeDays` to `7` in `$profile:Multiplix/MultiTerritoriesConfig.json` whenever it
-   is `0` or missing (existing configs are migrated automatically on server start). The
+3. **7-day decay** — Territories have a maximum life span of **7 days**. At mission start the
+   mod writes `FloppyLifetimeDays` into `$profile:Multiplix/MultiTerritoriesConfig.json`
+   (value taken from `TerritoryLifetimeDays` in the DuskVale config, default 7). The
    floppydisk integrity display on the computer reflects the remaining time as before.
 
 4. **NailBox refresh** — Holding a vanilla **Box Of Nails (`NailBox`)** while looking at a running
@@ -52,16 +52,23 @@ NOT need to rebuild their PBOs. Both mods are hard requirements (`requiredAddons
 | File | Purpose |
 |---|---|
 | `config.cpp` | CfgPatches/CfgMods, requires ElysianTerritoriesPlus + LBmaster_Groups |
-| `scripts/3_Game/DVT_Config.c` | Config additions + 7-day default enforcement |
+| `scripts/3_Game/DVT_Config.c` | DuskVale config (`$profile:DuskVale/TerritoryOverrides.json`) |
+| `scripts/5_Mission/DVT_MissionServer.c` | Writes the 7-day lifespan into the Multiplix config at mission start |
 | `scripts/4_World/DVT_TerritoryOverrides.c` | All gameplay overrides (gates, marker, decay warning, nails refresh, nametags, eject lock) |
 | `scripts/5_Mission/DVT_MenuOverrides.c` | Hides the menu EJECT button for non-owners |
 
-## New / changed config fields (`MultiTerritoriesConfig.json`)
+## Config: `$profile:DuskVale/TerritoryOverrides.json` (auto-created)
 
 | Field | Default | Purpose |
 |---|---|---|
-| `FloppyLifetimeDays` | forced to `7` when `0` | Maximum territory life span in days |
+| `TerritoryLifetimeDays` | `7` | Written into Multiplix `FloppyLifetimeDays` at mission start |
 | `DecayWarningIntervalHours` | `2.5` | How often the decay warning is sent |
 | `DecayWarningMessage` | see above | `$GROUP$` and `$HOURS$` placeholders |
 | `TerritoryRefreshedMessage` | ... | `$DAYS$` placeholder, shown after a NailBox refresh |
 | `GroupRequiredWarningMessage` | ... | Shown when a groupless player tries to place a territory |
+| `GroupRequiredClaimMessage` | ... | Shown when a groupless player tries to claim |
+| `OwnerOnlyEjectMessage` | ... | Shown when a non-owner tries to eject the floppydisk |
+
+Why a separate file: `MultiTerritoriesConfig` cannot be extended via `modded class`
+(its own `Load()`/`Save()` pass `this` to `JsonFileLoader`, which fails to compile against a
+modded class — this was the cause of the server crash in the first packed build).

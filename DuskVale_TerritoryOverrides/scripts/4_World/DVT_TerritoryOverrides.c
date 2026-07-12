@@ -15,8 +15,6 @@ class DVT_Bridge
 {
 	static const string FLAG_ICON = "LBmaster_Groups\\gui\\icons\\flag.paa";
 	static const string MARKER_NAME = "My Property";
-	static const string GROUP_REQUIRED_CLAIM_MESSAGE = "You must be in a group before you can claim a territory!";
-	static const string OWNER_ONLY_EJECT_MESSAGE = "Only the territory owner can remove the floppydisk.";
 
 	static PlayerBase FindOnlinePlayerByGuid(string guid)
 	{
@@ -118,7 +116,7 @@ modded class ActionDeployObject
 		{
 			if (GetGame().IsClient())
 			{
-				GetMultiTerritoriesConfig().SendNotification(GetMultiTerritoriesConfig().GroupRequiredWarningMessage, TerritoryIcons.NoBuildZone);
+				GetMultiTerritoriesConfig().SendNotification(DVTOverridesConfig.Get().GroupRequiredWarningMessage, TerritoryIcons.NoBuildZone);
 			}
 
 			return false;
@@ -136,7 +134,7 @@ modded class ActionTogglePlaceObject
 		{
 			if (GetGame().IsClient())
 			{
-				GetMultiTerritoriesConfig().SendNotification(GetMultiTerritoriesConfig().GroupRequiredWarningMessage, TerritoryIcons.NoBuildZone);
+				GetMultiTerritoriesConfig().SendNotification(DVTOverridesConfig.Get().GroupRequiredWarningMessage, TerritoryIcons.NoBuildZone);
 			}
 
 			return false;
@@ -157,7 +155,7 @@ modded class REV_TerritoryComputerKit
 		if (GetGame().IsServer() && pb && !DVT_Bridge.HasLBGroup(pb))
 		{
 			SetIsBeingPlaced(false);
-			MultiFunctions.SendPlayerMessage(pb, GetMultiTerritoriesConfig().GroupRequiredWarningMessage);
+			MultiFunctions.SendPlayerMessage(pb, DVTOverridesConfig.Get().GroupRequiredWarningMessage);
 			return;
 		}
 
@@ -178,7 +176,7 @@ modded class REV_TerritoryComputer
 
 		if (GetGame() && GetGame().IsServer())
 		{
-			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(this.DVT_SendDecayWarning, GetMultiTerritoriesConfig().GetDecayWarningIntervalMs(), true);
+			GetGame().GetCallQueue(CALL_CATEGORY_SYSTEM).CallLater(this.DVT_SendDecayWarning, DVTOverridesConfig.Get().GetDecayWarningIntervalMs(), true);
 		}
 	}
 
@@ -202,7 +200,7 @@ modded class REV_TerritoryComputer
 				PlayerBase claimant = DVT_Bridge.FindOnlinePlayerByGuid(senderGuid);
 				if (claimant && !DVT_Bridge.HasLBGroup(claimant))
 				{
-					MultiFunctions.SendPlayerMessage(claimant, DVT_Bridge.GROUP_REQUIRED_CLAIM_MESSAGE);
+					MultiFunctions.SendPlayerMessage(claimant, DVTOverridesConfig.Get().GroupRequiredClaimMessage);
 					return;
 				}
 			}
@@ -215,7 +213,7 @@ modded class REV_TerritoryComputer
 					PlayerBase ejector = DVT_Bridge.FindOnlinePlayerByGuid(senderGuid);
 					if (ejector)
 					{
-						MultiFunctions.SendPlayerMessage(ejector, DVT_Bridge.OWNER_ONLY_EJECT_MESSAGE);
+						MultiFunctions.SendPlayerMessage(ejector, DVTOverridesConfig.Get().OwnerOnlyEjectMessage);
 					}
 					return;
 				}
@@ -254,7 +252,7 @@ modded class REV_TerritoryComputer
 		if (player)
 		{
 			int days = Math.Round(GetEffectiveRefresherDuration() / 86400);
-			string message = GetMultiTerritoriesConfig().TerritoryRefreshedMessage;
+			string message = DVTOverridesConfig.Get().TerritoryRefreshedMessage;
 			message.Replace("$DAYS$", days.ToString());
 			MultiFunctions.SendPlayerMessage(player, message);
 		}
@@ -290,7 +288,7 @@ modded class REV_TerritoryComputer
 			groupName = group.name;
 		}
 
-		string message = GetMultiTerritoriesConfig().DecayWarningMessage;
+		string message = DVTOverridesConfig.Get().DecayWarningMessage;
 		message.Replace("$GROUP$", groupName);
 		message.Replace("$HOURS$", hoursLeft.ToString());
 
