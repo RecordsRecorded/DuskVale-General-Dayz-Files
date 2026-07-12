@@ -18,17 +18,17 @@ modded class MissionServer
 			return;
 		}
 
-		MultiTerritoriesConfig config = GetMultiTerritoriesConfig();
-		if (!config)
+		MultiTerritoriesConfig territoriesConfig = GetMultiTerritoriesConfig();
+		if (!territoriesConfig)
 		{
 			return;
 		}
 
 		float wantedDays = DVTOverridesConfig.Get().GetTerritoryLifetimeDays();
-		if (config.FloppyLifetimeDays != wantedDays)
+		if (territoriesConfig.FloppyLifetimeDays != wantedDays)
 		{
-			config.FloppyLifetimeDays = wantedDays;
-			config.Save();
+			territoriesConfig.FloppyLifetimeDays = wantedDays;
+			territoriesConfig.Save();
 			Print("[DuskVale] FloppyLifetimeDays set to " + wantedDays + " (territory max life span)");
 		}
 	}
