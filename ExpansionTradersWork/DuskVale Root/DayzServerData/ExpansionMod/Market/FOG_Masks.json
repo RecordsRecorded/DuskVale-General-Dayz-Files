@@ -1,0 +1,294 @@
+{
+    "m_Version": 12,
+    "DisplayName": "FOG - Masks & Headwear",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "fog_amp_black",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_amp_mc",
+                "fog_amp_mcb",
+                "fog_amp_mcbt",
+                "fog_amp_tan"
+            ]
+        },
+        {
+            "ClassName": "fog_amp_headset_black",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_amp_headset_grey",
+                "fog_amp_headset_rg",
+                "fog_amp_headset_tan"
+            ]
+        },
+        {
+            "ClassName": "fog_arcteryx_balaclava_black",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_arcteryx_balaclava_cb",
+                "fog_arcteryx_balaclava_grey",
+                "fog_arcteryx_balaclava_rg",
+                "fog_arcteryx_balaclava_white"
+            ]
+        },
+        {
+            "ClassName": "fog_avonm53_black",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_avonm53_red"
+            ]
+        },
+        {
+            "ClassName": "fog_avonm53_clear",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "fog_boonie_aor1",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_boonie_aor2",
+                "fog_boonie_black",
+                "fog_boonie_cb",
+                "fog_boonie_grey",
+                "fog_boonie_khk",
+                "fog_boonie_m81",
+                "fog_boonie_mc",
+                "fog_boonie_mcb",
+                "fog_boonie_rg"
+            ]
+        },
+        {
+            "ClassName": "fog_comtac3_headset_aj",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_comtac3_headset_black",
+                "fog_comtac3_headset_black_velcro",
+                "fog_comtac3_headset_cb",
+                "fog_comtac3_headset_cb_velcro",
+                "fog_comtac3_headset_fg",
+                "fog_comtac3_headset_fg_velcro",
+                "fog_comtac3_headset_rg",
+                "fog_comtac3_headset_rg_01",
+                "fog_comtac3_headset_rg_spray",
+                "fog_comtac3_headset_rg_velcro",
+                "fog_comtac3_headset_rg_xpi",
+                "fog_comtac3_headset_tan_velcro"
+            ]
+        },
+        {
+            "ClassName": "fog_comtac4_headset_black",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_comtac4_headset_grey",
+                "fog_comtac4_headset_rg",
+                "fog_comtac4_headset_tan"
+            ]
+        },
+        {
+            "ClassName": "fog_ghost_headset_tan",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "fog_ghost_mask_black",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_ghost_mask_black_gold",
+                "fog_ghost_mask_black_white",
+                "fog_ghost_mask_red",
+                "fog_ghost_mask_red_gold",
+                "fog_ghost_mask_rg",
+                "fog_ghost_mask_tan"
+            ]
+        },
+        {
+            "ClassName": "fog_ghost_mask_new",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "fog_glasses_ess_black",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_glasses_ess_fde"
+            ]
+        },
+        {
+            "ClassName": "fog_glasses_pitviper_brights",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_glasses_pitviper_gold",
+                "fog_glasses_pitviper_murica",
+                "fog_glasses_pitviper_red",
+                "fog_glasses_pitviper_sunkist",
+                "fog_glasses_pitviper_tropics",
+                "fog_glasses_pitviper_yellow"
+            ]
+        },
+        {
+            "ClassName": "fog_halfmask_black",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_halfmask_cb",
+                "fog_halfmask_grey",
+                "fog_halfmask_rg",
+                "fog_halfmask_white"
+            ]
+        },
+        {
+            "ClassName": "fog_knight_mask",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_knight_mask_black"
+            ]
+        },
+        {
+            "ClassName": "fog_m32_headset_black",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_m32_headset_rg"
+            ]
+        },
+        {
+            "ClassName": "fog_m50_gasmask_black",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "fog_softcap_mc",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "fog_watchcap_black",
+            "MaxPriceThreshold": 1500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_watchcap_cb",
+                "fog_watchcap_grey",
+                "fog_watchcap_red",
+                "fog_watchcap_rg",
+                "fog_watchcap_tan",
+                "fog_watchcap_white"
+            ]
+        }
+    ]
+}

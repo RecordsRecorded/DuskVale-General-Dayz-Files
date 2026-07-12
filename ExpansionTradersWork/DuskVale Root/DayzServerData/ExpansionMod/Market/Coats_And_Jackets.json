@@ -1,0 +1,383 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_COATS & #STR_EXPANSION_MARKET_CATEGORY_JACKETS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "labcoat",
+            "MaxPriceThreshold": 1100,
+            "MinPriceThreshold": 600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "tracksuitjacket_black",
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "tracksuitjacket_blue",
+                "tracksuitjacket_green",
+                "tracksuitjacket_lightblue",
+                "tracksuitjacket_red"
+            ]
+        },
+        {
+            "ClassName": "downjacket_blue",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "downjacket_green",
+                "downjacket_orange",
+                "downjacket_red"
+            ]
+        },
+        {
+            "ClassName": "denimjacket",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 200,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "woolcoat_beige",
+            "MaxPriceThreshold": 2400,
+            "MinPriceThreshold": 1500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "woolcoat_black",
+                "woolcoat_blackcheck",
+                "woolcoat_blue",
+                "woolcoat_bluecheck",
+                "woolcoat_browncheck",
+                "woolcoat_green",
+                "woolcoat_greycheck",
+                "woolcoat_red",
+                "woolcoat_redcheck"
+            ]
+        },
+        {
+            "ClassName": "ridersjacket_black",
+            "MaxPriceThreshold": 1400,
+            "MinPriceThreshold": 800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "expansionridersjacketbrown",
+                "expansionridersjacketdarkblue"
+            ]
+        },
+        {
+            "ClassName": "firefighterjacket_beige",
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "firefighterjacket_black"
+            ]
+        },
+        {
+            "ClassName": "jumpsuitjacket_blue",
+            "MaxPriceThreshold": 3000,
+            "MinPriceThreshold": 1800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "jumpsuitjacket_green",
+                "jumpsuitjacket_gray",
+                "jumpsuitjacket_red"
+            ]
+        },
+        {
+            "ClassName": "bomberjacket_brown",
+            "MaxPriceThreshold": 11700,
+            "MinPriceThreshold": 7000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "bomberjacket_blue",
+                "bomberjacket_grey",
+                "bomberjacket_maroon",
+                "bomberjacket_skyblue",
+                "bomberjacket_black",
+                "bomberjacket_olive"
+            ]
+        },
+        {
+            "ClassName": "quiltedjacket_black",
+            "MaxPriceThreshold": 2400,
+            "MinPriceThreshold": 1400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "quiltedjacket_blue",
+                "quiltedjacket_grey",
+                "quiltedjacket_green",
+                "quiltedjacket_orange",
+                "quiltedjacket_red",
+                "quiltedjacket_violet",
+                "quiltedjacket_yellow"
+            ]
+        },
+        {
+            "ClassName": "prisonuniformjacket",
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "policejacketorel",
+            "MaxPriceThreshold": 1100,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "policejacket",
+            "MaxPriceThreshold": 1100,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "bushlatpolicejacket_blue",
+            "MaxPriceThreshold": 7900,
+            "MinPriceThreshold": 4700,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "paramedicjacket_blue",
+            "MaxPriceThreshold": 1100,
+            "MinPriceThreshold": 600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "paramedicjacket_crimson",
+                "paramedicjacket_green"
+            ]
+        },
+        {
+            "ClassName": "hikingjacket_black",
+            "MaxPriceThreshold": 2400,
+            "MinPriceThreshold": 1400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "hikingjacket_red",
+                "hikingjacket_blue",
+                "hikingjacket_green"
+            ]
+        },
+        {
+            "ClassName": "raincoat_pink",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 200,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "raincoat_orange",
+                "raincoat_yellow",
+                "raincoat_red",
+                "raincoat_blue",
+                "raincoat_black",
+                "raincoat_green"
+            ]
+        },
+        {
+            "ClassName": "ttskojacket_camo",
+            "MaxPriceThreshold": 1700,
+            "MinPriceThreshold": 1000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "bdujacket",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 1100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "huntingjacket_autumn",
+            "MaxPriceThreshold": 7400,
+            "MinPriceThreshold": 4500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "huntingjacket_brown",
+                "huntingjacket_spring",
+                "huntingjacket_summer",
+                "huntingjacket_winter"
+            ]
+        },
+        {
+            "ClassName": "m65jacket_black",
+            "MaxPriceThreshold": 13100,
+            "MinPriceThreshold": 7800,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "m65jacket_khaki",
+                "m65jacket_tan",
+                "m65jacket_olive"
+            ]
+        },
+        {
+            "ClassName": "gorkaejacket_summer",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 1100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "gorkaejacket_flat",
+                "gorkaejacket_autumn",
+                "gorkaejacket_pautrev",
+                "gorkaejacket_winter"
+            ]
+        },
+        {
+            "ClassName": "usmcjacket_desert",
+            "MaxPriceThreshold": 1800,
+            "MinPriceThreshold": 1100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "usmcjacket_woodland"
+            ]
+        },
+        {
+            "ClassName": "nbcjacketgray",
+            "MaxPriceThreshold": 13200,
+            "MinPriceThreshold": 7900,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "nbcjacketyellow",
+                "nbcjacketwhite"
+            ]
+        },
+        {
+            "ClassName": "chainmail",
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "omkjacket_navy",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "navyuniformjacket",
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

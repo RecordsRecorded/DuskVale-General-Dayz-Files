@@ -1,0 +1,35 @@
+{
+    "m_Version": 13,
+    "DisplayName": "Guns & Attachments",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Deliver",
+    "Currencies": [
+        "money_dollar100"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "UseCategoryOrder": 0,
+    "Categories": [
+        "Assault_Rifles",
+        "Rifles",
+        "Sniper_Rifles",
+        "Shotguns",
+        "Pistols",
+        "Submachine_Guns",
+        "Machine_Guns",
+        "Crossbows",
+        "Melee_Weapons",
+        "Knifes",
+        "Bayonets",
+        "Buttstocks",
+        "Handguards",
+        "Muzzles",
+        "Optics",
+        "Pistol_Grips",
+        "Explosives_And_Grenades"
+    ],
+    "Items": {}
+}

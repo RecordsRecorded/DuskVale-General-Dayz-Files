@@ -1,0 +1,1386 @@
+{
+    "m_Version": 12,
+    "DisplayName": "Fortune Vehicles",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "audi_rs6",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "audi_rs6_winter",
+                "audi_rs6_black",
+                "audi_rs6_chrome",
+                "audi_rs6_flecktarn",
+                "audi_rs6_red",
+                "audi_rs6_white"
+            ]
+        },
+        {
+            "ClassName": "azlk",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "azlk_blue",
+                "azlk_orange",
+                "azlk_red",
+                "azlk_yellow",
+                "azlk_rust"
+            ]
+        },
+        {
+            "ClassName": "bmp3",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "bmp3_pixel",
+                "bmp3_rust",
+                "bmp3_winter",
+                "bmp3_woodland"
+            ]
+        },
+        {
+            "ClassName": "bmw",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "bmw_x5",
+                "bmw_x5_black",
+                "bmw_x5_flecktarn",
+                "bmw_x5_red",
+                "bmw_x5_white",
+                "bmw_black",
+                "bmw_green",
+                "bmw_red",
+                "bmw_rust",
+                "bmw_white"
+            ]
+        },
+        {
+            "ClassName": "brdm",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "brdm_camouflage",
+                "brdm_flecktarn",
+                "brdm_pixel",
+                "brdm_woodland",
+                "brdm_black"
+            ]
+        },
+        {
+            "ClassName": "btr",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "btr_kostrov",
+                "btr_black",
+                "btr_green",
+                "btr_white"
+            ]
+        },
+        {
+            "ClassName": "btr82a",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "btr82a_black",
+                "btr82a_green",
+                "btr82a_kamo_1",
+                "btr82a_white"
+            ]
+        },
+        {
+            "ClassName": "buggy",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "buggy_blue",
+                "buggy_red",
+                "buggy_yellow"
+            ]
+        },
+        {
+            "ClassName": "camper",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "camper_blue",
+                "camper_red"
+            ]
+        },
+        {
+            "ClassName": "chevrolet_camaro",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "chevrolet_camaro_astra",
+                "chevrolet_camaro_djm",
+                "chevrolet_camaro_djm2",
+                "chevrolet_camaro_dead",
+                "chevrolet_camaro_diablo",
+                "chevrolet_camaro_egor",
+                "chevrolet_camaro_egor134v2",
+                "chevrolet_camaro_extazy",
+                "chevrolet_camaro_foxy",
+                "chevrolet_camaro_hagr",
+                "chevrolet_camaro_kruger",
+                "chevrolet_camaro_lesnik",
+                "chevrolet_camaro_nest",
+                "chevrolet_camaro_sibirs",
+                "chevrolet_camaro_ursul",
+                "chevrolet_camaro_vavilon",
+                "chevrolet_camaro_veter",
+                "chevrolet_camaro_black",
+                "chevrolet_camaro_hshnk",
+                "chevrolet_camaro_kamo",
+                "chevrolet_camaro_pink",
+                "chevrolet_camaro_red",
+                "chevrolet_camaro_yellow",
+                "chevrolet_camaro_anime",
+                "chevrolet_camaro_kgb",
+                "chevrolet_camaro_kkke",
+                "chevrolet_camaro_veitaru",
+                "chevrolet_camaro_kurt",
+                "chevrolet_camaro_kurt2"
+            ]
+        },
+        {
+            "ClassName": "chevroletcorvette",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "chevroletcorvette_kamo",
+                "chevroletcorvette_rust",
+                "chevroletcorvette_white",
+                "chevroletcorvette_yellow"
+            ]
+        },
+        {
+            "ClassName": "conqueror",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "conqueror_tent",
+                "conqueror_blue",
+                "conqueror_gray",
+                "conqueror_green",
+                "conqueror_kamo1",
+                "conqueror_kamo2",
+                "conqueror_yellow"
+            ]
+        },
+        {
+            "ClassName": "cougar",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "cougar_blood",
+                "cougar_fox",
+                "cougar_black",
+                "cougar_green",
+                "cougar_kamo",
+                "cougar_rust"
+            ]
+        },
+        {
+            "ClassName": "dozorb",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "dozorb_camouflage",
+                "dozorb_flecktarn",
+                "dozorb_pixel",
+                "dozorb_woodland",
+                "dozorb_zsu"
+            ]
+        },
+        {
+            "ClassName": "eger",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "eger_greencamo",
+                "eger_pixel",
+                "eger_tent"
+            ]
+        },
+        {
+            "ClassName": "fennek",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fennek_biohazard",
+                "fennek_camogreen",
+                "fennek_rust",
+                "fennek_winter",
+                "fennek_black"
+            ]
+        },
+        {
+            "ClassName": "g65",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "g65_pride",
+                "g65_pride2",
+                "g65_pride3",
+                "g65_black",
+                "g65_chrome",
+                "g65_red",
+                "g65_rust",
+                "g65_white",
+                "g65_yellow"
+            ]
+        },
+        {
+            "ClassName": "gaz66",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "gaz66_black"
+            ]
+        },
+        {
+            "ClassName": "gaz66bort",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "gaz66bort_black"
+            ]
+        },
+        {
+            "ClassName": "gaz66tent",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "gaz66tent_black"
+            ]
+        },
+        {
+            "ClassName": "gaz71",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "gaz71_black",
+                "gaz71_rust",
+                "gaz71_winter"
+            ]
+        },
+        {
+            "ClassName": "gaz_69",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "gaz_69_black",
+                "gaz_69_gray"
+            ]
+        },
+        {
+            "ClassName": "gaztigr",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "gaztigr_black",
+                "gaztigr_flecktarn",
+                "gaztigr_green",
+                "gaztigr_grey",
+                "gaztigr_pixel"
+            ]
+        },
+        {
+            "ClassName": "gelenvagen",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "gelenvagen_carbon",
+                "gelenvagen_flecktarn",
+                "gelenvagen_green",
+                "gelenvagen_white_camo1",
+                "gelenvagen_white_camo2"
+            ]
+        },
+        {
+            "ClassName": "grate",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "hammer_bags",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "hammer_h1",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "hammer_h1_winter",
+                "hammer_h1_black",
+                "hammer_h1_black_rust",
+                "hammer_h1_camo",
+                "hammer_h1_dirty",
+                "hammer_h1_rust"
+            ]
+        },
+        {
+            "ClassName": "hemtt",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "hemtt_tent",
+                "hemtt_tent_black",
+                "hemtt_tent_flecktarn",
+                "hemtt_tent_green",
+                "hemtt_tent_red",
+                "hemtt_tent_rust",
+                "hemtt_tent_white",
+                "hemtt_black",
+                "hemtt_flecktarn",
+                "hemtt_green",
+                "hemtt_red",
+                "hemtt_rust",
+                "hemtt_white"
+            ]
+        },
+        {
+            "ClassName": "interceptor",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "interceptor_black",
+                "interceptor_sonic",
+                "interceptor_blue",
+                "interceptor_red",
+                "interceptor_yellow"
+            ]
+        },
+        {
+            "ClassName": "jeep_wrangler",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "jeep_wrangler_yellow",
+                "jeep_wrangler_black",
+                "jeep_wrangler_blue",
+                "jeep_wrangler_green",
+                "jeep_wrangler_kamo",
+                "jeep_wrangler_red"
+            ]
+        },
+        {
+            "ClassName": "kamaz_4350",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "kamaz_4350_kung",
+                "kamaz_4350_kung_black",
+                "kamaz_4350_kung_flora",
+                "kamaz_4350_kung_old",
+                "kamaz_4350_kung_pixel",
+                "kamaz_4350_kung_winter",
+                "kamaz_4350_black",
+                "kamaz_4350_flora",
+                "kamaz_4350_old",
+                "kamaz_4350_pixel",
+                "kamaz_4350_tent",
+                "kamaz_4350_tent_black",
+                "kamaz_4350_tent_flora",
+                "kamaz_4350_tent_old",
+                "kamaz_4350_tent_pixel",
+                "kamaz_4350_tent_winter",
+                "kamaz_4350_winter"
+            ]
+        },
+        {
+            "ClassName": "kamaz_typhoon",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "kamaz_typhoon_black",
+                "kamaz_typhoon_flecktarn",
+                "kamaz_typhoon_green",
+                "kamaz_typhoon_rust",
+                "kamaz_typhoon_white"
+            ]
+        },
+        {
+            "ClassName": "kraz_6322",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "kraz_6322_black",
+                "kraz_6322_black2",
+                "kraz_6322_kamo",
+                "kraz_6322_rust"
+            ]
+        },
+        {
+            "ClassName": "kraz_fiona",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "kraz_fiona_black",
+                "kraz_fiona_camouflage",
+                "kraz_fiona_desert",
+                "kraz_fiona_pixel",
+                "kraz_fiona_rescue"
+            ]
+        },
+        {
+            "ClassName": "landcruiser",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "landcruiser_gvinlord",
+                "landcruiser_blue",
+                "landcruiser_kamo",
+                "landcruiser_kamo2",
+                "landcruiser_red",
+                "landcruiser_skul",
+                "landcruiser_white"
+            ]
+        },
+        {
+            "ClassName": "lrover_tent_camo2",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "luaz",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "luaz_black",
+                "luaz_blue",
+                "luaz_red",
+                "luaz_rust",
+                "luaz_tent",
+                "luaz_tent_black",
+                "luaz_tent_blue",
+                "luaz_tent_red",
+                "luaz_tent_rust"
+            ]
+        },
+        {
+            "ClassName": "m35a2",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "m35a2_black",
+                "m35a2_grey",
+                "m35a2_kamo",
+                "m35a2_rust",
+                "m35a2_tent",
+                "m35a2_tent_black",
+                "m35a2_tent_grey",
+                "m35a2_tent_kamo",
+                "m35a2_tent_rust"
+            ]
+        },
+        {
+            "ClassName": "maz_509",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "maz_509_green",
+                "maz_509_yellow",
+                "maz_509_tent"
+            ]
+        },
+        {
+            "ClassName": "mbw140",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "mbw140_black",
+                "mbw140_blue",
+                "mbw140_gold",
+                "mbw140_green",
+                "mbw140_white"
+            ]
+        },
+        {
+            "ClassName": "motorhome",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "motorhome_black",
+                "motorhome_green",
+                "motorhome_red",
+                "motorhome_rust",
+                "motorhome_white",
+                "motorhome_woodland"
+            ]
+        },
+        {
+            "ClassName": "mustang",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "mustang_red",
+                "mustang_rust",
+                "mustang_white"
+            ]
+        },
+        {
+            "ClassName": "nissan_warrior",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "nissan_warrior_black",
+                "nissan_warrior_blue",
+                "nissan_warrior_kamo"
+            ]
+        },
+        {
+            "ClassName": "nivapickup",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "nivapickup_blue",
+                "nivapickup_kamo",
+                "nivapickup_kamo2",
+                "nivapickup_red",
+                "nivapickup_skul"
+            ]
+        },
+        {
+            "ClassName": "novator",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "novator_camouflage",
+                "novator_flecktarn",
+                "novator_grey",
+                "novator_pixel",
+                "novator_tent",
+                "novator_woodland"
+            ]
+        },
+        {
+            "ClassName": "offroadrangerover",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "offroadrangerover_yellow",
+                "offroadrangerover_bamper",
+                "offroadrangerover_blue",
+                "offroadrangerover_green",
+                "offroadrangerover_kamo",
+                "offroadrangerover_police",
+                "offroadrangerover_red"
+            ]
+        },
+        {
+            "ClassName": "opel_astra",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "opel_astra_black",
+                "opel_astra_camo",
+                "opel_astra_chrome"
+            ]
+        },
+        {
+            "ClassName": "oshkosh",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "oshkosh_black",
+                "oshkosh_flecktarn",
+                "oshkosh_green",
+                "oshkosh_grey",
+                "oshkosh_pixel"
+            ]
+        },
+        {
+            "ClassName": "oshkoshtent",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "paz",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "paz_bandit",
+                "paz_bandit_shved",
+                "paz_bandit_black",
+                "paz_bandit_flecktarn",
+                "paz_bandit_green",
+                "paz_bandit_rust",
+                "paz_bandit_white",
+                "paz_bandit_woodland",
+                "paz_beige",
+                "paz_blue",
+                "paz_green",
+                "paz_red"
+            ]
+        },
+        {
+            "ClassName": "pazprison",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "pazprison_blue",
+                "pazprison_white",
+                "pazprison_yellow"
+            ]
+        },
+        {
+            "ClassName": "pontiac",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "pontiac_dark_red",
+                "pontiac_green",
+                "pontiac_orange",
+                "pontiac_pink",
+                "pontiac_red",
+                "pontiac_violet",
+                "pontiac_wine_red",
+                "pontiac_blue",
+                "pontiac_rust"
+            ]
+        },
+        {
+            "ClassName": "range_rover",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "range_rover_black",
+                "range_rover_dazzle_black",
+                "range_rover_dazzle_green",
+                "range_rover_dazzle_red"
+            ]
+        },
+        {
+            "ClassName": "raptor",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "raptor_blue",
+                "raptor_body_fire",
+                "raptor_body_old",
+                "raptor_green",
+                "raptor_grey",
+                "raptor_red",
+                "raptor_white",
+                "raptor_winter"
+            ]
+        },
+        {
+            "ClassName": "rover",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "rover_green",
+                "rover_camo2",
+                "rover_camoold",
+                "rover_tent",
+                "rover_tent_green",
+                "rover_tent_camoold"
+            ]
+        },
+        {
+            "ClassName": "scout_bamper_back",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "scout_bamper_front_1",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "scout_bamper_front_2",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "scout_bamper_front_3",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "scout_bamper_front_4",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "scout_black",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "scout_porog",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "scout_snik2",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "scout_veh",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "scout_vizor",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "scout_vizor_black",
+                "scout_vizor_snik2"
+            ]
+        },
+        {
+            "ClassName": "suv",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "suv_us",
+                "suv_winter",
+                "suv_blue",
+                "suv_kamo",
+                "suv_red",
+                "suv_white"
+            ]
+        },
+        {
+            "ClassName": "tlc_200",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "tlc_200_djm",
+                "tlc_200_blood",
+                "tlc_200_blue",
+                "tlc_200_kamo",
+                "tlc_200_kamo2",
+                "tlc_200_red",
+                "tlc_200_white"
+            ]
+        },
+        {
+            "ClassName": "toyotahilux",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "toyotahilux_blue",
+                "toyotahilux_kamo",
+                "toyotahilux_kamo2",
+                "toyotahilux_red",
+                "toyotahilux_rust",
+                "toyotahilux_white"
+            ]
+        },
+        {
+            "ClassName": "traktor",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "traktor_black",
+                "traktor_red",
+                "traktor_rust"
+            ]
+        },
+        {
+            "ClassName": "typhoon",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "typhoon_camouflage",
+                "typhoon_flecktarn",
+                "typhoon_grey",
+                "typhoon_pixel",
+                "typhoon_windowfront",
+                "typhoon_windowfront_camouflage",
+                "typhoon_windowfront_flecktarn",
+                "typhoon_windowfront_grey",
+                "typhoon_windowfront_pixel",
+                "typhoon_windowfront_woodland",
+                "typhoon_woodland"
+            ]
+        },
+        {
+            "ClassName": "uaz469",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "uaz469_rust",
+                "uaz469_black",
+                "uaz469_camo1",
+                "uaz469_offroad",
+                "uaz469_offroad_blue",
+                "uaz469_offroad_red",
+                "uaz469_offroad_yellow"
+            ]
+        },
+        {
+            "ClassName": "uaz469tent",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "uaz469tent_rust",
+                "uaz469tent_black",
+                "uaz469tent_camo1"
+            ]
+        },
+        {
+            "ClassName": "uaz_2315",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "uaz_2315_black",
+                "uaz_2315_blue",
+                "uaz_2315_camo1",
+                "uaz_2315_camo2",
+                "uaz_2315_red",
+                "uaz_2315_yellow"
+            ]
+        },
+        {
+            "ClassName": "uaz_3909",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "uaz_3909_mchs",
+                "uaz_3909_beige",
+                "uaz_3909_blue",
+                "uaz_3909_chaki1",
+                "uaz_3909_chaki2",
+                "uaz_3909_medic",
+                "uaz_3909_police"
+            ]
+        },
+        {
+            "ClassName": "ural_4320",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "ural_4320_kung",
+                "ural_4320_kung_blue",
+                "ural_4320_kung_kamo",
+                "ural_4320_kung_rust",
+                "ural_4320_kung_yellow",
+                "ural_4320_blue",
+                "ural_4320_flag",
+                "ural_4320_flag_blue",
+                "ural_4320_flag_kamo",
+                "ural_4320_flag_rust",
+                "ural_4320_flag_yellow",
+                "ural_4320_kamo",
+                "ural_4320_rust",
+                "ural_4320_tent",
+                "ural_4320_tent_blue",
+                "ural_4320_tent_kamo",
+                "ural_4320_tent_rust",
+                "ural_4320_tent_yellow",
+                "ural_4320_yellow"
+            ]
+        },
+        {
+            "ClassName": "vaz_2108",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "vaz_2108_blue",
+                "vaz_2108_white",
+                "vaz_2108_black",
+                "vaz_2108_red",
+                "vaz_2108_yellow"
+            ]
+        },
+        {
+            "ClassName": "vaz_2109",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "vaz_2109_blue",
+                "vaz_2109_white",
+                "vaz_2109_black",
+                "vaz_2109_red",
+                "vaz_2109_yellow"
+            ]
+        },
+        {
+            "ClassName": "velociraptor6x6",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "velociraptor6x6_kkk",
+                "velociraptor6x6_rrr",
+                "velociraptor6x6_sadist",
+                "velociraptor6x6_blue",
+                "velociraptor6x6_kamo",
+                "velociraptor6x6_kamo2",
+                "velociraptor6x6_red",
+                "velociraptor6x6_rust",
+                "velociraptor6x6_white"
+            ]
+        },
+        {
+            "ClassName": "yar_87",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "yar_87_black",
+                "yar_87_blue",
+                "yar_87_kamo",
+                "yar_87_kamo2",
+                "yar_87_rust",
+                "yar_87_white"
+            ]
+        },
+        {
+            "ClassName": "zil130",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "zil130_refill",
+                "zil130_repair",
+                "zil130_green",
+                "zil130_green_rust",
+                "zil130_rust",
+                "zil130_tent",
+                "zil130_tent_green",
+                "zil130_tent_green_rust",
+                "zil130_tent_rust"
+            ]
+        },
+        {
+            "ClassName": "zil130kung",
+            "MaxPriceThreshold": 40000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "zil130kung_green",
+                "zil130kung_green_rust",
+                "zil130kung_rust"
+            ]
+        }
+    ]
+}

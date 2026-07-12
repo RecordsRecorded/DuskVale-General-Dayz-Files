@@ -1,0 +1,252 @@
+{
+    "m_Version": 12,
+    "DisplayName": "A6 - Base Storage",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "a6_armorrack_kit",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_doublegunrack_black_kit",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_doublegunrack_kit",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_doublegunrack_tan_kit",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_greenhouse_kit",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_hacking_tablet",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_medicalcabinet_black_kit",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_medicalcabinet_kit",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_militarylocker_black_kit",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_militarylocker_green_kit",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_militarylocker_tan_kit",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_militarystoragecrate",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_refrigerator_kit",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_rifle_safe_black_kit",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_rifle_safe_green_kit",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_rifle_safe_kit",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_safe_big_kit",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_singlegunrack_black_kit",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_singlegunrack_kit",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_singlegunrack_tan_kit",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_tabletbattery",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "a6_vault_kit",
+            "MaxPriceThreshold": 8000,
+            "MinPriceThreshold": 2000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        }
+    ]
+}

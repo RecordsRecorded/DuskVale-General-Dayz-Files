@@ -1,0 +1,151 @@
+{
+    "m_Version": 12,
+    "DisplayName": "FOG - Boots & Shoes",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "fog_climbingboots_brown",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "fog_combat_hikingboots_black",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_combat_hikingboots_brown",
+                "fog_combat_hikingboots_grey",
+                "fog_combat_hikingboots_khaki"
+            ]
+        },
+        {
+            "ClassName": "fog_defconvans_shoes_black",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_defconvans_shoes_blue",
+                "fog_defconvans_shoes_cb",
+                "fog_defconvans_shoes_grey",
+                "fog_defconvans_shoes_khk",
+                "fog_defconvans_shoes_mc",
+                "fog_defconvans_shoes_mcal",
+                "fog_defconvans_shoes_mcb",
+                "fog_defconvans_shoes_mct",
+                "fog_defconvans_shoes_red",
+                "fog_defconvans_shoes_rg"
+            ]
+        },
+        {
+            "ClassName": "fog_lerch_boots_black",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_lerch_boots_black_dirty",
+                "fog_lerch_boots_cb",
+                "fog_lerch_boots_khk",
+                "fog_lerch_boots_mc",
+                "fog_lerch_boots_mcb",
+                "fog_lerch_boots_rg"
+            ]
+        },
+        {
+            "ClassName": "fog_maritime_shoes_black",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_maritime_shoes_blue",
+                "fog_maritime_shoes_cb",
+                "fog_maritime_shoes_culston",
+                "fog_maritime_shoes_dtgr",
+                "fog_maritime_shoes_grey",
+                "fog_maritime_shoes_khk",
+                "fog_maritime_shoes_m81",
+                "fog_maritime_shoes_m81red",
+                "fog_maritime_shoes_mc",
+                "fog_maritime_shoes_mc_t",
+                "fog_maritime_shoes_mcb",
+                "fog_maritime_shoes_mcb_t",
+                "fog_maritime_shoes_red",
+                "fog_maritime_shoes_rg"
+            ]
+        },
+        {
+            "ClassName": "fog_operator_boots_black",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_operator_boots_cb",
+                "fog_operator_boots_rg"
+            ]
+        },
+        {
+            "ClassName": "fog_xaforces_shoes_black",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_xaforces_shoes_cb",
+                "fog_xaforces_shoes_grey",
+                "fog_xaforces_shoes_rg",
+                "fog_xaforces_shoes_tan"
+            ]
+        },
+        {
+            "ClassName": "fog_zypher_boots_black_nosocks",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_zypher_boots_black_socks",
+                "fog_zypher_boots_cb_nosocks",
+                "fog_zypher_boots_cb_socks",
+                "fog_zypher_boots_rg_nosocks",
+                "fog_zypher_boots_rg_socks",
+                "fog_zypher_boots_tan_nosocks",
+                "fog_zypher_boots_tan_socks"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,276 @@
+{
+    "m_Version": 5,
+    "EnableStatusTab": 1,
+    "EnablePartyTab": 1,
+    "EnableServerInfoTab": 1,
+    "EnableServerRulesTab": 1,
+    "EnableTerritoryTab": 1,
+    "EnableBookMenu": 1,
+    "CreateBookmarks": 0,
+    "ShowHaBStats": 1,
+    "ShowPlayerFaction": 0,
+    "RuleCategories": [
+        {
+            "CategoryName": "CHAPTER I - DISTURBANCE OF THE PEACE",
+            "Rules": [
+                {
+                    "RuleParagraph": "A 'Cheating'",
+                    "RuleText": "The act of or usage of information to gain an advantage over others. "
+                },
+                {
+                    "RuleParagraph": "A-1",
+                    "RuleText": "Usage of exploits, glitches, software, hardware, mechanics, and or systems that are not otherwise accessible to other players; common terminology of: DMA, KMA, Xim, Xims, MnK Controllers, Controller Toggles, Macros, Scripts, Aimbot, ESP, Duping, Lag Switches."
+                },
+                {
+                    "RuleParagraph": "B 'Obnoxious Behavior'",
+                    "RuleText": "The act of, intentionally or not, causing irration to others by a certain means."
+                },
+                {
+                    "RuleParagraph": "B-1",
+                    "RuleText": "Playing music and/or sounds through a microphone endlessly."
+                },
+                {
+                    "RuleParagraph": "B-2.",
+                    "RuleText": "The use of the megaphone item to broadcast music and/or sounds."
+                },
+				{
+                    "RuleParagraph": "B-3",
+                    "RuleText": "The common occurance of 'Hot Micing' when a person does not mute themselves and allows their otherwise private conversations to be carried out publicly or breathing into said microphone causing others irritations."
+                },
+				{
+                    "RuleParagraph": "B-4",
+                    "RuleText": "Accusations of someone hacking, cheating, stealing, and/or raiding. Please submit a ticket with evidence to the DuskVale Staff to resolve the issue."
+                },
+				{
+                    "RuleParagraph": "B-5",
+                    "RuleText": "Begging for items, vehicles, services, and/or currencies."
+                },
+				{
+                    "RuleParagraph": "B-6",
+                    "RuleText": "Placing conversations to real life actions; telling others to: fight you in real life, die in real life, etc."
+                },
+				{
+                    "RuleParagraph": "B-7",
+                    "RuleText": "Complaints of being 'Killed as a bambi/freshie'."
+                },
+				{
+                    "RuleParagraph": "B-8",
+                    "RuleText": "Impersonating of DuskVale Staff."
+                },
+				{
+                    "RuleParagraph": "B-9",
+                    "RuleText": "Spamming any text chat channel."
+                },
+				{
+                    "RuleParagraph": "C 'Discrimination'",
+                    "RuleText": "The act of disparaging a person or people based on a perceived reality."
+                },
+				{
+                    "RuleParagraph": "C-1",
+                    "RuleText": "Remarks based about a person's religion, race, creed, ethnicity, sexual orientation, gender that aim to cause harm."
+                }
+            ]
+        }
+    ],
+    "DisplayServerSettingsInServerInfoTab": 1,
+    "SettingCategories": [],
+    "Links": [
+        {
+            "Name": "Homepage",
+            "URL": "https://www.google.com/",
+            "IconName": "Homepage",
+            "IconColor": -14473430
+        },
+        {
+            "Name": "Discord",
+            "URL": "https://www.google.com/",
+            "IconName": "Discord",
+            "IconColor": -9270822
+        }
+    ],
+    "Descriptions": [
+        {
+            "CategoryName": "General Info",
+            "Descriptions": [
+                {
+                    "DescriptionText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+                },
+                {
+                    "DescriptionText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+                },
+                {
+                    "DescriptionText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+                }
+            ]
+        },
+        {
+            "CategoryName": "Mod Info",
+            "Descriptions": [
+                {
+                    "DescriptionText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+                },
+                {
+                    "DescriptionText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+                },
+                {
+                    "DescriptionText": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet."
+                }
+            ]
+        }
+    ],
+    "CraftingCategories": [
+        {
+            "CategoryName": "Accessories",
+            "Results": [
+                "armband_",
+                "armband_white",
+                "eyepatch_improvised"
+            ]
+        },
+        {
+            "CategoryName": "Backpacks",
+            "Results": [
+                "courierbag",
+                "furcourierbag",
+                "furimprovisedbag",
+                "improvisedbag",
+                "leathersack_brown"
+            ]
+        },
+        {
+            "CategoryName": "Base-Building",
+            "Results": [
+                "expansionbarbedwirekit",
+                "fencekit",
+                "expansionfloorkit",
+                "expansionhelipadkit",
+                "expansionhescokit",
+                "expansionrampkit",
+                "shelterkit",
+                "expansionstairkit",
+                "territoryflagkit",
+                "expansionwallkit",
+                "watchtowerkit"
+            ]
+        },
+        {
+            "CategoryName": "Camouflage",
+            "Results": [
+                "camonet",
+                "ghillieatt_tan",
+                "ghillieatt_mossy",
+                "ghillieatt_woodland",
+                "ghilliebushrag_tan",
+                "ghilliebushrag_mossy",
+                "ghilliebushrag_woodland",
+                "ghilliehood_tan",
+                "ghilliehood_mossy",
+                "ghilliehood_woodland",
+                "ghilliesuit_tan",
+                "ghilliesuit_mossy",
+                "ghilliesuit_woodland",
+                "ghillietop_tan",
+                "ghillietop_mossy",
+                "ghillietop_woodland"
+            ]
+        },
+        {
+            "CategoryName": "Cooking",
+            "Results": [
+                "fireplace",
+                "firewood",
+                "handdrillkit"
+            ]
+        },
+        {
+            "CategoryName": "Fishing",
+            "Results": [
+                "bait",
+                "bonebait",
+                "bonehook",
+                "improvisedfishingrod"
+            ]
+        },
+        {
+            "CategoryName": "Food",
+            "Results": [
+                "carpfilletmeat",
+                "mackerelfilletmeat",
+                "expansionmilkbottle",
+                "potato",
+                "slicedpumpkin"
+            ]
+        },
+        {
+            "CategoryName": "Horticulture",
+            "Results": [
+                "pepperseeds",
+                "pumpkinseeds",
+                "tomatoseeds",
+                "zucchiniseeds"
+            ]
+        },
+        {
+            "CategoryName": "Lights",
+            "Results": [
+                "longtorch",
+                "torch"
+            ]
+        },
+        {
+            "CategoryName": "Medical Supplies",
+            "Results": [
+                "bloodbagiv",
+                "salinebagiv",
+                "splint"
+            ]
+        },
+        {
+            "CategoryName": "Melee Weapons",
+            "Results": [
+                "nailedbaseballbat",
+                "stoneknife"
+            ]
+        },
+        {
+            "CategoryName": "Storage",
+            "Results": [
+                "woodencrate"
+            ]
+        },
+        {
+            "CategoryName": "Supplies",
+            "Results": [
+                "boarpelt",
+                "burlapsack",
+                "burlapstrip",
+                "longwoodenstick",
+                "expansionlumber1",
+                "expansionlumber1_5",
+                "expansionlumber3",
+                "nails",
+                "netting",
+                "rag",
+                "rope",
+                "sharpwoodenstick",
+                "smallstone",
+                "tannedleather",
+                "woodenplank",
+                "woodenstick"
+            ]
+        },
+        {
+            "CategoryName": "Weapon Modifications",
+            "Results": [
+                "sawedoffizh18shotgun"
+            ]
+        },
+        {
+            "CategoryName": "Weapon Attachments",
+            "Results": [
+                "improvisedsuppressor"
+            ]
+        }
+    ],
+    "EnableCraftingRecipesTab": 1
+}

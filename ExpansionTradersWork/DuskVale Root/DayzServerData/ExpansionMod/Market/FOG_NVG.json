@@ -1,0 +1,152 @@
+{
+    "m_Version": 12,
+    "DisplayName": "FOG - Night Vision",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "fog_anvis9",
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 6000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "fog_gpnvg_black",
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 6000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_gpnvg_rg",
+                "fog_gpnvg_tan"
+            ]
+        },
+        {
+            "ClassName": "fog_gpnvg_elite",
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 6000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "fog_gpnvg_elite_b",
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 6000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "fog_gpnvg_elite_t",
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 6000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "fog_gpnvg_elite_w",
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 6000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "fog_pvs31",
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 6000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "fog_pvs31_fde",
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 6000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "fog_pvs31_fde_wrapped",
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 6000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "fog_pvs31_wrapped",
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 6000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "fog_pvs31a_black",
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 6000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_pvs31a_black_b",
+                "fog_pvs31a_black_t",
+                "fog_pvs31a_black_w"
+            ]
+        },
+        {
+            "ClassName": "fog_uapnvg_black",
+            "MaxPriceThreshold": 10000,
+            "MinPriceThreshold": 6000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_uapnvg_rg",
+                "fog_uapnvg_tan"
+            ]
+        }
+    ]
+}

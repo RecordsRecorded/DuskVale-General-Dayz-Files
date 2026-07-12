@@ -1,0 +1,125 @@
+{
+    "m_Version": 12,
+    "DisplayName": "#STR_EXPANSION_MARKET_CATEGORY_CAPS",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "baseballcap_cmmg_black",
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "baseballcap_cmmg_pink",
+                "baseballcap_pink",
+                "baseballcap_red",
+                "baseballcap_olive"
+            ]
+        },
+        {
+            "ClassName": "baseballcap_beige",
+            "MaxPriceThreshold": 1000,
+            "MinPriceThreshold": 600,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "baseballcap_black",
+                "baseballcap_blue",
+                "baseballcap_camo"
+            ]
+        },
+        {
+            "ClassName": "prisonercap",
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "pilotkacap",
+            "MaxPriceThreshold": 9200,
+            "MinPriceThreshold": 5500,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "policecap",
+            "MaxPriceThreshold": 1200,
+            "MinPriceThreshold": 700,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": []
+        },
+        {
+            "ClassName": "flatcap_blue",
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "flatcap_red",
+                "flatcap_brown",
+                "flatcap_grey",
+                "flatcap_browncheck",
+                "flatcap_greycheck",
+                "flatcap_black",
+                "flatcap_blackcheck"
+            ]
+        },
+        {
+            "ClassName": "zmijovkacap_black",
+            "MaxPriceThreshold": 5600,
+            "MinPriceThreshold": 3400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "zmijovkacap_blue",
+                "zmijovkacap_brown",
+                "zmijovkacap_red",
+                "zmijovkacap_green"
+            ]
+        },
+        {
+            "ClassName": "radarcap_blue",
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 400,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "radarcap_black",
+                "radarcap_brown",
+                "radarcap_green",
+                "radarcap_red"
+            ]
+        }
+    ]
+}
