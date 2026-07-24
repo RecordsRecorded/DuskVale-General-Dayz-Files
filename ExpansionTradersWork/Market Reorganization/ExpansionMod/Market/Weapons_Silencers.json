@@ -183,19 +183,6 @@
             "Variants": []
         },
         {
-            "ClassName": "brassknuckles_dull",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 1800,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "brassknuckles_shiny"
-            ]
-        },
-        {
             "ClassName": "brassknuckles_shiny",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
@@ -204,7 +191,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "brassknuckles_dull"
+            ]
         },
         {
             "ClassName": "baseballbat",

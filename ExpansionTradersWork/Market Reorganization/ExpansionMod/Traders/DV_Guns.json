@@ -27,5 +27,17 @@
         "Weapons_Handguards",
         "Weapons_Silencers"
     ],
-    "Items": {}
+    "Items": {
+        "sickle": 0,
+        "crowbar": 0,
+        "shovel": 0,
+        "pickaxe": 0,
+        "sledgehammer": 0,
+        "farminghoe": 0,
+        "woodaxe": 0,
+        "firefighteraxe": 0,
+        "pitchfork": 0,
+        "meattenderizer": 0,
+        "iceaxe": 0
+    }
 }

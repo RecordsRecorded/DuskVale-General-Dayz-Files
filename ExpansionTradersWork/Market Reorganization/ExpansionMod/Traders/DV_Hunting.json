@@ -19,5 +19,11 @@
         "Hunt_Bait_and_Lures",
         "Hunt_Fish"
     ],
-    "Items": {}
+    "Items": {
+        "BearTrap": 0,
+        "LeatherSewingKit": 0,
+        "FOG_Strongarm_Knife": 0,
+        "HuntingKnife": 0,
+        "FangeKnife": 0
+    }
 }

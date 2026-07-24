@@ -40,17 +40,6 @@
             "Variants": []
         },
         {
-            "ClassName": "ammo_a6_500sw",
-            "MaxPriceThreshold": 400,
-            "MinPriceThreshold": 200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "ammo_a6_50beo",
             "MaxPriceThreshold": 400,
             "MinPriceThreshold": 200,

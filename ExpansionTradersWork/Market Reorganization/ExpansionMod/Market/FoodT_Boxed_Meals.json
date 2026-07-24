@@ -40,7 +40,7 @@
             "Variants": []
         },
         {
-            "ClassName": "CookZ_BangerAndMashBox",
+            "ClassName": "cookz_bangersandmashbox",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,

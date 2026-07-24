@@ -29,9 +29,9 @@
             "Variants": []
         },
         {
-            "ClassName": "BlooodBagEmpty",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
+            "ClassName": "bloodbagempty",
+            "MaxPriceThreshold": 1400,
+            "MinPriceThreshold": 900,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

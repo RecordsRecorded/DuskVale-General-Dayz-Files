@@ -62,17 +62,6 @@
             "Variants": []
         },
         {
-            "ClassName": "a6_mp5sd",
-            "MaxPriceThreshold": 5500,
-            "MinPriceThreshold": 3000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "a6_mp5k",
             "MaxPriceThreshold": 5600,
             "MinPriceThreshold": 3400,
@@ -95,31 +84,9 @@
             "Variants": []
         },
         {
-            "ClassName": "a6_p90",
-            "MaxPriceThreshold": 5500,
-            "MinPriceThreshold": 3000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "a6_pp19",
             "MaxPriceThreshold": 6900,
             "MinPriceThreshold": 4200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_pp19bizon",
-            "MaxPriceThreshold": 5500,
-            "MinPriceThreshold": 3000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -136,55 +103,12 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_scorpion_evo_green",
-            "MaxPriceThreshold": 5500,
-            "MinPriceThreshold": 3000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": [
-                "a6_scorpion_evo_grey",
-                "a6_scorpion_evo_tan",
-                "a6_scorpion_evo_white"
+                "A6_Scorpion_Evo_Green",
+                "A6_Scorpion_Evo_Grey",
+                "A6_Scorpion_Evo_Tan",
+                "A6_Scorpion_Evo_White"
             ]
-        },
-        {
-            "ClassName": "A6_Scorpion_Evo_Grey",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "A6_Scorpion_Evo_Tan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "A6_Scorpion_Evo_White",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "a6_ump45",
@@ -195,18 +119,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_ump45_winter",
-            "MaxPriceThreshold": 5500,
-            "MinPriceThreshold": 3000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "A6_UMP45_Winter"
+            ]
         },
         {
             "ClassName": "a6_vector",
@@ -217,10 +132,15 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "A6_Vector_Black",
+                "A6_Vector_Green",
+                "A6_Vector_Tan",
+                "A6_Vector_White"
+            ]
         },
         {
-            "ClassName": "a6_vector_black",
+            "ClassName": "a6_augpara",
             "MaxPriceThreshold": 5500,
             "MinPriceThreshold": 3000,
             "SellPricePercent": -1.0,
@@ -229,43 +149,8 @@
             "QuantityPercent": -1,
             "SpawnAttachments": [],
             "Variants": [
-                "a6_vector_green",
-                "a6_vector_tan",
-                "a6_vector_white"
+                "A6_AugPara_Black"
             ]
-        },
-        {
-            "ClassName": "A6_Vector_Green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "A6_Vector_Tan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "A6_Vector_White",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         }
     ]
 }

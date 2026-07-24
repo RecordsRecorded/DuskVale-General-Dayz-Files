@@ -150,7 +150,7 @@
             "Variants": []
         },
         {
-            "ClassName": "iM7s_SporeCulture_BlueVeils",
+            "ClassName": "iM7s_SporeSyringe_BlueVeils",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -161,7 +161,7 @@
             "Variants": []
         },
         {
-            "ClassName": "iM7s_SporeCulture_GhostCaps",
+            "ClassName": "iM7s_SporeSyringe_GhostCaps",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -172,7 +172,7 @@
             "Variants": []
         },
         {
-            "ClassName": "iM7s_SporeCulture_GoldenTeacher",
+            "ClassName": "iM7s_SporeSyringe_GoldenTeacher",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -183,7 +183,7 @@
             "Variants": []
         },
         {
-            "ClassName": "iM7s_SporeCulture_MysticVoid",
+            "ClassName": "iM7s_SporeSyringe_MysticVoid",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -194,7 +194,7 @@
             "Variants": []
         },
         {
-            "ClassName": "iM7s_SporeCulture_Sunspores",
+            "ClassName": "iM7s_SporeSyringe_Sunspores",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,

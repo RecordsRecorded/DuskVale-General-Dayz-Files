@@ -62,9 +62,9 @@
             "Variants": []
         },
         {
-            "ClassName": "TetracyclineAntibotics",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
+            "ClassName": "tetracyclineantibiotics",
+            "MaxPriceThreshold": 600,
+            "MinPriceThreshold": 400,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,

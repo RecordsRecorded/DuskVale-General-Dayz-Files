@@ -1,15 +1,15 @@
 {
     "m_Version": 12,
-    "DisplayName": "Knives",
+    "DisplayName": "Submachine Guns",
     "Icon": "Deliver",
     "Color": "FBFCFEFF",
     "IsExchange": 0,
     "InitStockPercent": 75.0,
     "Items": [
         {
-            "ClassName": "BoneKnife",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
+            "ClassName": "a6_pp19bizon",
+            "MaxPriceThreshold": 5500,
+            "MinPriceThreshold": 3000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -18,9 +18,9 @@
             "Variants": []
         },
         {
-            "ClassName": "CrocodileDundeeKnife",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
+            "ClassName": "a6_mp5sd",
+            "MaxPriceThreshold": 5500,
+            "MinPriceThreshold": 3000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
@@ -29,21 +29,15 @@
             "Variants": []
         },
         {
-            "ClassName": "geb_BlueFishKnife",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
+            "ClassName": "a6_p90",
+            "MaxPriceThreshold": 5500,
+            "MinPriceThreshold": 3000,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": [
-                "geb_GreenFishKnife",
-                "geb_OrangeFishKnife",
-                "geb_PurpleFishKnife",
-                "geb_RedFishKnife",
-                "geb_YellowFishKnife"
-            ]
+            "Variants": []
         }
     ]
 }

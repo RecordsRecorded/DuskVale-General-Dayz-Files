@@ -147,7 +147,13 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "Ammo_762x39PSgzh",
+                "Ammo_762x39FMJ",
+                "Ammo_762x39HP",
+                "Ammo_762x39T45M1gzh",
+                "Ammo_762x39PPgzh"
+            ]
         },
         {
             "ClassName": "Ammo_762x39BPgzh",

@@ -20,5 +20,9 @@
         "Farm_Bees",
         "Farm_Fruits_Veggies_Mushrooms"
     ],
-    "Items": {}
+    "Items": {
+        "rag_baseitems_greenhouse_kit": 0,
+        "rag_baseitems_greenhouse_big_kit": 0,
+        "A6_GreenHouse_Kit": 0
+    }
 }

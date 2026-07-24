@@ -7,17 +7,6 @@
     "InitStockPercent": 75.0,
     "Items": [
         {
-            "ClassName": "a6_acr",
-            "MaxPriceThreshold": 10000,
-            "MinPriceThreshold": 6000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "a6_ak101",
             "MaxPriceThreshold": 4600,
             "MinPriceThreshold": 2700,
@@ -158,18 +147,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_auga1_black",
-            "MaxPriceThreshold": 10000,
-            "MinPriceThreshold": 6000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "A6_AugA1_Black"
+            ]
         },
         {
             "ClassName": "a6_auga3",
@@ -180,40 +160,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_auga3_black",
-            "MaxPriceThreshold": 10000,
-            "MinPriceThreshold": 6000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_augpara",
-            "MaxPriceThreshold": 5500,
-            "MinPriceThreshold": 3000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_augpara_black",
-            "MaxPriceThreshold": 5500,
-            "MinPriceThreshold": 3000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "A6_AugA3_Black"
+            ]
         },
         {
             "ClassName": "a6_car15",
@@ -284,17 +233,6 @@
             ]
         },
         {
-            "ClassName": "A6_HK416_Tan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "a6_hk416_carbine_black",
             "MaxPriceThreshold": 10000,
             "MinPriceThreshold": 6000,
@@ -306,17 +244,6 @@
             "Variants": [
                 "a6_hk416_carbine_tan"
             ]
-        },
-        {
-            "ClassName": "A6_HK416_Carbine_Tan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "a6_hk417",
@@ -426,18 +353,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_opsks_black",
-            "MaxPriceThreshold": 6000,
-            "MinPriceThreshold": 3000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "A6_OPSKS_Black"
+            ]
         },
         {
             "ClassName": "a6_scarh",
@@ -448,18 +366,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_scarh_tan",
-            "MaxPriceThreshold": 10000,
-            "MinPriceThreshold": 6000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "A6_SCARH_Tan"
+            ]
         },
         {
             "ClassName": "a6_scarl",
@@ -470,18 +379,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_scarl_tan",
-            "MaxPriceThreshold": 10000,
-            "MinPriceThreshold": 6000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "A6_SCARL_Tan"
+            ]
         },
         {
             "ClassName": "a6_vpo",

@@ -95,19 +95,8 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_bcm_buttstock_green",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": [
-                "a6_bcm_buttstock_tan"
+                "a6_bcm_buttstock_green"
             ]
         },
         {
@@ -141,19 +130,8 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_carbine_buttstock_green",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": [
-                "a6_carbine_buttstock_tan"
+                "a6_carbine_buttstock_green"
             ]
         },
         {
@@ -165,18 +143,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_dd_buttstock_tan",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "a6_dd_buttstock_tan"
+            ]
         },
         {
             "ClassName": "a6_ds150_buttstock",
@@ -187,19 +156,8 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_ds150_buttstock_green",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": [
-                "a6_ds150_buttstock_tan"
+                "a6_ds150_buttstock_green"
             ]
         },
         {
@@ -318,19 +276,8 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_m4oe_buttstock_green",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": [
-                "a6_m4oe_buttstock_tan"
+                "a6_m4oe_buttstock_green"
             ]
         },
         {
@@ -364,18 +311,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_mft_min_buttstock_black",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "a6_mft_min_buttstock_black"
+            ]
         },
         {
             "ClassName": "a6_moeslk_buttstock",
@@ -386,19 +324,8 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_moeslk_buttstock_green",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": [
-                "a6_moeslk_buttstock_tan"
+                "a6_moeslk_buttstock_green"
             ]
         },
         {
@@ -410,40 +337,11 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_mp5_buttstock_folding",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_mp5_buttstock_retractable",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_mp5_buttstock_wood",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "a6_mp5_buttstock_folding",
+                "a6_mp5_buttstock_retractable",
+                "a6_mp5_buttstock_wood"
+            ]
         },
         {
             "ClassName": "a6_mossberg_buttstock_handle_plastic",
@@ -509,18 +407,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_pk_pt2_buttstock_tan",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "a6_pk_pt2_buttstock_tan"
+            ]
         },
         {
             "ClassName": "a6_prs_buttstock",
@@ -531,19 +420,8 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_prs_buttstock_green",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": [
-                "a6_prs_buttstock_tan"
+                "a6_prs_buttstock_green"
             ]
         },
         {
@@ -649,21 +527,8 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_scorpion_evo_buttstock_green",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": [
-                "a6_scorpion_evo_buttstock_grey",
-                "a6_scorpion_evo_buttstock_tan",
-                "a6_scorpion_evo_buttstock_white"
+                "a6_scorpion_evo_buttstock_green"
             ]
         },
         {
@@ -675,21 +540,8 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_scorpion_evo_tactical_buttstock_green",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": [
-                "a6_scorpion_evo_tactical_buttstock_grey",
-                "a6_scorpion_evo_tactical_buttstock_tan",
-                "a6_scorpion_evo_tactical_buttstock_white"
+                "a6_scorpion_evo_tactical_buttstock_green"
             ]
         },
         {
@@ -701,18 +553,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_spas12_buttstock_winter",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "a6_spas12_buttstock_winter"
+            ]
         },
         {
             "ClassName": "a6_ump45_buttstock",
@@ -723,18 +566,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_ump45_buttstock_winter",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "a6_ump45_buttstock_winter"
+            ]
         },
         {
             "ClassName": "a6_vector_buttstock",
@@ -745,20 +579,8 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_vector_buttstock_green",
-            "MaxPriceThreshold": 1200,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": [
-                "a6_vector_buttstock_tan",
-                "a6_vector_buttstock_white"
+                "a6_vector_buttstock_green"
             ]
         },
         {
@@ -792,18 +614,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_b5bravo_buttstock_tan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "a6_b5bravo_buttstock_tan"
+            ]
         },
         {
             "ClassName": "a6_bcm_buttstock_tan",
@@ -850,17 +663,6 @@
             "Variants": []
         },
         {
-            "ClassName": "a6_hk_e1_buttstock_green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "a6_hk_e1_buttstock_tan",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
@@ -869,18 +671,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_hk_slim_buttstock_green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "a6_hk_e1_buttstock_green"
+            ]
         },
         {
             "ClassName": "a6_hk_slim_buttstock_tan",
@@ -891,7 +684,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "a6_hk_slim_buttstock_green"
+            ]
         },
         {
             "ClassName": "a6_m4oe_buttstock_tan",
@@ -960,28 +755,6 @@
             "Variants": []
         },
         {
-            "ClassName": "a6_scorpion_evo_buttstock_grey",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_scorpion_evo_buttstock_tan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "a6_scorpion_evo_buttstock_white",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
@@ -990,7 +763,10 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "a6_scorpion_evo_buttstock_grey",
+                "a6_scorpion_evo_buttstock_tan"
+            ]
         },
         {
             "ClassName": "a6_scorpion_evo_tactical_buttstock_grey",
@@ -1001,29 +777,10 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_scorpion_evo_tactical_buttstock_tan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_scorpion_evo_tactical_buttstock_white",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "a6_scorpion_evo_tactical_buttstock_tan",
+                "a6_scorpion_evo_tactical_buttstock_white"
+            ]
         },
         {
             "ClassName": "a6_vector_buttstock_tan",

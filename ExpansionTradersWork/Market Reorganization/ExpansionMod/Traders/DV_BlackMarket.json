@@ -20,7 +20,8 @@
         "BM_Magazines",
         "BM_Explosives",
         "BM_Suppressors",
-        "BM_Armor"
+        "BM_Armor",
+        "BM_Submachine_Guns"
     ],
     "Items": {}
 }

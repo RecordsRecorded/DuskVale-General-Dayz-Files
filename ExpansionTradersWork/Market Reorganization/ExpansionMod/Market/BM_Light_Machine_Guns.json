@@ -59,18 +59,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_pkp_tan",
-            "MaxPriceThreshold": 15000,
-            "MinPriceThreshold": 9000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "A6_PKP_Tan"
+            ]
         },
         {
             "ClassName": "a6_rpk",

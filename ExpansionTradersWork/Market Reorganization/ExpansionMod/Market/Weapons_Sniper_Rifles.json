@@ -15,117 +15,18 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_delta5_camo1",
-            "MaxPriceThreshold": 14000,
-            "MinPriceThreshold": 8000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_delta5_camo2",
-            "MaxPriceThreshold": 14000,
-            "MinPriceThreshold": 8000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_delta5_camo3",
-            "MaxPriceThreshold": 14000,
-            "MinPriceThreshold": 8000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_delta5_camo4",
-            "MaxPriceThreshold": 14000,
-            "MinPriceThreshold": 8000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_delta5_camo5",
-            "MaxPriceThreshold": 14000,
-            "MinPriceThreshold": 8000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_delta5_camo6",
-            "MaxPriceThreshold": 14000,
-            "MinPriceThreshold": 8000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_delta5_camo7",
-            "MaxPriceThreshold": 14000,
-            "MinPriceThreshold": 8000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_delta5_camo8",
-            "MaxPriceThreshold": 14000,
-            "MinPriceThreshold": 8000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_delta5_camo9",
-            "MaxPriceThreshold": 14000,
-            "MinPriceThreshold": 8000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_delta5_camo10",
-            "MaxPriceThreshold": 14000,
-            "MinPriceThreshold": 8000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "A6_Delta5_Camo1",
+                "A6_Delta5_Camo2",
+                "A6_Delta5_Camo3",
+                "A6_Delta5_Camo4",
+                "A6_Delta5_Camo5",
+                "A6_Delta5_Camo6",
+                "A6_Delta5_Camo7",
+                "A6_Delta5_Camo8",
+                "A6_Delta5_Camo9",
+                "A6_Delta5_Camo10"
+            ]
         },
         {
             "ClassName": "a6_m110",
@@ -191,18 +92,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_svd_tiger",
-            "MaxPriceThreshold": 14000,
-            "MinPriceThreshold": 8000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "A6_SVD_Tiger"
+            ]
         },
         {
             "ClassName": "a6_thefix",
@@ -213,29 +105,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_thefix_green",
-            "MaxPriceThreshold": 14000,
-            "MinPriceThreshold": 8000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_vss",
-            "MaxPriceThreshold": 9800,
-            "MinPriceThreshold": 5900,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "A6_TheFix_Green"
+            ]
         }
     ]
 }

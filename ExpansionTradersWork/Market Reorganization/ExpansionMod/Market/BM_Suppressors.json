@@ -114,31 +114,10 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_hybrid_46_suppressor_gray",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": [
-                "a6_hybrid_46_suppressor_tan"
+                "A6_Hybrid_46_Suppressor_Gray",
+                "A6_Hybrid_46_Suppressor_Tan"
             ]
-        },
-        {
-            "ClassName": "A6_Hybrid_46_Suppressor_Tan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "a6_jumbo_shrimp_suppressor",
@@ -226,18 +205,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_windtalker_suppressor_tan",
-            "MaxPriceThreshold": 1500,
-            "MinPriceThreshold": 500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "A6_Windtalker_Suppressor_Tan"
+            ]
         }
     ]
 }

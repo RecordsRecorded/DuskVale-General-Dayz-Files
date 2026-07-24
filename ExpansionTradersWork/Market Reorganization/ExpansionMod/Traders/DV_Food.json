@@ -23,5 +23,14 @@
         "FoodT_Grains",
         "FoodT_Sausage"
     ],
-    "Items": {}
+    "Items": {
+        "Pot": 0,
+        "FryingPan": 0,
+        "PortableGasStove": 0,
+        "SmallGasCanister": 0,
+        "MediumGasCanister": 0,
+        "LargeGasCanister": 0,
+        "PetrolLighter": 0,
+        "Matchbox": 0
+    }
 }

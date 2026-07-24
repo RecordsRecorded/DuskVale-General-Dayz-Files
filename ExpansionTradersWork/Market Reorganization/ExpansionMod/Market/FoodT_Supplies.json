@@ -73,28 +73,6 @@
             "Variants": []
         },
         {
-            "ClassName": "MediumGasCanister (Variant of SmallGasCanister)",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "LargeGasCanister (Variant of SmallGasCanister)",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "Guts",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
@@ -106,7 +84,7 @@
             "Variants": []
         },
         {
-            "ClassName": "Fat",
+            "ClassName": "Lard",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -117,7 +95,7 @@
             "Variants": []
         },
         {
-            "ClassName": "Bones",
+            "ClassName": "Bone",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,

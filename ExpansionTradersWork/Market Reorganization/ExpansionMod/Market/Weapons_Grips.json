@@ -23,50 +23,6 @@
             ]
         },
         {
-            "ClassName": "A6_AFG_Grip_Green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "A6_AFG_Grip_Grey",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "A6_AFG_Grip_Red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "A6_AFG_Grip_Tan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "a6_ak_12_pistolgrip",
             "MaxPriceThreshold": 800,
             "MinPriceThreshold": 300,
@@ -130,18 +86,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_ak_zenitco_rk3_tan_pistolgrip",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 300,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "A6_AK_Zenitco_RK3_Tan_PistolGrip"
+            ]
         },
         {
             "ClassName": "a6_b25u_rk2_grip",
@@ -188,48 +135,19 @@
             "Variants": []
         },
         {
-            "ClassName": "A6_FSG_Grip_Black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
+            "ClassName": "a6_fsg2_grip_black",
+            "MaxPriceThreshold": 900,
+            "MinPriceThreshold": 300,
             "SellPricePercent": -1.0,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "A6_FSG_Grip_Green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "A6_FSG_Grip_Grey",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "A6_FSG_Grip_Tan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "a6_fsg2_grip_green",
+                "a6_fsg2_grip_grey",
+                "a6_fsg2_grip_tan"
+            ]
         },
         {
             "ClassName": "a6_fortis_shift_grip",
@@ -240,43 +158,11 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_fortis_shift_grip_green",
-            "MaxPriceThreshold": 900,
-            "MinPriceThreshold": 300,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": [
-                "a6_fortis_shift_grip_red",
-                "a6_fortis_shift_grip_tan"
+                "A6_Fortis_Shift_Grip_Green",
+                "A6_Fortis_Shift_Grip_Red",
+                "A6_Fortis_Shift_Grip_Tan"
             ]
-        },
-        {
-            "ClassName": "A6_Fortis_Shift_Grip_Red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "A6_Fortis_Shift_Grip_Tan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "a6_fortis_shift_short_grip",
@@ -287,43 +173,11 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_fortis_shift_short_grip_green",
-            "MaxPriceThreshold": 900,
-            "MinPriceThreshold": 300,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": [
-                "a6_fortis_shift_short_grip_red",
-                "a6_fortis_shift_short_grip_tan"
+                "A6_Fortis_Shift_Short_Grip_Green",
+                "A6_Fortis_Shift_Short_Grip_Red",
+                "A6_Fortis_Shift_Short_Grip_Tan"
             ]
-        },
-        {
-            "ClassName": "A6_Fortis_Shift_Short_Grip_Red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "A6_Fortis_Shift_Short_Grip_Tan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "a6_hk_pistolgrip_bgb_black",
@@ -340,28 +194,6 @@
             ]
         },
         {
-            "ClassName": "A6_HK_PistolGrip_BGB_Green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "A6_HK_PistolGrip_BGB_Tan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "a6_hk_pistolgrip_bg_black",
             "MaxPriceThreshold": 800,
             "MinPriceThreshold": 300,
@@ -376,28 +208,6 @@
             ]
         },
         {
-            "ClassName": "A6_HK_PistolGrip_BG_Green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "A6_HK_PistolGrip_BG_Tan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "a6_m4a1_pistolgrip_dd",
             "MaxPriceThreshold": 800,
             "MinPriceThreshold": 300,
@@ -406,18 +216,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_m4a1_pistolgrip_dd_tan",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 300,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "A6_M4A1_PistolGrip_DD_Tan"
+            ]
         },
         {
             "ClassName": "a6_m4a1_pistolgrip_ergo",
@@ -439,43 +240,11 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_m4a1_pistolgrip_f1_green",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 300,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": [
-                "a6_m4a1_pistolgrip_f1_red",
-                "a6_m4a1_pistolgrip_f1_tan"
+                "A6_M4A1_PistolGrip_F1_Green",
+                "A6_M4A1_PistolGrip_F1_Red",
+                "A6_M4A1_PistolGrip_F1_Tan"
             ]
-        },
-        {
-            "ClassName": "A6_M4A1_PistolGrip_F1_Red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "A6_M4A1_PistolGrip_F1_Tan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "a6_m4a1_pistolgrip_gevar",
@@ -486,18 +255,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_m4a1_pistolgrip_gevar_tan",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 300,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "A6_M4A1_PistolGrip_Gevar_Tan"
+            ]
         },
         {
             "ClassName": "a6_m4a1_pistolgrip_hogue",
@@ -508,31 +268,10 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_m4a1_pistolgrip_hogue_desert",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 300,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": [
-                "a6_m4a1_pistolgrip_hogue_forest"
+                "A6_M4A1_PistolGrip_Hogue_Desert",
+                "A6_M4A1_PistolGrip_Hogue_Forest"
             ]
-        },
-        {
-            "ClassName": "A6_M4A1_PistolGrip_Hogue_Forest",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "a6_m4a1_pistolgrip_moe",
@@ -543,31 +282,10 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_m4a1_pistolgrip_moe_green",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 300,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": [
-                "a6_m4a1_pistolgrip_moe_tan"
+                "A6_M4A1_PistolGrip_MOE_Green",
+                "A6_M4A1_PistolGrip_MOE_Tan"
             ]
-        },
-        {
-            "ClassName": "A6_M4A1_PistolGrip_MOE_Tan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "a6_m4a1_pistolgrip_skeleton",
@@ -578,31 +296,10 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_m4a1_pistolgrip_skeleton_black",
-            "MaxPriceThreshold": 800,
-            "MinPriceThreshold": 300,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": [
-                "a6_m4a1_pistolgrip_skeleton_red"
+                "A6_M4A1_PistolGrip_Skeleton_Black",
+                "A6_M4A1_PistolGrip_Skeleton_Red"
             ]
-        },
-        {
-            "ClassName": "A6_M4A1_PistolGrip_Skeleton_Red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "a6_mossberg_buttstock_pistolgrip",
@@ -668,43 +365,11 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_starkse5_grip_green",
-            "MaxPriceThreshold": 900,
-            "MinPriceThreshold": 300,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": [
-                "a6_starkse5_grip_grey",
-                "a6_starkse5_grip_tan"
+                "A6_StarkSE5_Grip_Green",
+                "A6_StarkSE5_Grip_Grey",
+                "A6_StarkSE5_Grip_Tan"
             ]
-        },
-        {
-            "ClassName": "A6_StarkSE5_Grip_Grey",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "A6_StarkSE5_Grip_Tan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "a6_strikecobra_grip",
@@ -726,31 +391,10 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "a6_tangodown_grip_green",
-            "MaxPriceThreshold": 900,
-            "MinPriceThreshold": 300,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": [
-                "a6_tangodown_grip_tan"
+                "A6_TangoDown_Grip_Green",
+                "A6_TangoDown_Grip_Tan"
             ]
-        },
-        {
-            "ClassName": "A6_TangoDown_Grip_Tan",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "a6_troy_grip",

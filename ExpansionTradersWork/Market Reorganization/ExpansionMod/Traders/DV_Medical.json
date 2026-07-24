@@ -21,5 +21,7 @@
         "Med_IV",
         "Med_Misc"
     ],
-    "Items": {}
+    "Items": {
+        "SewingKit": 0
+    }
 }
