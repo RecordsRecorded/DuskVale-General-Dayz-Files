@@ -1,0 +1,37 @@
+{
+    "m_Version": 13,
+    "DisplayName": "Base Building",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Deliver",
+    "Currencies": [
+        "money_dollar100"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "UseCategoryOrder": 0,
+    "Categories": [
+        "A6_Base_Storage",
+        "Containers",
+        "Flags",
+        "Furnishings",
+        "Kits",
+        "Lights",
+        "Locks",
+        "RAG_ChestsCrates",
+        "RAG_Furniture",
+        "RAG_GunStorage",
+        "RAG_Misc",
+        "RAG_Safes",
+        "RAG_Shelves",
+        "Spraycans",
+        "Supplies",
+        "Tents",
+        "Tools",
+        "Electronics",
+        "Navigation"
+    ],
+    "Items": {}
+}

@@ -1,0 +1,31 @@
+{
+    "m_Version": 13,
+    "DisplayName": "Guns & Attachments",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Deliver",
+    "Currencies": [
+        "money_dollar100"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "UseCategoryOrder": 0,
+    "Categories": [
+        "Weapons_Sidearms",
+        "Weapons_Submachine_Guns",
+        "Weapons_Rifles",
+        "Weapons_Shotguns",
+        "Weapons_Sniper_Rifles",
+        "Weapons_Marksman_Rifles",
+        "Weapons_Legal_Distance_Stabbing",
+        "Weapons_Grips",
+        "Weapons_Buttstocks",
+        "Weapons_Muzzles",
+        "Weapons_Optics",
+        "Weapons_Handguards",
+        "Weapons_Silencers"
+    ],
+    "Items": {}
+}

@@ -1,0 +1,20 @@
+{
+    "m_Version": 13,
+    "DisplayName": "Drinks",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Deliver",
+    "Currencies": [
+        "money_dollar100"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "UseCategoryOrder": 0,
+    "Categories": [
+        "DrinksT_Canned",
+        "DrinksT_Bottles_Canteens_Flasks"
+    ],
+    "Items": {}
+}

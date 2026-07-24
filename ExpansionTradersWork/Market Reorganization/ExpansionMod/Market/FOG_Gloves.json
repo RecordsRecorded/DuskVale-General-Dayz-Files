@@ -1,0 +1,181 @@
+{
+    "m_Version": 12,
+    "DisplayName": "FOG - Gloves",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "fog_ferrogloves_aj",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_ferrogloves_black",
+                "fog_ferrogloves_black_bluetrim",
+                "fog_ferrogloves_black_redtrim",
+                "fog_ferrogloves_black_tantrim",
+                "fog_ferrogloves_black_whitetrim",
+                "fog_ferrogloves_blue",
+                "fog_ferrogloves_cb",
+                "fog_ferrogloves_grey",
+                "fog_ferrogloves_m81",
+                "fog_ferrogloves_mc",
+                "fog_ferrogloves_mcb",
+                "fog_ferrogloves_red",
+                "fog_ferrogloves_rg",
+                "fog_ferrogloves_tan",
+                "fog_ferrogloves_white",
+                "fog_ferrogloves_white_tantrim"
+            ]
+        },
+        {
+            "ClassName": "fog_gungloves_aor2",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_gungloves_black",
+                "fog_gungloves_cb",
+                "fog_gungloves_grey",
+                "fog_gungloves_m81",
+                "fog_gungloves_mc",
+                "fog_gungloves_mcb",
+                "fog_gungloves_rg",
+                "fog_gungloves_tan"
+            ]
+        },
+        {
+            "ClassName": "fog_mechanixgloves_black",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_mechanixgloves_black_words",
+                "fog_mechanixgloves_green",
+                "fog_mechanixgloves_mc",
+                "fog_mechanixgloves_rg",
+                "fog_mechanixgloves_skele",
+                "fog_mechanixgloves_tan"
+            ]
+        },
+        {
+            "ClassName": "fog_pigfdt_gloves_aj",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_pigfdt_gloves_aor1",
+                "fog_pigfdt_gloves_aor2",
+                "fog_pigfdt_gloves_black",
+                "fog_pigfdt_gloves_cb",
+                "fog_pigfdt_gloves_grey",
+                "fog_pigfdt_gloves_m81",
+                "fog_pigfdt_gloves_mc",
+                "fog_pigfdt_gloves_mcal",
+                "fog_pigfdt_gloves_mcb",
+                "fog_pigfdt_gloves_mct",
+                "fog_pigfdt_gloves_rg",
+                "fog_pigfdt_gloves_tan"
+            ]
+        },
+        {
+            "ClassName": "fog_panel_ferrobanger_black",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_panel_ferrobanger_cb",
+                "fog_panel_ferrobanger_grey",
+                "fog_panel_ferrobanger_m81",
+                "fog_panel_ferrobanger_mc",
+                "fog_panel_ferrobanger_mca",
+                "fog_panel_ferrobanger_mcal",
+                "fog_panel_ferrobanger_mcb",
+                "fog_panel_ferrobanger_mct",
+                "fog_panel_ferrobanger_rg",
+                "fog_panel_ferrobanger_white"
+            ]
+        },
+        {
+            "ClassName": "fog_pouch_ferrodangler_aor1",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_pouch_ferrodangler_aor2",
+                "fog_pouch_ferrodangler_black",
+                "fog_pouch_ferrodangler_cb",
+                "fog_pouch_ferrodangler_dnc",
+                "fog_pouch_ferrodangler_grey",
+                "fog_pouch_ferrodangler_m81",
+                "fog_pouch_ferrodangler_mc",
+                "fog_pouch_ferrodangler_mcal",
+                "fog_pouch_ferrodangler_mcb",
+                "fog_pouch_ferrodangler_mct",
+                "fog_pouch_ferrodangler_rg"
+            ]
+        },
+        {
+            "ClassName": "fog_tactical_fingerless_gloves_black",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_tactical_fingerless_gloves_green",
+                "fog_tactical_fingerless_gloves_mc",
+                "fog_tactical_fingerless_gloves_red",
+                "fog_tactical_fingerless_gloves_tan"
+            ]
+        },
+        {
+            "ClassName": "fog_wintergloves_black",
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 300,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 100,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [],
+            "Variants": [
+                "fog_wintergloves_cb",
+                "fog_wintergloves_mc",
+                "fog_wintergloves_mcal",
+                "fog_wintergloves_mcb",
+                "fog_wintergloves_red",
+                "fog_wintergloves_rg",
+                "fog_wintergloves_tan",
+                "fog_wintergloves_white"
+            ]
+        }
+    ]
+}

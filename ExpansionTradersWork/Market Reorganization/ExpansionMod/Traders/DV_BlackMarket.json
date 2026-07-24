@@ -1,0 +1,26 @@
+{
+    "m_Version": 13,
+    "DisplayName": "Black Market",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Deliver",
+    "Currencies": [
+        "money_dollar100"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "UseCategoryOrder": 0,
+    "Categories": [
+        "BM_Light_Machine_Guns",
+        "BM_Sniper_Rifles",
+        "BM_Assault_Rifles",
+        "BM_Ammunitions",
+        "BM_Magazines",
+        "BM_Explosives",
+        "BM_Suppressors",
+        "BM_Armor"
+    ],
+    "Items": {}
+}

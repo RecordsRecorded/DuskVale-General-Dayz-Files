@@ -1,0 +1,38 @@
+{
+    "m_Version": 12,
+    "DisplayName": "Aero",
+    "Icon": "Deliver",
+    "Color": "FBFCFEFF",
+    "IsExchange": 0,
+    "InitStockPercent": 75.0,
+    "Items": [
+        {
+            "ClassName": "expansiongyrocopter",
+            "MaxPriceThreshold": 1000000,
+            "MinPriceThreshold": 500000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 10,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "expansionhelicopterbattery",
+                "sparkplug"
+            ],
+            "Variants": []
+        },
+        {
+            "ClassName": "expansionbiggyrocopter",
+            "MaxPriceThreshold": 2000000,
+            "MinPriceThreshold": 1000000,
+            "SellPricePercent": -1.0,
+            "MaxStockThreshold": 10,
+            "MinStockThreshold": 1,
+            "QuantityPercent": -1,
+            "SpawnAttachments": [
+                "expansionhelicopterbattery",
+                "sparkplug"
+            ],
+            "Variants": []
+        }
+    ]
+}

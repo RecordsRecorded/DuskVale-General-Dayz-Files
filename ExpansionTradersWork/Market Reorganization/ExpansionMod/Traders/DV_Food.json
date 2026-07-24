@@ -1,0 +1,27 @@
+{
+    "m_Version": 13,
+    "DisplayName": "Food",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Deliver",
+    "Currencies": [
+        "money_dollar100"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "",
+    "UseCategoryOrder": 0,
+    "Categories": [
+        "FoodT_Supplies",
+        "FoodT_Boxed_Meals",
+        "FoodT_MREs",
+        "FoodT_Canned",
+        "FoodT_Bagged",
+        "FoodT_Junk",
+        "FoodT_Dairy",
+        "FoodT_Grains",
+        "FoodT_Sausage"
+    ],
+    "Items": {}
+}
