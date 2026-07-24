@@ -1,0 +1,25 @@
+{
+    "m_Version": 13,
+    "DisplayName": "Medical",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Medic Box",
+    "Currencies": [
+        "money_dollar100"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "USD",
+    "UseCategoryOrder": 1,
+    "Categories": [
+        "Med_Injectors",
+        "Med_Sanitation",
+        "Med_Wounds",
+        "Med_Revive",
+        "Med_Pills",
+        "Med_IV",
+        "Med_Misc"
+    ],
+    "Items": {}
+}

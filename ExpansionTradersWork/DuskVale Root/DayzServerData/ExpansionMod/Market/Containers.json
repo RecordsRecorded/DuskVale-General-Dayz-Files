@@ -8,10 +8,10 @@
     "Items": [
         {
             "ClassName": "smallprotectorcase",
-            "MaxPriceThreshold": 5700,
-            "MinPriceThreshold": 3400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 400,
+            "SellPricePercent": 50,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -19,10 +19,10 @@
         },
         {
             "ClassName": "ammobox",
-            "MaxPriceThreshold": 57400,
-            "MinPriceThreshold": 34400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 800,
+            "SellPricePercent": 50,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
@@ -42,43 +42,6 @@
                 "barrelholes_red",
                 "barrelholes_yellow"
             ]
-        },
-        {
-            "ClassName": "barrel_blue",
-            "MaxPriceThreshold": 7500,
-            "MinPriceThreshold": 4500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "barrel_green",
-                "barrel_red",
-                "barrel_yellow"
-            ]
-        },
-        {
-            "ClassName": "seachest",
-            "MaxPriceThreshold": 9000,
-            "MinPriceThreshold": 5400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "woodencrate",
-            "MaxPriceThreshold": 4000,
-            "MinPriceThreshold": 2000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         }
     ]
 }

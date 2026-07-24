@@ -115,9 +115,9 @@
         },
         {
             "ClassName": "fog_helmet_caimen_black",
-            "MaxPriceThreshold": 30,
-            "MinPriceThreshold": 30,
-            "SellPricePercent": 50,
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": 50.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,

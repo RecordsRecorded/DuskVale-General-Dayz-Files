@@ -645,32 +645,10 @@
             "Variants": []
         },
         {
-            "ClassName": "rag_baseitems_greenhouse_big_kit",
-            "MaxPriceThreshold": 37500,
-            "MinPriceThreshold": 37500,
-            "SellPricePercent": 50,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "rag_baseitems_greenhouse_big_static_kit",
             "MaxPriceThreshold": 900,
             "MinPriceThreshold": 300,
             "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "rag_baseitems_greenhouse_kit",
-            "MaxPriceThreshold": 22500,
-            "MinPriceThreshold": 22500,
-            "SellPricePercent": 50,
             "MaxStockThreshold": 100,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,

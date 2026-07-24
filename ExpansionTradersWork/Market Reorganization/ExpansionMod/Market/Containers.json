@@ -42,43 +42,6 @@
                 "barrelholes_red",
                 "barrelholes_yellow"
             ]
-        },
-        {
-            "ClassName": "barrel_blue",
-            "MaxPriceThreshold": 8400,
-            "MinPriceThreshold": 8400,
-            "SellPricePercent": 50,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "barrel_green",
-                "barrel_red",
-                "barrel_yellow"
-            ]
-        },
-        {
-            "ClassName": "seachest",
-            "MaxPriceThreshold": 8400,
-            "MinPriceThreshold": 8400,
-            "SellPricePercent": 50,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "woodencrate",
-            "MaxPriceThreshold": 4000,
-            "MinPriceThreshold": 2000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         }
     ]
 }

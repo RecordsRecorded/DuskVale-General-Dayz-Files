@@ -8,10 +8,10 @@
     "Items": [
         {
             "ClassName": "codelock",
-            "MaxPriceThreshold": 3000,
-            "MinPriceThreshold": 1500,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxPriceThreshold": 15000,
+            "MinPriceThreshold": 15000,
+            "SellPricePercent": 50,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],

@@ -51,17 +51,6 @@
             "Variants": []
         },
         {
-            "ClassName": "a6_greenhouse_kit",
-            "MaxPriceThreshold": 8000,
-            "MinPriceThreshold": 2000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "a6_hacking_tablet",
             "MaxPriceThreshold": 120000,
             "MinPriceThreshold": 120000,

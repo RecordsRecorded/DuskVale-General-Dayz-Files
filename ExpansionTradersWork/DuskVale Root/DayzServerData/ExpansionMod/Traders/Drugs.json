@@ -1,0 +1,20 @@
+{
+    "m_Version": 13,
+    "DisplayName": "Drugs",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Powder",
+    "Currencies": [
+        "money_dollar100"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "USD",
+    "UseCategoryOrder": 1,
+    "Categories": [
+        "Drugs_Bricks:2",
+        "Drugs_Production"
+    ],
+    "Items": {}
+}

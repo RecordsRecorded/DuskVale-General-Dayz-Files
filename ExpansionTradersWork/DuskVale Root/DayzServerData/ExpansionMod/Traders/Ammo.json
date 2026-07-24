@@ -1,0 +1,20 @@
+{
+    "m_Version": 13,
+    "DisplayName": "Ammunition",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Gun Bullets",
+    "Currencies": [
+        "money_dollar100"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "USD",
+    "UseCategoryOrder": 1,
+    "Categories": [
+        "AmmoT_Ammunitions",
+        "AmmoT_Magazines"
+    ],
+    "Items": {}
+}

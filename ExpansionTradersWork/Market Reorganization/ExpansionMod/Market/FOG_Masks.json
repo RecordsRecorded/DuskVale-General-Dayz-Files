@@ -57,7 +57,7 @@
             "ClassName": "fog_avonm53_black",
             "MaxPriceThreshold": 30000,
             "MinPriceThreshold": 30000,
-            "SellPricePercent": 16.6,
+            "SellPricePercent": 17.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,

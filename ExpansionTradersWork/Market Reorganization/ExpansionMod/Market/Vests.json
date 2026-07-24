@@ -8,9 +8,9 @@
     "Items": [
         {
             "ClassName": "reflexvest",
-            "MaxPriceThreshold": 10,
-            "MinPriceThreshold": 10,
-            "SellPricePercent": 50,
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": 50.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
@@ -110,9 +110,9 @@
         },
         {
             "ClassName": "huntingvest",
-            "MaxPriceThreshold": 55,
-            "MinPriceThreshold": 55,
-            "SellPricePercent": 49.1,
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": 49.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
@@ -123,9 +123,9 @@
         },
         {
             "ClassName": "chestplate",
-            "MaxPriceThreshold": 50,
-            "MinPriceThreshold": 50,
-            "SellPricePercent": 50,
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": 50.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,

@@ -19,9 +19,9 @@
         },
         {
             "ClassName": "wrench",
-            "MaxPriceThreshold": 5,
-            "MinPriceThreshold": 5,
-            "SellPricePercent": 40,
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": 40.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
@@ -74,9 +74,9 @@
         },
         {
             "ClassName": "handsaw",
-            "MaxPriceThreshold": 350,
-            "MinPriceThreshold": 350,
-            "SellPricePercent": 50,
+            "MaxPriceThreshold": 400,
+            "MinPriceThreshold": 400,
+            "SellPricePercent": 50.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
@@ -85,9 +85,9 @@
         },
         {
             "ClassName": "canopener",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 150,
-            "SellPricePercent": 50,
+            "MaxPriceThreshold": 200,
+            "MinPriceThreshold": 200,
+            "SellPricePercent": 50.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
@@ -118,9 +118,9 @@
         },
         {
             "ClassName": "lugwrench",
-            "MaxPriceThreshold": 45,
-            "MinPriceThreshold": 45,
-            "SellPricePercent": 48.9,
+            "MaxPriceThreshold": 100,
+            "MinPriceThreshold": 100,
+            "SellPricePercent": 49.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
@@ -129,121 +129,9 @@
         },
         {
             "ClassName": "pipewrench",
-            "MaxPriceThreshold": 150,
-            "MinPriceThreshold": 150,
-            "SellPricePercent": 50,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "fryingpan",
-            "MaxPriceThreshold": 400,
-            "MinPriceThreshold": 300,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "sickle",
-            "MaxPriceThreshold": 1900,
-            "MinPriceThreshold": 1100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "crowbar",
             "MaxPriceThreshold": 200,
             "MinPriceThreshold": 200,
-            "SellPricePercent": 50,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "shovel",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 2000,
-            "SellPricePercent": 50,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": [
-                "fieldshovel"
-            ]
-        },
-        {
-            "ClassName": "pickaxe",
-            "MaxPriceThreshold": 450,
-            "MinPriceThreshold": 450,
-            "SellPricePercent": 50,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "sledgehammer",
-            "MaxPriceThreshold": 5000,
-            "MinPriceThreshold": 5000,
-            "SellPricePercent": 8,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "farminghoe",
-            "MaxPriceThreshold": 400,
-            "MinPriceThreshold": 300,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "woodaxe",
-            "MaxPriceThreshold": 300,
-            "MinPriceThreshold": 300,
-            "SellPricePercent": 50,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "firefighteraxe",
-            "MaxPriceThreshold": 450,
-            "MinPriceThreshold": 450,
-            "SellPricePercent": 50,
-            "MaxStockThreshold": 1,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "pitchfork",
-            "MaxPriceThreshold": 1300,
-            "MinPriceThreshold": 1300,
-            "SellPricePercent": 50,
+            "SellPricePercent": 50.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
@@ -261,28 +149,6 @@
             "SpawnAttachments": [
                 "smallgascanister"
             ],
-            "Variants": []
-        },
-        {
-            "ClassName": "meattenderizer",
-            "MaxPriceThreshold": 500,
-            "MinPriceThreshold": 300,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "iceaxe",
-            "MaxPriceThreshold": 400,
-            "MinPriceThreshold": 200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": []
         }
     ]

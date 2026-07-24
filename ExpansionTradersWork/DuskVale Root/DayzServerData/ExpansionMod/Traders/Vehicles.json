@@ -1,0 +1,28 @@
+{
+    "m_Version": 13,
+    "DisplayName": "Vehicles",
+    "MinRequiredReputation": 0,
+    "MaxRequiredReputation": 2147483647,
+    "RequiredFaction": "",
+    "RequiredCompletedQuestID": -1,
+    "TraderIcon": "Car",
+    "Currencies": [
+        "money_dollar100"
+    ],
+    "DisplayCurrencyValue": 1,
+    "DisplayCurrencyName": "USD",
+    "UseCategoryOrder": 1,
+    "Categories": [
+        "Veh_Sea",
+        "Veh_Aero",
+        "Veh_Truck",
+        "Veh_Camper",
+        "Veh_Military",
+        "Veh_Police",
+        "Veh_Off_Road",
+        "Veh_2_Door",
+        "Veh_4_Door",
+        "Veh_Transport"
+    ],
+    "Items": {}
+}

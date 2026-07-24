@@ -215,9 +215,9 @@
         },
         {
             "ClassName": "fog_vest_d3crx_black",
-            "MaxPriceThreshold": 1550,
-            "MinPriceThreshold": 1550,
-            "SellPricePercent": 50,
+            "MaxPriceThreshold": 1600,
+            "MinPriceThreshold": 1600,
+            "SellPricePercent": 50.0,
             "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
