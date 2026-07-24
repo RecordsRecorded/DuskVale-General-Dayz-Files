@@ -26,72 +26,6 @@
             ]
         },
         {
-            "ClassName": "Conqueror_blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Conqueror_gray",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Conqueror_green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Conqueror_kamo1",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Conqueror_kamo2",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Conqueror_yellow",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "eger",
             "MaxPriceThreshold": 40000,
             "MinPriceThreshold": 15000,
@@ -107,28 +41,6 @@
             ]
         },
         {
-            "ClassName": "EGER_GreenCamo",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "EGER_Pixel",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "Ford_F100",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
@@ -137,62 +49,13 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Ford_F100_black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Ford_F100_blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Ford_F100_green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Ford_F100_orange",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Ford_F100_yellow",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "Ford_F100_black",
+                "Ford_F100_blue",
+                "Ford_F100_green",
+                "Ford_F100_orange",
+                "Ford_F100_yellow"
+            ]
         },
         {
             "ClassName": "uaz_2315",
@@ -213,72 +76,6 @@
             ]
         },
         {
-            "ClassName": "UAZ_2315_Black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "UAZ_2315_Blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "UAZ_2315_Camo1",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "UAZ_2315_Camo2",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "UAZ_2315_Red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "UAZ_2315_Yellow",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "gelenvagen",
             "MaxPriceThreshold": 40000,
             "MinPriceThreshold": 15000,
@@ -296,61 +93,6 @@
             ]
         },
         {
-            "ClassName": "Gelenvagen_carbon",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Gelenvagen_flecktarn",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Gelenvagen_green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Gelenvagen_white_camo1",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Gelenvagen_white_camo2",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "nissan_warrior",
             "MaxPriceThreshold": 40000,
             "MinPriceThreshold": 15000,
@@ -362,52 +104,9 @@
             "Variants": [
                 "nissan_warrior_black",
                 "nissan_warrior_blue",
-                "nissan_warrior_kamo"
+                "nissan_warrior_kamo",
+                "Nissan_warrior_white_kamo"
             ]
-        },
-        {
-            "ClassName": "Nissan_warrior_black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Nissan_warrior_blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Nissan_warrior_kamo",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Nissan_warrior_white_kamo",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "nivapickup",
@@ -427,61 +126,6 @@
             ]
         },
         {
-            "ClassName": "NivaPickup_blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "NivaPickup_kamo",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "NivaPickup_kamo2",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "NivaPickup_red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "NivaPickup_skul",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "raptor",
             "MaxPriceThreshold": 40000,
             "MinPriceThreshold": 15000,
@@ -498,74 +142,9 @@
                 "raptor_grey",
                 "raptor_red",
                 "raptor_white",
-                "raptor_winter"
+                "raptor_winter",
+                "RAPTOR_pink"
             ]
-        },
-        {
-            "ClassName": "RAPTOR_blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "RAPTOR_green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "RAPTOR_grey",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "RAPTOR_pink",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "RAPTOR_red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "RAPTOR_winter",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "velociraptor6x6",
@@ -589,94 +168,6 @@
             ]
         },
         {
-            "ClassName": "Velociraptor6x6_KKK",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Velociraptor6x6_RRR",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Velociraptor6x6_blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Velociraptor6x6_kamo",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Velociraptor6x6_kamo2",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Velociraptor6x6_red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Velociraptor6x6_rust",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Velociraptor6x6_white",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "toyotahilux",
             "MaxPriceThreshold": 40000,
             "MinPriceThreshold": 15000,
@@ -693,72 +184,6 @@
                 "toyotahilux_rust",
                 "toyotahilux_white"
             ]
-        },
-        {
-            "ClassName": "ToyotaHilux_blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ToyotaHilux_kamo",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ToyotaHilux_kamo2",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ToyotaHilux_red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ToyotaHilux_rust",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ToyotaHilux_white",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         }
     ]
 }

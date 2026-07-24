@@ -8,10 +8,10 @@
     "Items": [
         {
             "ClassName": "mosin9130",
-            "MaxPriceThreshold": 2000,
-            "MinPriceThreshold": 1200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxPriceThreshold": 5000,
+            "MinPriceThreshold": 5000,
+            "SellPricePercent": 50,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],

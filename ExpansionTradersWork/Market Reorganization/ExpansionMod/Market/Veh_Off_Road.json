@@ -22,114 +22,20 @@
             ]
         },
         {
-            "ClassName": "Buggy_blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Buggy_red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Buggy_yellow",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "OffroadHatchback",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxPriceThreshold": 169690,
+            "MinPriceThreshold": 169690,
+            "SellPricePercent": 48.6,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "OffroadHatchback_Blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "OffroadHatchback_BlueRust",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "OffroadHatchback_Green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "OffroadHatchback_GreenRust",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "OffroadHatchback_White",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "OffroadHatchback_WhiteRust",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "OffroadHatchback_BlueRust",
+                "OffroadHatchback_GreenRust",
+                "OffroadHatchback_White",
+                "OffroadHatchback_WhiteRust"
+            ]
         },
         {
             "ClassName": "expansiontractor",
@@ -151,40 +57,11 @@
                 "sparkplug",
                 "carbattery"
             ],
-            "Variants": []
-        },
-        {
-            "ClassName": "ExpansionTractor_Blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ExpansionTractor_Green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ExpansionTractor_Red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "ExpansionTractor_Blue",
+                "ExpansionTractor_Green",
+                "ExpansionTractor_Red"
+            ]
         },
         {
             "ClassName": "traktor",
@@ -200,39 +77,6 @@
                 "traktor_red",
                 "traktor_rust"
             ]
-        },
-        {
-            "ClassName": "Traktor_black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Traktor_red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Traktor_rust",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "jeep_wrangler",
@@ -253,72 +97,6 @@
             ]
         },
         {
-            "ClassName": "Jeep_Wrangler_Yellow",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Jeep_Wrangler_black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Jeep_Wrangler_blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Jeep_Wrangler_green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Jeep_Wrangler_kamo",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Jeep_Wrangler_red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "UAZ469_offroad",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
@@ -327,40 +105,11 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "UAZ469_offroad_Blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "UAZ469_offroad_Red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "UAZ469_offroad_Yellow",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "UAZ469_offroad_Blue",
+                "UAZ469_offroad_Red",
+                "UAZ469_offroad_Yellow"
+            ]
         },
         {
             "ClassName": "g65",
@@ -384,105 +133,6 @@
             ]
         },
         {
-            "ClassName": "G65_Pride",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "G65_Pride2",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "G65_Pride3",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "G65_black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "G65_chrome",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "G65_red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "G65_rust",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "G65_white",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "G65_yellow",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "luaz",
             "MaxPriceThreshold": 40000,
             "MinPriceThreshold": 15000,
@@ -504,50 +154,6 @@
             ]
         },
         {
-            "ClassName": "LUAZ_black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "LUAZ_blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "LUAZ_red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "LUAZ_rust",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "landcruiser",
             "MaxPriceThreshold": 40000,
             "MinPriceThreshold": 15000,
@@ -565,72 +171,6 @@
                 "landcruiser_skul",
                 "landcruiser_white"
             ]
-        },
-        {
-            "ClassName": "LandCruiser_blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "LandCruiser_kamo",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "LandCruiser_kamo2",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "LandCruiser_red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "LandCruiser_skul",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "LandCruiser_white",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "yar_87",
@@ -651,72 +191,6 @@
             ]
         },
         {
-            "ClassName": "YAR_87_black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "YAR_87_blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "YAR_87_kamo",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "YAR_87_kamo2",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "YAR_87_rust",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "YAR_87_white",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "rover",
             "MaxPriceThreshold": 40000,
             "MinPriceThreshold": 15000,
@@ -733,39 +207,6 @@
                 "rover_tent_green",
                 "rover_tent_camoold"
             ]
-        },
-        {
-            "ClassName": "ROVER_GREEN",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ROVER_camo2",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ROVER_camoOLD",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "offroadrangerover",
@@ -795,29 +236,12 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "OffroadHatchback_kamo",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "OffroadHatchback_red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "OffroadHatchback_Blue",
+                "OffroadHatchback_Green",
+                "OffroadHatchback_kamo",
+                "OffroadHatchback_red"
+            ]
         },
         {
             "ClassName": "scout_black",
@@ -828,18 +252,9 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "scout_veh",
-            "MaxPriceThreshold": 40000,
-            "MinPriceThreshold": 15000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "scout_veh"
+            ]
         }
     ]
 }

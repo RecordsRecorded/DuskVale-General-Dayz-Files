@@ -8,10 +8,10 @@
     "Items": [
         {
             "ClassName": "canistergasoline",
-            "MaxPriceThreshold": 400,
-            "MinPriceThreshold": 200,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxPriceThreshold": 12000,
+            "MinPriceThreshold": 12000,
+            "SellPricePercent": 50,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],

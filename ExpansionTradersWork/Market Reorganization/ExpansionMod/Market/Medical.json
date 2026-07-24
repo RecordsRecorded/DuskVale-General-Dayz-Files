@@ -8,10 +8,10 @@
     "Items": [
         {
             "ClassName": "heatpack",
-            "MaxPriceThreshold": 1300,
-            "MinPriceThreshold": 800,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxPriceThreshold": 15,
+            "MinPriceThreshold": 15,
+            "SellPricePercent": 46.7,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],

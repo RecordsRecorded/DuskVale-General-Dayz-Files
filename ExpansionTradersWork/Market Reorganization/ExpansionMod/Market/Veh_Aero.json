@@ -8,10 +8,10 @@
     "Items": [
         {
             "ClassName": "expansiongyrocopter",
-            "MaxPriceThreshold": 1000000,
-            "MinPriceThreshold": 500000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 10,
+            "MaxPriceThreshold": 305780,
+            "MinPriceThreshold": 305780,
+            "SellPricePercent": 49.1,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
@@ -22,10 +22,10 @@
         },
         {
             "ClassName": "expansionbiggyrocopter",
-            "MaxPriceThreshold": 2000000,
-            "MinPriceThreshold": 1000000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 10,
+            "MaxPriceThreshold": 330780,
+            "MinPriceThreshold": 330780,
+            "SellPricePercent": 49.1,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [

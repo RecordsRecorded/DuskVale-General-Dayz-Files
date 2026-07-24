@@ -8,10 +8,10 @@
     "Items": [
         {
             "ClassName": "expansionbus",
-            "MaxPriceThreshold": 180000,
-            "MinPriceThreshold": 70000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 3,
+            "MaxPriceThreshold": 295040,
+            "MinPriceThreshold": 295040,
+            "SellPricePercent": 49.1,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
@@ -25,40 +25,11 @@
                 "carradiator",
                 "glowplug"
             ],
-            "Variants": []
-        },
-        {
-            "ClassName": "ExpansionBus_Blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ExpansionBus_Red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ExpansionBus_Weeb",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "ExpansionBus_Blue",
+                "ExpansionBus_Red",
+                "ExpansionBus_Weeb"
+            ]
         },
         {
             "ClassName": "uaz_3909",
@@ -80,61 +51,6 @@
             ]
         },
         {
-            "ClassName": "UAZ_3909_beige",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "UAZ_3909_blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "UAZ_3909_chaki1",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "UAZ_3909_chaki2",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "UAZ_3909_medic",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "gaz66bort",
             "MaxPriceThreshold": 40000,
             "MinPriceThreshold": 15000,
@@ -146,17 +62,6 @@
             "Variants": [
                 "gaz66bort_black"
             ]
-        },
-        {
-            "ClassName": "GAZ66bort_black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "hemtt",
@@ -180,96 +85,10 @@
                 "hemtt_green",
                 "hemtt_red",
                 "hemtt_rust",
-                "hemtt_white"
+                "hemtt_white",
+                "HEMTT_HKD_Black",
+                "HEMTT_galaxy"
             ]
-        },
-        {
-            "ClassName": "HEMTT_HKD_Black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "HEMTT_black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "HEMTT_flecktarn",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "HEMTT_galaxy",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "HEMTT_green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "HEMTT_red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "HEMTT_rust",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "HEMTT_white",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "kamaz_4350",
@@ -301,61 +120,6 @@
             ]
         },
         {
-            "ClassName": "Kamaz_4350_black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Kamaz_4350_flora",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Kamaz_4350_old",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Kamaz_4350_pixel",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Kamaz_4350_winter",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "kamaz_typhoon",
             "MaxPriceThreshold": 40000,
             "MinPriceThreshold": 15000,
@@ -371,61 +135,6 @@
                 "kamaz_typhoon_rust",
                 "kamaz_typhoon_white"
             ]
-        },
-        {
-            "ClassName": "Kamaz_Typhoon_black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Kamaz_Typhoon_flecktarn",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Kamaz_Typhoon_green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Kamaz_Typhoon_rust",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Kamaz_Typhoon_white",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "m35a2",
@@ -449,50 +158,6 @@
             ]
         },
         {
-            "ClassName": "M35a2_Black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "M35a2_Grey",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "M35a2_Kamo",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "M35a2_Rust",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "maz_509",
             "MaxPriceThreshold": 40000,
             "MinPriceThreshold": 15000,
@@ -506,28 +171,6 @@
                 "maz_509_yellow",
                 "maz_509_tent"
             ]
-        },
-        {
-            "ClassName": "MAZ_509_Green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "MAZ_509_Yellow",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         },
         {
             "ClassName": "paz",
@@ -550,206 +193,33 @@
                 "paz_beige",
                 "paz_blue",
                 "paz_green",
-                "paz_red"
+                "paz_red",
+                "PAZprison_blue",
+                "PAZprison_white",
+                "PAZprison_yellow"
             ]
         },
         {
-            "ClassName": "PAZ_beige",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "PAZ_blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "PAZ_green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "PAZ_red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "PAZprison_blue (variant to the PAZ)",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "PAZprison_white (variant to the PAZ)",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "PAZprison_yellow (variant to the PAZ)",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "Truck_01_Covered",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxPriceThreshold": 275190,
+            "MinPriceThreshold": 275190,
+            "SellPricePercent": 49.1,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Truck_01_Covered_Black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Truck_01_Covered_Blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Truck_01_Covered_Green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Truck_01_Covered_Lime",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Truck_01_Covered_Orange",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Truck_01_Covered_Red",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Truck_01_Covered_White",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Truck_01_Covered_Wine",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Truck_01_Covered_Yellow",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Truck_01_Covered_YellowBright",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "Truck_01_Covered_Black",
+                "Truck_01_Covered_Blue",
+                "Truck_01_Covered_Green",
+                "Truck_01_Covered_Lime",
+                "Truck_01_Covered_Orange",
+                "Truck_01_Covered_Red",
+                "Truck_01_Covered_White",
+                "Truck_01_Covered_Wine",
+                "Truck_01_Covered_Yellow",
+                "Truck_01_Covered_YellowBright"
+            ]
         },
         {
             "ClassName": "ural_4320",
@@ -783,50 +253,6 @@
             ]
         },
         {
-            "ClassName": "URAL_4320_blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "URAL_4320_kamo",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "URAL_4320_rust",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "URAL_4320_yellow",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "zil130",
             "MaxPriceThreshold": 40000,
             "MinPriceThreshold": 15000,
@@ -846,61 +272,6 @@
                 "zil130_tent_green_rust",
                 "zil130_tent_rust"
             ]
-        },
-        {
-            "ClassName": "ZIL130_REFILL (variant of zil130)",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ZIL130_REPAIR (variant of zil130)",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ZIL130_green (variant of zil130)",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ZIL130_green_rust (variant of zil130)",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ZIL130_rust (variant of zil130)",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         }
     ]
 }

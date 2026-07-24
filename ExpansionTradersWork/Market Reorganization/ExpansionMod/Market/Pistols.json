@@ -21,10 +21,10 @@
         },
         {
             "ClassName": "mkii",
-            "MaxPriceThreshold": 1000,
-            "MinPriceThreshold": 600,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxPriceThreshold": 800,
+            "MinPriceThreshold": 800,
+            "SellPricePercent": 50,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [

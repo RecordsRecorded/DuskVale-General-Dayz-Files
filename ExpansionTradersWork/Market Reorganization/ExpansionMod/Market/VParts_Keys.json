@@ -18,17 +18,6 @@
             "Variants": []
         },
         {
-            "ClassName": "ExpansionKeyChain_Black (colors as variants)",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
             "ClassName": "ExpansionKeyChain_Black",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
@@ -37,116 +26,17 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ExpansionKeyChain_Blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ExpansionKeyChain_Green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ExpansionKeyChain_Grey",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ExpansionKeyChain_Orange",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ExpansionKeyChain_Pink",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ExpansionKeyChain_Purple",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "expansionkeychain_red",
-            "MaxPriceThreshold": 200,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
             "Variants": [
-                "expansionkeychain_white",
-                "expansionkeychain_black",
-                "expansionkeychain_blue",
-                "expansionkeychain_green",
-                "expansionkeychain_grey",
-                "expansionkeychain_orange",
-                "expansionkeychain_pink",
-                "expansionkeychain_purple",
-                "expansionkeychain_yellow"
+                "ExpansionKeyChain_Blue",
+                "ExpansionKeyChain_Green",
+                "ExpansionKeyChain_Grey",
+                "ExpansionKeyChain_Orange",
+                "ExpansionKeyChain_Pink",
+                "ExpansionKeyChain_Purple",
+                "expansionkeychain_red",
+                "ExpansionKeyChain_White",
+                "ExpansionKeyChain_Yellow"
             ]
-        },
-        {
-            "ClassName": "ExpansionKeyChain_White",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ExpansionKeyChain_Yellow",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
         }
     ]
 }

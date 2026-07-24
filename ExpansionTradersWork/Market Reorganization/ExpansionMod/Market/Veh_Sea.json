@@ -7,7 +7,7 @@
     "InitStockPercent": 75.0,
     "Items": [
         {
-            "ClassName": "ExpansionUtilityBoat (colors as variants)",
+            "ClassName": "ExpansionUtilityBoat",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -15,10 +15,13 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "ExpansionUtilityBoat_Black",
+                "ExpansionUtilityBoat_Green"
+            ]
         },
         {
-            "ClassName": "ExpansionUtilityBoat_Black",
+            "ClassName": "ExpansionZodiacBoat",
             "MaxPriceThreshold": 100,
             "MinPriceThreshold": 100,
             "SellPricePercent": -1.0,
@@ -26,62 +29,11 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ExpansionUtilityBoat_Green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ExpansionZodiacBoat (Colors as variants)",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ExpansionZodiacBoat_Black",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ExpansionZodiacBoat_Green",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "ExpansionZodiacBoat_Orange",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "ExpansionZodiacBoat_Black",
+                "ExpansionZodiacBoat_Green",
+                "ExpansionZodiacBoat_Orange"
+            ]
         },
         {
             "ClassName": "Boat_01_Black",
@@ -92,40 +44,11 @@
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Boat_01_Blue",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Boat_01_Camo",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
-        },
-        {
-            "ClassName": "Boat_01_Orange",
-            "MaxPriceThreshold": 100,
-            "MinPriceThreshold": 100,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
-            "MinStockThreshold": 1,
-            "QuantityPercent": -1,
-            "SpawnAttachments": [],
-            "Variants": []
+            "Variants": [
+                "Boat_01_Blue",
+                "Boat_01_Camo",
+                "Boat_01_Orange"
+            ]
         }
     ]
 }

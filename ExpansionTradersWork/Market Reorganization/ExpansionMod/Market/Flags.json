@@ -8,10 +8,10 @@
     "Items": [
         {
             "ClassName": "flag_altis",
-            "MaxPriceThreshold": 600,
-            "MinPriceThreshold": 400,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 100,
+            "MaxPriceThreshold": 500,
+            "MinPriceThreshold": 500,
+            "SellPricePercent": 50,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [],

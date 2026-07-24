@@ -8,10 +8,10 @@
     "Items": [
         {
             "ClassName": "expansionmh6",
-            "MaxPriceThreshold": 3000000,
-            "MinPriceThreshold": 1500000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 10,
+            "MaxPriceThreshold": 1150000,
+            "MinPriceThreshold": 1150000,
+            "SellPricePercent": 49.6,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
@@ -28,10 +28,10 @@
         },
         {
             "ClassName": "expansionuh1h",
-            "MaxPriceThreshold": 3400000,
-            "MinPriceThreshold": 1700000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 10,
+            "MaxPriceThreshold": 1310000,
+            "MinPriceThreshold": 1310000,
+            "SellPricePercent": 49.6,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
@@ -48,10 +48,10 @@
         },
         {
             "ClassName": "expansionmerlin",
-            "MaxPriceThreshold": 4000000,
-            "MinPriceThreshold": 2000000,
-            "SellPricePercent": -1.0,
-            "MaxStockThreshold": 10,
+            "MaxPriceThreshold": 1810000,
+            "MinPriceThreshold": 1810000,
+            "SellPricePercent": 49.7,
+            "MaxStockThreshold": 1,
             "MinStockThreshold": 1,
             "QuantityPercent": -1,
             "SpawnAttachments": [
